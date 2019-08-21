@@ -1,0 +1,176 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context=".centercontrol.Security"
+    >
+
+    <ImageView
+        android:id="@+id/iv_main"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:src="@drawable/main_bg"
+        android:scaleType="centerCrop"
+        />
+
+    <android.support.v7.widget.Toolbar
+        android:id="@+id/security_toolbar"
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:background="#5f000000"
+        style="@style/MenuStyle"
+        app:popupTheme="@style/ThemeOverlay.AppCompat.Dark"/>
+
+    <Space
+        android:layout_width="10dp"
+        android:layout_height="10dp"
+        android:id="@+id/space2"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="night with guest"
+        android:drawableLeft="@mipmap/security_nightwithguest"
+        android:id="@+id/security_nightwg"
+        android:onClick="nightwithguest"
+        android:layout_below="@+id/security_away"
+        android:background="@drawable/control_back_10"
+        android:textColor="#ffffff"
+        android:layout_marginBottom="5dp"
+        android:layout_marginTop="5dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_toLeftOf="@+id/space2"
+        android:layout_toStartOf="@+id/space2"
+        android:layout_marginLeft="5dp" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="day"
+        android:drawableLeft="@mipmap/security_day"
+        android:id="@+id/security_day"
+        android:onClick="day"
+        android:layout_below="@+id/security_night"
+        android:background="@drawable/control_back_10"
+        android:textColor="#ffffff"
+        android:layout_marginTop="5dp"
+        android:layout_marginBottom="5dp"
+        android:layout_alignLeft="@+id/security_night"
+        android:layout_alignStart="@+id/security_night"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginRight="5dp"
+        android:paddingLeft="25dp" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="vacation"
+        android:drawableLeft="@mipmap/security_vacation"
+        android:id="@+id/security_vacation"
+        android:layout_below="@+id/security_nightwg"
+        android:layout_alignRight="@+id/security_nightwg"
+        android:layout_alignEnd="@+id/security_nightwg"
+        android:onClick="vacation"
+        android:background="@drawable/control_back_10"
+        android:textColor="#ffffff"
+        android:layout_marginTop="5dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginLeft="5dp"
+        android:paddingLeft="25dp" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="disarm"
+        android:drawableLeft="@mipmap/security_disarm"
+        android:id="@+id/security_disarm"
+        android:onClick="disarm"
+        android:background="@drawable/control_back_10"
+        android:textColor="#ffffff"
+        android:layout_alignTop="@+id/security_vacation"
+        android:layout_alignLeft="@+id/security_day"
+        android:layout_alignStart="@+id/security_day"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginRight="5dp"
+        android:paddingLeft="25dp" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Away"
+        android:drawableLeft="@mipmap/security_away"
+        android:id="@+id/security_away"
+        android:onClick="away"
+        android:background="@drawable/control_back_10"
+        android:textColor="#ffffff"
+        android:paddingLeft="25dp"
+        android:layout_centerVertical="true"
+        android:layout_toLeftOf="@+id/space2"
+        android:layout_alignLeft="@+id/security_nightwg"
+        android:layout_alignStart="@+id/security_nightwg"
+        android:layout_marginBottom="5dp" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="night"
+        android:drawableLeft="@mipmap/security_night"
+        android:id="@+id/security_night"
+        android:onClick="night"
+        android:layout_alignTop="@+id/security_away"
+        android:background="@drawable/control_back_10"
+        android:textColor="#ffffff"
+        android:layout_marginBottom="5dp"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true"
+        android:layout_toRightOf="@+id/space2"
+        android:layout_toEndOf="@+id/space2"
+        android:layout_marginRight="5dp"
+        android:paddingLeft="25dp" />
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:inputType="numberPassword"
+        android:ems="10"
+        android:id="@+id/security_password"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:textColor="#ffffff"
+        android:maxLength="6"
+        android:numeric="signed" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="Password(default :888888):"
+        android:id="@+id/textView92"
+        android:layout_above="@+id/security_password"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:textColor="#ffffff"/>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/security_toolbar"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginTop="10dp">
+
+        <com.shima.smartbushome.assist.WheelView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/security_area" />
+    </RelativeLayout>
+
+</RelativeLayout>

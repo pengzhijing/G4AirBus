@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <com.shima.smartbushome.assist.holocolorpicker.ColorPicker
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/view5"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true" />
+
+    <com.shima.smartbushome.assist.holocolorpicker.SVBar
+        android:layout_width="240dp"
+        android:layout_height="wrap_content"
+        android:id="@+id/view7"
+        android:layout_below="@+id/view5"
+        android:layout_centerHorizontal="true" />
+
+    <Space
+        android:layout_width="20px"
+        android:layout_height="20dp"
+        android:layout_below="@+id/view7"
+        android:layout_alignLeft="@+id/view7"
+        android:layout_alignStart="@+id/view7"
+        android:layout_alignRight="@+id/view7"
+        android:layout_alignEnd="@+id/view7" />
+
+</RelativeLayout>

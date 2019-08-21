@@ -1,0 +1,256 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".mainsetting.Ip_settingFragment">
+
+    <!-- TODO: Update blank fragment layout -->
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/scrollView4" >
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:text="IP Settings:"
+                android:id="@+id/textView50"
+                android:textColor="#5297ff"
+                android:gravity="center"
+                android:paddingLeft="5dp"
+                android:layout_alignParentTop="true"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:text="Phone IP:"
+                android:id="@+id/textView42"
+                android:gravity="center"
+                android:layout_below="@+id/textView50"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true"
+                android:layout_toLeftOf="@+id/ams_localip_ed"
+                android:layout_toStartOf="@+id/ams_localip_ed"
+                android:layout_alignBottom="@+id/ams_localip_ed" />
+
+            <EditText
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/ams_localip_ed"
+                android:textColor="#000000"
+                android:layout_below="@+id/textView50"
+                android:layout_alignParentRight="true"
+                android:layout_alignParentEnd="true"
+                android:layout_toEndOf="@+id/textView43"
+                android:layout_toRightOf="@+id/textView43"
+                android:editable="false"
+                android:enabled="false" />
+
+            <EditText
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/ams_targetip_ed"
+                android:textColor="#000000"
+                android:layout_below="@+id/ams_localip_ed"
+                android:layout_alignRight="@+id/ams_localip_ed"
+                android:layout_alignEnd="@+id/ams_localip_ed"
+                android:layout_toRightOf="@+id/textView50"
+                android:layout_toEndOf="@+id/textView50" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:text="Router Real IP:"
+                android:id="@+id/textView43"
+                android:gravity="center"
+                android:layout_below="@+id/ams_localip_ed"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true"
+                android:layout_alignBottom="@+id/ams_targetip_ed" />
+
+            <CheckBox
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="manual setting"
+                android:id="@+id/ams_cb"
+                android:checked="false"
+                android:layout_below="@+id/textView43"
+                android:layout_alignRight="@+id/ams_targetip_ed"
+                android:layout_alignEnd="@+id/ams_targetip_ed"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceSmall"
+                android:text="@string/ipsetting_warm1"
+                android:id="@+id/textView44"
+                android:textColor="@color/warmtext1"
+                android:paddingLeft="3dp"
+                android:layout_below="@+id/ams_cb"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceSmall"
+                android:text="@string/ipsetting_warm2"
+                android:id="@+id/textView45"
+                android:textColor="@color/warmtext2"
+                android:paddingLeft="3dp"
+                android:layout_below="@+id/textView44"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentRight="true"
+                android:layout_alignParentEnd="true" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:text="NNDS:"
+                android:id="@+id/textView46"
+                android:textColor="#5297ff"
+                android:gravity="center"
+                android:paddingLeft="5dp"
+                android:layout_below="@+id/textView47"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="1dp"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:id="@+id/textView47"
+                android:layout_below="@+id/textView45"
+                android:layout_alignRight="@+id/ams_targetip_ed"
+                android:layout_alignEnd="@+id/ams_targetip_ed"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true"
+                android:background="#979797"
+                android:layout_marginTop="2dp"
+                android:layout_marginBottom="2dp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:text="DDNS Website:"
+                android:id="@+id/textView82"
+                android:layout_below="@+id/textView46"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true"
+                android:layout_alignBottom="@+id/ams_ddnssite"
+                android:gravity="center" />
+
+            <EditText
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/ams_ddnssite"
+                android:layout_alignParentRight="true"
+                android:layout_alignParentEnd="true"
+                android:layout_below="@+id/textView46"
+                android:layout_toRightOf="@+id/textView82"
+                android:layout_toEndOf="@+id/textView82"
+                android:text="www.google.com" />
+
+            <CheckBox
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="use ddns website ip as target"
+                android:id="@+id/ams_useddns"
+                android:checked="false"
+                android:background="@drawable/media_back"
+                android:layout_below="@+id/textView83"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true"
+                android:layout_alignRight="@+id/ams_ddnssite"
+                android:layout_alignEnd="@+id/ams_ddnssite"
+                android:layout_marginTop="10dp"/>
+
+            <Button
+                style="?android:attr/buttonStyleSmall"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="get ddns ip"
+                android:id="@+id/ams_getddnsip"
+                android:textColor="#5297ff"
+                android:layout_below="@+id/textView82"
+                android:layout_alignRight="@+id/ams_ddnssite"
+                android:layout_alignEnd="@+id/ams_ddnssite"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true"
+                android:background="@drawable/media_back"
+                android:layout_marginLeft="2dp"
+                android:layout_marginRight="2dp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:text="Your DDNS IP is:"
+                android:id="@+id/textView83"
+                android:layout_below="@+id/textView88"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true"
+                android:paddingTop="3dp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:id="@+id/ams_ddnsipvalue"
+                android:layout_alignParentRight="true"
+                android:layout_alignParentEnd="true"
+                android:layout_below="@+id/textView88"
+                android:layout_toRightOf="@+id/textView83"
+                android:paddingTop="3dp"
+                android:paddingLeft="5dp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:text="@string/ddns_warm"
+                android:id="@+id/textView88"
+                android:layout_below="@+id/ams_getddnsip"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true"
+                android:layout_alignRight="@+id/ams_ddnssite"
+                android:layout_alignEnd="@+id/ams_ddnssite"
+                android:textColor="@color/warmtext2"
+                android:textSize="16dp"
+                android:paddingLeft="2dp" />
+
+            <Button
+                style="?android:attr/buttonStyleSmall"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="save  settings"
+                android:id="@+id/ams_save"
+                android:textColor="#5297ff"
+                android:layout_below="@+id/ams_useddns"
+                android:layout_alignRight="@+id/ams_ddnssite"
+                android:layout_alignEnd="@+id/ams_ddnssite"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true"
+                android:background="@drawable/media_back"
+                android:layout_marginLeft="2dp"
+                android:layout_marginRight="2dp"
+                android:layout_marginTop="10dp"/>
+        </RelativeLayout>
+    </ScrollView>
+
+</RelativeLayout>

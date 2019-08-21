@@ -1,0 +1,138 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="100dp"
+        android:orientation="vertical">
+        <com.shima.smartbushome.assist.SwipeLayout
+            xmlns:android="http://schemas.android.com/apk/res/android"
+            android:layout_width="match_parent"
+            android:layout_height="80dp"
+            android:id="@+id/othertype1swipe"
+            android:orientation="horizontal"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginBottom="10dp"
+            android:minHeight="?android:attr/listPreferredItemHeight">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="horizontal"
+            android:id="@+id/othertype1linear">
+
+            <ImageView
+                android:layout_width="0dp"
+                android:layout_height="80dp"
+                android:id="@+id/othertype1imageView"
+                android:layout_weight="1.5"
+                android:layout_gravity="center" />
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="80dp"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:text="other"
+                android:id="@+id/othertype1remark"
+                android:layout_weight="1.3"
+                android:layout_gravity="center"
+                android:gravity="center"
+                android:textAlignment="center"
+                android:textColor="#ffffff"
+                android:textSize="15dp"
+                android:textStyle="bold" />
+
+            <Space
+                android:layout_width="0dp"
+                android:layout_height="80dp"
+                android:layout_weight="0.2"
+                android:id="@+id/onofftype1sp" />
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="80dp"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:text="unknown"
+                android:id="@+id/othertype1state"
+                android:layout_weight="1.3"
+                android:layout_gravity="center"
+                android:textAlignment="center"
+                android:gravity="center"
+                android:textColor="#ffffff" />
+
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="60dp"
+                android:layout_weight="1.4"
+                android:layout_gravity="center">
+                <Button
+                    android:layout_width="60dp"
+                    android:layout_height="60dp"
+                    android:id="@+id/othertype1on"
+                    android:layout_gravity="center"
+                    android:textColor="#ff000000"
+                    android:background="@mipmap/other_on"
+                    android:gravity="bottom|center"
+                    android:layout_marginLeft="2dp" />
+
+            </LinearLayout>
+
+
+
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="60dp"
+                android:layout_weight="1.4"
+                android:layout_gravity="center">
+                <Button
+                    android:layout_width="60dp"
+                    android:layout_height="60dp"
+                    android:id="@+id/othertype1off"
+                    android:layout_gravity="center"
+                    android:textColor="#ff000000"
+                    android:background="@mipmap/other_off"
+                    android:gravity="bottom|center" />
+
+            </LinearLayout>
+
+
+            <Space
+                android:layout_width="0dp"
+                android:layout_height="80dp"
+                android:layout_weight="0.5"
+                android:id="@+id/onofftype1sp2" />
+
+            <CheckBox
+                android:layout_width="0dp"
+                android:layout_height="80dp"
+                android:id="@+id/othertype1checkBox"
+                android:checked="false"
+                android:layout_weight="0.7"
+                android:button="@drawable/checkbox_checked_style"
+                android:visibility="invisible" />
+        </LinearLayout>
+            <LinearLayout
+                android:layout_width="60dp"
+                android:layout_height="match_parent"
+                android:orientation="horizontal"
+                android:background="#d20001" >
+
+                <LinearLayout
+                    android:id="@+id/othertype1_delete"
+                    android:layout_width="60dp"
+                    android:layout_height="match_parent"
+                    android:gravity="center"
+                    >
+                    <ImageView
+                        android:layout_width="30dp"
+                        android:layout_height="30dp"
+                        android:layout_centerInParent="true"
+                        android:background="@drawable/ic_delete"
+                        />
+                </LinearLayout>
+            </LinearLayout>
+</com.shima.smartbushome.assist.SwipeLayout>
+    </LinearLayout>
+</merge>

@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ImageView
+        android:layout_width="64dp"
+        android:layout_height="64dp"
+        android:id="@+id/marcoitem_type"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="Room name"
+        android:id="@+id/marcoitem_room"
+        android:layout_alignParentTop="true"
+        android:layout_toRightOf="@+id/marcoitem_type"
+        android:layout_above="@+id/marcoitem_action"
+        android:paddingLeft="2dp"
+        android:gravity="left|center"
+        android:layout_toLeftOf="@+id/marcoitem_delete"
+        android:textSize="20dp"
+        android:textStyle="bold"
+        android:textColor="#ffffff" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="Action"
+        android:id="@+id/marcoitem_action"
+        android:paddingLeft="2dp"
+        android:layout_alignBottom="@+id/marcoitem_type"
+        android:layout_toRightOf="@+id/marcoitem_type"
+        android:textSize="13dp"
+        android:gravity="center"
+        android:layout_marginTop="2dp"
+        android:textColor="#ffffff" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="value"
+        android:id="@+id/marcoitem_value"
+        android:paddingLeft="2dp"
+        android:layout_below="@+id/marcoitem_room"
+        android:layout_toLeftOf="@+id/marcoitem_delete"
+        android:layout_marginTop="2dp"
+        android:layout_marginRight="2dp"
+        android:layout_marginBottom="2dp"
+        android:textSize="13dp"
+        android:gravity="left|center"
+        android:layout_toRightOf="@+id/marcoitem_action"
+        android:layout_marginLeft="2dp"
+        android:textIsSelectable="false"
+        android:textColor="#ffffff" />
+
+    <TextView
+        android:layout_width="35dp"
+        android:layout_height="35dp"
+        android:id="@+id/marcoitem_delete"
+        android:text="—"
+        android:textColor="#ff0000"
+        android:background="@drawable/circledeletebutton"
+        android:gravity="center"
+        android:textSize="18dp"
+        android:clickable="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginRight="5dp"
+        android:layout_marginTop="15dp" />
+
+    <Space
+        android:layout_width="2dp"
+        android:layout_height="2dp"
+        android:layout_centerHorizontal="true"
+        android:id="@+id/space11"
+        android:layout_alignBottom="@+id/marcoitem_room" />
+</RelativeLayout>

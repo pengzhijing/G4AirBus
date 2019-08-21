@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:id="@+id/energy_add"
+        android:title="ADD"
+        app:showAsAction="never"/>
+    <item
+        android:id="@+id/energy_delete"
+        android:title="DELETE"
+        app:showAsAction="never"/>
+    <item
+        android:id="@+id/energysetting"
+        android:title="Setting"
+        app:showAsAction="never"/>
+    <item
+        android:id="@+id/energypair"
+        android:title="Autopair"
+        app:showAsAction="never"/>
+
+</menu>

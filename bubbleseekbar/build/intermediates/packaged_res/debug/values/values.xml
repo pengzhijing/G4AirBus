@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorAccent">#FF9800</color>
+    <color name="colorPrimary">#607D8B</color>
+    <color name="colorPrimaryDark">#455A64</color>
+    <declare-styleable name="BubbleSeekBar">
+        <attr format="float|reference" name="bsb_min"/> <!--min < max, default: 0.0f-->
+        <attr format="float|reference" name="bsb_max"/> <!--min < max, default: 100.0f-->
+        <attr format="float|reference" name="bsb_progress"/> <!--real time progress value, default: min-->
+        <attr format="boolean" name="bsb_is_float_type"/> <!--support for float type-->
+        <attr format="dimension|reference" name="bsb_track_size"/> <!--height of right-track(on the right of thumb), default: 2dp-->
+        <!--height of left-track(on the left of thumb), default: 2dp higher than right-track's height-->
+        <attr format="dimension|reference" name="bsb_second_track_size"/>
+        <attr format="dimension|reference" name="bsb_thumb_radius"/> <!--radius of thumb, default: 2dp higher than left-track's height-->
+        <!--radius of thumb when be dragging, default: 2 times of left-track's height-->
+        <attr format="dimension|reference" name="bsb_thumb_radius_on_dragging"/>
+        <attr format="color|reference" name="bsb_track_color"/> <!--color of right-track, default: R.color.colorPrimary-->
+        <attr format="color|reference" name="bsb_second_track_color"/> <!--color of left-track, default: R.color.colorAccent-->
+        <attr format="color|reference" name="bsb_thumb_color"/> <!--color of thumb, default: same as left-track's color-->
+        <attr format="integer|reference" name="bsb_section_count"/> <!--shares of whole progress(max - min), default: 10-->
+        <attr format="boolean" name="bsb_show_section_mark"/> <!--show demarcation points or not, default: false-->
+        <attr format="boolean" name="bsb_auto_adjust_section_mark"/> <!--auto scroll to the nearest section_mark or not, default: false-->
+        <attr format="boolean" name="bsb_show_section_text"/> <!--show section-text or not, default: false-->
+        <attr format="dimension|reference" name="bsb_section_text_size"/> <!--text size of section-text, default: 14sp-->
+        <attr format="color|reference" name="bsb_section_text_color"/> <!--text color of section-text, default: same as right-track's color-->
+        <!--text position of section-text relative to track, sides, bottom_sides, below_section_mark, default: sides-->
+        <attr name="bsb_section_text_position">
+            <enum name="sides" value="0"/>
+            <enum name="bottom_sides" value="1"/>
+            <enum name="below_section_mark" value="2"/>
+        </attr>
+        <attr format="integer" name="bsb_section_text_interval"/> <!--the interval of two section-text, default: 1-->
+        <attr format="boolean" name="bsb_show_thumb_text"/> <!--show real time progress-text under thumb or not, default: false-->
+        <attr format="dimension|reference" name="bsb_thumb_text_size"/> <!--text size of progress-text, default: 14sp-->
+        <attr format="color|reference" name="bsb_thumb_text_color"/> <!--text color of progress-text, default: same as left-track's color-->
+        <attr format="boolean" name="bsb_show_progress_in_float"/> <!--show bubble-progress in float or not, default: false-->
+        <attr format="boolean" name="bsb_touch_to_seek"/> <!--touch anywhere on track to quickly seek, default: false-->
+        <attr format="boolean" name="bsb_seek_by_section"/> <!--seek by section, the progress may not be linear, default: false-->
+        <attr format="color|reference" name="bsb_bubble_color"/> <!--color of bubble, default: same as left-track's color-->
+        <attr format="dimension|reference" name="bsb_bubble_text_size"/> <!--text size of bubble-progress, default: 14sp-->
+        <attr format="color|reference" name="bsb_bubble_text_color"/> <!--text color of bubble-progress, default: #ffffffff-->
+        <attr format="integer" name="bsb_anim_duration"/> <!--duration of animation, default: 200ms-->
+        <attr format="boolean" name="bsb_always_show_bubble"/> <!--bubble shows all time, default: false-->
+    </declare-styleable>
+    <string name="app_name">bubbleseekbar</string>
+</resources>

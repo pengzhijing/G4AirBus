@@ -1,0 +1,40 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <!-- 状态栏颜色 -->
+        <item name="colorPrimaryDark">#00067C</item>
+        <item name="actionOverflowMenuStyle">@style/MenuStyle</item>
+        <item name="android:actionOverflowButtonStyle">@style/OverflowStyle</item>
+        <item name="android:textColorPrimary">@color/black</item>
+        <item name="android:textColorSecondary">@color/menupointcolor</item><!-- 3个圆点的颜色-->
+        <item name="android:textAppearanceSmallPopupMenu">@style/myPopupMenuTextAppearancesmall</item><!-- 溢出菜单字体颜色 -->
+        <item name="android:textAppearanceLargePopupMenu">@style/myPopupMenuTextAppearancelarge</item><!-- 溢出菜单字体颜色 -->
+        <item name="colorControlNormal">@color/tab_bgcolor</item>
+        <item name="colorAccent">#02A3E9</item>
+        <item name="android:windowBackground">@null</item>
+    </style>
+    <style name="OverflowStyle">
+        <item name="android:background">@mipmap/setting</item>
+    </style>
+    <style name="MenuStyle" parent="@style/Widget.AppCompat.Light.PopupMenu.Overflow">
+        <item name="android:src">@mipmap/setting</item>
+        <item name="overlapAnchor">false</item>
+        <item name="android:dropDownHorizontalOffset">0dip</item>
+        <item name="android:dropDownVerticalOffset">0dip</item>
+        <item name="android:textColor">@color/tab_bgcolor</item>
+        <item name="android:popupBackground">#AC000000</item>
+
+    </style>
+    <style name="myPopupMenuTextAppearancesmall" parent="@style/TextAppearance.AppCompat.Light.Widget.PopupMenu.Small">
+        <item name="android:textColor">#B1B1B1</item>
+    </style>
+    <style name="myPopupMenuTextAppearancelarge" parent="@style/TextAppearance.AppCompat.Light.Widget.PopupMenu.Large">
+        <item name="android:textColor">#B1B1B1</item>
+    </style>
+    <style name="AppdialogTheme" parent="Theme.AppCompat.Light.Dialog">
+
+    </style>
+
+
+</resources>

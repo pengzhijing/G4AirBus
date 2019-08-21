@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="horizontal"
+    android:layout_width="match_parent"
+    android:layout_height="64dp"
+    android:id="@+id/notice_view_type_0">
+
+    <TextView
+        android:layout_width="5dp"
+        android:layout_height="64dp"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:id="@+id/textView25" />
+
+    <ImageView
+        android:layout_width="55dp"
+        android:layout_height="55dp"
+        android:id="@+id/imageView12"
+        android:layout_gravity="center"
+        android:background="@mipmap/ic_launcher" />
+
+    <TextView
+        android:layout_width="5dp"
+        android:layout_height="64dp"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:id="@+id/textView26" />
+
+    <TextView
+        android:id="@+id/music_notify_songname"
+        android:layout_width="80dp"
+        android:layout_height="64dp"
+        android:scaleType="centerCrop"
+        android:layout_gravity="center_vertical"
+        android:textColor="#a9a9a9"
+        android:textAlignment="center"
+        android:gravity="center" />
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="64dp"
+        android:orientation="vertical"
+        android:layout_gravity="center">
+
+
+        <ImageView
+            android:id="@+id/close_iv"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:layout_alignParentRight="true"
+            android:background="@drawable/music_notify_close" />
+
+        <Button
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:id="@+id/music_notify_back"
+            android:background="@drawable/notify_music_back"
+            android:layout_centerVertical="true"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true" />
+
+        <Button
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:id="@+id/music_notify_next"
+            android:background="@drawable/notify_music_next"
+            android:gravity="center"
+            android:layout_alignTop="@+id/music_notify_play"
+            android:layout_toRightOf="@+id/music_notify_play"
+            android:layout_toEndOf="@+id/music_notify_play" />
+
+        <ImageView
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:id="@+id/music_notify_play"
+            android:layout_centerVertical="true"
+            android:layout_toRightOf="@+id/music_notify_back"
+            android:layout_toEndOf="@+id/music_notify_back" />
+
+
+    </RelativeLayout>
+
+</LinearLayout>

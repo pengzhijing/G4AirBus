@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.shima.smartbushome.centercontrol.MarcoAddActivity">
+    <ImageView
+        android:id="@+id/iv_main"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:src="@drawable/main_bg"
+        android:scaleType="centerCrop"
+        />
+    <android.support.v7.widget.Toolbar
+        android:id="@+id/marco_add_toolbar"
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:background="#5f000000"
+        style="@style/MenuStyle"
+        app:popupTheme="@style/ThemeOverlay.AppCompat.Dark"/>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Add new Action"
+        android:id="@+id/button36"
+        android:onClick="addmission"
+        android:layout_alignParentBottom="true"
+        android:layout_alignLeft="@+id/textView61"
+        android:layout_alignStart="@+id/textView61"
+        android:layout_alignRight="@+id/addmarco_name"
+        android:layout_alignEnd="@+id/addmarco_name"
+        android:background="@drawable/netlistbutton"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentRight="true" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="Name:"
+        android:id="@+id/textView61"
+        android:layout_below="@+id/marco_add_toolbar"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginLeft="2dp"
+        android:layout_marginRight="5dp"
+        android:gravity="center"
+        android:textColor="#ffffff"
+        android:layout_alignBottom="@+id/textView62" />
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/addmarco_name"
+        android:textColor="#6abcb2"
+        android:layout_above="@+id/listView7"
+        android:layout_toRightOf="@+id/textView61"
+        android:layout_below="@+id/marco_add_toolbar"
+        android:layout_alignRight="@+id/space12"
+        android:layout_alignEnd="@+id/space12" />
+
+    <com.shima.smartbushome.assist.DragListView.DragView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/listView7"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_above="@+id/button36"
+        android:layout_below="@+id/marco_add_icon"
+        android:layout_toRightOf="@+id/textView61" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="Icon:"
+        android:id="@+id/textView62"
+        android:gravity="center"
+        android:layout_below="@+id/marco_add_toolbar"
+        android:layout_toRightOf="@+id/space12"
+        android:layout_toEndOf="@+id/space12"
+        android:layout_alignBottom="@+id/marco_add_icon"
+        android:textColor="#ffffff" />
+
+    <ImageView
+        android:layout_width="64dp"
+        android:layout_height="64dp"
+        android:id="@+id/marco_add_icon"
+        android:layout_below="@+id/marco_add_toolbar"
+        android:layout_toRightOf="@+id/textView62"
+        android:layout_toEndOf="@+id/textView62"
+        android:onClick="changeicon"
+        android:src="@mipmap/marco_icon1" />
+
+    <Space
+        android:layout_width="20px"
+        android:layout_height="20px"
+        android:layout_above="@+id/addmarco_name"
+        android:layout_centerHorizontal="true"
+        android:id="@+id/space12" />
+
+</RelativeLayout>

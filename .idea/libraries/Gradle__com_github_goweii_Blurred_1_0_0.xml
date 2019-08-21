@@ -1,0 +1,12 @@
+<component name="libraryTable">
+  <library name="Gradle: com.github.goweii:Blurred-1.0.0">
+    <CLASSES>
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-1/files-1.1/Blurred-1.0.0.aar/190a83cec77e04559ed4b73d7f450ea5/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-1/files-1.1/Blurred-1.0.0.aar/190a83cec77e04559ed4b73d7f450ea5/res" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.github.goweii/Blurred/1.0.0/82f2c6696e3de7148f96fbeb2f73db1f282c7a6d/Blurred-1.0.0-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

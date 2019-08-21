@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="subnetID: "
+        android:id="@+id/textView70"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_alignBottom="@+id/setfaninfo_sub"
+        android:gravity="center"
+        android:layout_marginLeft="5dp"
+        android:layout_marginRight="5dp" />
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:inputType="number"
+        android:ems="10"
+        android:id="@+id/setfaninfo_sub"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true"
+        android:layout_toRightOf="@+id/textView70"
+        android:layout_toEndOf="@+id/textView70" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="deviceID: "
+        android:id="@+id/textView71"
+        android:gravity="center"
+        android:layout_below="@+id/textView70"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_alignBottom="@+id/setfaninfo_dev"
+        android:layout_alignRight="@+id/textView70"
+        android:layout_alignEnd="@+id/textView70"
+        android:layout_marginLeft="5dp"
+        android:layout_marginRight="5dp" />
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:inputType="number"
+        android:ems="10"
+        android:id="@+id/setfaninfo_dev"
+        android:layout_below="@+id/setfaninfo_sub"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true"
+        android:layout_toRightOf="@+id/textView70"
+        android:layout_toEndOf="@+id/textView70" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="channel: "
+        android:id="@+id/textView72"
+        android:gravity="center"
+        android:layout_below="@+id/textView71"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_alignBottom="@+id/setfaninfo_chan"
+        android:layout_marginLeft="5dp"
+        android:layout_toLeftOf="@+id/setfaninfo_chan"
+        android:layout_toStartOf="@+id/setfaninfo_chan"
+        android:layout_marginRight="5dp" />
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:inputType="number"
+        android:ems="10"
+        android:id="@+id/setfaninfo_chan"
+        android:layout_below="@+id/setfaninfo_dev"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true"
+        android:layout_toRightOf="@+id/textView71"
+        android:layout_toEndOf="@+id/textView71" />
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/setfaninfo_name"
+        android:layout_alignRight="@+id/setfaninfo_chan"
+        android:layout_alignEnd="@+id/setfaninfo_chan"
+        android:layout_toRightOf="@+id/textView72"
+        android:layout_toEndOf="@+id/textView72"
+        android:layout_below="@+id/textView72" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="name: "
+        android:id="@+id/textView73"
+        android:gravity="center"
+        android:layout_below="@+id/textView72"
+        android:layout_alignBottom="@+id/setfaninfo_name"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_toLeftOf="@+id/setfaninfo_name"
+        android:layout_toStartOf="@+id/setfaninfo_name"
+        android:layout_marginLeft="5dp"
+        android:layout_marginRight="5dp" />
+</RelativeLayout>

@@ -1,0 +1,199 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="subnetID:"
+        android:id="@+id/sbunet"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_above="@+id/device"
+        android:gravity="center"
+        android:layout_toLeftOf="@+id/subedit"
+        android:layout_toStartOf="@+id/subedit" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="deviceID:"
+        android:id="@+id/device"
+        android:layout_below="@+id/subedit"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_alignBottom="@+id/deviceedit"
+        android:gravity="center"
+        android:layout_toLeftOf="@+id/deviceedit"
+        android:layout_toStartOf="@+id/subedit" />
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:inputType="number"
+        android:ems="10"
+        android:id="@+id/subedit"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true"
+        android:layout_toRightOf="@+id/curtainrmark"
+        android:layout_toEndOf="@+id/curtainrmark"
+        android:textColor="#000000" />
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:inputType="number"
+        android:ems="10"
+        android:id="@+id/deviceedit"
+        android:layout_below="@+id/subedit"
+        android:layout_alignRight="@+id/subedit"
+        android:layout_alignEnd="@+id/subedit"
+        android:layout_toRightOf="@+id/curtainrmark"
+        android:layout_toEndOf="@+id/curtainrmark"
+        android:textColor="#000000" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="channel:"
+        android:id="@+id/channel"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/device"
+        android:gravity="center"
+        android:layout_alignBottom="@+id/chanedit"
+        android:layout_toLeftOf="@+id/chanedit"
+        android:layout_toStartOf="@+id/chanedit" />
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:inputType="number"
+        android:ems="10"
+        android:id="@+id/chanedit"
+        android:layout_alignRight="@+id/deviceedit"
+        android:layout_alignEnd="@+id/deviceedit"
+        android:layout_below="@+id/deviceedit"
+        android:layout_toRightOf="@+id/curtainrmark"
+        android:layout_toEndOf="@+id/curtainrmark"
+        android:textColor="#000000" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="name:"
+        android:id="@+id/curtainrmark"
+        android:layout_below="@+id/channel"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_alignBottom="@+id/lightnameedit"
+        android:gravity="center"
+        android:paddingLeft="20dp"
+        android:paddingRight="20dp" />
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:id="@+id/lightnameedit"
+        android:layout_below="@+id/channel"
+        android:layout_alignRight="@+id/chanedit"
+        android:layout_alignEnd="@+id/chanedit"
+        android:layout_toEndOf="@+id/curtainrmark"
+        android:layout_toRightOf="@+id/curtainrmark"
+        android:textColor="#000000" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="50dp"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="light icon:"
+        android:id="@+id/textView14"
+        android:gravity="center"
+        android:layout_below="@+id/horizontalScrollView2"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+    <ImageView
+        android:layout_width="64dp"
+        android:layout_height="64dp"
+        android:scaleType="centerInside"
+        android:id="@+id/imageView10"
+        android:layout_below="@+id/horizontalScrollView2"
+        android:layout_toRightOf="@+id/textView14"
+        android:layout_toEndOf="@+id/curtainrmark" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="lightType:"
+        android:id="@+id/textView89"
+        android:gravity="center"
+        android:paddingLeft="1dp"
+        android:layout_below="@+id/curtainrmark"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_above="@+id/textView14" />
+
+    <HorizontalScrollView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/horizontalScrollView2"
+        android:layout_below="@+id/curtainrmark"
+        android:layout_toRightOf="@+id/textView89"
+        android:layout_toEndOf="@+id/curtainrmark">
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <RadioGroup
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:id="@+id/radioGroup2"
+                android:layout_below="@+id/curtainrmark"
+                android:layout_toRightOf="@+id/textView89"
+                android:layout_toEndOf="@+id/textView89">
+
+                <RadioButton
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="type1"
+                    android:id="@+id/lighttype1"
+                    android:checked="false" />
+
+                <RadioButton
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="type2"
+                    android:id="@+id/lighttype2"
+                    android:checked="false" />
+
+                <RadioButton
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="type3"
+                    android:id="@+id/lighttype3"
+                    android:checked="false" />
+
+                <RadioButton
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="type4"
+                    android:id="@+id/lighttype4"
+                    android:checked="false" />
+            </RadioGroup>
+        </LinearLayout>
+    </HorizontalScrollView>
+
+</RelativeLayout>

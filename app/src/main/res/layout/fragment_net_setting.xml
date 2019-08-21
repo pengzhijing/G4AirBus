@@ -1,0 +1,212 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".mainsetting.Net_settingFragment">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+            <!-- TODO: Update blank fragment layout -->
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:text=" NetSetting"
+                android:id="@+id/textView84"
+                android:layout_alignParentTop="true"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true"
+                android:textColor="#5297ff"
+                android:layout_alignParentRight="true"
+                android:layout_alignParentEnd="true" />
+
+            <EditText
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="20dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:inputType="textPersonName"
+                android:ems="10"
+                android:id="@+id/ms_ns_etname"
+                android:layout_below="@+id/textView84"
+                android:hint="User Name"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentRight="true"
+                android:layout_alignParentEnd="true" />
+
+            <EditText
+                android:layout_marginRight="20dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/ms_ns_etpassword"
+                android:layout_below="@+id/ms_ns_etname"
+                android:layout_alignParentRight="true"
+                android:layout_alignParentEnd="true"
+                android:hint="Password"
+                android:layout_alignLeft="@+id/ms_ns_etname"
+                android:layout_alignStart="@+id/ms_ns_etname"
+                android:inputType="textVisiblePassword"/>
+
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="login"
+                android:id="@+id/ms_ns_login"
+                android:layout_below="@+id/ms_ns_etpassword"
+                android:background="@drawable/media_back"
+                android:layout_marginBottom="2dp"
+                android:layout_marginRight="2dp"
+                android:textColor="#001eff"
+                android:layout_alignLeft="@+id/textView87"
+                android:layout_alignStart="@+id/textView87" />
+
+            <TextView
+                android:layout_marginTop="20dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:text="Select RS/IP:"
+                android:id="@+id/textView87"
+                android:layout_below="@+id/ms_ns_login"
+                android:layout_alignLeft="@+id/ms_ns_cb"
+                android:layout_alignStart="@+id/ms_ns_cb" />
+
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="save settings"
+                android:id="@+id/ms_ns_save"
+                android:layout_below="@+id/ms_ns_cb"
+                android:layout_alignRight="@+id/ms_ns_etpassword"
+                android:layout_alignEnd="@+id/ms_ns_etpassword"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true"
+                android:layout_marginBottom="10dp"
+                android:background="@drawable/media_back"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:textColor="#5297ff" />
+
+            <CheckBox
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="use smart G4 server"
+                android:id="@+id/ms_ns_cb"
+                android:checked="false"
+                android:layout_below="@+id/ms_ns_select"
+                android:background="@drawable/media_back"
+                android:layout_marginTop="20dp"
+                android:layout_marginBottom="20dp"
+                android:layout_alignRight="@+id/ms_ns_save"
+                android:layout_alignEnd="@+id/ms_ns_save"
+                android:layout_alignLeft="@+id/ms_ns_save"
+                android:layout_alignStart="@+id/ms_ns_save" />
+
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/ms_ns_select"
+                android:layout_below="@+id/ms_ns_login"
+                android:layout_toRightOf="@+id/textView87"
+                android:layout_toEndOf="@+id/textView87"
+                android:background="@drawable/media_back"
+                android:layout_marginTop="10dp"
+                android:textColor="#5297ff"
+                android:paddingLeft="10dp"
+                android:paddingRight="3dp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:text="Remember your current wifi:"
+                android:id="@+id/ms_ns_wifinametext"
+                android:layout_below="@+id/textView110"
+                android:layout_marginTop="20dp"
+                android:layout_alignRight="@+id/ms_ns_etpassword"
+                android:layout_alignEnd="@+id/ms_ns_etpassword"
+                android:gravity="center_vertical"
+                android:textColor="#5297ff"
+                android:layout_alignLeft="@+id/ms_ns_save"
+                android:layout_alignStart="@+id/ms_ns_save" />
+
+            <Button
+                style="?android:attr/buttonStyleSmall"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="save"
+                android:id="@+id/ms_ns_savewifiname"
+                android:layout_below="@+id/ms_ns_wifinametext"
+                android:layout_marginTop="10dp"
+                android:background="@drawable/media_back"
+                android:textColor="#5297ff"
+                android:layout_toLeftOf="@+id/space19"
+                android:layout_alignLeft="@+id/ms_ns_etname"
+                android:layout_alignStart="@+id/ms_ns_etname" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:id="@+id/textView110"
+                android:background="#979797"
+                android:layout_below="@+id/ms_ns_save"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true" />
+
+            <Button
+                style="?android:attr/buttonStyleSmall"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="delete"
+                android:id="@+id/ms_ns_deletewifiname"
+                android:background="@drawable/media_back"
+                android:textColor="#5297ff"
+                android:layout_alignTop="@+id/ms_ns_savewifiname"
+                android:layout_toRightOf="@+id/space19"
+                android:layout_alignRight="@+id/ms_ns_wifinametext"
+                android:layout_alignEnd="@+id/ms_ns_wifinametext" />
+
+            <Space
+                android:layout_width="20px"
+                android:layout_height="20px"
+                android:layout_alignParentBottom="true"
+                android:layout_centerHorizontal="true"
+                android:layout_marginBottom="61dp"
+                android:id="@+id/space19" />
+
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="modify password"
+                android:id="@+id/bt_modifypassword"
+                android:background="@drawable/media_back"
+                android:textColor="#ff0000"
+                android:layout_below="@+id/ms_ns_etpassword"
+                android:layout_alignParentRight="true"
+                android:layout_alignParentEnd="true" />
+
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="logout"
+                android:id="@+id/ms_ns_logout"
+                android:background="@drawable/media_back"
+                android:textColor="#ff0000"
+                android:layout_below="@+id/ms_ns_etpassword"
+                android:layout_alignLeft="@+id/ms_ns_select"
+                android:layout_alignStart="@+id/ms_ns_select"
+                android:layout_marginLeft="19dp"
+                android:layout_marginStart="19dp" />
+
+        </RelativeLayout>
+
+
+    </ScrollView>
+</RelativeLayout>

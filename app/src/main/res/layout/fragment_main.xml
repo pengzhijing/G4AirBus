@@ -1,0 +1,33 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.shima.smartbushome.MainFragment"
+    android:id="@+id/layout_fm"
+    >
+
+    <!-- TODO: Update blank fragment layout -->
+  <!--  <com.shima.smartbushome.assist.DraggableGridViewPager
+        android:id="@+id/draggable_grid_view_pager"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:padding="10dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true">
+
+
+    </com.shima.smartbushome.assist.DraggableGridViewPager>-->
+
+    <GridView
+        android:id="@+id/gv_rooms"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_margin="5dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:numColumns="2">
+
+    </GridView>
+</RelativeLayout>

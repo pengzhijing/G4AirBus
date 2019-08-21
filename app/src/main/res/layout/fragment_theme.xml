@@ -1,0 +1,337 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.shima.smartbushome.mainsetting.ThemeFragment">
+
+    <!-- TODO: Update blank fragment layout -->
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/scrollView5" >
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:text="Main page:"
+                android:id="@+id/textView51"
+                android:textColor="#5297ff"
+                android:gravity="center"
+                android:layout_alignParentTop="true"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true"
+                android:layout_marginTop="5dp"
+                android:layout_marginLeft="5dp"
+                android:layout_alignBottom="@+id/mainbgcolor"
+                android:layout_alignRight="@+id/textView75"
+                android:layout_alignEnd="@+id/textView75" />
+
+            <TextView
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:id="@+id/mainbgcolor"
+                android:clickable="true"
+                android:layout_alignParentTop="false"
+                android:layout_toLeftOf="@+id/space18"
+                android:layout_toStartOf="@+id/space18"
+                android:layout_marginTop="5dp" />
+
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="save"
+                android:id="@+id/themesave"
+                android:layout_alignParentBottom="false"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentRight="true"
+                android:layout_alignParentEnd="true"
+                android:background="@drawable/media_back"
+                android:layout_marginLeft="2dp"
+                android:layout_marginRight="2dp"
+                android:layout_marginBottom="2dp"
+                android:textColor="#5297ff"
+                android:layout_below="@+id/textView127"
+                android:layout_marginTop="10dp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:text="Room page:"
+                android:id="@+id/textView52"
+                android:textColor="#5297ff"
+                android:gravity="center"
+                android:layout_alignTop="@+id/textView51"
+                android:layout_toLeftOf="@+id/roombgcolor"
+                android:layout_toRightOf="@+id/space18"
+                android:layout_above="@+id/hvacbgcolor" />
+
+            <TextView
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:id="@+id/roombgcolor"
+                android:clickable="true"
+                android:layout_alignTop="@+id/mainbgcolor"
+                android:layout_alignRight="@+id/themesave"
+                android:layout_alignEnd="@+id/themesave"
+                android:layout_alignBottom="@+id/mainbgcolor" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:text="Light page:"
+                android:id="@+id/textView54"
+                android:textColor="#5297ff"
+                android:gravity="center"
+                android:layout_below="@+id/textView51"
+                android:layout_alignBottom="@+id/lightbgcolor"
+                android:layout_marginTop="5dp"
+                android:layout_alignRight="@+id/textView75"
+                android:layout_alignEnd="@+id/textView75"
+                android:layout_alignLeft="@+id/textView51"
+                android:layout_alignStart="@+id/textView51" />
+
+            <TextView
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:id="@+id/lightbgcolor"
+                android:clickable="true"
+                android:layout_below="@+id/mainbgcolor"
+                android:layout_alignLeft="@+id/mainbgcolor"
+                android:layout_alignStart="@+id/mainbgcolor"
+                android:layout_marginTop="5dp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:text="HVAC page:"
+                android:id="@+id/textView74"
+                android:textColor="#5297ff"
+                android:gravity="center"
+                android:layout_below="@+id/textView52"
+                android:layout_alignLeft="@+id/textView52"
+                android:layout_alignStart="@+id/textView52"
+                android:layout_alignRight="@+id/textView52"
+                android:layout_alignEnd="@+id/textView52"
+                android:layout_alignBottom="@+id/hvacbgcolor" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:text="Fan page:"
+                android:id="@+id/textView75"
+                android:textColor="#5297ff"
+                android:gravity="center"
+                android:layout_below="@+id/lightbgcolor"
+                android:layout_alignLeft="@+id/themesave"
+                android:layout_alignStart="@+id/themesave"
+                android:layout_toLeftOf="@+id/mainbgcolor"
+                android:layout_toStartOf="@+id/mainbgcolor"
+                android:layout_alignBottom="@+id/fanbgcolor"
+                android:layout_marginTop="5dp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:text="Curtain page:"
+                android:id="@+id/textView93"
+                android:textColor="#5297ff"
+                android:gravity="center"
+                android:layout_alignTop="@+id/fanbgcolor"
+                android:layout_alignBottom="@+id/fanbgcolor"
+                android:layout_alignRight="@+id/textView74"
+                android:layout_alignEnd="@+id/textView74"
+                android:layout_alignLeft="@+id/textView74"
+                android:layout_alignStart="@+id/textView74" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:text="Music page:"
+                android:id="@+id/textView99"
+                android:textColor="#5297ff"
+                android:gravity="center"
+                android:layout_alignTop="@+id/musicbgcolor"
+                android:layout_alignLeft="@+id/textView54"
+                android:layout_alignStart="@+id/textView54"
+                android:layout_toLeftOf="@+id/fanbgcolor"
+                android:layout_toStartOf="@+id/fanbgcolor"
+                android:layout_marginTop="5dp"
+                android:layout_above="@+id/textView126" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:text="Mood page:"
+                android:id="@+id/textView118"
+                android:textColor="#5297ff"
+                android:gravity="center"
+                android:layout_below="@+id/textView93"
+                android:layout_alignBottom="@+id/textView99"
+                android:layout_alignRight="@+id/textView52"
+                android:layout_alignEnd="@+id/textView52"
+                android:layout_marginTop="5dp"
+                android:layout_alignLeft="@+id/textView93"
+                android:layout_alignStart="@+id/textView93" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:text="Other page:"
+                android:id="@+id/textView126"
+                android:textColor="#5297ff"
+                android:gravity="center"
+                android:layout_below="@+id/musicbgcolor"
+                android:layout_alignLeft="@+id/textView99"
+                android:layout_alignStart="@+id/textView99"
+                android:layout_alignRight="@+id/textView99"
+                android:layout_alignEnd="@+id/textView75"
+                android:layout_marginTop="5dp"
+                android:layout_alignBottom="@+id/otherbgcolor" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:text="9 in 1 page:"
+                android:id="@+id/textView127"
+                android:textColor="#5297ff"
+                android:gravity="center"
+                android:layout_alignLeft="@+id/textView126"
+                android:layout_alignStart="@+id/textView126"
+                android:layout_alignRight="@+id/textView75"
+                android:layout_alignEnd="@+id/textView75"
+                android:layout_alignBottom="@+id/niobgcolor"
+                android:layout_alignTop="@+id/niobgcolor" />
+
+            <TextView
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:id="@+id/hvacbgcolor"
+                android:clickable="true"
+                android:layout_alignTop="@+id/lightbgcolor"
+                android:layout_alignLeft="@+id/roombgcolor"
+                android:layout_alignStart="@+id/roombgcolor"
+                android:layout_alignBottom="@+id/lightbgcolor" />
+
+            <TextView
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:id="@+id/fanbgcolor"
+                android:clickable="true"
+                android:layout_below="@+id/lightbgcolor"
+                android:layout_alignLeft="@+id/lightbgcolor"
+                android:layout_alignStart="@+id/lightbgcolor"
+                android:layout_marginTop="5dp" />
+
+            <TextView
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:id="@+id/curtainbgcolor"
+                android:clickable="true"
+                android:layout_alignTop="@+id/fanbgcolor"
+                android:layout_toRightOf="@+id/textView74"
+                android:layout_toEndOf="@+id/textView74"
+                android:layout_alignBottom="@+id/fanbgcolor" />
+
+            <TextView
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:id="@+id/musicbgcolor"
+                android:clickable="true"
+                android:layout_below="@+id/fanbgcolor"
+                android:layout_alignLeft="@+id/lightbgcolor"
+                android:layout_alignStart="@+id/lightbgcolor"
+                android:layout_marginTop="5dp" />
+
+            <TextView
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:id="@+id/moodbgcolor"
+                android:clickable="true"
+                android:layout_alignTop="@+id/musicbgcolor"
+                android:layout_toRightOf="@+id/textView93"
+                android:layout_toEndOf="@+id/textView93"
+                android:layout_alignBottom="@+id/musicbgcolor" />
+
+            <TextView
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:id="@+id/otherbgcolor"
+                android:clickable="true"
+                android:layout_below="@+id/musicbgcolor"
+                android:layout_alignLeft="@+id/niobgcolor"
+                android:layout_alignStart="@+id/niobgcolor"
+                android:layout_marginTop="5dp" />
+
+            <TextView
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:id="@+id/niobgcolor"
+                android:clickable="true"
+                android:layout_below="@+id/mediabgcolor"
+                android:layout_toLeftOf="@+id/space18"
+                android:layout_toStartOf="@+id/space18"
+                android:layout_marginTop="5dp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:text="Media page:"
+                android:id="@+id/textView53"
+                android:textColor="#5297ff"
+                android:gravity="center"
+                android:layout_alignTop="@+id/otherbgcolor"
+                android:layout_alignBottom="@+id/otherbgcolor"
+                android:layout_alignRight="@+id/textView118"
+                android:layout_alignEnd="@+id/textView118"
+                android:layout_marginTop="5dp"
+                android:layout_alignLeft="@+id/textView118"
+                android:layout_alignStart="@+id/textView118" />
+
+            <TextView
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:id="@+id/mediabgcolor"
+                android:clickable="true"
+                android:layout_alignTop="@+id/otherbgcolor"
+                android:layout_alignLeft="@+id/moodbgcolor"
+                android:layout_alignStart="@+id/moodbgcolor"
+                android:layout_alignBottom="@+id/otherbgcolor" />
+
+            <Space
+                android:layout_width="20px"
+                android:layout_height="20px"
+                android:layout_alignBottom="@+id/niobgcolor"
+                android:layout_centerHorizontal="true"
+                android:id="@+id/space18" />
+        </RelativeLayout>
+    </ScrollView>
+
+</RelativeLayout>

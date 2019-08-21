@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/Smartbushome.iml" filepath="$PROJECT_DIR$/Smartbushome.iml" />
+      <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
+      <module fileurl="file://$PROJECT_DIR$/switchbutton/coolswitch.iml" filepath="$PROJECT_DIR$/switchbutton/coolswitch.iml" />
+      <module fileurl="file://$PROJECT_DIR$/alertview/dialogview.iml" filepath="$PROJECT_DIR$/alertview/dialogview.iml" />
+      <module fileurl="file://$PROJECT_DIR$/bubbleseekbar/selfseekbar.iml" filepath="$PROJECT_DIR$/bubbleseekbar/selfseekbar.iml" />
+      <module fileurl="file://$PROJECT_DIR$/pickerview/timeselect.iml" filepath="$PROJECT_DIR$/pickerview/timeselect.iml" />
+    </modules>
+  </component>
+</project>

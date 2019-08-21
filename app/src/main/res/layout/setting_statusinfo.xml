@@ -1,0 +1,168 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent" android:layout_height="match_parent"
+    android:background="#cccccc">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="name:"
+        android:id="@+id/tv_setting_statusname"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_alignBottom="@+id/et_statusname"
+        android:layout_alignRight="@+id/tv_setting_statuesub"
+        android:layout_alignEnd="@+id/tv_setting_statuesub"
+        android:gravity="center"
+        android:layout_marginLeft="2dp"
+        android:layout_marginRight="2dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="subnetID:"
+        android:id="@+id/tv_setting_statuesub"
+        android:layout_below="@+id/tv_setting_statusname"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_above="@+id/et_statusdev"
+        android:gravity="center"
+        android:layout_marginLeft="2dp"
+        android:layout_marginRight="2dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="deviceID:"
+        android:id="@+id/textView122"
+        android:layout_below="@+id/tv_setting_statuesub"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_alignBottom="@+id/et_statusdev"
+        android:gravity="center"
+        android:layout_marginLeft="2dp"
+        android:layout_marginRight="2dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="channel:"
+        android:id="@+id/textView123"
+        android:layout_below="@+id/textView122"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_alignBottom="@+id/et_statusch"
+        android:layout_alignRight="@+id/tv_setting_statuesub"
+        android:layout_alignEnd="@+id/tv_setting_statuesub"
+        android:gravity="center"
+        android:layout_marginLeft="2dp"
+        android:layout_marginRight="2dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="unit:"
+        android:id="@+id/textView124"
+        android:layout_below="@+id/textView123"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_above="@+id/im_statusicon"
+        android:layout_toLeftOf="@+id/et_statusch"
+        android:layout_toStartOf="@+id/et_statusch"
+        android:gravity="center"
+        android:layout_marginLeft="2dp"
+        android:layout_marginRight="2dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="icon:"
+        android:id="@+id/textView125"
+        android:layout_below="@+id/textView124"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_alignBottom="@+id/im_statusicon"
+        android:layout_alignRight="@+id/textView124"
+        android:layout_alignEnd="@+id/textView124"
+        android:gravity="center"
+        android:layout_marginLeft="2dp"
+        android:layout_marginRight="2dp" />
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/et_statusname"
+        android:layout_alignRight="@+id/et_statussub"
+        android:layout_alignEnd="@+id/et_statussub"
+        android:layout_alignLeft="@+id/et_statussub"
+        android:layout_alignStart="@+id/et_statussub" />
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:inputType="number"
+        android:ems="10"
+        android:id="@+id/et_statussub"
+        android:layout_below="@+id/et_statusname"
+        android:layout_toRightOf="@+id/tv_setting_statuesub"
+        android:layout_toEndOf="@+id/tv_setting_statuesub" />
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:inputType="number"
+        android:ems="10"
+        android:id="@+id/et_statusdev"
+        android:layout_below="@+id/et_statussub"
+        android:layout_alignLeft="@+id/et_statussub"
+        android:layout_alignStart="@+id/et_statussub" />
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:inputType="number"
+        android:ems="10"
+        android:id="@+id/et_statusch"
+        android:layout_below="@+id/et_statusdev"
+        android:layout_alignLeft="@+id/et_statusdev"
+        android:layout_alignStart="@+id/et_statusdev" />
+
+    <RadioGroup
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/et_statusch"
+        android:layout_toRightOf="@+id/textView122"
+        android:layout_toEndOf="@+id/textView122"
+        android:orientation="horizontal"
+        android:id="@+id/radioGroup4">
+
+        <RadioButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="℃"
+            android:id="@+id/rb_statusc"
+            android:checked="false" />
+
+        <RadioButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="℉"
+            android:id="@+id/rb_statusf"
+            android:checked="false" />
+    </RadioGroup>
+
+    <ImageView
+        android:layout_width="64dp"
+        android:layout_height="64dp"
+        android:id="@+id/im_statusicon"
+        android:layout_below="@+id/radioGroup4"
+        android:layout_alignLeft="@+id/radioGroup4"
+        android:layout_alignStart="@+id/radioGroup4" />
+</RelativeLayout>

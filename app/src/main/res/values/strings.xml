@@ -1,0 +1,34 @@
+<?xml version="1.0"?>
+<resources>
+    <string name="app_name">G4 AirBus</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="ipsetting_warm1">The Router range is Automatically configured by system.Only can be changed by Professional guidance.</string>
+    <string name="ipsetting_warm2">Note:This founction mainly for Debuger, Normal User Does Not need to change this Setting. Please, try not to ulter</string>
+    <string name="database_export">Export:export file to the path:"../smartbus_backup/database/smartbus_dbbackup_xxxx(time).db3"</string>
+    <string name="database_import">Import:G4 AirBus will search the database fils automatically</string>
+    <string name="add_marco">You don\'t have a marco,Click here to add a Marco</string>
+    <string name="add_media">You don\'t have a media device,Click here to add a Media</string>
+    <string name="add_hvac">You don\'t have a HVAC device,Click here to add a HVAC</string>
+    <string name="add_floorheat">You don\'t have a FloorhHeat device,Click here to add a FloorhHeat</string>
+    <string name="add_music">You don\'t have a Zaudio device,Click here to add a Zaudio</string>
+    <string name="add_energy">You don\'t have a CT24 device,Click here to add a CT24</string>
+    <string name="add_nio">You don\'t have a 9 in 1 device,Click here to add a 9 in 1</string>
+    <string name="add_status">You don\'t have a device,Click here to add one</string>
+    <string name="ddns_warm">ex - www.google.com</string>
+    <string name="update">v1.7.0 add lockID and shake function \nv1.6.4 motify media button function \nv1.6.3 motify schedule function and change some UI \nv1.6.2 chang music UI and record curtain last state \nv1.6.1 fix some link issue \nv1.6.0 add schedule function(only for test),and add NFC function \nv1.5.9 add change color functino in setting \nv1.5.8 add status central control and motify main page \nv1.5.7 you can view your CT24 device in Energy function,but this function is only for test now,please write you wish if you had feedback \nv1.5.6: you can add 9in1 function in the room. \nv1.5.5: you can click "User Manual" to see how to use easy control app.</string>
+    <string name="update_app_model_prepare">preparing to download</string>
+    <string name="update_app_model_progress">downloading %1$d%2$s</string>
+    <string name="update_app_model_success">download success(click install)</string>
+    <string name="update_app_model_error">download fail(click to use the browser to download)</string>
+    <string name="add_schedule">You don\'t have a schedule,Click here to add one</string>
+    <string name="add_nfc">You don\'t have an NFC,Click here to add one</string>
+    <string name="mon">Monday</string>
+    <string name="tue">Tuesday</string>
+    <string name="wed">Wednesday</string>
+    <string name="thu">Thursday</string>
+    <string name="fri">Friday</string>
+    <string name="sat">Saturday</string>
+    <string name="sun">Sunday</string>
+    <string name="cycle_sure">Comfirm</string>
+</resources>

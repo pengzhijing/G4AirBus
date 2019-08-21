@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="PhoneIP:"
+        android:id="@+id/lip"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_alignBottom="@+id/loipedit"
+        android:gravity="center"
+        android:textSize="15dp" />
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/loipedit"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true"
+        android:phoneNumber="false"
+        android:textColor="#000000"
+        android:layout_toRightOf="@+id/lip"
+        android:layout_toEndOf="@+id/lip" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="Router Range:"
+        android:id="@+id/tarip"
+        android:layout_below="@+id/lip"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_alignBottom="@+id/taripedit"
+        android:gravity="center"
+        android:textSize="15dp"
+        android:layout_alignRight="@+id/lip"
+        android:layout_alignEnd="@+id/lip" />
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/taripedit"
+        android:layout_below="@+id/loipedit"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true"
+        android:textColor="#000000"
+        android:layout_toRightOf="@+id/tarip"
+        android:layout_toEndOf="@+id/tarip" />
+
+    <CheckBox
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="manual setting"
+        android:id="@+id/mansetcb"
+        android:checked="false"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_alignRight="@+id/taripedit"
+        android:layout_alignEnd="@+id/taripedit"
+        android:layout_below="@+id/tarip" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="Note:This founction mainly for Debuger, Normal User Does Not need to change this Setting. Please, try not to ulter"
+        android:id="@+id/textView15"
+        android:textColor="#ff0000"
+        android:textSize="16dp"
+        android:layout_below="@+id/textView28"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginTop="25dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="The Router range is Automatically configured by system. Only can be changed by Professional guidance."
+        android:id="@+id/textView28"
+        android:textColor="#006aff"
+        android:textSize="16dp"
+        android:layout_below="@+id/mansetcb"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+</RelativeLayout>

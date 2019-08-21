@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="horizontal" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="100dp"
+        android:orientation="vertical">
+        <com.shima.smartbushome.assist.SwipeLayout
+            xmlns:android="http://schemas.android.com/apk/res/android"
+            android:layout_width="match_parent"
+            android:layout_height="80dp"
+            android:id="@+id/fantype1swipe"
+            android:orientation="horizontal"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginBottom="10dp"
+            android:minHeight="?android:attr/listPreferredItemHeight">
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="80dp"
+                android:orientation="horizontal"
+                android:id="@+id/fantype1linear">
+
+                <LinearLayout
+                    android:orientation="vertical"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="2"
+                    android:id="@+id/fanshowpopup">
+
+                    <ImageView
+                        android:layout_width="match_parent"
+                        android:layout_height="0dp"
+                        android:id="@+id/fantype1_img"
+                        android:layout_weight="1.5" />
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="0dp"
+                        android:textAppearance="?android:attr/textAppearanceMedium"
+                        android:text="fan name"
+                        android:id="@+id/fantype1_name"
+                        android:layout_weight="1"
+                        android:gravity="center"
+                        android:textColor="#ffffff"
+                        android:textSize="15dp"
+                        android:textStyle="bold" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:orientation="vertical"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="5">
+
+                    <ImageView
+                        android:layout_width="match_parent"
+                        android:layout_height="0dp"
+                        android:id="@+id/imageView20"
+                        android:layout_weight="1"
+                        android:src="@mipmap/fanremark"
+                        android:layout_marginTop="5dp"
+                        android:scaleType="centerInside"/>
+
+                    <SeekBar
+                        android:layout_width="match_parent"
+                        android:layout_height="0dp"
+                        android:id="@+id/fantype1seekbar"
+                        android:layout_weight="1.5"
+                        android:max="4"
+                        android:indeterminate="false" />
+                </LinearLayout>
+
+                <CheckBox
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:id="@+id/fantype1_cb"
+                    android:layout_weight="0.7"
+                    android:button="@drawable/checkbox_checked_style"
+                    android:visibility="invisible"
+                    android:checked="false" />
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="60dp"
+                android:layout_height="match_parent"
+                android:orientation="horizontal"
+                android:background="#d20001" >
+
+                <LinearLayout
+                    android:id="@+id/fantype1_delete"
+                    android:layout_width="60dp"
+                    android:layout_height="match_parent"
+                    android:gravity="center"
+                    >
+                    <ImageView
+                        android:layout_width="30dp"
+                        android:layout_height="30dp"
+                        android:layout_centerInParent="true"
+                        android:background="@drawable/ic_delete"
+                        />
+                </LinearLayout>
+            </LinearLayout>
+            </com.shima.smartbushome.assist.SwipeLayout>
+        </LinearLayout>
+</merge>

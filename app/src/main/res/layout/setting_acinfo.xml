@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="subnetID:"
+        android:id="@+id/ac_sub"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_alignBottom="@+id/acsubedit"
+        android:gravity="center" />
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:inputType="number"
+        android:ems="10"
+        android:id="@+id/acsubedit"
+        android:layout_alignParentTop="true"
+        android:layout_toRightOf="@+id/ac_sub"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true"
+        android:textColor="#000000" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="deviceID:"
+        android:id="@+id/ac_dev"
+        android:layout_below="@+id/ac_sub"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_toLeftOf="@+id/acsubedit"
+        android:layout_toStartOf="@+id/acsubedit"
+        android:layout_alignBottom="@+id/acdevedit"
+        android:gravity="center" />
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:inputType="number"
+        android:ems="10"
+        android:id="@+id/acdevedit"
+        android:layout_below="@+id/acsubedit"
+        android:layout_alignRight="@+id/acsubedit"
+        android:layout_alignEnd="@+id/acsubedit"
+        android:layout_toRightOf="@+id/ac_sub"
+        android:layout_toEndOf="@+id/ac_sub"
+        android:textColor="#000000" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="remark:"
+        android:id="@+id/ac_remark"
+        android:layout_below="@+id/ac_dev"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_toStartOf="@+id/acdevedit"
+        android:layout_toLeftOf="@+id/acdevedit"
+        android:layout_alignBottom="@+id/acremark"
+        android:gravity="center" />
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:id="@+id/acremark"
+        android:layout_below="@+id/acdevedit"
+        android:layout_alignRight="@+id/acdevedit"
+        android:layout_alignEnd="@+id/acdevedit"
+        android:layout_toRightOf="@+id/ac_dev"
+        android:layout_toEndOf="@+id/ac_dev"
+        android:textColor="#000000" />
+</RelativeLayout>

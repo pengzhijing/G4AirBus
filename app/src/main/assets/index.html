@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+    <meta http-equiv="content-type" content="text/html;charset=utf-8"/>
+    <meta id="viewport" name="viewport"
+          content="width=device-width; initial-scale=1.0; maximum-scale=1; user-scalable=no;"/>
+
+    <style type="text/css">
+        .sec_body {
+             background: url(image/welcome_bg.png);
+	        font-family: Helvetica;
+	        line-height: 1.5;
+	        font-size: small;
+	         text-align:center;
+	       background-repeat:repeat-x;
+            background-position:center 0;
+
+
+
+        }
+
+        .center_father {
+             text-align:center;
+        }
+
+
+
+        #file_form{
+            margin-top:25px;
+        }
+
+        #app_icon{
+
+
+           width:100px;
+           heigh:100px;
+            margin-top:50px;
+
+
+        }
+
+          ul{
+
+             display: table;
+
+
+        }
+
+         ul li {
+       text-align:left;
+       font-size:18px;
+
+        }
+
+
+
+
+    </style>
+
+
+    <title>Database Upload</title>
+</head>
+<body class="sec_body">
+<div>
+
+    <div  class="center_father">
+        <img id="app_icon"  src="image/ic_launcher.png">
+    </div>
+
+    <form id="file_form" action="upload" method="post" enctype ="multipart/form-data">
+
+        <table align="center">
+
+
+
+            <tr   >
+                <td><input type="file" name="filename" accept=".db,.db3" /></td>
+                <td><input type="submit"  value="Submit"  /></td>
+            </tr>
+
+            <tr>
+                <td>
+                    <ul >
+                        <li><a href="/smartbus_dbbackup_g4airbus"  download="smartbus_dbbackup_g4airbus.db">smartbus_dbbackup_g4airbus.db3</a></li>
+                    </ul>
+                </td>
+            </tr>
+
+
+
+        </table>
+
+    </form>
+
+
+</div>
+</body>
+</html>
+
+
+

@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:id="@+id/music_add"
+        android:title="add"
+        app:showAsAction="never"/>
+    <item
+        android:id="@+id/music_setting"
+        android:title="setting"
+        app:showAsAction="never"/>
+    <item
+        android:id="@+id/music_pair"
+        android:title="autopair"
+        app:showAsAction="never"/>
+
+    <item
+        android:id="@+id/music_delete"
+        android:title="delete"
+        app:showAsAction="never"/>
+</menu>

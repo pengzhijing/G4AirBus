@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:id="@+id/menu_area"
+        android:title="Area"
+        app:showAsAction="never"/>
+    <item
+        android:id="@+id/room_add"
+        android:title="Add Room"
+        app:showAsAction="never"/>
+    <item
+        android:id="@+id/room_delete"
+        android:title="Delete Room"
+        app:showAsAction="never"/>
+
+    <item
+        android:id="@+id/search"
+        android:title="Search Device"
+        app:showAsAction="never"/>
+
+    <item
+        android:id="@+id/main_setting"
+        android:title="Settings"
+        app:showAsAction="never"/>
+    <item
+        android:id="@+id/main_about"
+        android:title="About"
+        app:showAsAction="never"/>
+
+    <item
+        android:id="@+id/main_exit"
+        android:title="Exit"
+        app:showAsAction="never"/>
+</menu>

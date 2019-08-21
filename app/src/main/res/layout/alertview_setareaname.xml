@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent" android:layout_height="match_parent">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:id="@+id/relativeLayout15"
+        android:layout_marginTop="2dp"
+        android:layout_marginBottom="10dp">
+
+        <com.shima.smartbushome.assist.WheelView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/setareaname_arealist" />
+    </RelativeLayout>
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:inputType="textPersonName"
+        android:ems="10"
+        android:id="@+id/setareaname_edname"
+        android:layout_below="@+id/relativeLayout15"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true"
+        android:hint="enter Area name"
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="10dp"
+        android:maxLength="20" />
+
+    <Switch
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="By Pass Enable"
+        android:id="@+id/setareaname_bypass"
+        android:checked="false"
+        android:paddingLeft="10dp"
+        android:paddingRight="50dp"
+        android:layout_below="@+id/setareaname_edname"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginTop="3dp"
+        android:layout_marginBottom="10dp" />
+
+    <Switch
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Watch Dog Enable"
+        android:id="@+id/setareaname_watchdog"
+        android:checked="false"
+        android:paddingLeft="10dp"
+        android:paddingRight="50dp"
+        android:layout_below="@+id/setareaname_bypass"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginTop="5dp"
+        android:layout_marginBottom="10dp" />
+
+</RelativeLayout>

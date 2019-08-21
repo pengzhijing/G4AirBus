@@ -1,0 +1,233 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="5dp"
+        android:orientation="vertical">
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:visibility="gone"
+                style="@style/wrap_layout">
+                <!-- 全圆角-->
+                <LinearLayout
+                    android:id="@+id/layout_add_device"
+                    style="@style/single_layout"
+                    android:layout_height="50dp"
+                    android:padding="0dp"
+                    >
+
+                    <TextView
+
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:gravity="center"
+                        android:text="add_device"
+                        android:textColor="#000000"
+                        android:textSize="16sp"
+                        android:layout_marginRight="-30dp"/>
+
+
+
+                </LinearLayout>
+            </LinearLayout>
+
+            <LinearLayout style="@style/wrap_layout">
+                <!-- 全圆角-->
+                <LinearLayout
+                    style="@style/single_layout"
+                    android:layout_height="50dp"
+                    android:padding="0dp">
+
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="2"
+                        android:gravity="center"
+                        android:text="Name"
+                        android:textColor="#000000"
+                        android:textSize="16sp" />
+
+                    <View
+                        android:layout_width="0.3dp"
+                        android:layout_height="match_parent"
+                        android:background="#ccc" />
+
+                    <EditText
+                        android:id="@+id/mainnameeditText"
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:layout_weight="4"
+                        android:gravity="center"
+                        android:layout_gravity="center"
+                        android:textColor="#000000"/>
+                </LinearLayout>
+            </LinearLayout>
+
+
+
+            <LinearLayout
+                style="@style/wrap_layout"
+                >
+                <!-- 全圆角-->
+                <LinearLayout
+                    style="@style/single_layout"
+                    android:layout_height="50dp"
+                    android:padding="0dp">
+
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="2"
+                        android:gravity="center"
+                        android:text="Icon"
+                        android:textColor="#000000"
+                        android:textSize="16sp" />
+
+                    <View
+                        android:layout_width="0.3dp"
+                        android:layout_height="match_parent"
+                        android:background="#ccc" />
+
+                    <LinearLayout
+                        android:layout_width="0dp"
+                        android:layout_height="50dp"
+                        android:layout_weight="4"
+                        android:gravity="center"
+                        android:orientation="horizontal">
+
+                        <ImageView
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:id="@+id/mainroomicon"
+                            android:scaleType="centerInside"
+                            android:background="@color/title_transparent_black"
+                            android:layout_marginTop="3dp"
+                            android:layout_marginBottom="3dp"
+                            android:layout_marginRight="10dp"
+                            android:layout_marginLeft="10dp"
+                            />
+                    </LinearLayout>
+                </LinearLayout>
+
+
+            </LinearLayout>
+
+
+            <LinearLayout style="@style/wrap_layout"
+               >
+                <!-- 全圆角-->
+                <LinearLayout
+                    style="@style/single_layout"
+                    android:layout_height="50dp"
+                    android:padding="0dp">
+
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="2"
+                        android:gravity="center"
+                        android:text="Background"
+                        android:textColor="#000000"
+                        android:textSize="16sp" />
+
+                    <View
+                        android:layout_width="0.3dp"
+                        android:layout_height="match_parent"
+                        android:background="#ccc" />
+
+                    <LinearLayout
+                        android:layout_width="0dp"
+                        android:layout_height="50dp"
+                        android:layout_weight="4"
+                        android:gravity="center"
+                        android:orientation="horizontal">
+
+                        <LinearLayout
+                            android:layout_width="0dp"
+                            android:layout_height="match_parent"
+                            android:layout_weight="1"
+                            android:gravity="center">
+
+                            <ImageView
+                                android:id="@+id/iv_gallery"
+                                android:layout_width="40dp"
+                                android:layout_height="40dp"
+                                android:src="@drawable/gallery" />
+
+
+                        </LinearLayout>
+
+                        <LinearLayout
+                            android:layout_width="0dp"
+                            android:layout_height="match_parent"
+                            android:layout_weight="1"
+                            android:gravity="center">
+
+
+                            <ImageView
+                                android:id="@+id/iv_backgroud"
+                                android:layout_width="match_parent"
+                                android:layout_height="match_parent"
+                                android:scaleType="centerInside"
+                                android:background="@color/title_transparent_black"
+                                android:layout_margin="3dp"
+                               />
+
+                        </LinearLayout>
+                    </LinearLayout>
+                </LinearLayout>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/layout_selectArea"
+                style="@style/wrap_layout"
+                android:visibility="gone">
+                <!-- 全圆角-->
+                <LinearLayout
+                    style="@style/single_layout"
+                    android:layout_height="50dp"
+                    android:padding="0dp">
+
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="2"
+                        android:gravity="center"
+                        android:text="Area"
+                        android:textColor="#000000"
+                        android:textSize="16sp" />
+
+                    <View
+                        android:layout_width="0.3dp"
+                        android:layout_height="match_parent"
+                        android:background="#ccc" />
+
+                    <Spinner
+                        android:id="@+id/sp_areaList"
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:layout_weight="4"
+                        android:gravity="center"
+                        android:layout_gravity="center"
+                        android:textColor="#000000"/>
+                </LinearLayout>
+            </LinearLayout>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="8dp"/>
+
+
+        </LinearLayout>
+
+
+    </LinearLayout>

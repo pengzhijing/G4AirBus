@@ -1,0 +1,207 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    package="com.shima.smartbushome">
+
+    <!-- NFC 权限 -->
+    <uses-permission android:name="android.permission.NFC" tools:node="remove"/>
+    <!-- 忽略电池优化，安卓6.0以上的要忽略定时才准确 -->
+    <uses-permission android:name="android.permission.REQUEST_IGNORE_BATTERY_OPTIMIZATIONS" tools:node="remove"/>
+    <!-- 文件系统，保存到本地的权限 -->
+    <uses-permission android:name="android.permission.MOUNT_UNMOUNT_FILESYSTEMS" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.WRITE_SETTINGS" />
+    <!-- 用于杀死进程 -->
+    <uses-permission android:name="android.permission.KILL_BACKGROUND_PROCESSES" tools:node="remove"/>
+    <!-- 访问手机当前状态, 需要某些信息用于网络定位 -->
+    <uses-permission android:name="android.permission.READ_PHONE_STATE" tools:node="remove" />
+    <uses-permission android:name="android.permission.CHANGE_CONFIGURATION" tools:node="remove" />
+    <!-- 用于nfc打电话 -->
+    <uses-permission android:name="android.permission.CALL_PHONE"  tools:node="remove"/>
+    <!-- 蓝牙，用于ibeacon定位 -->
+    <uses-permission android:name="android.permission.BLUETOOTH"  tools:node="remove"/>
+    <uses-permission android:name="android.permission.BLUETOOTH_ADMIN" tools:node="remove"/>
+    <!-- wifi获取网络相关权限 -->
+    <uses-permission android:name="android.permission.CHANGE_WIFI_MULTICAST_STATE"  tools:node="remove"/>
+    <uses-permission android:name="android.permission.CHANGE_WIFI_STATE"  tools:node="remove"/>
+    <uses-permission android:name="android.permission.CHANGE_NETWORK_STATE" tools:node="remove"/>
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE"   />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" tools:node="remove"/>
+    <uses-permission android:name="android.permission.READ_LOGS" tools:node="remove"/>
+
+
+    <!--<uses-feature android:name="android.hardware.location.gps" android:required="false"/>-->
+    <!--<uses-feature android:name="android.hardware.location" android:required="false"/>-->
+    <!--<uses-feature android:name="android.hardware.location.network" android:required="false"/>-->
+    <!--<uses-feature android:name="android.hardware.telephony" android:required="false"/>-->
+    <!--<uses-feature android:name="android.hardware.camera" android:required="false"/>-->
+    <!--<uses-feature android:name="android.hardware.camera.autofocus" android:required="false"/>-->
+    <!--<uses-feature android:name="android.hardware.wifi" android:required="false"/>-->
+    <!--<uses-feature android:name="android.hardware.bluetooth" android:required="false"/>-->
+
+    <!--google play商店应用过滤机制-->
+    <uses-feature android:name="android.hardware.audio.low_latency" android:required="false"/>
+    <uses-feature android:name="android.hardware.location" android:required="false"/>
+    <uses-feature android:name="android.hardware.location.network" android:required="false"/>
+    <uses-feature android:name="android.hardware.location.gps" android:required="false"/>
+    <uses-feature android:name="android.hardware.microphone" android:required="false"/>
+    <uses-feature android:name="android.hardware.touchscreen" android:required="false"/>
+    <uses-feature android:name="android.hardware.touchscreen.multitouch" android:required="false"/>
+    <uses-feature android:name="android.hardware.touchscreen.multitouch.distinct" android:required="false"/>
+    <uses-feature android:name="android.hardware.touchscreen.multitouch.jazzhand" android:required="false"/>
+    <uses-feature android:name="android.hardware.screen.portrait" android:required="false"/>
+    <uses-feature android:name="android.hardware.sensor.accelerometer" android:required="false"/>
+    <uses-feature android:name="android.hardware.sensor.light" android:required="false"/>
+    <uses-feature android:name="android.hardware.sensor.compass" android:required="false"/>
+    <uses-feature android:name="android.hardware.sensor.barometer" android:required="false"/>
+    <uses-feature android:name="android.hardware.sensor.stepdetector" android:required="false"/>
+
+
+    <application
+     android:name=".SmartApplication"
+     android:allowBackup="true"
+     android:icon="@mipmap/ic_launcher"
+     android:networkSecurityConfig="@xml/network_security_config"
+     android:label="@string/app_name"
+     android:supportsRtl="true"
+     android:theme="@style/AppTheme">
+
+
+     <!--启动页-->
+        <activity
+            android:name="com.shima.smartbushome.WelcomeActivity"
+            android:screenOrientation="unspecified"
+            android:configChanges="keyboardHidden|orientation|screenSize"
+            android:theme="@style/WelcomeStyle">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <activity
+            android:name="com.shima.smartbushome.MainActivity"
+            android:configChanges="keyboardHidden|orientation|screenSize"
+            android:screenOrientation="unspecified">
+            <intent-filter>
+                <action android:name="android.intent.action.main" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+            <intent-filter>
+                <action android:name="android.nfc.action.TECH_DISCOVERED" />
+                <action android:name="android.nfc.action.TAG_DISCOVERED" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+
+            <meta-data
+                android:name="android.nfc.action.TECH_DISCOVERED"
+                android:resource="@xml/nfc_tech_filter" />
+        </activity>
+
+        <activity android:name=".DatabaseActivity"
+            android:screenOrientation="unspecified">
+            <intent-filter>
+                <action android:name="com.shima.smartbushome.databaseactivity" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+
+        <activity
+            android:name="com.shima.smartbushome.RoomActivity"
+            android:screenOrientation="unspecified" />
+        <activity
+            android:name="com.shima.smartbushome.FounctionActivity"
+            android:screenOrientation="unspecified"
+            android:windowSoftInputMode="adjustPan" />
+        <activity
+            android:name="com.shima.smartbushome.NetDaviceListActivity"
+            android:screenOrientation="unspecified"
+            android:theme="@style/AppdialogTheme" />
+        <activity
+            android:name="com.shima.smartbushome.about.HelpActivity"
+            android:screenOrientation="unspecified" />
+        <activity
+            android:name="com.shima.smartbushome.about.AboutActivity"
+            android:screenOrientation="unspecified" />
+        <activity
+            android:name="com.shima.smartbushome.mainsetting.MainSettingActivity"
+            android:screenOrientation="unspecified"
+            android:windowSoftInputMode="stateHidden" />
+        <activity
+            android:name="com.shima.smartbushome.centercontrol.MarcoActivity"
+            android:screenOrientation="unspecified" />
+        <activity
+            android:name="com.shima.smartbushome.centercontrol.MarcoAddActivity"
+            android:screenOrientation="unspecified"
+            android:theme="@style/whiteapptheme"
+            android:windowSoftInputMode="stateHidden" />
+        <activity
+            android:name="com.shima.smartbushome.centercontrol.AllLightActivity"
+            android:screenOrientation="unspecified" />
+        <activity
+            android:name="com.shima.smartbushome.centercontrol.AllHVACActivity"
+            android:screenOrientation="unspecified" />
+        <activity
+            android:name="com.shima.smartbushome.centercontrol.AllMusicActivity"
+            android:screenOrientation="unspecified" />
+        <activity
+            android:name="com.shima.smartbushome.centercontrol.AllCurtainActivity"
+            android:screenOrientation="unspecified" />
+        <activity
+            android:name="com.shima.smartbushome.centercontrol.MarcoAddDetailActivity"
+            android:screenOrientation="unspecified" />
+        <activity
+            android:name="com.shima.smartbushome.centercontrol.AllOtherActivity"
+            android:screenOrientation="unspecified" />
+        <activity
+            android:name="com.shima.smartbushome.centercontrol.AllFanActivity"
+            android:screenOrientation="unspecified" />
+        <activity
+            android:name="com.shima.smartbushome.centercontrol.Security"
+            android:screenOrientation="unspecified"
+            android:windowSoftInputMode="stateHidden|adjustPan" />
+        <activity
+            android:name="com.shima.smartbushome.centercontrol.SecuritySettingActivity"
+            android:screenOrientation="unspecified" />
+        <activity
+            android:name="com.shima.smartbushome.centercontrol.EnergyActivity"
+            android:screenOrientation="unspecified" />
+        <activity
+            android:name="com.shima.smartbushome.centercontrol.EnergyLogActivity"
+            android:screenOrientation="unspecified" />
+        <activity android:name="com.shima.smartbushome.centercontrol.StatusActivity" />
+
+        <service android:name="com.shima.smartbushome.assist.AutoUpdate.UpdateService" />
+
+        <activity android:name="com.shima.smartbushome.centercontrol.ScheduleActivity"  android:screenOrientation="unspecified" />
+        <activity android:name="com.shima.smartbushome.centercontrol.ScheduleAddActivity"  android:screenOrientation="unspecified" />
+        <activity android:name="com.shima.smartbushome.centercontrol.NFCActivity"  android:screenOrientation="unspecified" />
+        <activity android:name="com.shima.smartbushome.centercontrol.NFCAddActivity"  android:screenOrientation="unspecified" />
+
+
+
+        <service
+            android:name=".andserver.CoreService"
+            android:exported="false"/>
+
+
+      <!--  <service
+            android:name="com.shima.smartbushome.assist.scheduleutil.ScheduleServer"
+            android:enabled="true">
+            <intent-filter android:priority="1000">
+                <action android:name="com.dave.smartbushome.centercontrol.ScheduleServer" />
+            </intent-filter>
+        </service>
+        <service
+            android:name="com.shima.smartbushome.assist.scheduleutil.ScheduleRestartService"
+            android:enabled="true"
+            android:exported="false"></service>-->
+    </application>
+
+</manifest>

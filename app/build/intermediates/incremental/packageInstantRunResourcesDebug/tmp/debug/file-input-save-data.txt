@@ -1,0 +1,19 @@
+#Internal package file, do not edit.
+#Wed Aug 21 11:46:04 CST 2019
+1.base=E\:\\Android_Studio_Project\\G4AirBus\\Smartbushome\\app\\build\\intermediates\\merged_assets\\debug\\mergeDebugAssets\\out
+2.path=image/main_bg.jpg
+0.baseType=DIRECTORY
+3.baseType=DIRECTORY
+2.base=E\:\\Android_Studio_Project\\G4AirBus\\Smartbushome\\app\\build\\intermediates\\merged_assets\\debug\\mergeDebugAssets\\out
+3.set=ASSET
+2.set=ASSET
+1.baseType=DIRECTORY
+3.path=image/welcome_bg.png
+count=4
+1.set=ASSET
+0.path=image/ic_launcher.png
+3.base=E\:\\Android_Studio_Project\\G4AirBus\\Smartbushome\\app\\build\\intermediates\\merged_assets\\debug\\mergeDebugAssets\\out
+0.set=ASSET
+0.base=E\:\\Android_Studio_Project\\G4AirBus\\Smartbushome\\app\\build\\intermediates\\merged_assets\\debug\\mergeDebugAssets\\out
+2.baseType=DIRECTORY
+1.path=index.html

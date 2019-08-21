@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text=" 1.IR SwitchNO or IR Macro NO"
+        android:id="@+id/textView78"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_toLeftOf="@+id/setmediabutton_no"
+        android:layout_toStartOf="@+id/setmediabutton_no"
+        android:paddingLeft="2dp"
+        android:gravity="center"
+        android:layout_alignBottom="@+id/setmediabutton_no" />
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:inputType="number"
+        android:ems="5"
+        android:id="@+id/setmediabutton_no"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text=" 2.On Or Off"
+        android:id="@+id/textView79"
+        android:gravity="left|center"
+        android:layout_below="@+id/textView78"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_toLeftOf="@+id/setmediabutton_onoff"
+        android:layout_toStartOf="@+id/setmediabutton_onoff"
+        android:layout_alignBottom="@+id/setmediabutton_onoff"
+        android:paddingLeft="2dp" />
+
+    <CheckBox
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/setmediabutton_onoff"
+        android:layout_below="@+id/setmediabutton_no"
+        android:layout_toRightOf="@+id/textView78"
+        android:layout_alignRight="@+id/setmediabutton_no"
+        android:layout_alignEnd="@+id/setmediabutton_no"
+        android:checked="false" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text=" 3.Is IR Macro?"
+        android:id="@+id/textView80"
+        android:paddingLeft="2dp"
+        android:gravity="left|center"
+        android:layout_below="@+id/textView79"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_toLeftOf="@+id/setmediabutton_onoff"
+        android:layout_toStartOf="@+id/setmediabutton_onoff"
+        android:layout_alignBottom="@+id/setmediabutton_ismarco" />
+
+    <CheckBox
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/setmediabutton_ismarco"
+        android:layout_below="@+id/textView79"
+        android:layout_toRightOf="@+id/textView79"
+        android:layout_alignRight="@+id/setmediabutton_onoff"
+        android:layout_alignEnd="@+id/setmediabutton_onoff"
+        android:checked="false" />
+</RelativeLayout>

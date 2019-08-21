@@ -1,0 +1,162 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.shima.smartbushome.centercontrol.AllLightActivity"
+    android:id="@+id/alllightout">
+    <ImageView
+        android:id="@+id/iv_main"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:src="@drawable/main_bg"
+        android:scaleType="centerCrop"
+        />
+    <android.support.v7.widget.Toolbar
+        android:id="@+id/alllight_toolbar"
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:background="#5f000000"
+        style="@style/MenuStyle"
+        app:popupTheme="@style/ThemeOverlay.AppCompat.Dark"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="Select Room:"
+        android:id="@+id/alllightselectroom"
+        android:layout_below="@+id/relativeLayout6"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:textSize="20dp"
+        android:textStyle="bold"
+        android:layout_marginLeft="10dp"
+        android:textColor="#ffffff" />
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/alllight_toolbar"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:id="@+id/relativeLayout6">
+
+        <com.shima.smartbushome.assist.WheelView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/lightroomchoose"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true" />
+    </RelativeLayout>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/scrollView7"
+        android:layout_below="@+id/alllightselectroom"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentBottom="true" >
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="ALL Light On"
+                android:id="@+id/button8"
+                android:background="@drawable/control_back_10"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true"
+                android:layout_toLeftOf="@+id/space5"
+                android:layout_toStartOf="@+id/space5"
+                android:layout_marginTop="10dp"
+                android:layout_marginLeft="10dp"
+                android:onClick="alllighton"
+                android:textColor="#ffffff" />
+
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="ALL Light Off"
+                android:id="@+id/button10"
+                android:background="@drawable/control_back_10"
+                android:layout_above="@+id/button11"
+                android:layout_toRightOf="@+id/space5"
+                android:layout_alignParentRight="true"
+                android:layout_alignParentEnd="true"
+                android:layout_marginRight="10dp"
+                android:onClick="alllightoff"
+                android:textColor="#ffffff" />
+
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="25%"
+                android:id="@+id/button11"
+                android:background="@drawable/control_back_10"
+                android:layout_below="@+id/button8"
+                android:layout_alignLeft="@+id/button8"
+                android:layout_alignStart="@+id/button8"
+                android:layout_alignRight="@+id/button8"
+                android:layout_alignEnd="@+id/button8"
+                android:layout_marginTop="20dp"
+                android:onClick="alllight25"
+                android:textColor="#ffffff" />
+
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="50%"
+                android:id="@+id/button12"
+                android:background="@drawable/control_back_10"
+                android:layout_below="@+id/button10"
+                android:layout_alignLeft="@+id/button10"
+                android:layout_alignStart="@+id/button10"
+                android:layout_marginTop="20dp"
+                android:layout_alignRight="@+id/button10"
+                android:layout_alignEnd="@+id/button10"
+                android:onClick="alllight50"
+                android:textColor="#ffffff" />
+
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="75%"
+                android:id="@+id/button13"
+                android:background="@drawable/control_back_10"
+                android:layout_below="@+id/button11"
+                android:layout_alignLeft="@+id/button11"
+                android:layout_alignStart="@+id/button11"
+                android:layout_alignRight="@+id/button11"
+                android:layout_alignEnd="@+id/button11"
+                android:layout_marginTop="20dp"
+                android:onClick="alllight75"
+                android:textColor="#ffffff" />
+
+            <LinearLayout
+                android:orientation="vertical"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/alllighcontent"
+                android:layout_alignParentBottom="true"
+                android:layout_alignRight="@+id/button12"
+                android:layout_alignEnd="@+id/button12"
+                android:layout_below="@+id/button13"
+                android:layout_marginTop="10dp"></LinearLayout>
+
+            <Space
+                android:layout_width="20dp"
+                android:layout_height="20dp"
+                android:layout_centerVertical="true"
+                android:layout_centerHorizontal="true"
+                android:id="@+id/space5" />
+
+        </RelativeLayout>
+    </ScrollView>
+
+</RelativeLayout>

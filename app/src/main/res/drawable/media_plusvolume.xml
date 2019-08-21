@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:state_pressed="false">
+        <shape android:shape="rectangle"
+            android:useLevel="false" >
+            <corners
+                android:topRightRadius="20dp"
+                android:bottomRightRadius="20dp"
+                /><!-- 设置圆角半径 -->
+
+            <solid android:color="@color/title_transparent_black" />
+            <size android:width="15dp"
+                android:height="15dp" />
+        </shape>
+    </item>
+    <item android:state_pressed="true">
+        <shape android:shape="rectangle"
+            android:useLevel="false">
+            <corners
+                android:topRightRadius="20dp"
+                android:bottomRightRadius="20dp"
+                /><!-- 设置圆角半径 -->
+            <solid android:color="#aa000000" />
+
+        </shape>
+    </item>
+</selector>

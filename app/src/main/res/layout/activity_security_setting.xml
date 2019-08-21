@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context="com.shima.smartbushome.centercontrol.SecuritySettingActivity">
+
+    <ImageView
+        android:id="@+id/iv_main"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:src="@drawable/main_bg"
+        android:scaleType="centerCrop"
+        />
+
+    <android.support.v7.widget.Toolbar
+        android:id="@+id/securitysetting_toolbar"
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:background="#5f000000"
+        style="@style/MenuStyle"
+        app:popupTheme="@style/ThemeOverlay.AppCompat.Dark"/>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="setID"
+        android:id="@+id/securitysetting_setID"
+        android:layout_below="@+id/securitysetting_toolbar"
+        android:layout_marginTop="71dp"
+        android:onClick="setID"
+        android:layout_alignRight="@+id/securitysetting_cpassword"
+        android:layout_alignEnd="@+id/securitysetting_cpassword"
+        android:layout_alignLeft="@+id/securitysetting_cpassword"
+        android:layout_alignStart="@+id/securitysetting_cpassword"
+        android:background="@drawable/netlistbutton"
+        android:layout_marginBottom="10dp" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="change password"
+        android:id="@+id/securitysetting_cpassword"
+        android:layout_below="@+id/securitysetting_setID"
+        android:layout_alignRight="@+id/securitysetting_seelog"
+        android:layout_alignEnd="@+id/securitysetting_seelog"
+        android:layout_alignLeft="@+id/securitysetting_seelog"
+        android:layout_alignStart="@+id/securitysetting_seelog"
+        android:onClick="changepassword"
+        android:background="@drawable/netlistbutton"
+        android:layout_marginBottom="10dp" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="log"
+        android:id="@+id/securitysetting_seelog"
+        android:layout_below="@+id/securitysetting_cpassword"
+        android:onClick="history"
+        android:background="@drawable/netlistbutton"
+        android:layout_marginBottom="10dp"
+        android:layout_alignRight="@+id/securitysetting_setarean"
+        android:layout_alignEnd="@+id/securitysetting_setarean"
+        android:layout_alignLeft="@+id/securitysetting_setarean"
+        android:layout_alignStart="@+id/securitysetting_setarean" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="            Area Setting           "
+        android:id="@+id/securitysetting_setarean"
+        android:onClick="setareaname"
+        android:background="@drawable/netlistbutton"
+        android:layout_below="@+id/securitysetting_seelog"
+        android:layout_centerHorizontal="true" />
+</RelativeLayout>

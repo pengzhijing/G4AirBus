@@ -1,0 +1,223 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context="com.shima.smartbushome.centercontrol.MarcoAddDetailActivity">
+    <ImageView
+        android:id="@+id/iv_main"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:src="@drawable/main_bg"
+        android:scaleType="centerCrop"
+        />
+
+    <android.support.v7.widget.Toolbar
+        android:id="@+id/marco_add_detail_toolbar"
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:background="#5f000000"
+        style="@style/MenuStyle"
+        app:popupTheme="@style/ThemeOverlay.AppCompat.Dark"/>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="cancel"
+        android:id="@+id/button31"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:background="@drawable/netlistbutton"
+        android:textColor="#5a88ff"
+        android:layout_toLeftOf="@+id/space10"
+        android:layout_toStartOf="@+id/space10"
+        android:onClick="cancel" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="save"
+        android:id="@+id/button32"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true"
+        android:background="@drawable/netlistbutton"
+        android:textColor="#ff0000"
+        android:layout_toRightOf="@+id/space10"
+        android:layout_toEndOf="@+id/space10"
+        android:onClick="save" />
+
+    <Space
+        android:layout_width="2px"
+        android:layout_height="2px"
+        android:layout_centerVertical="true"
+        android:layout_centerHorizontal="true"
+        android:id="@+id/space10" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="Select Room:"
+        android:id="@+id/marcoadddetailroom"
+        android:layout_below="@+id/marco_add_detail_toolbar"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_alignBottom="@+id/button33"
+        android:layout_toLeftOf="@+id/button33"
+        android:layout_toStartOf="@+id/button33"
+        android:gravity="left|center"
+        android:layout_marginLeft="2dp"
+        android:textColor="#ffffff" />
+
+    <Button
+        android:layout_width="45dp"
+        android:layout_height="45dp"
+        android:text="+"
+        android:id="@+id/button33"
+        android:layout_below="@+id/marco_add_detail_toolbar"
+        android:layout_alignRight="@+id/button32"
+        android:layout_alignEnd="@+id/button32"
+        android:onClick="addroom"
+        android:background="@drawable/circlebutton"
+        android:layout_margin="2dp"
+        android:textColor="#ffffff" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="Select Device:"
+        android:id="@+id/marcoadddetaildevice"
+        android:gravity="left|center"
+        android:layout_below="@+id/textView63"
+        android:layout_alignLeft="@+id/marcoadddetailaction"
+        android:layout_alignStart="@+id/marcoadddetailaction"
+        android:layout_alignRight="@+id/marcoadddetailroom"
+        android:layout_alignEnd="@+id/marcoadddetailroom"
+        android:layout_alignBottom="@+id/button34"
+        android:textColor="#ffffff" />
+
+    <Button
+        android:layout_width="45dp"
+        android:layout_height="45dp"
+        android:text="+"
+        android:id="@+id/button34"
+        android:onClick="adddevice"
+        android:enabled="false"
+        android:textColor="#b8b8b8"
+        android:background="@drawable/circlebutton"
+        android:layout_below="@+id/textView63"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true"
+        android:layout_margin="2dp" />
+
+    <Button
+        android:layout_width="45dp"
+        android:layout_height="45dp"
+        android:text="+"
+        android:id="@+id/button35"
+        android:onClick="addaction"
+        android:enabled="false"
+        android:textColor="#b8b8b8"
+        android:background="@drawable/circlebutton"
+        android:layout_below="@+id/textView64"
+        android:layout_alignRight="@+id/textView64"
+        android:layout_alignEnd="@+id/textView64"
+        android:layout_margin="2dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="Select Action:"
+        android:id="@+id/marcoadddetailaction"
+        android:gravity="left|center"
+        android:layout_below="@+id/textView64"
+        android:layout_alignLeft="@+id/textView63"
+        android:layout_alignStart="@+id/textView63"
+        android:layout_alignBottom="@+id/button35"
+        android:layout_toLeftOf="@+id/button34"
+        android:layout_toStartOf="@+id/button34"
+        android:textColor="#ffffff" />
+
+    <Button
+        android:layout_width="45dp"
+        android:layout_height="45dp"
+        android:text="+"
+        android:id="@+id/button37"
+        android:textColor="#b8b8b8"
+        android:onClick="addvalue"
+        android:enabled="false"
+        android:background="@drawable/circlebutton"
+        android:layout_below="@+id/textView65"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true"
+        android:layout_margin="2dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="Select Value:"
+        android:id="@+id/marcoadddetailvalue"
+        android:gravity="center_vertical"
+        android:layout_alignTop="@+id/button37"
+        android:layout_alignLeft="@+id/textView65"
+        android:layout_alignStart="@+id/textView65"
+        android:layout_alignBottom="@+id/button37"
+        android:textColor="#ffffff" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:id="@+id/textView60"
+        android:gravity="center_vertical"
+        android:layout_alignTop="@+id/marcoadddetailvalue"
+        android:layout_toRightOf="@+id/marcoadddetailvalue"
+        android:layout_toLeftOf="@+id/button37"
+        android:layout_alignBottom="@+id/marcoadddetailvalue"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:textColor="#ffffff" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:id="@+id/textView63"
+        android:layout_below="@+id/marcoadddetailroom"
+        android:layout_alignLeft="@+id/marcoadddetailroom"
+        android:layout_alignStart="@+id/marcoadddetailroom"
+        android:background="#959595"
+        android:layout_marginTop="5dp"
+        android:layout_marginBottom="5dp" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:id="@+id/textView64"
+        android:background="#959595"
+        android:layout_below="@+id/marcoadddetaildevice"
+        android:layout_alignLeft="@+id/marcoadddetaildevice"
+        android:layout_alignStart="@+id/marcoadddetaildevice"
+        android:layout_marginTop="5dp"
+        android:layout_marginBottom="5dp" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:id="@+id/textView65"
+        android:background="#959595"
+        android:layout_below="@+id/marcoadddetailaction"
+        android:layout_alignLeft="@+id/marcoadddetailaction"
+        android:layout_alignStart="@+id/marcoadddetailaction"
+        android:layout_marginTop="5dp"
+        android:layout_marginBottom="5dp" />
+
+</RelativeLayout>

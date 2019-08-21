@@ -1,0 +1,255 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="5dp"
+        android:orientation="vertical"
+        android:gravity="center"
+    >
+
+
+    <TextView
+        android:id="@+id/tv_title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Add Area"
+        android:textSize="20sp"
+        android:textColor="@color/white"
+        android:layout_marginTop="50dp" />
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:visibility="gone"
+                style="@style/wrap_layout">
+                <!-- 全圆角-->
+                <LinearLayout
+                    android:id="@+id/layout_add_device"
+                    style="@style/single_layout"
+                    android:layout_height="50dp"
+                    android:padding="0dp"
+                    >
+
+                    <TextView
+
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:gravity="center"
+                        android:text="add_device"
+                        android:textColor="#000000"
+                        android:textSize="16sp"
+                        android:layout_marginRight="-30dp"/>
+
+
+
+                </LinearLayout>
+            </LinearLayout>
+
+            <LinearLayout style="@style/wrap_layout">
+                <!-- 全圆角-->
+                <LinearLayout
+                    style="@style/single_layout"
+                    android:layout_height="50dp"
+                    android:padding="0dp">
+
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="2"
+                        android:gravity="center"
+                        android:text="Area Name"
+                        android:textColor="#000000"
+                        android:textSize="16sp" />
+
+                    <View
+                        android:layout_width="0.3dp"
+                        android:layout_height="match_parent"
+                        android:background="#ccc" />
+
+                    <EditText
+                        android:id="@+id/et_areaName"
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:layout_weight="4"
+                        android:gravity="center"
+                        android:layout_gravity="center"
+                        android:textColor="#000000"/>
+                </LinearLayout>
+            </LinearLayout>
+
+
+
+
+
+            </LinearLayout>
+
+            <LinearLayout style="@style/wrap_layout"
+                android:layout_marginBottom="8dp">
+                <!-- 全圆角-->
+                <LinearLayout
+                    style="@style/single_layout"
+                    android:layout_height="50dp"
+                    android:padding="0dp">
+
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="2"
+                        android:gravity="center"
+                        android:text="Background"
+                        android:textColor="#000000"
+                        android:textSize="16sp" />
+
+                    <View
+                        android:layout_width="0.3dp"
+                        android:layout_height="match_parent"
+                        android:background="#ccc" />
+
+                    <LinearLayout
+                        android:layout_width="0dp"
+                        android:layout_height="50dp"
+                        android:layout_weight="4"
+                        android:gravity="center"
+                        android:orientation="horizontal">
+
+                        <LinearLayout
+                            android:layout_width="0dp"
+                            android:layout_height="match_parent"
+                            android:layout_weight="1"
+                            android:gravity="center">
+
+                            <ImageView
+                                android:id="@+id/iv_gallery"
+                                android:layout_width="40dp"
+                                android:layout_height="40dp"
+                                android:src="@drawable/gallery" />
+
+
+                        </LinearLayout>
+
+                        <LinearLayout
+                            android:layout_width="0dp"
+                            android:layout_height="match_parent"
+                            android:layout_weight="1"
+                            android:gravity="center">
+
+
+                            <ImageView
+                                android:id="@+id/iv_backgroud"
+                                android:layout_width="match_parent"
+                                android:layout_height="match_parent"
+                                android:scaleType="centerInside"
+                                android:background="@color/title_transparent_black"
+                                android:layout_margin="3dp"
+                               />
+
+                        </LinearLayout>
+                    </LinearLayout>
+                </LinearLayout>
+
+            </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:orientation="horizontal"
+        android:padding="0dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        >
+        <FrameLayout
+            style="@style/single_layout"
+            android:id="@+id/fl_dialog_no"
+            android:layout_weight="1"
+            android:layout_width="0dp"
+            android:layout_height="match_parent">
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:gravity="center"
+                android:padding="16dp"
+                android:src="@null" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:gravity="center"
+                android:textColor="#232323"
+                android:textSize="16sp"
+                android:text="Cancel" />
+
+        </FrameLayout>
+
+        <View
+            android:layout_width="20dp"
+            android:layout_height="match_parent" />
+
+        <FrameLayout
+            android:visibility="gone"
+            style="@style/single_layout"
+            android:id="@+id/fl_dialog_delete"
+            android:layout_weight="1"
+            android:layout_width="0dp"
+            android:layout_height="match_parent">
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:gravity="center"
+                android:padding="16dp"
+                android:src="@null"
+               />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:gravity="center"
+                android:textColor="#232323"
+                android:textSize="16sp"
+                android:text="Delete" />
+
+        </FrameLayout>
+
+        <View
+            android:layout_width="20dp"
+            android:layout_height="match_parent" />
+
+
+        <FrameLayout
+            style="@style/single_layout"
+            android:id="@+id/fl_dialog_yes"
+            android:layout_weight="1"
+            android:layout_width="0dp"
+            android:layout_height="match_parent">
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:gravity="center"
+                android:padding="16dp"
+                android:src="@null" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:gravity="center"
+                android:textColor="#232323"
+                android:textSize="16sp"
+                android:text="Confirm" />
+
+        </FrameLayout>
+
+
+
+    </LinearLayout>
+
+
+ </LinearLayout>
+

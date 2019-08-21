@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.shima.smartbushome.centercontrol.NFCAddActivity">
+
+    <ImageView
+        android:id="@+id/iv_main"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:src="@drawable/main_bg"
+        android:scaleType="centerCrop"
+        />
+
+    <android.support.v7.widget.Toolbar
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/nfcadd_toolbar"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:background="#5f000000"
+        style="@style/MenuStyle" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="ID:"
+        android:id="@+id/textView128"
+        android:layout_below="@+id/nfcadd_toolbar"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_alignBottom="@+id/nfcadd_tagid"
+        android:layout_toLeftOf="@+id/nfcadd_tagid"
+        android:textColor="#ffffff"
+        android:gravity="center" />
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/nfcadd_tagid"
+        android:hint="please tag your nfc card to read"
+        android:textColorHint="#a7ffffff"
+        android:layout_below="@+id/nfcadd_toolbar"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true"
+        android:textColor="#ffffff"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Action:"
+        android:id="@+id/textView129"
+        android:layout_below="@+id/textView128"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_toLeftOf="@+id/nfcadd_tagid"
+        android:layout_toStartOf="@+id/nfcadd_tagid"
+        android:layout_above="@+id/nfcadd_actiondetail"
+        android:gravity="center"
+        android:textColor="#ffffff"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="action detail:"
+        android:id="@+id/nfcadd_actiondetail"
+        android:layout_below="@+id/nfcadd_spinner"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_alignBottom="@+id/nfcadd_detail"
+        android:gravity="center"
+        android:layout_toLeftOf="@+id/nfcadd_detail"
+        android:layout_toStartOf="@+id/nfcadd_detail"
+        android:textColor="#ffffff"/>
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/nfcadd_detail"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true"
+        android:layout_below="@+id/nfcadd_spinner"
+        android:layout_toRightOf="@+id/textView129"
+        android:layout_toEndOf="@+id/textView129"
+        android:textColor="#ffffff"/>
+
+    <Spinner
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/nfcadd_spinner"
+        android:layout_below="@+id/textView128"
+        android:layout_toRightOf="@+id/textView128"
+        android:layout_toEndOf="@+id/textView128"
+        android:textColor="#ffffff"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="name:"
+        android:id="@+id/textView131"
+        android:layout_below="@+id/nfcadd_actiondetail"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_toStartOf="@+id/nfcadd_detail"
+        android:gravity="center"
+        android:layout_toLeftOf="@+id/nfcadd_detail"
+        android:layout_alignBottom="@+id/nfcadd_name"
+        android:textColor="#ffffff"/>
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/nfcadd_name"
+        android:layout_below="@+id/nfcadd_actiondetail"
+        android:layout_alignRight="@+id/nfcadd_detail"
+        android:layout_alignEnd="@+id/nfcadd_detail"
+        android:layout_toRightOf="@+id/textView131"
+        android:layout_toEndOf="@+id/textView131"
+        android:textColor="#ffffff"/>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="save"
+        android:id="@+id/nfcadd_save"
+        android:layout_below="@+id/textView131"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_alignRight="@+id/nfcadd_name"
+        android:layout_alignEnd="@+id/nfcadd_name"
+        android:textColor="#ffffff"
+        android:background="@color/title_transparent_black"/>
+
+
+</RelativeLayout>

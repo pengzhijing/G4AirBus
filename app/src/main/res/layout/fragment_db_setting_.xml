@@ -1,0 +1,177 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".mainsetting.DB_settingFragment">
+
+    <!-- TODO: Update blank fragment layout -->
+
+    <TextView
+        android:id="@+id/textView132"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/textView3"
+        android:layout_marginTop="20dp"
+        android:gravity="center"
+        android:paddingLeft="5dp"
+        android:text="Lock ShakeFunction:"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:textColor="#5297ff" />
+
+    <TextView
+        android:id="@+id/textView59"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:paddingLeft="5dp"
+        android:text="Lock ChangeIDs:"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:textColor="#5297ff"
+        android:layout_alignTop="@+id/sw_lockchangeid"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_alignRight="@+id/textView132"
+        android:layout_alignEnd="@+id/textView132" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="Database Settings:"
+        android:id="@+id/textView81"
+        android:textColor="#5297ff"
+        android:gravity="center"
+        android:paddingLeft="5dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="export"
+        android:id="@+id/ms_export"
+        android:textColor="#5297ff"
+        android:layout_below="@+id/textView81"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true"
+        android:background="@drawable/media_back"
+        android:layout_marginLeft="2dp"
+        android:layout_marginRight="2dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:text="@string/database_export"
+        android:id="@+id/textView48"
+        android:textColor="@color/warmtext2"
+        android:paddingLeft="3dp"
+        android:layout_below="@+id/ms_export"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="import"
+        android:id="@+id/ms_import"
+        android:textColor="#5297ff"
+        android:layout_below="@+id/textView48"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true"
+        android:background="@drawable/media_back"
+        android:layout_marginLeft="2dp"
+        android:layout_marginRight="2dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:text="@string/database_import"
+        android:id="@+id/textView49"
+        android:textColor="@color/warmtext2"
+        android:paddingLeft="3dp"
+        android:layout_below="@+id/ms_import"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="delete  database"
+        android:id="@+id/ms_delete"
+        android:textColor="#5297ff"
+        android:layout_below="@+id/textView49"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:background="@drawable/media_back"
+        android:layout_marginLeft="2dp"
+        android:layout_toLeftOf="@+id/space17"
+        android:layout_toStartOf="@+id/space17"
+        android:layout_marginRight="5dp" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="upload and download"
+        android:id="@+id/ms_share"
+        android:textColor="#5297ff"
+        android:layout_below="@+id/textView49"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true"
+        android:background="@drawable/media_back"
+        android:layout_marginRight="2dp"
+        android:layout_toEndOf="@+id/space17"
+        android:layout_toRightOf="@+id/space17"
+        android:layout_marginLeft="5dp" />
+
+    <Space
+        android:layout_width="20px"
+        android:layout_height="20px"
+        android:layout_centerInParent="true"
+        android:id="@+id/space17" />
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_below="@+id/ms_delete"
+        android:layout_marginTop="10dp"
+        android:background="@color/bgColor_divier" />
+
+    <view
+        class="com.kyleduo.switchbutton.SwitchButton"
+        layout_above="@+id/textView59"
+        layout_toEndOf="@+id/textView132"
+        layout_toRightOf="@+id/textView132"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@+id/textView132"
+        android:layout_alignRight="@+id/textView3"
+        android:layout_alignEnd="@+id/textView3"
+        android:layout_marginRight="23dp"
+        android:layout_marginEnd="23dp"
+        android:id="@+id/sw_lockshake" />
+
+    <view
+        android:id="@+id/sw_lockchangeid"
+        class="com.kyleduo.switchbutton.SwitchButton"
+        layout_alignLeft="@+id/view2"
+        layout_alignStart="@+id/view2"
+        layout_below="@+id/textView59"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/sw_lockshake"
+        android:layout_alignStart="@+id/sw_lockshake"
+        android:layout_below="@+id/sw_lockshake"
+        android:layout_marginTop="10dp" />
+</RelativeLayout>

@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="252dp"
+    tools:context="com.shima.smartbushome.NetDaviceListActivity">
+
+    <ListView
+        android:layout_width="250dp"
+        android:layout_height="200dp"
+        android:id="@+id/listView3"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="3dp"
+        android:layout_marginLeft="1dp"
+        android:layout_marginRight="1dp" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="cancel"
+        android:id="@+id/button"
+        android:onClick="exit"
+        android:background="@drawable/netlistbutton"
+        android:textColor="#5593ff"
+        android:layout_below="@+id/listView3"
+        android:layout_alignLeft="@+id/listView3"
+        android:layout_alignStart="@+id/listView3"
+        android:layout_toLeftOf="@+id/space9"
+        android:layout_toStartOf="@+id/space9"
+        android:layout_marginBottom="2dp" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="save"
+        android:id="@+id/button2"
+        android:onClick="save"
+        android:background="@drawable/netlistbutton"
+        android:textColor="#ff0000"
+        android:layout_below="@+id/listView3"
+        android:layout_alignRight="@+id/listView3"
+        android:layout_alignEnd="@+id/listView3"
+        android:layout_toRightOf="@+id/space9"
+        android:layout_toEndOf="@+id/space9"
+        android:layout_marginBottom="2dp" />
+
+    <Space
+        android:layout_width="1dp"
+        android:layout_height="1dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:id="@+id/space9" />
+
+</RelativeLayout>

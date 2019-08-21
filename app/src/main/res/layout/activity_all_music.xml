@@ -1,0 +1,188 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context="com.shima.smartbushome.centercontrol.AllMusicActivity"
+    android:id="@+id/allmusicout">
+
+    <ImageView
+        android:id="@+id/iv_main"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:src="@drawable/main_bg"
+        android:scaleType="centerCrop"
+        />
+
+    <android.support.v7.widget.Toolbar
+        android:id="@+id/allmusic_toolbar"
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:background="#5f000000"
+        style="@style/MenuStyle"
+        app:popupTheme="@style/ThemeOverlay.AppCompat.Dark"/>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="false"
+        android:layout_alignParentStart="false"
+        android:layout_alignParentRight="false"
+        android:id="@+id/relativeLayout8"
+        android:layout_below="@+id/allmusic_toolbar">
+
+        <com.shima.smartbushome.assist.WheelView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/musicroomchoose"
+            android:layout_alignParentTop="false"
+            android:layout_alignParentLeft="false"
+            android:layout_alignParentStart="false"
+            android:fillViewport="false" />
+
+    </RelativeLayout>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="Select Room:"
+        android:id="@+id/allmusicselectroom"
+        android:layout_below="@+id/relativeLayout8"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:textSize="20dp"
+        android:textStyle="bold"
+        android:layout_marginLeft="10dp"
+        android:textColor="#ffffff" />
+
+    <Space
+        android:layout_width="20dp"
+        android:layout_height="20dp"
+        android:layout_centerVertical="true"
+        android:layout_centerHorizontal="true"
+        android:id="@+id/space7" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Play"
+        android:id="@+id/button20"
+        android:layout_below="@+id/allmusicselectroom"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_toLeftOf="@+id/space7"
+        android:layout_toStartOf="@+id/space7"
+        android:background="@drawable/control_back_10"
+        android:textColor="#ffffff"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="10dp"
+        android:onClick="playall" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="pause"
+        android:id="@+id/button21"
+        android:layout_alignTop="@+id/button20"
+        android:layout_toRightOf="@+id/space7"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true"
+        android:background="@drawable/control_back_10"
+        android:textColor="#ffffff"
+        android:layout_marginRight="10dp"
+        android:onClick="pauseall" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="back"
+        android:id="@+id/button22"
+        android:layout_below="@+id/button20"
+        android:layout_alignRight="@+id/button20"
+        android:layout_alignEnd="@+id/button20"
+        android:background="@drawable/control_back_10"
+        android:textColor="#ffffff"
+        android:layout_alignLeft="@+id/button20"
+        android:layout_alignStart="@+id/button20"
+        android:layout_marginTop="20dp"
+        android:onClick="backall" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="next"
+        android:id="@+id/button23"
+        android:layout_below="@+id/button21"
+        android:layout_alignLeft="@+id/button21"
+        android:layout_alignStart="@+id/button21"
+        android:layout_alignRight="@+id/button21"
+        android:layout_alignEnd="@+id/button21"
+        android:background="@drawable/control_back_10"
+        android:textColor="#ffffff"
+        android:layout_marginTop="20dp"
+        android:onClick="nextall" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="volume 0%"
+        android:id="@+id/button24"
+        android:layout_below="@+id/button22"
+        android:layout_alignRight="@+id/button22"
+        android:layout_alignEnd="@+id/button22"
+        android:background="@drawable/control_back_10"
+        android:textColor="#ffffff"
+        android:layout_alignLeft="@+id/button22"
+        android:layout_alignStart="@+id/button22"
+        android:layout_marginTop="20dp"
+        android:onClick="all0" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="volume 25%"
+        android:id="@+id/button25"
+        android:layout_below="@+id/button23"
+        android:layout_alignLeft="@+id/button23"
+        android:layout_alignStart="@+id/button23"
+        android:layout_alignRight="@+id/button23"
+        android:layout_alignEnd="@+id/button23"
+        android:background="@drawable/control_back_10"
+        android:textColor="#ffffff"
+        android:layout_marginTop="20dp"
+        android:onClick="all25" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Volume 50%"
+        android:id="@+id/button26"
+        android:layout_below="@+id/button24"
+        android:layout_alignRight="@+id/button24"
+        android:layout_alignEnd="@+id/button24"
+        android:background="@drawable/control_back_10"
+        android:textColor="#ffffff"
+        android:layout_alignLeft="@+id/button24"
+        android:layout_alignStart="@+id/button24"
+        android:layout_marginTop="20dp"
+        android:onClick="all50" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="volume 100%"
+        android:id="@+id/button27"
+        android:layout_below="@+id/button25"
+        android:layout_alignLeft="@+id/button25"
+        android:layout_alignStart="@+id/button25"
+        android:layout_alignRight="@+id/button25"
+        android:layout_alignEnd="@+id/button25"
+        android:background="@drawable/control_back_10"
+        android:textColor="#ffffff"
+        android:layout_marginTop="20dp"
+        android:onClick="all100" />
+
+
+</RelativeLayout>

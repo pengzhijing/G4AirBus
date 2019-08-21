@@ -1,0 +1,159 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent" android:layout_height="match_parent"
+    android:background="#cccccc">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="subnetID:"
+        android:id="@+id/textView101"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_alignBottom="@+id/setting_othertype3_sub"
+        android:layout_alignRight="@+id/textView103"
+        android:layout_alignEnd="@+id/textView103"
+        android:gravity="center"
+        android:paddingLeft="5dp"
+        android:paddingRight="3dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="deviceID:"
+        android:id="@+id/textView102"
+        android:layout_below="@+id/textView101"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_alignRight="@+id/textView101"
+        android:layout_alignEnd="@+id/textView101"
+        android:layout_alignBottom="@+id/setting_othertype3_dev"
+        android:gravity="center"
+        android:paddingLeft="5dp"
+        android:paddingRight="3dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="LogicOn NO:"
+        android:id="@+id/textView103"
+        android:layout_below="@+id/textView102"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_alignBottom="@+id/setting_othertype3_lgon"
+        android:gravity="center"
+        android:paddingLeft="5dp"
+        android:paddingRight="3dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="LogicOff NO:"
+        android:id="@+id/textView104"
+        android:layout_below="@+id/textView103"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_alignBottom="@+id/setting_othertype3_lgoff"
+        android:gravity="center"
+        android:paddingLeft="5dp"
+        android:paddingRight="3dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="Name:"
+        android:id="@+id/textView105"
+        android:layout_below="@+id/textView104"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_toLeftOf="@+id/setting_othertype3_lgoff"
+        android:layout_toStartOf="@+id/setting_othertype3_lgoff"
+        android:layout_alignBottom="@+id/setting_othertype3_name"
+        android:gravity="center"
+        android:paddingLeft="5dp"
+        android:paddingRight="3dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="icon:"
+        android:id="@+id/textView106"
+        android:layout_below="@+id/textView105"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_toLeftOf="@+id/setting_othertype3_name"
+        android:layout_toStartOf="@+id/setting_othertype3_name"
+        android:layout_alignBottom="@+id/setting_othertype3_img"
+        android:gravity="center"
+        android:paddingLeft="5dp"
+        android:paddingRight="3dp" />
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:inputType="numberSigned"
+        android:ems="10"
+        android:id="@+id/setting_othertype3_sub"
+        android:layout_alignParentTop="true"
+        android:layout_toRightOf="@+id/textView104"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true" />
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:inputType="numberSigned"
+        android:ems="10"
+        android:id="@+id/setting_othertype3_dev"
+        android:layout_below="@+id/setting_othertype3_sub"
+        android:layout_toRightOf="@+id/textView104"
+        android:layout_alignRight="@+id/setting_othertype3_sub"
+        android:layout_alignEnd="@+id/setting_othertype3_sub" />
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:inputType="numberSigned"
+        android:ems="10"
+        android:id="@+id/setting_othertype3_lgon"
+        android:layout_below="@+id/setting_othertype3_dev"
+        android:layout_toRightOf="@+id/textView104"
+        android:layout_alignRight="@+id/setting_othertype3_dev"
+        android:layout_alignEnd="@+id/setting_othertype3_dev" />
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:inputType="numberSigned"
+        android:ems="10"
+        android:id="@+id/setting_othertype3_lgoff"
+        android:layout_below="@+id/textView103"
+        android:layout_toRightOf="@+id/textView103"
+        android:layout_alignRight="@+id/setting_othertype3_lgon"
+        android:layout_alignEnd="@+id/setting_othertype3_lgon" />
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/setting_othertype3_name"
+        android:layout_below="@+id/textView104"
+        android:layout_alignLeft="@+id/setting_othertype3_lgoff"
+        android:layout_alignStart="@+id/setting_othertype3_lgoff"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true" />
+
+    <ImageView
+        android:layout_width="64dp"
+        android:layout_height="64dp"
+        android:id="@+id/setting_othertype3_img"
+        android:layout_below="@+id/textView105"
+        android:layout_toRightOf="@+id/textView105"
+        android:layout_toEndOf="@+id/textView105" />
+</RelativeLayout>

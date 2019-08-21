@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="horizontal" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ImageView
+        android:layout_width="0dp"
+        android:layout_height="40dp"
+        android:id="@+id/adapter_musicfile_img"
+        android:layout_weight="0.5"
+        android:layout_marginLeft="5dp"
+        android:layout_marginRight="10dp" />
+
+    <TextView
+        android:layout_width="0dp"
+        android:layout_height="40dp"
+        android:text="Medium Text"
+        android:id="@+id/adapter_musicfile_name"
+        android:layout_weight="4"
+        android:gravity="center"
+        android:textColor="#ffffff"/>
+</LinearLayout>

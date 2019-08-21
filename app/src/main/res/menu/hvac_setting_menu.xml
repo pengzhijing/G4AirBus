@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:id="@+id/hvacsetting"
+        android:title="Setting"
+        app:showAsAction="never"/>
+    <item
+        android:id="@+id/hvacpair"
+        android:title="Autopair"
+        app:showAsAction="never"/>
+    <item
+        android:id="@+id/hvac_add"
+        android:title="ADD"
+        app:showAsAction="never"/>
+    <item
+        android:id="@+id/hvac_delete"
+        android:title="DELETE"
+        app:showAsAction="never"/>
+</menu>

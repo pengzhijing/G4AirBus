@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+<item
+    android:id="@+id/add_nio"
+    android:title="ADD"
+    app:showAsAction="never"
+    ></item>
+    <item
+        android:id="@+id/delete_nio"
+        android:title="DELETE"
+        app:showAsAction="never"
+        ></item>
+    <item
+        android:id="@+id/setting_nio"
+        android:title="Setting"
+        app:showAsAction="never"
+        ></item>
+    <item
+        android:id="@+id/autopair_nio"
+        android:title="AutoPair"
+        app:showAsAction="never"
+        ></item>
+
+</menu>

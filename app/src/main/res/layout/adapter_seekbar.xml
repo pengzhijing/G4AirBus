@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <com.xw.repo.BubbleSeekBar
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/bubbleview"
+        app:bsb_max="100"
+        app:bsb_min="0"
+        app:bsb_second_track_color="@color/cell_ordinary_m"
+        app:bsb_track_size="3dp"
+        app:bsb_track_color="@color/black_overlay"
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="10dp" />
+
+    <Space
+        android:layout_width="20px"
+        android:layout_height="20dp"
+        android:layout_below="@+id/bubbleview"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+</RelativeLayout>

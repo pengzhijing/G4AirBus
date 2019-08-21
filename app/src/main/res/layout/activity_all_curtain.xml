@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context="com.shima.smartbushome.centercontrol.AllCurtainActivity"
+    android:id="@+id/allcurtainout">
+    <ImageView
+        android:id="@+id/iv_main"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:src="@drawable/main_bg"
+        android:scaleType="centerCrop"
+        />
+    <android.support.v7.widget.Toolbar
+        android:id="@+id/allcurtain_toolbar"
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:background="#5f000000"
+        style="@style/MenuStyle"
+        app:popupTheme="@style/ThemeOverlay.AppCompat.Dark"/>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/allcurtain_toolbar"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:id="@+id/relativeLayout9">
+
+        <com.shima.smartbushome.assist.WheelView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/curtainroomchoose" />
+    </RelativeLayout>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="Select Room:"
+        android:id="@+id/allcurtainselectroom"
+        android:layout_below="@+id/relativeLayout9"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginLeft="10dp"
+        android:textSize="20dp"
+        android:textStyle="bold"
+        android:textColor="#ffffff" />
+
+    <Space
+        android:layout_width="20dp"
+        android:layout_height="20dp"
+        android:layout_centerVertical="true"
+        android:layout_centerHorizontal="true"
+        android:id="@+id/space8" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="All open"
+        android:id="@+id/button28"
+        android:layout_below="@+id/allcurtainselectroom"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_toLeftOf="@+id/space8"
+        android:layout_toStartOf="@+id/space8"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="10dp"
+        android:background="@drawable/control_back_10"
+        android:textColor="#ffffff"
+        android:onClick="allopen" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="all close"
+        android:id="@+id/button29"
+        android:layout_alignTop="@+id/button28"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginRight="10dp"
+        android:background="@drawable/control_back_10"
+        android:textColor="#ffffff"
+        android:onClick="allclose"
+        android:layout_toRightOf="@+id/space8"
+        android:layout_toEndOf="@+id/space8" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="all stop"
+        android:id="@+id/button30"
+        android:layout_below="@+id/button28"
+        android:layout_alignRight="@+id/button28"
+        android:layout_alignEnd="@+id/button28"
+        android:layout_alignLeft="@+id/button28"
+        android:layout_alignStart="@+id/button28"
+        android:textColor="#ffffff"
+        android:background="@drawable/control_back_10"
+        android:layout_marginTop="20dp"
+        android:onClick="allstop" />
+</RelativeLayout>

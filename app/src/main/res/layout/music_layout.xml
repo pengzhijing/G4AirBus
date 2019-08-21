@@ -1,0 +1,234 @@
+<merge xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/zaudiomusiclayout">
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:id="@+id/linearLayout3"
+        android:layout_above="@+id/seekBar2"
+        android:layout_marginBottom="5dp"
+        android:layout_alignLeft="@+id/name"
+        android:layout_alignStart="@+id/name">
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:orientation="vertical">
+
+            <CheckBox
+                android:layout_width="match_parent"
+                android:layout_height="35dp"
+                android:id="@+id/like"
+                android:checked="false"
+                android:button="@drawable/music_like"
+                android:layout_alignParentBottom="true"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:orientation="vertical">
+            <Button
+                android:layout_width="32dp"
+                android:layout_height="32dp"
+                android:id="@+id/back"
+                android:background="@drawable/music_back"
+                android:layout_alignParentBottom="true"
+                android:layout_toLeftOf="@+id/play"
+                android:layout_toStartOf="@+id/play"
+                android:gravity="center" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:orientation="vertical">
+
+
+            <Button
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:background="@drawable/play"
+                android:id="@+id/play"
+                android:layout_alignParentBottom="true"
+                android:layout_toLeftOf="@+id/next"
+                android:layout_toStartOf="@+id/next"
+                android:layout_alignTop="@+id/back"
+                />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:orientation="vertical">
+
+            <Button
+                android:layout_width="32dp"
+                android:layout_height="32dp"
+                android:id="@+id/next"
+                android:layout_alignParentBottom="true"
+                android:layout_alignParentRight="true"
+                android:layout_alignParentEnd="true"
+                android:gravity="center"
+                android:background="@drawable/music_next" />
+
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:orientation="vertical">
+
+            <Button
+                android:layout_width="32dp"
+                android:layout_height="32dp"
+                android:id="@+id/playmode"
+                android:background="@drawable/songplaymode1"
+                android:layout_alignBottom="@+id/like"
+                android:layout_alignLeft="@+id/voicevalue"
+                android:layout_alignStart="@+id/voicevalue" />
+
+        </LinearLayout>
+
+
+
+
+
+
+
+
+
+    </LinearLayout>
+
+    <com.shima.smartbushome.assist.rollingTextview
+        android:layout_width="wrap_content"
+        android:layout_height="30dp"
+        android:id="@+id/name"
+        android:gravity="center"
+        android:background="@drawable/music_name"
+        android:layout_above="@+id/linearLayout3"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginBottom="6dp"
+        android:layout_marginLeft="5dp"
+        android:textColor="#ffffff"
+        android:singleLine="true"
+        android:ellipsize="marquee"
+        android:focusable="true"
+        android:focusableInTouchMode="true"
+        android:textSize="20dp"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginRight="5dp" />
+
+    <SeekBar
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/seekBar2"
+        android:background="@drawable/media_back"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true"
+        android:layout_toRightOf="@+id/voice"
+        android:layout_alignTop="@+id/voice"
+        android:layout_alignBottom="@+id/voice"
+        android:indeterminate="false"
+        android:layout_marginLeft="10dp"
+        android:layout_marginBottom="3dp"
+        android:layout_marginRight="10dp" />
+
+    <Button
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:id="@+id/voice"
+        android:background="@drawable/btn_voice_none"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginLeft="5dp"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="3dp" />
+
+    <GridView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/gridView"
+        android:layout_alignParentLeft="false"
+        android:layout_alignParentStart="true"
+        android:numColumns="2"
+        android:horizontalSpacing="20dp"
+        android:verticalSpacing="20dp"
+        android:stretchMode="columnWidth"
+        android:scrollbars="none"
+        android:layout_alignParentRight="false"
+        android:layout_alignParentEnd="true"
+        android:paddingLeft="20dp"
+        android:paddingRight="20dp"
+        android:columnWidth="100dp"
+        android:layout_above="@+id/name"
+        android:layout_marginBottom="5dp"
+        android:layout_alignParentTop="true"
+        android:visibility="visible" />
+
+    <ListView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/listView"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_above="@+id/name"
+        android:divider="#00ffffff"
+        android:dividerHeight="5dp"
+        android:layout_marginBottom="5dp"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true"
+        android:visibility="gone" />
+
+    <TextView
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:id="@+id/dialog"
+        android:gravity="center"
+        android:textSize="30dp"
+        android:layout_centerVertical="true"
+        android:layout_centerHorizontal="true"
+        android:background="#7e000000"
+        android:visibility="invisible"
+        android:textColor="#ffffff" />
+
+    <com.shima.smartbushome.assist.AtoZlist.SideBar
+        android:layout_width="20dp"
+        android:layout_height="wrap_content"
+        android:id="@+id/sidrbar"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignBottom="@+id/listView"
+        android:visibility="gone" />
+
+</RelativeLayout>
+</merge>

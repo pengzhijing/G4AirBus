@@ -1,0 +1,5 @@
+include ':app', ':dialogview', ':timeselect', ':coolswitch', ':selfseekbar'
+project(':dialogview').projectDir = new File('alertview')
+project(':timeselect').projectDir = new File('pickerview')
+project(':coolswitch').projectDir = new File('switchbutton')
+project(':selfseekbar').projectDir = new File('bubbleseekbar')

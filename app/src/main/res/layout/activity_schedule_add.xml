@@ -1,0 +1,179 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.shima.smartbushome.centercontrol.ScheduleAddActivity">
+
+    <ImageView
+        android:id="@+id/iv_main"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:src="@drawable/main_bg"
+        android:scaleType="centerCrop"
+        />
+
+    <android.support.v7.widget.Toolbar
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/scheduleadd_toolbar"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true"
+        android:background="#5f000000" />
+    <LinearLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:id="@+id/all_layout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        tools:context="com.loonggg.alarmmanager.clock.MainActivity"
+        android:layout_below="@+id/scheduleadd_toolbar">
+
+        <TextView
+            android:id="@+id/date_tv"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:gravity="center"
+            android:paddingBottom="8dp"
+            android:paddingTop="8dp"
+            android:text="Select Time"
+            android:textSize="30dp"
+            android:textStyle="bold"
+            android:textColor="#ffffff"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:layout_marginTop="20dp"
+            android:background="@color/line_and_outline_grey"/>
+
+        <RelativeLayout
+            android:id="@+id/repeat_rl"
+            style="@style/item_style"
+            >
+
+            <TextView
+                android:id="@+id/tv_repeat"
+                style="@style/item_text_style"
+                android:layout_alignParentLeft="true"
+                android:text="Repeat"
+                android:textColor="#ffffff"/>
+
+            <TextView
+                android:id="@+id/arrow_one"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:layout_centerVertical="true"
+                android:layout_marginRight="10dp"
+                android:background="@drawable/personal_item_arrow"
+                android:textColor="#ffffff"/>
+
+            <TextView
+                android:id="@+id/tv_repeat_value"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:layout_marginRight="5dp"
+                android:layout_toLeftOf="@id/arrow_one"
+                android:textColor="#ffffff"
+                android:textSize="20sp"/>
+        </RelativeLayout>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="@color/line_and_outline_grey"/>
+
+        <RelativeLayout
+            android:id="@+id/ring_rl"
+            style="@style/item_style"
+            >
+
+            <TextView
+                android:id="@+id/ring_tv"
+                style="@style/item_text_style"
+                android:layout_alignParentLeft="true"
+                android:text="Marco"
+                android:textColor="#ffffff"/>
+
+            <TextView
+                android:id="@+id/arrow_two"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:layout_centerVertical="true"
+                android:layout_marginRight="10dp"
+                android:background="@drawable/personal_item_arrow"
+                android:textColor="#ffffff"/>
+
+            <TextView
+                android:id="@+id/tv_ring_value"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:layout_marginRight="5dp"
+                android:layout_toLeftOf="@id/arrow_two"
+                android:textColor="#ffffff"
+                android:textSize="20sp"/>
+        </RelativeLayout>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="@color/line_and_outline_grey"/>
+
+
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/name_rl">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Schedule Name:"
+                android:id="@+id/name_tv"
+                android:gravity="center"
+                android:layout_alignBottom="@+id/ed_echedule_name"
+                android:layout_alignTop="@+id/ed_echedule_name"
+                style="@style/item_text_style"
+                android:textColor="#ffffff"/>
+
+            <EditText
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:inputType="textPersonName"
+                android:ems="10"
+                android:id="@+id/ed_echedule_name"
+                android:layout_toRightOf="@+id/name_tv"
+                android:layout_marginLeft="3dp"
+                android:hint="enter schedule name"
+                android:textColorHint="#beffffff"
+                android:textColor="#ffffff"/>
+        </RelativeLayout>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="@color/line_and_outline_grey" />
+
+        <Button
+            android:id="@+id/set_btn"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="20dp"
+            android:text="Save"
+            android:background="@drawable/media_back"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:textColor="#ffffff"/>
+
+    </LinearLayout>
+</RelativeLayout>

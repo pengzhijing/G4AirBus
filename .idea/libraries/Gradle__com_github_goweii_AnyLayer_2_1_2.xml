@@ -1,0 +1,12 @@
+<component name="libraryTable">
+  <library name="Gradle: com.github.goweii:AnyLayer-2.1.2">
+    <CLASSES>
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-1/files-1.1/AnyLayer-2.1.2.aar/3eda82ebcdbcadd59d9f4b8e1c6910ca/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-1/files-1.1/AnyLayer-2.1.2.aar/3eda82ebcdbcadd59d9f4b8e1c6910ca/res" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.github.goweii/AnyLayer/2.1.2/f4e868b15776cdc20fd6789fb24a7076e45d0d20/AnyLayer-2.1.2-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

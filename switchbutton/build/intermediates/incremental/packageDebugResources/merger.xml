@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merger version="3"><dataSet aapt-namespace="http://schemas.android.com/apk/res-auto" config="main$Generated" generated="true" ignore_pattern="!.svn:!.git:!.ds_store:!*.scc:.*:&lt;dir>_*:!CVS:!thumbs.db:!picasa.ini:!*~"><source path="E:\Android_Studio_Project\G4AirBus\Smartbushome\switchbutton\src\main\res"/><source path="E:\Android_Studio_Project\G4AirBus\Smartbushome\switchbutton\build\generated\res\rs\debug"/><source path="E:\Android_Studio_Project\G4AirBus\Smartbushome\switchbutton\build\generated\res\resValues\debug"/></dataSet><dataSet aapt-namespace="http://schemas.android.com/apk/res-auto" config="main" generated-set="main$Generated" ignore_pattern="!.svn:!.git:!.ds_store:!*.scc:.*:&lt;dir>_*:!CVS:!thumbs.db:!picasa.ini:!*~"><source path="E:\Android_Studio_Project\G4AirBus\Smartbushome\switchbutton\src\main\res"><file name="ksw_md_back_color" path="E:\Android_Studio_Project\G4AirBus\Smartbushome\switchbutton\src\main\res\color\ksw_md_back_color.xml" qualifiers="" type="color"/><file name="ksw_md_thumb" path="E:\Android_Studio_Project\G4AirBus\Smartbushome\switchbutton\src\main\res\drawable\ksw_md_thumb.xml" qualifiers="" type="drawable"/><file path="E:\Android_Studio_Project\G4AirBus\Smartbushome\switchbutton\src\main\res\values\attrs.xml" qualifiers=""><declare-styleable name="KswSwitchButton">
+        <attr format="reference" name="kswThumbDrawable"/>
+        <attr format="color|reference" name="kswThumbColor"/>
+        <attr format="dimension|reference" name="kswThumbMargin"/>
+        <attr format="dimension|reference" name="kswThumbMarginTop"/>
+        <attr format="dimension|reference" name="kswThumbMarginBottom"/>
+        <attr format="dimension|reference" name="kswThumbMarginLeft"/>
+        <attr format="dimension|reference" name="kswThumbMarginRight"/>
+        <attr format="dimension|reference" name="kswThumbWidth"/>
+        <attr format="dimension|reference" name="kswThumbHeight"/>
+        <attr format="dimension|reference" name="kswThumbRadius"/>
+        <attr format="dimension|reference" name="kswBackRadius"/>
+        <attr format="reference" name="kswBackDrawable"/>
+        <attr format="color|reference" name="kswBackColor"/>
+        <attr format="boolean" name="kswFadeBack"/>
+        <attr format="float" name="kswBackMeasureRatio"/>
+        <attr format="integer" name="kswAnimationDuration"/>
+        <attr format="color|reference" name="kswTintColor"/>
+        <attr format="string" name="kswTextOn"/>
+        <attr format="string" name="kswTextOff"/>
+        <attr format="dimension" name="kswTextMarginH"/>
+        <attr format="boolean" name="kswAutoAdjustTextPosition"/>
+    </declare-styleable></file><file path="E:\Android_Studio_Project\G4AirBus\Smartbushome\switchbutton\src\main\res\values\colors.xml" qualifiers=""><color name="ksw_md_ripple_normal">#1E000000</color><color name="ksw_md_ripple_checked">#33019285</color><color name="ksw_md_solid_shadow">#33000000</color><color name="ksw_md_solid_normal">#ECECEC</color><color name="ksw_md_solid_checked">#019285</color><color name="ksw_md_solid_disable">#FFFFFF</color><color name="ksw_md_solid_checked_disable">#aaaaaa</color></file><file path="E:\Android_Studio_Project\G4AirBus\Smartbushome\switchbutton\src\main\res\values\dimens.xml" qualifiers=""><dimen name="ksw_md_thumb_ripple_size">42dp</dimen><dimen name="ksw_md_thumb_solid_inset">11dp</dimen><dimen name="ksw_md_thumb_shadow_inset">11dp</dimen><dimen name="ksw_md_thumb_shadow_inset_top">11dp</dimen><dimen name="ksw_md_thumb_shadow_inset_bottom">10dp</dimen><dimen name="ksw_md_thumb_solid_size">20dp</dimen><dimen name="ksw_md_thumb_shadow_size">21dp</dimen><dimen name="ksw_md_thumb_shadow_offset">2dp</dimen></file><file path="E:\Android_Studio_Project\G4AirBus\Smartbushome\switchbutton\src\main\res\values\strings.xml" qualifiers=""/><file path="E:\Android_Studio_Project\G4AirBus\Smartbushome\switchbutton\src\main\res\values\styles.xml" qualifiers=""><style name="KswSwitchButtonMD">
+		<item name="kswThumbDrawable">@drawable/ksw_md_thumb</item>
+		<item name="kswBackColor">@color/ksw_md_back_color</item>
+		<item name="kswBackMeasureRatio">1.45</item>
+		<item name="kswThumbMarginLeft">-16dp</item>
+		<item name="kswThumbMarginTop">-14dp</item>
+		<item name="kswThumbMarginRight">-16dp</item>
+		<item name="kswThumbMarginBottom">-14dp</item>
+		<item name="kswThumbWidth">@dimen/ksw_md_thumb_ripple_size</item>
+		<item name="kswThumbHeight">@dimen/ksw_md_thumb_ripple_size</item>
+	</style></file></source><source path="E:\Android_Studio_Project\G4AirBus\Smartbushome\switchbutton\build\generated\res\rs\debug"/><source path="E:\Android_Studio_Project\G4AirBus\Smartbushome\switchbutton\build\generated\res\resValues\debug"/></dataSet><dataSet aapt-namespace="http://schemas.android.com/apk/res-auto" config="debug$Generated" generated="true" ignore_pattern="!.svn:!.git:!.ds_store:!*.scc:.*:&lt;dir>_*:!CVS:!thumbs.db:!picasa.ini:!*~"><source path="E:\Android_Studio_Project\G4AirBus\Smartbushome\switchbutton\src\debug\res"/></dataSet><dataSet aapt-namespace="http://schemas.android.com/apk/res-auto" config="debug" generated-set="debug$Generated" ignore_pattern="!.svn:!.git:!.ds_store:!*.scc:.*:&lt;dir>_*:!CVS:!thumbs.db:!picasa.ini:!*~"><source path="E:\Android_Studio_Project\G4AirBus\Smartbushome\switchbutton\src\debug\res"/></dataSet><mergedItems><configuration qualifiers=""><declare-styleable name="KswSwitchButton">
+        <attr format="reference" name="kswThumbDrawable"/>
+        <attr format="color|reference" name="kswThumbColor"/>
+        <attr format="dimension|reference" name="kswThumbMargin"/>
+        <attr format="dimension|reference" name="kswThumbMarginTop"/>
+        <attr format="dimension|reference" name="kswThumbMarginBottom"/>
+        <attr format="dimension|reference" name="kswThumbMarginLeft"/>
+        <attr format="dimension|reference" name="kswThumbMarginRight"/>
+        <attr format="dimension|reference" name="kswThumbWidth"/>
+        <attr format="dimension|reference" name="kswThumbHeight"/>
+        <attr format="dimension|reference" name="kswThumbRadius"/>
+        <attr format="dimension|reference" name="kswBackRadius"/>
+        <attr format="reference" name="kswBackDrawable"/>
+        <attr format="color|reference" name="kswBackColor"/>
+        <attr format="boolean" name="kswFadeBack"/>
+        <attr format="float" name="kswBackMeasureRatio"/>
+        <attr format="integer" name="kswAnimationDuration"/>
+        <attr format="color|reference" name="kswTintColor"/>
+        <attr format="string" name="kswTextOn"/>
+        <attr format="string" name="kswTextOff"/>
+        <attr format="dimension" name="kswTextMarginH"/>
+        <attr format="boolean" name="kswAutoAdjustTextPosition"/>
+    </declare-styleable></configuration></mergedItems></merger>

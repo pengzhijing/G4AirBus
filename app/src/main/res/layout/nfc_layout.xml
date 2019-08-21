@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="140dp"
+        android:orientation="vertical">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="120dp"
+            android:layout_margin="10dp"
+            android:id="@+id/nfc_selflayout">
+
+            <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="120dp"
+        android:orientation="horizontal"
+                android:id="@+id/nfclinear">
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="90dp"
+            android:id="@+id/nfc_name"
+            android:layout_weight="1.2"
+            android:layout_gravity="center"
+            android:text="call911"
+            android:gravity="center"
+            android:textStyle="bold"
+            android:textSize="20dp"
+            android:textColor="#ffffff" />
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="90dp"
+            android:id="@+id/nfc_detail"
+            android:layout_weight="1.2"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:textAlignment="center"
+            android:textColor="#ffffff"
+            android:textStyle="bold"
+            android:textSize="15dp" />
+
+                <Switch
+            android:layout_width="0dp"
+            android:layout_height="90dp"
+            android:id="@+id/nfc_switch"
+            android:layout_weight="0.8"
+            android:checked="false"
+            android:layout_gravity="center"
+            android:paddingRight="15dp" />
+
+                <CheckBox
+                    android:layout_width="0dp"
+                    android:layout_height="120dp"
+                    android:id="@+id/nfc_delete"
+                    android:checked="false"
+                    android:layout_weight="0.5"
+                    android:button="@drawable/checkbox_checked_style"
+                    android:visibility="invisible" />
+    </LinearLayout>
+
+        </RelativeLayout>
+
+    </LinearLayout>
+</merge>
