@@ -24,6 +24,7 @@ import com.shima.smartbushome.assist.WheelView;
 import com.shima.smartbushome.database.Savehvac;
 import com.shima.smartbushome.database.Saveroom;
 import com.shima.smartbushome.founction_command.ACcontrol;
+import com.shima.smartbushome.founction_command.niocontrol;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -32,6 +33,7 @@ public class AllHVACActivity extends AppCompatActivity {
     TextView allhvacselectroom;
     WheelView wva;
     ACcontrol ac=new ACcontrol();
+    niocontrol nio=new niocontrol();
     List<Saveroom> roomlist=new ArrayList<Saveroom>();
     List<String> roomnamelist=new ArrayList<String>();
     List<Savehvac> allhvaclist=new ArrayList<Savehvac>();
@@ -152,10 +154,16 @@ public class AllHVACActivity extends AppCompatActivity {
                 if(allac){
                    switch (controltype){
                        case 1:
+                           // 因9in1增加 - 发送 0xE01C 1 - 开 2 - 关
+                           nio.IRControl((byte)allhvaclist.get(count).subnetID,(byte)allhvaclist.get(count).deviceID, 1,MainActivity.mydupsocket);
+
                            ac.ACControl((byte)allhvaclist.get(count).subnetID,(byte)allhvaclist.get(count).deviceID,
                                    const_ac_cmd_type_onoff,1 ,MainActivity.mydupsocket);
                            break;
                        case 2:
+                           // 因9in1增加 - 发送 0xE01C 1 - 开 2 - 关
+                           nio.IRControl((byte)allhvaclist.get(count).subnetID,(byte)allhvaclist.get(count).deviceID, 2,MainActivity.mydupsocket);
+
                            ac.ACControl((byte)allhvaclist.get(count).subnetID,(byte)allhvaclist.get(count).deviceID,
                                    const_ac_cmd_type_onoff,0 ,MainActivity.mydupsocket);
                            break;
@@ -181,10 +189,16 @@ public class AllHVACActivity extends AppCompatActivity {
                     if(allhvaclist.get(count).room_id==roomid){
                         switch (controltype){
                             case 1:
+                                // 因9in1增加 - 发送 0xE01C 1 - 开 2 - 关
+                                nio.IRControl((byte)allhvaclist.get(count).subnetID,(byte)allhvaclist.get(count).deviceID, 1,MainActivity.mydupsocket);
+
                                 ac.ACControl((byte)allhvaclist.get(count).subnetID,(byte)allhvaclist.get(count).deviceID,
                                         const_ac_cmd_type_onoff,1 ,MainActivity.mydupsocket);
                                 break;
                             case 2:
+                                // 因9in1增加 - 发送 0xE01C 1 - 开 2 - 关
+                                nio.IRControl((byte)allhvaclist.get(count).subnetID,(byte)allhvaclist.get(count).deviceID, 2,MainActivity.mydupsocket);
+
                                 ac.ACControl((byte)allhvaclist.get(count).subnetID,(byte)allhvaclist.get(count).deviceID,
                                         const_ac_cmd_type_onoff,0 ,MainActivity.mydupsocket);
                                 break;

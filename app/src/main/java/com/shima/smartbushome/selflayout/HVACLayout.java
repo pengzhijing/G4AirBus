@@ -204,12 +204,7 @@ public class HVACLayout extends RelativeLayout implements View.OnClickListener{
                         public void run() {
                             // 因9in1增加 - 发送 0xE01C 1 - 开 2 - 关
                             niocl.IRControl((byte)thishvac.subnetID, (byte)thishvac.deviceID, 1,MainActivity.mydupsocket);
-                            //间隔200毫秒
-                            try {
-                                Thread.sleep(200);
-                            } catch (InterruptedException e) {
-                                e.printStackTrace();
-                            }
+
                             SendCommandOfAC(const_ac_cmd_type_onoff, 1);
                         }
                     }).start();
@@ -229,12 +224,7 @@ public class HVACLayout extends RelativeLayout implements View.OnClickListener{
                         public void run() {
                             // 因9in1增加 - 发送 0xE01C 1 - 开 2 - 关
                             niocl.IRControl((byte)thishvac.subnetID, (byte)thishvac.deviceID, 2,MainActivity.mydupsocket);
-                            //间隔200毫秒
-                            try {
-                                Thread.sleep(200);
-                            } catch (InterruptedException e) {
-                                e.printStackTrace();
-                            }
+
                             SendCommandOfAC(const_ac_cmd_type_onoff, 0);
                         }
                     }).start();
