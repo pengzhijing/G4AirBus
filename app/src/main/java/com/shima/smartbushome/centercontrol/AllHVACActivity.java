@@ -97,6 +97,8 @@ public class AllHVACActivity extends AppCompatActivity {
             public void onSelected(int selectedIndex, String item) {
                 allhvacselectroom.setText("Select Room: " + item);
                 selectroom = item;
+
+
             }
         });
         if(MainActivity.mydupsocket!=null){

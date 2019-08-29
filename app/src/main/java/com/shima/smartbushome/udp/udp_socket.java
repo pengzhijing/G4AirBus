@@ -97,6 +97,8 @@ public class udp_socket  {
 		startrec=true;
 		new Thread(new Udprec()).start();*/
 		getInfoThread = new GetInfoThread(mcontext,handler2);
+		smt = new SendMsgThread(getInfoThread);
+		smt.start();
 		getInfoThread.start();
 	}
 	Handler handler2 =new Handler(){
@@ -276,8 +278,7 @@ public class udp_socket  {
 				senthandler.postDelayed(sentrun,15);
 				blnSuccess = true;
 			}*/
-			smt = new SendMsgThread(getInfoThread);
-			smt.start();
+
 			smt.putMsg(oDataPacket);
 			senthandler.postDelayed(sentrun,15);
 			blnSuccess = true;

@@ -95,6 +95,24 @@ public class AllLightActivity extends AppCompatActivity {
             public void onSelected(int selectedIndex, String item) {
                 alllightselectroom.setText("Select Room: " + item);
                 selectroom = item;
+
+
+                //根据选择的房间显示设备列表
+                lightcontrollayout.removeAllViews();
+
+                for(int i=0;i<alllightlist.size();i++){
+                    if ((selectedIndex-1)==roomlist.size()){
+                        addspecView(alllightlist.get(i));
+                    }else if ((selectedIndex-1)<roomlist.size()){
+                        if (roomlist.get(selectedIndex-1).room_id==alllightlist.get(i).room_id){
+                            addspecView(alllightlist.get(i));
+                        }
+                    }
+
+                }
+
+                reflashroomlight();
+
             }
         });
        /* if(MainActivity.mydupsocket!=null){
@@ -198,7 +216,12 @@ public class AllLightActivity extends AppCompatActivity {
     }
     Handler reflashroomlight=new Handler();
     public void reflashroomlight(){
-        reflashroomlight.postDelayed(reflashroomlightrun,0);
+       // reflashroomlight.postDelayed(reflashroomlightrun,0);
+        for (int i=0;i<alllightlist.size();i++){
+            sub=(byte)alllightlist.get(i).subnetID;
+            dev=(byte)alllightlist.get(i).deviceID;
+            lg.getlightstate(sub, dev,MainActivity.mydupsocket);
+        }
     }
     byte sub=0,dev=0,getlightcount=0;
     boolean getstatefinish=false;
