@@ -1,31 +1,61 @@
 <?xml version="1.0" encoding="utf-8"?>
 <instant-run
-    abi="armeabi-v7a,armeabi"
-    api-level="22"
-    build-mode="COLD"
-    density="mdpi"
+    abi="arm64-v8a,armeabi-v7a,armeabi"
+    api-level="24"
+    build-mode="FULL"
+    density="xhdpi"
     format="10"
-    ir-eligibility="COMPATIBLE"
+    ir-eligibility="FIELD_TYPE_CHANGE"
     plugin-version="3.2.0"
-    timestamp="1567060330047"
+    timestamp="1567673377190"
     token="5476206103697571309"
     verifier="COLD_SWAP_REQUESTED" >
 
     <task
         name="javac"
-        duration="8613" />
+        duration="7476" />
     <task
         name="instant-run-dex"
         duration="0" />
     <task
         name="instant-run-transform"
-        duration="29" />
+        duration="42" />
     <task
         name="verifier"
-        duration="22" />
+        duration="41" />
 
     <artifact
+        location="E:\Android_Studio_Project\G4AirBus\Smartbushome\app\build\intermediates\split-apk\debug\dep\dependencies.apk"
+        type="SPLIT" />
+    <artifact
+        location="E:\Android_Studio_Project\G4AirBus\Smartbushome\app\build\intermediates\split-apk\debug\slices\slice_1.apk"
+        type="SPLIT" />
+    <artifact
+        location="E:\Android_Studio_Project\G4AirBus\Smartbushome\app\build\intermediates\split-apk\debug\slices\slice_0.apk"
+        type="SPLIT" />
+    <artifact
+        location="E:\Android_Studio_Project\G4AirBus\Smartbushome\app\build\intermediates\split-apk\debug\slices\slice_3.apk"
+        type="SPLIT" />
+    <artifact
+        location="E:\Android_Studio_Project\G4AirBus\Smartbushome\app\build\intermediates\split-apk\debug\slices\slice_2.apk"
+        type="SPLIT" />
+    <artifact
+        location="E:\Android_Studio_Project\G4AirBus\Smartbushome\app\build\intermediates\split-apk\debug\slices\slice_5.apk"
+        type="SPLIT" />
+    <artifact
+        location="E:\Android_Studio_Project\G4AirBus\Smartbushome\app\build\intermediates\split-apk\debug\slices\slice_7.apk"
+        type="SPLIT" />
+    <artifact
         location="E:\Android_Studio_Project\G4AirBus\Smartbushome\app\build\intermediates\split-apk\debug\slices\slice_4.apk"
+        type="SPLIT" />
+    <artifact
+        location="E:\Android_Studio_Project\G4AirBus\Smartbushome\app\build\intermediates\split-apk\debug\slices\slice_6.apk"
+        type="SPLIT" />
+    <artifact
+        location="E:\Android_Studio_Project\G4AirBus\Smartbushome\app\build\intermediates\split-apk\debug\slices\slice_8.apk"
+        type="SPLIT" />
+    <artifact
+        location="E:\Android_Studio_Project\G4AirBus\Smartbushome\app\build\intermediates\split-apk\debug\slices\slice_9.apk"
         type="SPLIT" />
     <artifact
         location="E:\Android_Studio_Project\G4AirBus\Smartbushome\app\build\intermediates\instant-run-apk\debug\app-debug.apk"
@@ -33,25 +63,29 @@
 
     <build
         build-mode="FULL"
-        timestamp="1567046589855"
-        verifier="FULL_BUILD_REQUESTED" >
+        ir-eligibility="FIELD_TYPE_CHANGE"
+        timestamp="1567673377190"
+        verifier="COLD_SWAP_REQUESTED" >
         <artifact
             location="E:\Android_Studio_Project\G4AirBus\Smartbushome\app\build\intermediates\split-apk\debug\dep\dependencies.apk"
-            type="SPLIT" />
-        <artifact
-            location="E:\Android_Studio_Project\G4AirBus\Smartbushome\app\build\intermediates\split-apk\debug\slices\slice_2.apk"
-            type="SPLIT" />
-        <artifact
-            location="E:\Android_Studio_Project\G4AirBus\Smartbushome\app\build\intermediates\split-apk\debug\slices\slice_0.apk"
             type="SPLIT" />
         <artifact
             location="E:\Android_Studio_Project\G4AirBus\Smartbushome\app\build\intermediates\split-apk\debug\slices\slice_1.apk"
             type="SPLIT" />
         <artifact
+            location="E:\Android_Studio_Project\G4AirBus\Smartbushome\app\build\intermediates\split-apk\debug\slices\slice_0.apk"
+            type="SPLIT" />
+        <artifact
             location="E:\Android_Studio_Project\G4AirBus\Smartbushome\app\build\intermediates\split-apk\debug\slices\slice_3.apk"
             type="SPLIT" />
         <artifact
+            location="E:\Android_Studio_Project\G4AirBus\Smartbushome\app\build\intermediates\split-apk\debug\slices\slice_2.apk"
+            type="SPLIT" />
+        <artifact
             location="E:\Android_Studio_Project\G4AirBus\Smartbushome\app\build\intermediates\split-apk\debug\slices\slice_5.apk"
+            type="SPLIT" />
+        <artifact
+            location="E:\Android_Studio_Project\G4AirBus\Smartbushome\app\build\intermediates\split-apk\debug\slices\slice_7.apk"
             type="SPLIT" />
         <artifact
             location="E:\Android_Studio_Project\G4AirBus\Smartbushome\app\build\intermediates\split-apk\debug\slices\slice_4.apk"
@@ -60,43 +94,10 @@
             location="E:\Android_Studio_Project\G4AirBus\Smartbushome\app\build\intermediates\split-apk\debug\slices\slice_6.apk"
             type="SPLIT" />
         <artifact
-            location="E:\Android_Studio_Project\G4AirBus\Smartbushome\app\build\intermediates\split-apk\debug\slices\slice_7.apk"
-            type="SPLIT" />
-        <artifact
             location="E:\Android_Studio_Project\G4AirBus\Smartbushome\app\build\intermediates\split-apk\debug\slices\slice_8.apk"
             type="SPLIT" />
         <artifact
             location="E:\Android_Studio_Project\G4AirBus\Smartbushome\app\build\intermediates\split-apk\debug\slices\slice_9.apk"
-            type="SPLIT" />
-        <artifact
-            location="E:\Android_Studio_Project\G4AirBus\Smartbushome\app\build\intermediates\instant-run-apk\debug\app-debug.apk"
-            type="SPLIT_MAIN" />
-    </build>
-    <build
-        build-mode="COLD"
-        ir-eligibility="COMPATIBLE"
-        timestamp="1567047270815"
-        verifier="COLD_SWAP_REQUESTED" >
-        <artifact
-            location="E:\Android_Studio_Project\G4AirBus\Smartbushome\app\build\intermediates\split-apk\debug\slices\slice_1.apk"
-            type="SPLIT" />
-    </build>
-    <build
-        build-mode="COLD"
-        ir-eligibility="COMPATIBLE"
-        timestamp="1567060149501"
-        verifier="COLD_SWAP_REQUESTED" >
-        <artifact
-            location="E:\Android_Studio_Project\G4AirBus\Smartbushome\app\build\intermediates\instant-run-apk\debug\app-debug.apk"
-            type="SPLIT_MAIN" />
-    </build>
-    <build
-        build-mode="COLD"
-        ir-eligibility="COMPATIBLE"
-        timestamp="1567060330047"
-        verifier="COLD_SWAP_REQUESTED" >
-        <artifact
-            location="E:\Android_Studio_Project\G4AirBus\Smartbushome\app\build\intermediates\split-apk\debug\slices\slice_4.apk"
             type="SPLIT" />
         <artifact
             location="E:\Android_Studio_Project\G4AirBus\Smartbushome\app\build\intermediates\instant-run-apk\debug\app-debug.apk"

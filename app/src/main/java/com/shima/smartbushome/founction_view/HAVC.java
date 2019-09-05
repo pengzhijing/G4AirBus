@@ -563,6 +563,29 @@ public void renewdata(){
                             e.printStackTrace();
                         }
                         break;
+                    case 0x193b:
+
+                        try{
+                            if (data.length==(25+15+2)){
+                                // 在增加单个继电器控制空调的功能前,
+                                // HVAC中,0X193B的返回长度是13
+                                // IR 中 0X193B的返回长度是14 且顺序与HVAC保持一致,后面多出来的参数暂时没用上
+                                // 增加单个继电器控制控制空调的0x193B的返回长度有变化是15。
+
+                                // 普通HAVC 不需要执行 if 语句
+                                // 继电器控制空调 需要依据最后一个参数的通道号 && 可变参数的长度是15 来判断
+                                if (hl.getdeviceid()==(data[39]&0xff)){
+                                    hl.setACCurrentStateBy193B(data);
+                                }else {
+                                    break;
+                                }
+                            }else {
+                                hl.setACCurrentStateBy193B(data);
+                            }
+                        }catch (Exception e){
+                            e.printStackTrace();
+                        }
+                        break;
                     default:
                         break;
                 }

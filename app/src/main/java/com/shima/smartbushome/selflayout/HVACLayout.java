@@ -634,13 +634,14 @@ public class HVACLayout extends RelativeLayout implements View.OnClickListener{
             CoolTemp=value[26];
             HeatTemp=value[30];
             AutoTemp=value[32];
+
             if((value[27]&0x0f)==fanArray.length){
                 CurrentFanMode=fanArray[(value[27]&0x0f)-1];
             }else{
                 CurrentFanMode=fanArray[(value[27]&0x0f)];
             }
             if (curTemperType==0){
-               // tv_curtemper.setText(CurrentTem+"°C");
+                // tv_curtemper.setText(CurrentTem+"°C");
             }
 
             switch(CurrentFanMode){
@@ -690,6 +691,99 @@ public class HVACLayout extends RelativeLayout implements View.OnClickListener{
                     break;
                 default:break;
             }
+
+            //CurrentTemp=value[29];
+            reflashstate=4;
+        }
+
+    }
+
+    //IR模块控制，解析读取状态
+    public void setACCurrentStateBy193B(byte[] value){
+        if(!readcstate){
+            readcstate=true;
+            if(value[33]==0){
+                setvisable(GONE);
+                //setOnoffstate("OFF");
+                powerstate=false;
+                setOFFStyle();
+            }else{
+                setvisable(VISIBLE);
+                //setOnoffstate("ON");
+                powerstate=true;
+                setONStyle();
+            }
+
+            CurrentTem=value[27];
+            CoolTemp=value[28];
+            HeatTemp=value[29];
+            AutoTemp=value[30];
+
+            //设置温度单位
+            setCandF(value[26]);
+
+
+//            if((value[27]&0x0f)==fanArray.length){
+//                CurrentFanMode=fanArray[(value[27]&0x0f)-1];
+//            }else{
+//                CurrentFanMode=fanArray[(value[27]&0x0f)];
+//            }
+//            if (curTemperType==0){
+//               // tv_curtemper.setText(CurrentTem+"°C");
+//            }
+
+            switch((value[35]&0xff)){
+                case const_fan_speed_anto:
+                    CurrentFanMode=const_fan_speed_anto;
+                    setFanstate("AUTO");
+                    setFANStyle(autofan);
+                    break;
+                case const_fan_speed_high:
+                    CurrentFanMode=const_fan_speed_high;
+                    setFanstate("HIGH");
+                    setFANStyle(highfan);
+                    break;
+                case const_fan_speed_medium:
+                    CurrentFanMode=const_fan_speed_medium;
+                    setFanstate("MEDIUM");
+                    setFANStyle(mediumfan);
+                    break;
+                case const_fan_speed_low:
+                    CurrentFanMode=const_fan_speed_low;
+                    setFanstate("LOW");
+                    setFANStyle(lowfan);
+                    break;
+                default:break;
+            }
+
+
+            switch((value[34]&0xff)){
+                case const_mode_auto:
+                    CurrentMode=const_mode_auto;
+                    setTempstate(String.valueOf(AutoTemp&0xff));
+                    setModestate("AUTO");
+                    setMODEStyle(automode);
+                    break;
+                case const_mode_cool:
+                    CurrentMode=const_mode_cool;
+                    setTempstate(String.valueOf(CoolTemp&0xff));
+                    setModestate("COOL");
+                    setMODEStyle(coolmode);
+                    break;
+                case const_mode_fan:
+                    CurrentMode=const_mode_fan;
+                    setModestate("FAN");
+                    setMODEStyle(fanmode);
+                    break;
+                case const_mode_heat:
+                    CurrentMode=const_mode_heat;
+                    setTempstate(String.valueOf(HeatTemp&0xff));
+                    setModestate("HEAT");
+                    setMODEStyle(heatmode);
+                    break;
+                default:break;
+            }
+
             //CurrentTemp=value[29];
             reflashstate=4;
         }
