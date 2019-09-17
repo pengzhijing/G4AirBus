@@ -100,6 +100,7 @@
       <excludeFolder url="file://$MODULE_DIR$/build/intermediates/incremental-verifier" />
       <excludeFolder url="file://$MODULE_DIR$/build/intermediates/instant-run-apk" />
       <excludeFolder url="file://$MODULE_DIR$/build/intermediates/instant-run-resources" />
+      <excludeFolder url="file://$MODULE_DIR$/build/intermediates/instant_run_main_apk_resources" />
       <excludeFolder url="file://$MODULE_DIR$/build/intermediates/instant_run_merged_manifests" />
       <excludeFolder url="file://$MODULE_DIR$/build/intermediates/instant_run_split_apk_resources" />
       <excludeFolder url="file://$MODULE_DIR$/build/intermediates/javac" />
@@ -157,6 +158,8 @@
     <orderEntry type="library" name="Gradle: com.android.support:support-vector-drawable-25.3.1" level="project" />
     <orderEntry type="library" name="Gradle: com.android.support:support-core-utils-25.3.1" level="project" />
     <orderEntry type="library" name="Gradle: com.tencent.bugly:crashreport-2.2.0" level="project" />
+    <orderEntry type="module" module-name="vstarcam" />
+    <orderEntry type="module" module-name="smart_link" />
     <orderEntry type="module" module-name="selfseekbar" />
     <orderEntry type="module" module-name="coolswitch" />
     <orderEntry type="module" module-name="dialogview" />

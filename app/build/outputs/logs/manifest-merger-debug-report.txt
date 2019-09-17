@@ -7,6 +7,8 @@ INJECTED from E:\Android_Studio_Project\G4AirBus\Smartbushome\app\src\main\Andro
 MERGED from [:dialogview] E:\Android_Studio_Project\G4AirBus\Smartbushome\alertview\build\intermediates\merged_manifests\debug\processDebugManifest\merged\AndroidManifest.xml:2:1-11:12
 MERGED from [:coolswitch] E:\Android_Studio_Project\G4AirBus\Smartbushome\switchbutton\build\intermediates\merged_manifests\debug\processDebugManifest\merged\AndroidManifest.xml:2:1-11:12
 MERGED from [:selfseekbar] E:\Android_Studio_Project\G4AirBus\Smartbushome\bubbleseekbar\build\intermediates\merged_manifests\debug\processDebugManifest\merged\AndroidManifest.xml:2:1-17:12
+MERGED from [:vstarcam] E:\Android_Studio_Project\G4AirBus\Smartbushome\vstarcam\build\intermediates\merged_manifests\debug\processDebugManifest\merged\AndroidManifest.xml:2:1-37:12
+MERGED from [:smart_link] E:\Android_Studio_Project\G4AirBus\Smartbushome\smart_link\build\intermediates\merged_manifests\debug\processDebugManifest\merged\AndroidManifest.xml:2:1-33:12
 MERGED from [com.ashokvarma.android:bottom-navigation-bar:1.3.1] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\bottom-navigation-bar-1.3.1.aar\6123b4d763cd7f7cb518095e4f8c8d40\AndroidManifest.xml:2:1-15:12
 MERGED from [com.android.support:design:25.3.1] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\design-25.3.1.aar\4aa3bd0247322d704ff2373cb6fa733c\AndroidManifest.xml:17:1-31:12
 MERGED from [ru.alexbykov:nopermission:1.1.2] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\nopermission-1.1.2.aar\bb0be417c5881eba42802fedb2e7c74b\AndroidManifest.xml:2:1-12:12
@@ -30,6 +32,7 @@ MERGED from [com.android.support:recyclerview-v7:25.3.1] C:\Users\Administrator\
 MERGED from [com.android.support:support-core-ui:25.3.1] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\support-core-ui-25.3.1.aar\7e07dec84b7dce4e82a11b10c7c70336\AndroidManifest.xml:17:1-31:12
 MERGED from [com.android.support:support-compat:25.3.1] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\support-compat-25.3.1.aar\184df4442efb5c3fcd7f7ced66fb0b9f\AndroidManifest.xml:17:1-31:12
 MERGED from [com.github.bumptech.glide:gifdecoder:4.8.0] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\gifdecoder-4.8.0.aar\c8959825e800c3e1f547f96ab45da5ee\AndroidManifest.xml:2:1-11:12
+MERGED from [com.android.support.constraint:constraint-layout:1.1.3] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\constraint-layout-1.1.3.aar\3853f075abd61d7c3d63670aec971d38\AndroidManifest.xml:2:1-11:12
 INJECTED from E:\Android_Studio_Project\G4AirBus\Smartbushome\app\src\main\AndroidManifest.xml:2:1-207:12
 INJECTED from E:\Android_Studio_Project\G4AirBus\Smartbushome\app\src\main\AndroidManifest.xml:2:1-207:12
 INJECTED from E:\Android_Studio_Project\G4AirBus\Smartbushome\app\src\main\AndroidManifest.xml:2:1-207:12
@@ -121,26 +124,36 @@ ADDED from E:\Android_Studio_Project\G4AirBus\Smartbushome\app\src\main\AndroidM
 		ADDED from E:\Android_Studio_Project\G4AirBus\Smartbushome\app\src\main\AndroidManifest.xml:26:22-83
 uses-permission#android.permission.CHANGE_WIFI_STATE
 ADDED from E:\Android_Studio_Project\G4AirBus\Smartbushome\app\src\main\AndroidManifest.xml:27:5-96
+REJECTED from [:smart_link] E:\Android_Studio_Project\G4AirBus\Smartbushome\smart_link\build\intermediates\merged_manifests\debug\processDebugManifest\merged\AndroidManifest.xml:14:5-76
 	tools:node
 		ADDED from E:\Android_Studio_Project\G4AirBus\Smartbushome\app\src\main\AndroidManifest.xml:27:75-94
 	android:name
 		ADDED from E:\Android_Studio_Project\G4AirBus\Smartbushome\app\src\main\AndroidManifest.xml:27:22-73
 uses-permission#android.permission.CHANGE_NETWORK_STATE
 ADDED from E:\Android_Studio_Project\G4AirBus\Smartbushome\app\src\main\AndroidManifest.xml:28:5-98
+REJECTED from [:smart_link] E:\Android_Studio_Project\G4AirBus\Smartbushome\smart_link\build\intermediates\merged_manifests\debug\processDebugManifest\merged\AndroidManifest.xml:15:5-79
 	tools:node
 		ADDED from E:\Android_Studio_Project\G4AirBus\Smartbushome\app\src\main\AndroidManifest.xml:28:77-96
 	android:name
 		ADDED from E:\Android_Studio_Project\G4AirBus\Smartbushome\app\src\main\AndroidManifest.xml:28:22-76
 uses-permission#android.permission.INTERNET
 ADDED from E:\Android_Studio_Project\G4AirBus\Smartbushome\app\src\main\AndroidManifest.xml:29:5-67
+MERGED from [:vstarcam] E:\Android_Studio_Project\G4AirBus\Smartbushome\vstarcam\build\intermediates\merged_manifests\debug\processDebugManifest\merged\AndroidManifest.xml:11:5-67
+MERGED from [:vstarcam] E:\Android_Studio_Project\G4AirBus\Smartbushome\vstarcam\build\intermediates\merged_manifests\debug\processDebugManifest\merged\AndroidManifest.xml:11:5-67
+MERGED from [:smart_link] E:\Android_Studio_Project\G4AirBus\Smartbushome\smart_link\build\intermediates\merged_manifests\debug\processDebugManifest\merged\AndroidManifest.xml:16:5-67
+MERGED from [:smart_link] E:\Android_Studio_Project\G4AirBus\Smartbushome\smart_link\build\intermediates\merged_manifests\debug\processDebugManifest\merged\AndroidManifest.xml:16:5-67
 	android:name
 		ADDED from E:\Android_Studio_Project\G4AirBus\Smartbushome\app\src\main\AndroidManifest.xml:29:22-64
 uses-permission#android.permission.ACCESS_WIFI_STATE
 ADDED from E:\Android_Studio_Project\G4AirBus\Smartbushome\app\src\main\AndroidManifest.xml:30:5-78
+MERGED from [:smart_link] E:\Android_Studio_Project\G4AirBus\Smartbushome\smart_link\build\intermediates\merged_manifests\debug\processDebugManifest\merged\AndroidManifest.xml:13:5-76
+MERGED from [:smart_link] E:\Android_Studio_Project\G4AirBus\Smartbushome\smart_link\build\intermediates\merged_manifests\debug\processDebugManifest\merged\AndroidManifest.xml:13:5-76
 	android:name
 		ADDED from E:\Android_Studio_Project\G4AirBus\Smartbushome\app\src\main\AndroidManifest.xml:30:22-73
 uses-permission#android.permission.ACCESS_NETWORK_STATE
 ADDED from E:\Android_Studio_Project\G4AirBus\Smartbushome\app\src\main\AndroidManifest.xml:31:5-79
+MERGED from [:smart_link] E:\Android_Studio_Project\G4AirBus\Smartbushome\smart_link\build\intermediates\merged_manifests\debug\processDebugManifest\merged\AndroidManifest.xml:11:5-79
+MERGED from [:smart_link] E:\Android_Studio_Project\G4AirBus\Smartbushome\smart_link\build\intermediates\merged_manifests\debug\processDebugManifest\merged\AndroidManifest.xml:11:5-79
 	android:name
 		ADDED from E:\Android_Studio_Project\G4AirBus\Smartbushome\app\src\main\AndroidManifest.xml:31:22-76
 uses-permission#android.permission.ACCESS_FINE_LOCATION
@@ -253,6 +266,10 @@ application
 ADDED from E:\Android_Studio_Project\G4AirBus\Smartbushome\app\src\main\AndroidManifest.xml:64:5-205:19
 MERGED from [:selfseekbar] E:\Android_Studio_Project\G4AirBus\Smartbushome\bubbleseekbar\build\intermediates\merged_manifests\debug\processDebugManifest\merged\AndroidManifest.xml:11:5-15:19
 MERGED from [:selfseekbar] E:\Android_Studio_Project\G4AirBus\Smartbushome\bubbleseekbar\build\intermediates\merged_manifests\debug\processDebugManifest\merged\AndroidManifest.xml:11:5-15:19
+MERGED from [:vstarcam] E:\Android_Studio_Project\G4AirBus\Smartbushome\vstarcam\build\intermediates\merged_manifests\debug\processDebugManifest\merged\AndroidManifest.xml:13:5-35:19
+MERGED from [:vstarcam] E:\Android_Studio_Project\G4AirBus\Smartbushome\vstarcam\build\intermediates\merged_manifests\debug\processDebugManifest\merged\AndroidManifest.xml:13:5-35:19
+MERGED from [:smart_link] E:\Android_Studio_Project\G4AirBus\Smartbushome\smart_link\build\intermediates\merged_manifests\debug\processDebugManifest\merged\AndroidManifest.xml:18:5-31:19
+MERGED from [:smart_link] E:\Android_Studio_Project\G4AirBus\Smartbushome\smart_link\build\intermediates\merged_manifests\debug\processDebugManifest\merged\AndroidManifest.xml:18:5-31:19
 MERGED from [com.ashokvarma.android:bottom-navigation-bar:1.3.1] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\bottom-navigation-bar-1.3.1.aar\6123b4d763cd7f7cb518095e4f8c8d40\AndroidManifest.xml:11:5-13:38
 MERGED from [com.ashokvarma.android:bottom-navigation-bar:1.3.1] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\bottom-navigation-bar-1.3.1.aar\6123b4d763cd7f7cb518095e4f8c8d40\AndroidManifest.xml:11:5-13:38
 MERGED from [com.android.support:design:25.3.1] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\design-25.3.1.aar\4aa3bd0247322d704ff2373cb6fa733c\AndroidManifest.xml:29:5-20
@@ -283,6 +300,8 @@ MERGED from [com.android.support:support-compat:25.3.1] C:\Users\Administrator\.
 MERGED from [com.android.support:support-compat:25.3.1] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\support-compat-25.3.1.aar\184df4442efb5c3fcd7f7ced66fb0b9f\AndroidManifest.xml:29:5-20
 MERGED from [com.github.bumptech.glide:gifdecoder:4.8.0] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\gifdecoder-4.8.0.aar\c8959825e800c3e1f547f96ab45da5ee\AndroidManifest.xml:9:5-20
 MERGED from [com.github.bumptech.glide:gifdecoder:4.8.0] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\gifdecoder-4.8.0.aar\c8959825e800c3e1f547f96ab45da5ee\AndroidManifest.xml:9:5-20
+MERGED from [com.android.support.constraint:constraint-layout:1.1.3] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\constraint-layout-1.1.3.aar\3853f075abd61d7c3d63670aec971d38\AndroidManifest.xml:9:5-20
+MERGED from [com.android.support.constraint:constraint-layout:1.1.3] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\constraint-layout-1.1.3.aar\3853f075abd61d7c3d63670aec971d38\AndroidManifest.xml:9:5-20
 	android:supportsRtl
 		ADDED from E:\Android_Studio_Project\G4AirBus\Smartbushome\app\src\main\AndroidManifest.xml:70:6-32
 	android:label
@@ -537,6 +556,10 @@ MERGED from [:coolswitch] E:\Android_Studio_Project\G4AirBus\Smartbushome\switch
 MERGED from [:coolswitch] E:\Android_Studio_Project\G4AirBus\Smartbushome\switchbutton\build\intermediates\merged_manifests\debug\processDebugManifest\merged\AndroidManifest.xml:7:5-9:41
 MERGED from [:selfseekbar] E:\Android_Studio_Project\G4AirBus\Smartbushome\bubbleseekbar\build\intermediates\merged_manifests\debug\processDebugManifest\merged\AndroidManifest.xml:7:5-9:41
 MERGED from [:selfseekbar] E:\Android_Studio_Project\G4AirBus\Smartbushome\bubbleseekbar\build\intermediates\merged_manifests\debug\processDebugManifest\merged\AndroidManifest.xml:7:5-9:41
+MERGED from [:vstarcam] E:\Android_Studio_Project\G4AirBus\Smartbushome\vstarcam\build\intermediates\merged_manifests\debug\processDebugManifest\merged\AndroidManifest.xml:7:5-9:41
+MERGED from [:vstarcam] E:\Android_Studio_Project\G4AirBus\Smartbushome\vstarcam\build\intermediates\merged_manifests\debug\processDebugManifest\merged\AndroidManifest.xml:7:5-9:41
+MERGED from [:smart_link] E:\Android_Studio_Project\G4AirBus\Smartbushome\smart_link\build\intermediates\merged_manifests\debug\processDebugManifest\merged\AndroidManifest.xml:7:5-9:41
+MERGED from [:smart_link] E:\Android_Studio_Project\G4AirBus\Smartbushome\smart_link\build\intermediates\merged_manifests\debug\processDebugManifest\merged\AndroidManifest.xml:7:5-9:41
 MERGED from [com.ashokvarma.android:bottom-navigation-bar:1.3.1] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\bottom-navigation-bar-1.3.1.aar\6123b4d763cd7f7cb518095e4f8c8d40\AndroidManifest.xml:7:5-9:41
 MERGED from [com.ashokvarma.android:bottom-navigation-bar:1.3.1] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\bottom-navigation-bar-1.3.1.aar\6123b4d763cd7f7cb518095e4f8c8d40\AndroidManifest.xml:7:5-9:41
 MERGED from [com.android.support:design:25.3.1] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\design-25.3.1.aar\4aa3bd0247322d704ff2373cb6fa733c\AndroidManifest.xml:21:5-23:62
@@ -583,6 +606,8 @@ MERGED from [com.android.support:support-compat:25.3.1] C:\Users\Administrator\.
 MERGED from [com.android.support:support-compat:25.3.1] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\support-compat-25.3.1.aar\184df4442efb5c3fcd7f7ced66fb0b9f\AndroidManifest.xml:21:5-23:58
 MERGED from [com.github.bumptech.glide:gifdecoder:4.8.0] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\gifdecoder-4.8.0.aar\c8959825e800c3e1f547f96ab45da5ee\AndroidManifest.xml:5:5-7:41
 MERGED from [com.github.bumptech.glide:gifdecoder:4.8.0] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\gifdecoder-4.8.0.aar\c8959825e800c3e1f547f96ab45da5ee\AndroidManifest.xml:5:5-7:41
+MERGED from [com.android.support.constraint:constraint-layout:1.1.3] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\constraint-layout-1.1.3.aar\3853f075abd61d7c3d63670aec971d38\AndroidManifest.xml:5:5-7:41
+MERGED from [com.android.support.constraint:constraint-layout:1.1.3] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\constraint-layout-1.1.3.aar\3853f075abd61d7c3d63670aec971d38\AndroidManifest.xml:5:5-7:41
 INJECTED from E:\Android_Studio_Project\G4AirBus\Smartbushome\app\src\main\AndroidManifest.xml
 INJECTED from E:\Android_Studio_Project\G4AirBus\Smartbushome\app\src\main\AndroidManifest.xml
 	tools:overrideLibrary
@@ -595,6 +620,44 @@ INJECTED from E:\Android_Studio_Project\G4AirBus\Smartbushome\app\src\main\Andro
 		INJECTED from E:\Android_Studio_Project\G4AirBus\Smartbushome\app\src\main\AndroidManifest.xml
 		ADDED from E:\Android_Studio_Project\G4AirBus\Smartbushome\app\src\main\AndroidManifest.xml
 		INJECTED from E:\Android_Studio_Project\G4AirBus\Smartbushome\app\src\main\AndroidManifest.xml
+activity#com.pzj.ipcdemo.MainActivity
+ADDED from [:vstarcam] E:\Android_Studio_Project\G4AirBus\Smartbushome\vstarcam\build\intermediates\merged_manifests\debug\processDebugManifest\merged\AndroidManifest.xml:17:9-23:20
+	android:name
+		ADDED from [:vstarcam] E:\Android_Studio_Project\G4AirBus\Smartbushome\vstarcam\build\intermediates\merged_manifests\debug\processDebugManifest\merged\AndroidManifest.xml:17:19-62
+intent-filter#action:name:com.shima.smartbushome.vstarcam+category:name:android.intent.category.DEFAULT
+ADDED from [:vstarcam] E:\Android_Studio_Project\G4AirBus\Smartbushome\vstarcam\build\intermediates\merged_manifests\debug\processDebugManifest\merged\AndroidManifest.xml:18:13-22:29
+action#com.shima.smartbushome.vstarcam
+ADDED from [:vstarcam] E:\Android_Studio_Project\G4AirBus\Smartbushome\vstarcam\build\intermediates\merged_manifests\debug\processDebugManifest\merged\AndroidManifest.xml:19:17-74
+	android:name
+		ADDED from [:vstarcam] E:\Android_Studio_Project\G4AirBus\Smartbushome\vstarcam\build\intermediates\merged_manifests\debug\processDebugManifest\merged\AndroidManifest.xml:19:25-71
+activity#com.pzj.ipcdemo.PlayActivity
+ADDED from [:vstarcam] E:\Android_Studio_Project\G4AirBus\Smartbushome\vstarcam\build\intermediates\merged_manifests\debug\processDebugManifest\merged\AndroidManifest.xml:24:9-32:20
+	android:configChanges
+		ADDED from [:vstarcam] E:\Android_Studio_Project\G4AirBus\Smartbushome\vstarcam\build\intermediates\merged_manifests\debug\processDebugManifest\merged\AndroidManifest.xml:26:13-74
+	android:name
+		ADDED from [:vstarcam] E:\Android_Studio_Project\G4AirBus\Smartbushome\vstarcam\build\intermediates\merged_manifests\debug\processDebugManifest\merged\AndroidManifest.xml:25:13-56
+intent-filter#action:name:com.pzj.play+category:name:android.intent.category.DEFAULT
+ADDED from [:vstarcam] E:\Android_Studio_Project\G4AirBus\Smartbushome\vstarcam\build\intermediates\merged_manifests\debug\processDebugManifest\merged\AndroidManifest.xml:27:13-31:29
+action#com.pzj.play
+ADDED from [:vstarcam] E:\Android_Studio_Project\G4AirBus\Smartbushome\vstarcam\build\intermediates\merged_manifests\debug\processDebugManifest\merged\AndroidManifest.xml:28:17-55
+	android:name
+		ADDED from [:vstarcam] E:\Android_Studio_Project\G4AirBus\Smartbushome\vstarcam\build\intermediates\merged_manifests\debug\processDebugManifest\merged\AndroidManifest.xml:28:25-52
+service#com.pzj.ipcdemo.service.BridgeService
+ADDED from [:vstarcam] E:\Android_Studio_Project\G4AirBus\Smartbushome\vstarcam\build\intermediates\merged_manifests\debug\processDebugManifest\merged\AndroidManifest.xml:34:9-73
+	android:name
+		ADDED from [:vstarcam] E:\Android_Studio_Project\G4AirBus\Smartbushome\vstarcam\build\intermediates\merged_manifests\debug\processDebugManifest\merged\AndroidManifest.xml:34:18-70
+activity#com.mediatek.demo.smartconnection.MainActivity
+ADDED from [:smart_link] E:\Android_Studio_Project\G4AirBus\Smartbushome\smart_link\build\intermediates\merged_manifests\debug\processDebugManifest\merged\AndroidManifest.xml:22:9-30:20
+	android:label
+		ADDED from [:smart_link] E:\Android_Studio_Project\G4AirBus\Smartbushome\smart_link\build\intermediates\merged_manifests\debug\processDebugManifest\merged\AndroidManifest.xml:24:13-45
+	android:name
+		ADDED from [:smart_link] E:\Android_Studio_Project\G4AirBus\Smartbushome\smart_link\build\intermediates\merged_manifests\debug\processDebugManifest\merged\AndroidManifest.xml:23:13-74
+intent-filter#action:name:com.smart.link+category:name:android.intent.category.DEFAULT
+ADDED from [:smart_link] E:\Android_Studio_Project\G4AirBus\Smartbushome\smart_link\build\intermediates\merged_manifests\debug\processDebugManifest\merged\AndroidManifest.xml:25:13-29:29
+action#com.smart.link
+ADDED from [:smart_link] E:\Android_Studio_Project\G4AirBus\Smartbushome\smart_link\build\intermediates\merged_manifests\debug\processDebugManifest\merged\AndroidManifest.xml:26:17-57
+	android:name
+		ADDED from [:smart_link] E:\Android_Studio_Project\G4AirBus\Smartbushome\smart_link\build\intermediates\merged_manifests\debug\processDebugManifest\merged\AndroidManifest.xml:26:25-54
 meta-data#android.support.VERSION
 ADDED from [com.android.support:design:25.3.1] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\design-25.3.1.aar\4aa3bd0247322d704ff2373cb6fa733c\AndroidManifest.xml:25:5-27:34
 MERGED from [com.android.support:appcompat-v7:25.3.1] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\appcompat-v7-25.3.1.aar\d2323c16e383ddfb03d3b7dfad3f3e85\AndroidManifest.xml:25:5-27:34

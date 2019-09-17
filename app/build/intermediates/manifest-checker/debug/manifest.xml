@@ -5,7 +5,7 @@
     android:versionName="1.4.4" >
 
     <uses-sdk
-        android:minSdkVersion="17"
+        android:minSdkVersion="19"
         android:targetSdkVersion="28" />
 
     <!-- NFC 权限 -->
@@ -235,6 +235,35 @@
             android:enabled="true"
             android:exported="false"></service>
         -->
+        <activity android:name="com.pzj.ipcdemo.MainActivity" >
+            <intent-filter>
+                <action android:name="com.shima.smartbushome.vstarcam" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.pzj.ipcdemo.PlayActivity"
+            android:configChanges="keyboardHidden|orientation|screenSize" >
+            <intent-filter>
+                <action android:name="com.pzj.play" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+
+        <service android:name="com.pzj.ipcdemo.service.BridgeService" />
+
+        <activity
+            android:name="com.mediatek.demo.smartconnection.MainActivity"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="com.smart.link" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+
         <provider
             android:name="com.android.tools.ir.server.InstantRunContentProvider"
             android:authorities="com.shima.smartbushome.com.android.tools.ir.server.InstantRunContentProvider"

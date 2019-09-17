@@ -7,7 +7,9 @@
       <module fileurl="file://$PROJECT_DIR$/switchbutton/coolswitch.iml" filepath="$PROJECT_DIR$/switchbutton/coolswitch.iml" />
       <module fileurl="file://$PROJECT_DIR$/alertview/dialogview.iml" filepath="$PROJECT_DIR$/alertview/dialogview.iml" />
       <module fileurl="file://$PROJECT_DIR$/bubbleseekbar/selfseekbar.iml" filepath="$PROJECT_DIR$/bubbleseekbar/selfseekbar.iml" />
+      <module fileurl="file://$PROJECT_DIR$/smart_link/smart_link.iml" filepath="$PROJECT_DIR$/smart_link/smart_link.iml" />
       <module fileurl="file://$PROJECT_DIR$/pickerview/timeselect.iml" filepath="$PROJECT_DIR$/pickerview/timeselect.iml" />
+      <module fileurl="file://$PROJECT_DIR$/vstarcam/vstarcam.iml" filepath="$PROJECT_DIR$/vstarcam/vstarcam.iml" />
     </modules>
   </component>
 </project>

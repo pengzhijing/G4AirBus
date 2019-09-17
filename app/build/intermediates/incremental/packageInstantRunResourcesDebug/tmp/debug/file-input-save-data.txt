@@ -1,5 +1,5 @@
 #Internal package file, do not edit.
-#Wed Aug 21 11:46:04 CST 2019
+#Tue Sep 17 17:37:20 CST 2019
 1.base=E\:\\Android_Studio_Project\\G4AirBus\\Smartbushome\\app\\build\\intermediates\\merged_assets\\debug\\mergeDebugAssets\\out
 2.path=image/main_bg.jpg
 0.baseType=DIRECTORY
