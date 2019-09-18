@@ -620,10 +620,10 @@ INJECTED from E:\Android_Studio_Project\G4AirBus\Smartbushome\app\src\main\Andro
 		INJECTED from E:\Android_Studio_Project\G4AirBus\Smartbushome\app\src\main\AndroidManifest.xml
 		ADDED from E:\Android_Studio_Project\G4AirBus\Smartbushome\app\src\main\AndroidManifest.xml
 		INJECTED from E:\Android_Studio_Project\G4AirBus\Smartbushome\app\src\main\AndroidManifest.xml
-activity#com.pzj.ipcdemo.MainActivity
+activity#com.pzj.ipcdemo.IPCActivity
 ADDED from [:vstarcam] E:\Android_Studio_Project\G4AirBus\Smartbushome\vstarcam\build\intermediates\merged_manifests\debug\processDebugManifest\merged\AndroidManifest.xml:17:9-23:20
 	android:name
-		ADDED from [:vstarcam] E:\Android_Studio_Project\G4AirBus\Smartbushome\vstarcam\build\intermediates\merged_manifests\debug\processDebugManifest\merged\AndroidManifest.xml:17:19-62
+		ADDED from [:vstarcam] E:\Android_Studio_Project\G4AirBus\Smartbushome\vstarcam\build\intermediates\merged_manifests\debug\processDebugManifest\merged\AndroidManifest.xml:17:19-61
 intent-filter#action:name:com.shima.smartbushome.vstarcam+category:name:android.intent.category.DEFAULT
 ADDED from [:vstarcam] E:\Android_Studio_Project\G4AirBus\Smartbushome\vstarcam\build\intermediates\merged_manifests\debug\processDebugManifest\merged\AndroidManifest.xml:18:13-22:29
 action#com.shima.smartbushome.vstarcam

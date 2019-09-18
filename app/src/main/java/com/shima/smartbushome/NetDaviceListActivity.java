@@ -129,7 +129,7 @@ public class NetDaviceListActivity extends AppCompatActivity {
         boolean result=false;
         int sub=subnet&0xff;
         int dev=device&0xff;
-        for(int i=0;i<MainActivity.netdeviceList.size();i++){
+        for(int i = 0; i<MainActivity.netdeviceList.size(); i++){
             if((String.valueOf(sub).equals(MainActivity.netdeviceList.get(i).get("subnetID")))&&(String.valueOf(dev).equals(MainActivity.netdeviceList.get(i).get("deviceID")))){
                 result=true;
                 break;

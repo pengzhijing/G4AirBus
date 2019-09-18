@@ -12,7 +12,7 @@ public final class R {
     public static final class id {
         private id() {}
 
-        public static final int transition_current_scene = 0x7f08044a;
-        public static final int transition_scene_layoutid_cache = 0x7f08044b;
+        public static final int transition_current_scene = 0x7f080453;
+        public static final int transition_scene_layoutid_cache = 0x7f080454;
     }
 }

@@ -36,9 +36,9 @@ public class CentralControlAdapter extends BaseAdapter{
     private String[] colorarray={"ff9962cc", "ffe18d06","ff599ade","ff2ead58","ffa99950","ff396879",
             "ffBA5252","ff00dba1","ffcbe471","ffaeaeae","FF37ACBC","FFCEBBE0"};
     private String[] namearray={"MACRO", "LIGHT","HVAC","MUSIC","CURTAIN","OTHER","FAN","SECURITY",
-            "ENERGY","STATUS","SCHEDULE","NFC"};
+            "ENERGY","STATUS","CAMERA","NFC"};
     private String[] iconarray={"marco", "light","hvac","music","curtain","other","fan","security",
-            "energy","status","schedule","nfc"};
+            "energy","status","camera_ipc","nfc"};
     public CentralControlAdapter(final Context context){
         this.context = context;
         size=12;

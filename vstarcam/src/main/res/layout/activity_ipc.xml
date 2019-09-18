@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <ImageView
+        android:id="@+id/iv_main"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:src="@drawable/main_bg"
+        android:scaleType="centerCrop"
+        />
+
+    <android.support.v7.widget.Toolbar
+        android:id="@+id/tb_ipc"
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:background="#5f000000"
+        app:popupTheme="@style/ThemeOverlay.AppCompat.Dark">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAlignment="center"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:id="@+id/tv_bar"
+            android:textColor="#ffffff"
+            android:textStyle="bold"
+            android:textSize="20sp"
+            android:layout_marginLeft="30dp" />
+
+
+    </android.support.v7.widget.Toolbar>
+
+    <android.support.v7.widget.RecyclerView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_centerHorizontal="true">
+
+    </android.support.v7.widget.RecyclerView>
+
+    <android.support.design.widget.FloatingActionButton
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:id="@+id/fb_addCamera"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:clickable="true"
+        android:backgroundTint="@color/blue"
+        android:layout_marginBottom="20dp"
+        android:src="@drawable/add_icon"
+        app:elevation="6dp"
+        app:borderWidth="0dp"
+        app:rippleColor="@color/blue2"
+        app:pressedTranslationZ="12dp" />
+
+
+
+
+</RelativeLayout>

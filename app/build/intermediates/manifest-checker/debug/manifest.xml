@@ -235,7 +235,7 @@
             android:enabled="true"
             android:exported="false"></service>
         -->
-        <activity android:name="com.pzj.ipcdemo.MainActivity" >
+        <activity android:name="com.pzj.ipcdemo.IPCActivity" >
             <intent-filter>
                 <action android:name="com.shima.smartbushome.vstarcam" />
 

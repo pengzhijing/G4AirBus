@@ -1082,6 +1082,9 @@ drawable ic_launcher_background
 drawable ic_launcher_foreground
 drawable ios_back_drawable
 drawable ios_thumb_selector
+drawable ipc_edit
+drawable ipc_scan
+drawable ipc_search
 drawable key_center
 drawable key_center_1
 drawable key_down
@@ -1487,10 +1490,12 @@ id et_encryption_key
 id et_fhremark
 id et_hvacdevid
 id et_hvacsubid
+id et_id
 id et_music_remark
 id et_name
 id et_newpassword
 id et_oldpassword
+id et_password
 id et_psw
 id et_sensordevid
 id et_sensorsubid
@@ -1523,6 +1528,7 @@ id fantype1linear
 id fantype1seekbar
 id fantype1swipe
 id fb_addArea
+id fb_addCamera
 id ffloorheat
 id fill
 id fill_horizontal
@@ -1604,16 +1610,21 @@ id item_songname
 id item_touch_helper_previous_elevation
 id iv_backgroud
 id iv_background
+id iv_bimage
 id iv_camera
 id iv_center
 id iv_down
+id iv_edit
 id iv_gallery
+id iv_ipc
 id iv_layout
 id iv_left
 id iv_main
 id iv_mic
 id iv_right
 id iv_roomBackground
+id iv_scan
+id iv_search
 id iv_up
 id iv_voice
 id largeLabel
@@ -2170,6 +2181,7 @@ id tab_layout
 id tarip
 id taripedit
 id tb
+id tb_ipc
 id temp
 id text
 id text2
@@ -2334,6 +2346,7 @@ id tv_ap_name
 id tv_ap_psw
 id tv_areaListTitle
 id tv_away
+id tv_bar
 id tv_cancel
 id tv_channel
 id tv_cur_status
@@ -2354,6 +2367,7 @@ id tv_drugcycle_sure
 id tv_encryption_key
 id tv_finish
 id tv_interval
+id tv_ipcName
 id tv_manual
 id tv_music_remark
 id tv_music_status
@@ -2365,6 +2379,7 @@ id tv_ring_value
 id tv_setting_statuesub
 id tv_setting_statusname
 id tv_state
+id tv_status
 id tv_title
 id tv_url
 id tvradioname
@@ -2448,6 +2463,8 @@ layout activity_energy
 layout activity_energy_log
 layout activity_founction
 layout activity_help
+layout activity_ipc
+layout activity_ipc_test
 layout activity_main
 layout activity_main_setting
 layout activity_marco
@@ -2495,6 +2512,8 @@ layout design_navigation_item_subheader
 layout design_navigation_menu
 layout design_navigation_menu_item
 layout design_text_input_password_icon
+layout dialog_add_camera_edit
+layout dialog_add_camera_type
 layout dialog_control
 layout dialog_room_setting
 layout dialog_simple
@@ -2611,6 +2630,7 @@ layout swipelayout_item
 layout test
 layout view_addarea_dialog
 layout view_arealist_dialog
+layout view_ipc_item
 layout view_pickcolor
 layout view_statuslayout
 menu curtain_setting_menu
@@ -2637,6 +2657,7 @@ menu room_menu
 menu security_menu
 mipmap abc_ic_ab_back_mtrl_am_alpha
 mipmap audioin
+mipmap camera_ipc
 mipmap curtain
 mipmap curtain_close
 mipmap curtain_icon1_off
@@ -2900,6 +2921,7 @@ style Animation_AppCompat_DropDownUp
 style Animation_Design_BottomSheetDialog
 style AppBaseTheme
 style AppTheme
+style App_Theme
 style AppdialogTheme
 style BadgeText
 style Base_AlertDialog_AppCompat

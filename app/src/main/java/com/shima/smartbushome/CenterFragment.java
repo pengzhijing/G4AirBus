@@ -86,8 +86,8 @@ public class CenterFragment extends Fragment {
                     startActivity(new Intent(getActivity(), StatusActivity.class));
                     break;
                 case 10:
-                   // startActivity(new Intent(getActivity(),ScheduleActivity.class));
-                    Toast.makeText(getContext(), "still developing", Toast.LENGTH_SHORT).show();
+                    //跳转到摄像头页面
+                    startActivity(new Intent("com.shima.smartbushome.vstarcam"));
                     break;
                 case 11:
                     startActivity(new Intent(getActivity(), NFCActivity.class));
