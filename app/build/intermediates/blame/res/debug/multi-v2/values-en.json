@@ -11,6 +11,23 @@
                         "startOffsets": "55,108,153,200,249,296,345,396",
                         "endColumns": "52,44,46,48,46,48,50,45",
                         "endOffsets": "103,148,195,244,291,340,391,437"
+                    },
+                    "to": {
+                        "startLines": "5,6,7,8,9,10,11,12",
+                        "startColumns": "4,4,4,4,4,4,4,4",
+                        "startOffsets": "227,280,325,372,421,468,517,568",
+                        "endColumns": "52,44,46,48,46,48,50,45",
+                        "endOffsets": "275,320,367,416,463,512,563,609"
+                    }
+                },
+                {
+                    "source": "C:\\Users\\Administrator\\.gradle\\caches\\transforms-1\\files-1.1\\BaseRecyclerViewAdapterHelper-2.9.47.aar\\f0741aaaedfdcba4e13d8b524d74a333\\res\\values-en\\values-en.xml",
+                    "from": {
+                        "startLines": "2,3,4",
+                        "startColumns": "4,4,4",
+                        "startOffsets": "55,111,174",
+                        "endColumns": "55,62,52",
+                        "endOffsets": "106,169,222"
                     }
                 }
             ]

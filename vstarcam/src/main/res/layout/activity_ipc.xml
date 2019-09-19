@@ -32,9 +32,12 @@
     </android.support.v7.widget.Toolbar>
 
     <android.support.v7.widget.RecyclerView
+        android:id="@+id/rv_ipcList"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:layout_centerHorizontal="true">
+        android:layout_centerHorizontal="true"
+        android:layout_below="@id/tb_ipc"
+        android:layout_marginTop="15dp">
 
     </android.support.v7.widget.RecyclerView>
 

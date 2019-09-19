@@ -824,6 +824,7 @@ dimen color_pointer_halo_radius
 dimen color_pointer_radius
 dimen color_wheel_radius
 dimen color_wheel_thickness
+dimen def_height
 dimen design_appbar_elevation
 dimen design_bottom_navigation_active_item_max_width
 dimen design_bottom_navigation_active_text_size
@@ -864,6 +865,9 @@ dimen design_tab_text_size
 dimen design_tab_text_size_2line
 dimen disabled_alpha_material_dark
 dimen disabled_alpha_material_light
+dimen dp_10
+dimen dp_4
+dimen dp_40
 dimen fixed_height
 dimen fixed_height_bottom_padding
 dimen fixed_height_top_padding_active
@@ -939,6 +943,7 @@ dimen shifting_min_width_active
 dimen shifting_min_width_inactive
 dimen shifting_width_custom_padding
 dimen size_divier
+dimen sp_14
 dimen textSize_actionsheet_msg
 dimen textSize_actionsheet_title
 dimen textSize_alert_button
@@ -1042,6 +1047,8 @@ drawable bg_alertbutton_right
 drawable bg_alertview_alert
 drawable bg_layout_shape
 drawable bg_linearlayout_no_outside_progress_dialog
+drawable brvah_sample_footer_loading
+drawable brvah_sample_footer_loading_progress
 drawable btn_voice_none
 drawable btn_voice_normal
 drawable camera
@@ -1082,9 +1089,11 @@ drawable ic_launcher_background
 drawable ic_launcher_foreground
 drawable ios_back_drawable
 drawable ios_thumb_selector
+drawable ipc_delete
 drawable ipc_edit
 drawable ipc_scan
 drawable ipc_search
+drawable ipc_setting
 drawable key_center
 drawable key_center_1
 drawable key_down
@@ -1227,6 +1236,10 @@ drawable top_unselect
 drawable transparent
 drawable welcome
 drawable welcome_bg
+id BaseQuickAdapter_databinding_support
+id BaseQuickAdapter_dragging_support
+id BaseQuickAdapter_swiping_support
+id BaseQuickAdapter_viewholder_support
 id about_toolbar
 id ac_dev
 id ac_remark
@@ -1617,6 +1630,9 @@ id iv_down
 id iv_edit
 id iv_gallery
 id iv_ipc
+id iv_ipcDelete
+id iv_ipcSetting
+id iv_item
 id iv_layout
 id iv_left
 id iv_main
@@ -1639,6 +1655,7 @@ id layout_key
 id layout_manual
 id layout_night
 id layout_selectArea
+id layout_settings
 id lededitText2dev
 id lededitTextname
 id lededitTextsub
@@ -1689,6 +1706,10 @@ id ll_delete
 id ll_edit
 id loAlertButtons
 id loAlertHeader
+id load_more_load_end_view
+id load_more_load_fail_view
+id load_more_loading_view
+id loading_progress
 id loading_text
 id locationid
 id logitem_add
@@ -2009,6 +2030,7 @@ id room_toolbar
 id roomacbg
 id roombgcolor
 id round_rect
+id rv_ipcList
 id rv_topbar
 id sb_away
 id sb_day
@@ -2373,6 +2395,7 @@ id tv_music_remark
 id tv_music_status
 id tv_name
 id tv_night
+id tv_prompt
 id tv_repeat
 id tv_repeat_value
 id tv_ring_value
@@ -2497,6 +2520,7 @@ layout alertview_setareaname
 layout atoz_listitem
 layout auto_pair_dialog
 layout bottom_navigation_bar_container
+layout brvah_quick_view_load_more
 layout curtain_type1
 layout design_bottom_navigation_item
 layout design_bottom_sheet_dialog
@@ -2837,6 +2861,10 @@ string alerm_motion_alarm
 string app_name
 string appbar_scrolling_view_behavior
 string bottom_sheet_behavior
+string brvah_app_name
+string brvah_load_end
+string brvah_load_failed
+string brvah_loading
 string character_counter_pattern
 string cus_info
 string cycle_sure
