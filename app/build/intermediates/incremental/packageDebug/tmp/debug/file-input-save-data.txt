@@ -1,5 +1,5 @@
 #Internal package file, do not edit.
-#Thu Sep 19 16:41:00 CST 2019
+#Wed Oct 09 10:31:40 CST 2019
 17.baseType=DIRECTORY
 4.path=lib/armeabi-v7a/libvstc2_jni.so
 25.base=E\:\\Android_Studio_Project\\G4AirBus\\Smartbushome\\app\\build\\intermediates\\transforms\\stripDebugSymbol\\debug\\0

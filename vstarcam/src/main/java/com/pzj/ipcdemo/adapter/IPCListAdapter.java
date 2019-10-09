@@ -1,11 +1,18 @@
 package com.pzj.ipcdemo.adapter;
 
 import android.content.Context;
+import android.graphics.Bitmap;
+import android.graphics.BitmapFactory;
+import android.widget.ImageView;
 
+import com.bumptech.glide.Glide;
+import com.bumptech.glide.load.resource.bitmap.RoundedCorners;
+import com.bumptech.glide.request.RequestOptions;
 import com.chad.library.adapter.base.BaseItemDraggableAdapter;
 import com.chad.library.adapter.base.BaseViewHolder;
 import com.pzj.ipcdemo.R;
 import com.pzj.ipcdemo.entity.VStarCamera;
+import com.pzj.ipcdemo.utils.ImageDispose;
 
 
 import java.util.ArrayList;
@@ -50,6 +57,7 @@ public class IPCListAdapter extends BaseItemDraggableAdapter {
 
         helper.setText(R.id.tv_ipcName,name);
 
+        //设置状态
         switch (ipcStates.get(helper.getAdapterPosition())){
             case PPPP_STATUS_CONNECTING : // 连接中
                 helper.setText(R.id.tv_status,"连接中");
@@ -85,9 +93,37 @@ public class IPCListAdapter extends BaseItemDraggableAdapter {
 
         }
 
+        //设置预览图
+        if (vStarCamera.getbImage()!=null){
+            try {
+                ImageView iv_ipc=helper.getView(R.id.iv_ipc);
+
+                //将字节数组转换为ImageView可调用的Bitmap对象
+                Bitmap bitmap=ImageDispose.getPicFromBytes(vStarCamera.getbImage(),new BitmapFactory.Options());
+
+                //设置图片圆角角度
+                RoundedCorners roundedCorners= new RoundedCorners(10);
+                //通过RequestOptions扩展功能,override:采样率,因为ImageView就这么大,可以压缩图片,降低内存消耗
+               // RequestOptions options=RequestOptions.bitmapTransform(roundedCorners).override(500, 500);
+                RequestOptions options=RequestOptions.bitmapTransform(roundedCorners);
+
+                //加载区域背景图片
+                Glide.with(context)
+                        .load(bitmap)
+                        .apply(options)
+                        .into(iv_ipc);
+
+            }catch (Exception e){
+                e.printStackTrace();
+            }
+        }
+
+
 
         helper.addOnClickListener(R.id.iv_ipcDelete);
         helper.addOnClickListener(R.id.iv_item);
+        helper.addOnLongClickListener(R.id.iv_ipcDelete);
+        helper.addOnLongClickListener(R.id.iv_item);
         helper.addOnLongClickListener(R.id.iv_item);
     }
 
@@ -101,9 +137,14 @@ public class IPCListAdapter extends BaseItemDraggableAdapter {
         this.notifyDataSetChanged();
     }
 
+    //根据index设置设备状态
     public void setIpcStatesIndex(int ipcState,int index) {
         ipcStates.remove(index);
         ipcStates.add(index,ipcState);
         this.notifyDataSetChanged();
     }
+
+
+
+
 }

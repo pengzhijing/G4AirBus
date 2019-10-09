@@ -7,12 +7,14 @@ public class VStarCamera implements Serializable {
     private String id;
     private String username;
     private String password;
+    private byte[] bImage;
 
     public VStarCamera(String name, String id, String username, String password) {
         this.name = name;
         this.id = id;
         this.username = username;
         this.password = password;
+        this.bImage=null;
     }
 
     public String getName() {
@@ -45,5 +47,23 @@ public class VStarCamera implements Serializable {
 
     public void setPassword(String password) {
         this.password = password;
+    }
+
+    public byte[] getbImage() {
+        return bImage;
+    }
+
+    public void setbImage(byte[] bImage) {
+        this.bImage = bImage;
+    }
+
+    @Override
+    public String toString() {
+        return "VStarCamera{" +
+                "name='" + name + '\'' +
+                ", id='" + id + '\'' +
+                ", username='" + username + '\'' +
+                ", password='" + password + '\'' +
+                '}';
     }
 }

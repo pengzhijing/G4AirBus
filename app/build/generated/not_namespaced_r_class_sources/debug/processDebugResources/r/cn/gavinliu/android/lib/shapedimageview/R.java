@@ -21,7 +21,7 @@ public final class R {
         private id() {}
 
         public static final int circle = 0x7f0800b9;
-        public static final int round_rect = 0x7f080319;
+        public static final int round_rect = 0x7f08031c;
     }
     public static final class string {
         private string() {}

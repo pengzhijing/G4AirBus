@@ -1060,6 +1060,7 @@ drawable circledeletebutton
 drawable control_back_10
 drawable control_blue_10
 drawable control_tran_10
+drawable control_tran_10_2
 drawable cycle_check
 drawable design_bottom_navigation_item_background
 drawable design_fab_background
@@ -1069,6 +1070,7 @@ drawable design_password_eye
 drawable design_snackbar_background
 drawable dialog_bg
 drawable gallery
+drawable grid_bg
 drawable home
 drawable ic_ac_fan_speed_auto_in_room
 drawable ic_ac_fan_speed_high_in_room
@@ -1115,6 +1117,7 @@ drawable lighttype4_press
 drawable lighttype4_release
 drawable like_normal
 drawable like_press
+drawable listitem_pressed_selector
 drawable liulanqi
 drawable lsv_dinning
 drawable lsv_rommantic
@@ -1641,6 +1644,7 @@ id iv_right
 id iv_roomBackground
 id iv_scan
 id iv_search
+id iv_searchImage
 id iv_up
 id iv_voice
 id largeLabel
@@ -1651,6 +1655,7 @@ id layout_curtemper
 id layout_day
 id layout_dialog
 id layout_fm
+id layout_ipc
 id layout_key
 id layout_manual
 id layout_night
@@ -1955,6 +1960,7 @@ id packed
 id parallax
 id parent
 id parentPanel
+id pb_search
 id percent
 id pin
 id play
@@ -2031,6 +2037,7 @@ id roomacbg
 id roombgcolor
 id round_rect
 id rv_ipcList
+id rv_searchList
 id rv_topbar
 id sb_away
 id sb_day
@@ -2399,6 +2406,9 @@ id tv_prompt
 id tv_repeat
 id tv_repeat_value
 id tv_ring_value
+id tv_searchId
+id tv_searchName
+id tv_secrchTitle
 id tv_setting_statuesub
 id tv_setting_statusname
 id tv_state
@@ -2540,6 +2550,7 @@ layout dialog_add_camera_edit
 layout dialog_add_camera_type
 layout dialog_control
 layout dialog_room_setting
+layout dialog_search_camera_list
 layout dialog_simple
 layout fan_type1
 layout fixed_bottom_navigation_item
@@ -2656,6 +2667,7 @@ layout view_addarea_dialog
 layout view_arealist_dialog
 layout view_ipc_item
 layout view_pickcolor
+layout view_search_camera_item
 layout view_statuslayout
 menu curtain_setting_menu
 menu energy_menu
@@ -2702,7 +2714,6 @@ mipmap ic_folder
 mipmap ic_home_white_24dp
 mipmap ic_launch_white_24dp
 mipmap ic_launcher
-mipmap ic_launcher_round
 mipmap ios_thumb
 mipmap ios_thumb_disable
 mipmap light

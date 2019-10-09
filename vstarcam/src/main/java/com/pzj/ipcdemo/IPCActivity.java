@@ -2,6 +2,8 @@ package com.pzj.ipcdemo;
 
 import android.content.Context;
 import android.content.Intent;
+import android.graphics.Bitmap;
+import android.graphics.BitmapFactory;
 import android.os.Build;
 import android.os.Bundle;
 import android.os.Handler;
@@ -26,9 +28,11 @@ import com.chad.library.adapter.base.BaseQuickAdapter;
 import com.pzj.ipcdemo.adapter.IPCListAdapter;
 import com.pzj.ipcdemo.entity.VStarCamera;
 import com.pzj.ipcdemo.service.BridgeService;
+import com.pzj.ipcdemo.utils.ImageDispose;
 import com.pzj.ipcdemo.utils.JSONUtil;
 import com.pzj.ipcdemo.utils.SPUtil;
 import com.pzj.ipcdemo.utils.SystemUIUtil;
+import com.pzj.ipcdemo.view.SearchAnyLayerView;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -49,7 +53,7 @@ import vstc2.nativecaller.NativeCaller;
  * 8 释放 p2p 资源 NativeCaller. Free ();
  */
 
-public class IPCActivity extends AppCompatActivity implements BridgeService.IpcamClientInterface, View.OnClickListener {
+public class IPCActivity extends AppCompatActivity implements BridgeService.IpcamClientInterface, View.OnClickListener ,SearchAnyLayerView.OnSelectSearchListener {
 
     public static String TAG = "IPCActivity";
 
@@ -58,6 +62,12 @@ public class IPCActivity extends AppCompatActivity implements BridgeService.Ipca
     //摄像头列表数据主键名
     public static final String SP_IPC_KEY = "vstarcam_devices";
 
+    //设备搜索对话框
+    private SearchAnyLayerView searchAnyLayerView;
+
+
+
+    //设备列表
    private List<VStarCamera> vStarCameraList=new ArrayList<>();
 
    private IPCListAdapter ipcListAdapter;
@@ -66,6 +76,8 @@ public class IPCActivity extends AppCompatActivity implements BridgeService.Ipca
     private RecyclerView rv_ipcList;
     private FloatingActionButton fb_addCamera;
     private AnyLayer editDialog;//手动添加设备对话框
+
+
 
 
     public static String deviceName = "admin";//设备账号
@@ -109,6 +121,7 @@ public class IPCActivity extends AppCompatActivity implements BridgeService.Ipca
         //初始化控件
         initView();
 
+
         //获取设备数据
         String ipcJsonStr=SPUtil.getString(this,SP_FILE_NAME,SP_IPC_KEY,"");
         //将Json字符串转成实体对象
@@ -126,6 +139,8 @@ public class IPCActivity extends AppCompatActivity implements BridgeService.Ipca
         ipcListAdapter.setOnItemChildClickListener(new BaseQuickAdapter.OnItemChildClickListener() {
             @Override
             public void onItemChildClick(BaseQuickAdapter adapter, View view, int position) {
+
+
                 //删除IPC
                 if (view.getId()==R.id.iv_ipcDelete){
                     vStarCameraList.remove(position);
@@ -136,15 +151,32 @@ public class IPCActivity extends AppCompatActivity implements BridgeService.Ipca
                     //刷新
                     ipcListRefreshData();
                 }
+
+                //视屏画面
+                if (view.getId()==R.id.iv_item){
+                    //如果设备在线
+                    if ( ipcListAdapter.getIpcStates().get(position)==PPPP_STATUS_ON_LINE){
+                        VStarCamera vStarCamera=vStarCameraList.get(position);
+
+                        //跳转到实时视屏画面
+                        Intent intent=new Intent("com.pzj.play");
+                        Bundle bd=new Bundle();
+                        bd.putString("name",vStarCamera.getUsername());
+                        bd.putString("pass",vStarCamera.getPassword());
+                        bd.putString("id",vStarCamera.getId());
+                        intent.putExtras(bd);
+                        IPCActivity.this.startActivity(intent);
+                    }
+                }
             }
         });
         //子控件长按事件
         ipcListAdapter.setOnItemChildLongClickListener(new BaseQuickAdapter.OnItemChildLongClickListener() {
             @Override
             public boolean onItemChildLongClick(BaseQuickAdapter adapter, View view, int position) {
+                LinearLayout layout= (LinearLayout) ipcListAdapter.getViewByPosition(rv_ipcList,position,R.id.layout_settings);
                 //长按显示或者取消菜单
                 if (view.getId()==R.id.iv_item){
-                    LinearLayout layout= (LinearLayout) ipcListAdapter.getViewByPosition(rv_ipcList,position,R.id.layout_settings);
                     switch (layout.getVisibility()){
                         case View.VISIBLE:
                             layout.setVisibility(View.INVISIBLE);
@@ -156,7 +188,13 @@ public class IPCActivity extends AppCompatActivity implements BridgeService.Ipca
                             layout.setVisibility(View.INVISIBLE);
                     }
                 }
-                return false;
+                //长按取消菜单
+                if (view.getId()==R.id.iv_ipcSetting|view.getId()==R.id.iv_ipcDelete){
+                    layout.setVisibility(View.INVISIBLE);
+                }
+
+
+                return true;
             }
         });
 
@@ -213,16 +251,42 @@ public class IPCActivity extends AppCompatActivity implements BridgeService.Ipca
             super.handleMessage(msg);
             Bundle bundle=msg.getData();
             String did=bundle.getString("did");
-            int type=bundle.getInt("type");
-            int param=bundle.getInt("param");
+            switch (msg.what){
+                case 1://设备状态信息
+                    int type=bundle.getInt("type");
+                    int param=bundle.getInt("param");
 
-            //刷新设备连接状态状态
-            for (int i=0;i<vStarCameraList.size();i++){
-                VStarCamera vStarCamera=vStarCameraList.get(i);
-                if (did.equals(vStarCamera.getId())){
-                    ipcListAdapter.setIpcStatesIndex(param,i);
-                }
+                    //刷新设备连接状态状态
+                    for (int i=0;i<vStarCameraList.size();i++){
+                        VStarCamera vStarCamera=vStarCameraList.get(i);
+                        if (did.equals(vStarCamera.getId())){
+                            ipcListAdapter.setIpcStatesIndex(param,i);
+                        }
+                    }
+                    break;
+                case 2://设备预览图
+                    byte[] bImage=bundle.getByteArray("bImage");
+                    int len=bundle.getInt("len");
+
+                    //将字节数组转换为ImageView可调用的Bitmap对象
+                   // Bitmap bitmap=ImageDispose.getPicFromBytes(bImage,new BitmapFactory.Options());
+
+                    //刷新设备列表
+                    for (int i=0;i<vStarCameraList.size();i++){
+                        if (did.equals(vStarCameraList.get(i).getId())){
+                            vStarCameraList.get(i).setbImage(bImage);
+                            ipcListAdapter.notifyDataSetChanged();
+                        }
+                    }
+
+                    //保存预览图数据
+                    String str=JSONUtil.listToJson(vStarCameraList);
+                    SPUtil.put(IPCActivity.this,SP_FILE_NAME,SP_IPC_KEY,str);
+
+                    break;
             }
+
+
 
 
 
@@ -261,6 +325,23 @@ public class IPCActivity extends AppCompatActivity implements BridgeService.Ipca
 
         }
     };
+
+    //搜索设备点击回调
+    @Override
+    public void onSelectSearchListener(VStarCamera vStarCamera) {
+        //查看是否已经添加
+        for (VStarCamera item: vStarCameraList){
+            if (item.getId().equals(vStarCamera.getId())){
+                //关闭搜索对话框
+                Toast.makeText(this, "Can't add devices repeatedly", Toast.LENGTH_SHORT).show();
+                searchAnyLayerView.dismiss();
+                return;
+            }
+        }
+        //显示手动添加输入密码
+        searchAnyLayerView.dismiss();
+        showAddCameraEditDialog(vStarCamera);
+    }
 
 
     //准备摄像头初始化连接工作 线程
@@ -395,6 +476,7 @@ public class IPCActivity extends AppCompatActivity implements BridgeService.Ipca
 
         //通知到handler 刷新
         Message message= new Message();
+        message.what=1;
         Bundle bundle =new Bundle();
         bundle.putString("did",did);
         bundle.putInt("type",type);
@@ -454,6 +536,17 @@ public class IPCActivity extends AppCompatActivity implements BridgeService.Ipca
     public void BSSnapshotNotify(String did, byte[] bImage, int len) {
         Log.i(TAG, "BSSnapshotNotify---len" + len);
 
+
+        //通知到handler 刷新
+        Message message= new Message();
+        message.what=2;
+        Bundle bundle =new Bundle();
+        bundle.putString("did",did);
+        bundle.putByteArray("bImage",bImage);
+        bundle.putInt("len",len);
+        message.setData(bundle);
+        ipcStatusHandler.sendMessage(message);
+
 //        //将字节数组转换为ImageView可调用的Bitmap对象
 //       final Bitmap bitmap=ImageDispose.getPicFromBytes(bImage,new BitmapFactory.Options());
 //
@@ -488,8 +581,10 @@ public class IPCActivity extends AppCompatActivity implements BridgeService.Ipca
         super.onDestroy();
         //释放资源
         try {
-            NativeCaller.StopPPPPLivestream(deviceId);
-            NativeCaller.StopPPPP(deviceId);
+            for (VStarCamera item:vStarCameraList){
+                NativeCaller.StopPPPPLivestream(item.getId());
+                NativeCaller.StopPPPP(item.getId());
+            }
             NativeCaller.Free();
         }catch (Exception e){
             e.printStackTrace();
@@ -530,6 +625,14 @@ public class IPCActivity extends AppCompatActivity implements BridgeService.Ipca
                         if (anyLayer.isShow()) {
                             anyLayer.dismiss();
                         }
+
+
+                        //设备搜索对话框
+                        searchAnyLayerView=new SearchAnyLayerView(IPCActivity.this);
+                        //绑定回调
+                        searchAnyLayerView.setOnSelectSearchListener(IPCActivity.this);
+                        //显示
+                        searchAnyLayerView.show();
                     }
                 })
                 .onClick(R.id.iv_edit, new AnyLayer.OnLayerClickListener() {
@@ -638,4 +741,90 @@ public class IPCActivity extends AppCompatActivity implements BridgeService.Ipca
 
         editDialog.show();
     }
+
+
+    //显示手动添加摄像头对话框
+    public void showAddCameraEditDialog(VStarCamera vStarCamera) {
+
+        editDialog = AnyLayer.with(this)
+                .contentView(R.layout.dialog_add_camera_edit)
+                .backgroundBlurPercent(0.015F)//背景高斯模糊
+                .gravity(Gravity.TOP | Gravity.CENTER)
+                .cancelableOnTouchOutside(true)
+                .cancelableOnClickKeyBack(true)
+                .onClick(R.id.fl_dialog_no, new AnyLayer.OnLayerClickListener() {
+                    @Override
+                    public void onClick(AnyLayer anyLayer, View v) {
+                        //取消
+                        if (anyLayer.isShow()) {
+                            anyLayer.dismiss();
+                        }
+                    }
+                })
+
+                .contentAnim(new AnyLayer.IAnim() {
+                    @Override
+                    public long inAnim(View content) {
+                        AnimHelper.startTopAlphaInAnim(content, 350);//设置进入动画
+                        return 350;
+                    }
+
+                    @Override
+                    public long outAnim(View content) {
+                        AnimHelper.startTopAlphaOutAnim(content, 350);//设置退出动画
+                        return 350;
+                    }
+                });
+
+        final EditText et_name = editDialog.getView(R.id.et_name);
+        final EditText et_id = editDialog.getView(R.id.et_id);
+        final EditText et_username = editDialog.getView(R.id.et_username);
+        final EditText et_password = editDialog.getView(R.id.et_password);
+        FrameLayout fl_dialog_yes = editDialog.getView(R.id.fl_dialog_yes);
+
+        et_name.setText(""+vStarCamera.getName());
+        et_id.setText(""+vStarCamera.getId());
+        et_username.setText(""+vStarCamera.getUsername());
+        et_password.setText(""+vStarCamera.getPassword());
+
+        fl_dialog_yes.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                //确认添加
+                String name=et_name.getText().toString();
+                String id=et_id.getText().toString().trim();
+                String username=et_username.getText().toString().trim();
+                String password=et_password.getText().toString().trim();
+
+                if (name.equals("")|id.equals("")|username.equals("")|password.equals("")){
+                    Toast.makeText(IPCActivity.this, "Input cannot be empty", Toast.LENGTH_LONG).show();
+                    return;
+                }
+
+                //将IPC实体对象集合转成Json字符串
+                VStarCamera vStarCamera=new VStarCamera(name,id,username,password);
+                vStarCameraList.add(vStarCamera);
+                ipcListAdapter.getIpcStates().add(-1);//设备状态
+                String str=JSONUtil.listToJson(vStarCameraList);
+
+                //保存数据
+                SPUtil.put(IPCActivity.this,SP_FILE_NAME,SP_IPC_KEY,str);
+
+                //刷新列表
+                ipcListRefreshData();
+
+                if (editDialog.isShow()){
+                    editDialog.dismiss();
+                }
+
+                //准备摄像头初始化连接工作 线程
+                new IpcInitThread().start();
+
+            }
+        });
+
+        editDialog.show();
+    }
+
+
 }

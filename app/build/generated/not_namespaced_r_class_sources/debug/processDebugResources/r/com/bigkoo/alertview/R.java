@@ -68,15 +68,15 @@ public final class R {
 
         public static final int alertButtonListView = 0x7f080029;
         public static final int content_container = 0x7f0800c0;
-        public static final int loAlertButtons = 0x7f0801d4;
-        public static final int loAlertHeader = 0x7f0801d5;
-        public static final int outmost_container = 0x7f0802ca;
-        public static final int tvAlert = 0x7f080462;
-        public static final int tvAlertCancel = 0x7f080463;
-        public static final int tvAlertMsg = 0x7f080464;
-        public static final int tvAlertTitle = 0x7f080465;
-        public static final int viewStubHorizontal = 0x7f0804a2;
-        public static final int viewStubVertical = 0x7f0804a3;
+        public static final int loAlertButtons = 0x7f0801d6;
+        public static final int loAlertHeader = 0x7f0801d7;
+        public static final int outmost_container = 0x7f0802cc;
+        public static final int tvAlert = 0x7f080466;
+        public static final int tvAlertCancel = 0x7f080467;
+        public static final int tvAlertMsg = 0x7f080468;
+        public static final int tvAlertTitle = 0x7f080469;
+        public static final int viewStubHorizontal = 0x7f0804a9;
+        public static final int viewStubVertical = 0x7f0804aa;
     }
     public static final class integer {
         private integer() {}
@@ -86,13 +86,13 @@ public final class R {
     public static final class layout {
         private layout() {}
 
-        public static final int include_alertheader = 0x7f0a0072;
-        public static final int item_alertbutton = 0x7f0a0074;
-        public static final int layout_alertview = 0x7f0a0075;
-        public static final int layout_alertview_actionsheet = 0x7f0a0076;
-        public static final int layout_alertview_alert = 0x7f0a0077;
-        public static final int layout_alertview_alert_horizontal = 0x7f0a0078;
-        public static final int layout_alertview_alert_vertical = 0x7f0a0079;
+        public static final int include_alertheader = 0x7f0a0073;
+        public static final int item_alertbutton = 0x7f0a0075;
+        public static final int layout_alertview = 0x7f0a0076;
+        public static final int layout_alertview_actionsheet = 0x7f0a0077;
+        public static final int layout_alertview_alert = 0x7f0a0078;
+        public static final int layout_alertview_alert_horizontal = 0x7f0a0079;
+        public static final int layout_alertview_alert_vertical = 0x7f0a007a;
     }
     public static final class string {
         private string() {}
