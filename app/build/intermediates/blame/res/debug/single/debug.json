@@ -16,12 +16,12 @@
         "source": "E:\\Android_Studio_Project\\G4AirBus\\Smartbushome\\app\\src\\main\\res\\drawable\\ic_ac_fan_speed_auto_in_room.xml"
     },
     {
-        "merged": "E:\\Android_Studio_Project\\G4AirBus\\Smartbushome\\app\\build\\intermediates\\res\\merged\\debug\\layout_dialog_add_camera_edit.xml.flat",
-        "source": "E:\\Android_Studio_Project\\G4AirBus\\Smartbushome\\vstarcam\\build\\intermediates\\packaged_res\\debug\\layout\\dialog_add_camera_edit.xml"
-    },
-    {
         "merged": "E:\\Android_Studio_Project\\G4AirBus\\Smartbushome\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxhdpi_room_type2.png.flat",
         "source": "E:\\Android_Studio_Project\\G4AirBus\\Smartbushome\\app\\src\\main\\res\\mipmap-xxhdpi\\room_type2.png"
+    },
+    {
+        "merged": "E:\\Android_Studio_Project\\G4AirBus\\Smartbushome\\app\\build\\intermediates\\res\\merged\\debug\\layout_dialog_add_camera_edit.xml.flat",
+        "source": "E:\\Android_Studio_Project\\G4AirBus\\Smartbushome\\vstarcam\\build\\intermediates\\packaged_res\\debug\\layout\\dialog_add_camera_edit.xml"
     },
     {
         "merged": "E:\\Android_Studio_Project\\G4AirBus\\Smartbushome\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-hdpi_marco_icon8.png.flat",
@@ -44,12 +44,12 @@
         "source": "C:\\Users\\Administrator\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-25.3.1.aar\\d2323c16e383ddfb03d3b7dfad3f3e85\\res\\layout\\notification_template_media.xml"
     },
     {
-        "merged": "E:\\Android_Studio_Project\\G4AirBus\\Smartbushome\\app\\build\\intermediates\\res\\merged\\debug\\layout_notification_template_lines_media.xml.flat",
-        "source": "C:\\Users\\Administrator\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-25.3.1.aar\\d2323c16e383ddfb03d3b7dfad3f3e85\\res\\layout\\notification_template_lines_media.xml"
-    },
-    {
         "merged": "E:\\Android_Studio_Project\\G4AirBus\\Smartbushome\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4_abc_list_pressed_holo_light.9.png.flat",
         "source": "C:\\Users\\Administrator\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-25.3.1.aar\\d2323c16e383ddfb03d3b7dfad3f3e85\\res\\drawable-xhdpi-v4\\abc_list_pressed_holo_light.9.png"
+    },
+    {
+        "merged": "E:\\Android_Studio_Project\\G4AirBus\\Smartbushome\\app\\build\\intermediates\\res\\merged\\debug\\layout_notification_template_lines_media.xml.flat",
+        "source": "C:\\Users\\Administrator\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-25.3.1.aar\\d2323c16e383ddfb03d3b7dfad3f3e85\\res\\layout\\notification_template_lines_media.xml"
     },
     {
         "merged": "E:\\Android_Studio_Project\\G4AirBus\\Smartbushome\\app\\build\\intermediates\\res\\merged\\debug\\color_abc_tint_edittext.xml.flat",
@@ -88,12 +88,12 @@
         "source": "E:\\Android_Studio_Project\\G4AirBus\\Smartbushome\\vstarcam\\build\\intermediates\\packaged_res\\debug\\drawable-ldpi-v4\\ic_launcher_background.png"
     },
     {
-        "merged": "E:\\Android_Studio_Project\\G4AirBus\\Smartbushome\\app\\build\\intermediates\\res\\merged\\debug\\color_abc_primary_text_disable_only_material_dark.xml.flat",
-        "source": "C:\\Users\\Administrator\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-25.3.1.aar\\d2323c16e383ddfb03d3b7dfad3f3e85\\res\\color\\abc_primary_text_disable_only_material_dark.xml"
-    },
-    {
         "merged": "E:\\Android_Studio_Project\\G4AirBus\\Smartbushome\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4_abc_ic_star_half_black_16dp.png.flat",
         "source": "C:\\Users\\Administrator\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-25.3.1.aar\\d2323c16e383ddfb03d3b7dfad3f3e85\\res\\drawable-mdpi-v4\\abc_ic_star_half_black_16dp.png"
+    },
+    {
+        "merged": "E:\\Android_Studio_Project\\G4AirBus\\Smartbushome\\app\\build\\intermediates\\res\\merged\\debug\\color_abc_primary_text_disable_only_material_dark.xml.flat",
+        "source": "C:\\Users\\Administrator\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-25.3.1.aar\\d2323c16e383ddfb03d3b7dfad3f3e85\\res\\color\\abc_primary_text_disable_only_material_dark.xml"
     },
     {
         "merged": "E:\\Android_Studio_Project\\G4AirBus\\Smartbushome\\app\\build\\intermediates\\res\\merged\\debug\\drawable_ic_ac_set_temp_up.xml.flat",
@@ -236,12 +236,12 @@
         "source": "E:\\Android_Studio_Project\\G4AirBus\\Smartbushome\\app\\src\\main\\res\\drawable\\alllightbutton.xml"
     },
     {
-        "merged": "E:\\Android_Studio_Project\\G4AirBus\\Smartbushome\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi-v4_abc_btn_check_to_on_mtrl_015.png.flat",
-        "source": "C:\\Users\\Administrator\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-25.3.1.aar\\d2323c16e383ddfb03d3b7dfad3f3e85\\res\\drawable-xxhdpi-v4\\abc_btn_check_to_on_mtrl_015.png"
-    },
-    {
         "merged": "E:\\Android_Studio_Project\\G4AirBus\\Smartbushome\\app\\build\\intermediates\\res\\merged\\debug\\layout_setting_otherinfotype5.xml.flat",
         "source": "E:\\Android_Studio_Project\\G4AirBus\\Smartbushome\\app\\src\\main\\res\\layout\\setting_otherinfotype5.xml"
+    },
+    {
+        "merged": "E:\\Android_Studio_Project\\G4AirBus\\Smartbushome\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi-v4_abc_btn_check_to_on_mtrl_015.png.flat",
+        "source": "C:\\Users\\Administrator\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-25.3.1.aar\\d2323c16e383ddfb03d3b7dfad3f3e85\\res\\drawable-xxhdpi-v4\\abc_btn_check_to_on_mtrl_015.png"
     },
     {
         "merged": "E:\\Android_Studio_Project\\G4AirBus\\Smartbushome\\app\\build\\intermediates\\res\\merged\\debug\\drawable_abc_text_cursor_material.xml.flat",
@@ -300,20 +300,20 @@
         "source": "C:\\Users\\Administrator\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-25.3.1.aar\\d2323c16e383ddfb03d3b7dfad3f3e85\\res\\layout\\abc_list_menu_item_checkbox.xml"
     },
     {
-        "merged": "E:\\Android_Studio_Project\\G4AirBus\\Smartbushome\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4_abc_cab_background_top_mtrl_alpha.9.png.flat",
-        "source": "C:\\Users\\Administrator\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-25.3.1.aar\\d2323c16e383ddfb03d3b7dfad3f3e85\\res\\drawable-hdpi-v4\\abc_cab_background_top_mtrl_alpha.9.png"
-    },
-    {
-        "merged": "E:\\Android_Studio_Project\\G4AirBus\\Smartbushome\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi-v4_abc_spinner_mtrl_am_alpha.9.png.flat",
-        "source": "C:\\Users\\Administrator\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-25.3.1.aar\\d2323c16e383ddfb03d3b7dfad3f3e85\\res\\drawable-xxhdpi-v4\\abc_spinner_mtrl_am_alpha.9.png"
+        "merged": "E:\\Android_Studio_Project\\G4AirBus\\Smartbushome\\app\\build\\intermediates\\res\\merged\\debug\\layout_dialog_control.xml.flat",
+        "source": "E:\\Android_Studio_Project\\G4AirBus\\Smartbushome\\vstarcam\\build\\intermediates\\packaged_res\\debug\\layout\\dialog_control.xml"
     },
     {
         "merged": "E:\\Android_Studio_Project\\G4AirBus\\Smartbushome\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxhdpi_fan.png.flat",
         "source": "E:\\Android_Studio_Project\\G4AirBus\\Smartbushome\\app\\src\\main\\res\\mipmap-xxhdpi\\fan.png"
     },
     {
-        "merged": "E:\\Android_Studio_Project\\G4AirBus\\Smartbushome\\app\\build\\intermediates\\res\\merged\\debug\\layout_dialog_control.xml.flat",
-        "source": "E:\\Android_Studio_Project\\G4AirBus\\Smartbushome\\vstarcam\\build\\intermediates\\packaged_res\\debug\\layout\\dialog_control.xml"
+        "merged": "E:\\Android_Studio_Project\\G4AirBus\\Smartbushome\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi-v4_abc_spinner_mtrl_am_alpha.9.png.flat",
+        "source": "C:\\Users\\Administrator\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-25.3.1.aar\\d2323c16e383ddfb03d3b7dfad3f3e85\\res\\drawable-xxhdpi-v4\\abc_spinner_mtrl_am_alpha.9.png"
+    },
+    {
+        "merged": "E:\\Android_Studio_Project\\G4AirBus\\Smartbushome\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4_abc_cab_background_top_mtrl_alpha.9.png.flat",
+        "source": "C:\\Users\\Administrator\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-25.3.1.aar\\d2323c16e383ddfb03d3b7dfad3f3e85\\res\\drawable-hdpi-v4\\abc_cab_background_top_mtrl_alpha.9.png"
     },
     {
         "merged": "E:\\Android_Studio_Project\\G4AirBus\\Smartbushome\\app\\build\\intermediates\\res\\merged\\debug\\drawable_play_right_bg_selector.xml.flat",
@@ -338,6 +338,10 @@
     {
         "merged": "E:\\Android_Studio_Project\\G4AirBus\\Smartbushome\\app\\build\\intermediates\\res\\merged\\debug\\drawable_selector_pickerview_btn.xml.flat",
         "source": "C:\\Users\\Administrator\\.gradle\\caches\\transforms-1\\files-1.1\\Android-PickerView-3.0.8.aar\\bca2fc4be165a848ee25747ad6d7a977\\res\\drawable\\selector_pickerview_btn.xml"
+    },
+    {
+        "merged": "E:\\Android_Studio_Project\\G4AirBus\\Smartbushome\\app\\build\\intermediates\\res\\merged\\debug\\drawable_shape_main_button.xml.flat",
+        "source": "E:\\Android_Studio_Project\\G4AirBus\\Smartbushome\\scan_zxing\\build\\intermediates\\packaged_res\\debug\\drawable\\shape_main_button.xml"
     },
     {
         "merged": "E:\\Android_Studio_Project\\G4AirBus\\Smartbushome\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxhdpi_status1.png.flat",
@@ -408,12 +412,12 @@
         "source": "C:\\Users\\Administrator\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-25.3.1.aar\\d2323c16e383ddfb03d3b7dfad3f3e85\\res\\drawable-xxhdpi-v4\\abc_ic_star_black_16dp.png"
     },
     {
-        "merged": "E:\\Android_Studio_Project\\G4AirBus\\Smartbushome\\app\\build\\intermediates\\res\\merged\\debug\\drawable_design_fab_background.xml.flat",
-        "source": "C:\\Users\\Administrator\\.gradle\\caches\\transforms-1\\files-1.1\\design-25.3.1.aar\\4aa3bd0247322d704ff2373cb6fa733c\\res\\drawable\\design_fab_background.xml"
-    },
-    {
         "merged": "E:\\Android_Studio_Project\\G4AirBus\\Smartbushome\\app\\build\\intermediates\\res\\merged\\debug\\drawable_key_down_1.png.flat",
         "source": "E:\\Android_Studio_Project\\G4AirBus\\Smartbushome\\app\\src\\main\\res\\drawable\\key_down_1.png"
+    },
+    {
+        "merged": "E:\\Android_Studio_Project\\G4AirBus\\Smartbushome\\app\\build\\intermediates\\res\\merged\\debug\\drawable_design_fab_background.xml.flat",
+        "source": "C:\\Users\\Administrator\\.gradle\\caches\\transforms-1\\files-1.1\\design-25.3.1.aar\\4aa3bd0247322d704ff2373cb6fa733c\\res\\drawable\\design_fab_background.xml"
     },
     {
         "merged": "E:\\Android_Studio_Project\\G4AirBus\\Smartbushome\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4_abc_ab_share_pack_mtrl_alpha.9.png.flat",
@@ -436,12 +440,12 @@
         "source": "C:\\Users\\Administrator\\.gradle\\caches\\transforms-1\\files-1.1\\design-25.3.1.aar\\4aa3bd0247322d704ff2373cb6fa733c\\res\\anim\\design_fab_out.xml"
     },
     {
-        "merged": "E:\\Android_Studio_Project\\G4AirBus\\Smartbushome\\app\\build\\intermediates\\res\\merged\\debug\\drawable_abc_cab_background_top_material.xml.flat",
-        "source": "C:\\Users\\Administrator\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-25.3.1.aar\\d2323c16e383ddfb03d3b7dfad3f3e85\\res\\drawable\\abc_cab_background_top_material.xml"
-    },
-    {
         "merged": "E:\\Android_Studio_Project\\G4AirBus\\Smartbushome\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4_abc_ic_star_half_black_48dp.png.flat",
         "source": "C:\\Users\\Administrator\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-25.3.1.aar\\d2323c16e383ddfb03d3b7dfad3f3e85\\res\\drawable-mdpi-v4\\abc_ic_star_half_black_48dp.png"
+    },
+    {
+        "merged": "E:\\Android_Studio_Project\\G4AirBus\\Smartbushome\\app\\build\\intermediates\\res\\merged\\debug\\drawable_abc_cab_background_top_material.xml.flat",
+        "source": "C:\\Users\\Administrator\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-25.3.1.aar\\d2323c16e383ddfb03d3b7dfad3f3e85\\res\\drawable\\abc_cab_background_top_material.xml"
     },
     {
         "merged": "E:\\Android_Studio_Project\\G4AirBus\\Smartbushome\\app\\build\\intermediates\\res\\merged\\debug\\layout_adapter_centralcontrol_grid_item.xml.flat",
@@ -548,12 +552,12 @@
         "source": "E:\\Android_Studio_Project\\G4AirBus\\Smartbushome\\app\\src\\main\\res\\layout\\activity_all_other.xml"
     },
     {
-        "merged": "E:\\Android_Studio_Project\\G4AirBus\\Smartbushome\\app\\build\\intermediates\\res\\merged\\debug\\drawable_main_bg.jpg.flat",
-        "source": "E:\\Android_Studio_Project\\G4AirBus\\Smartbushome\\app\\src\\main\\res\\drawable\\main_bg.jpg"
-    },
-    {
         "merged": "E:\\Android_Studio_Project\\G4AirBus\\Smartbushome\\app\\build\\intermediates\\res\\merged\\debug\\drawable_lsv_dinning.png.flat",
         "source": "E:\\Android_Studio_Project\\G4AirBus\\Smartbushome\\app\\src\\main\\res\\drawable\\lsv_dinning.png"
+    },
+    {
+        "merged": "E:\\Android_Studio_Project\\G4AirBus\\Smartbushome\\app\\build\\intermediates\\res\\merged\\debug\\drawable_main_bg.jpg.flat",
+        "source": "E:\\Android_Studio_Project\\G4AirBus\\Smartbushome\\app\\src\\main\\res\\drawable\\main_bg.jpg"
     },
     {
         "merged": "E:\\Android_Studio_Project\\G4AirBus\\Smartbushome\\app\\build\\intermediates\\res\\merged\\debug\\layout_mood_icon_select.xml.flat",
@@ -572,12 +576,12 @@
         "source": "E:\\Android_Studio_Project\\G4AirBus\\Smartbushome\\app\\src\\main\\res\\layout\\view_arealist_dialog.xml"
     },
     {
-        "merged": "E:\\Android_Studio_Project\\G4AirBus\\Smartbushome\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-mdpi_light_type3_on.png.flat",
-        "source": "E:\\Android_Studio_Project\\G4AirBus\\Smartbushome\\app\\src\\main\\res\\mipmap-mdpi\\light_type3_on.png"
-    },
-    {
         "merged": "E:\\Android_Studio_Project\\G4AirBus\\Smartbushome\\app\\build\\intermediates\\res\\merged\\debug\\anim_anim_show_icon.xml.flat",
         "source": "E:\\Android_Studio_Project\\G4AirBus\\Smartbushome\\app\\src\\main\\res\\anim\\anim_show_icon.xml"
+    },
+    {
+        "merged": "E:\\Android_Studio_Project\\G4AirBus\\Smartbushome\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-mdpi_light_type3_on.png.flat",
+        "source": "E:\\Android_Studio_Project\\G4AirBus\\Smartbushome\\app\\src\\main\\res\\mipmap-mdpi\\light_type3_on.png"
     },
     {
         "merged": "E:\\Android_Studio_Project\\G4AirBus\\Smartbushome\\app\\build\\intermediates\\res\\merged\\debug\\drawable_pause.png.flat",
@@ -632,12 +636,12 @@
         "source": "C:\\Users\\Administrator\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-25.3.1.aar\\d2323c16e383ddfb03d3b7dfad3f3e85\\res\\drawable-mdpi-v4\\abc_tab_indicator_mtrl_alpha.9.png"
     },
     {
-        "merged": "E:\\Android_Studio_Project\\G4AirBus\\Smartbushome\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxxhdpi_ic_home_white_24dp.png.flat",
-        "source": "E:\\Android_Studio_Project\\G4AirBus\\Smartbushome\\app\\src\\main\\res\\mipmap-xxxhdpi\\ic_home_white_24dp.png"
-    },
-    {
         "merged": "E:\\Android_Studio_Project\\G4AirBus\\Smartbushome\\app\\build\\intermediates\\res\\merged\\debug\\drawable_songplaymode4.png.flat",
         "source": "E:\\Android_Studio_Project\\G4AirBus\\Smartbushome\\app\\src\\main\\res\\drawable\\songplaymode4.png"
+    },
+    {
+        "merged": "E:\\Android_Studio_Project\\G4AirBus\\Smartbushome\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxxhdpi_ic_home_white_24dp.png.flat",
+        "source": "E:\\Android_Studio_Project\\G4AirBus\\Smartbushome\\app\\src\\main\\res\\mipmap-xxxhdpi\\ic_home_white_24dp.png"
     },
     {
         "merged": "E:\\Android_Studio_Project\\G4AirBus\\Smartbushome\\app\\build\\intermediates\\res\\merged\\debug\\layout_setting_moodinfo.xml.flat",
@@ -724,12 +728,12 @@
         "source": "E:\\Android_Studio_Project\\G4AirBus\\Smartbushome\\alertview\\build\\intermediates\\packaged_res\\debug\\drawable\\bg_actionsheet_cancel.xml"
     },
     {
-        "merged": "E:\\Android_Studio_Project\\G4AirBus\\Smartbushome\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4_design_ic_visibility_off.png.flat",
-        "source": "C:\\Users\\Administrator\\.gradle\\caches\\transforms-1\\files-1.1\\design-25.3.1.aar\\4aa3bd0247322d704ff2373cb6fa733c\\res\\drawable-xhdpi-v4\\design_ic_visibility_off.png"
-    },
-    {
         "merged": "E:\\Android_Studio_Project\\G4AirBus\\Smartbushome\\app\\build\\intermediates\\res\\merged\\debug\\drawable_navigation_empty_icon.xml.flat",
         "source": "C:\\Users\\Administrator\\.gradle\\caches\\transforms-1\\files-1.1\\design-25.3.1.aar\\4aa3bd0247322d704ff2373cb6fa733c\\res\\drawable\\navigation_empty_icon.xml"
+    },
+    {
+        "merged": "E:\\Android_Studio_Project\\G4AirBus\\Smartbushome\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4_design_ic_visibility_off.png.flat",
+        "source": "C:\\Users\\Administrator\\.gradle\\caches\\transforms-1\\files-1.1\\design-25.3.1.aar\\4aa3bd0247322d704ff2373cb6fa733c\\res\\drawable-xhdpi-v4\\design_ic_visibility_off.png"
     },
     {
         "merged": "E:\\Android_Studio_Project\\G4AirBus\\Smartbushome\\app\\build\\intermediates\\res\\merged\\debug\\drawable_songplaymode3.png.flat",
@@ -752,16 +756,16 @@
         "source": "E:\\Android_Studio_Project\\G4AirBus\\Smartbushome\\app\\src\\main\\res\\drawable\\add_icon.png"
     },
     {
-        "merged": "E:\\Android_Studio_Project\\G4AirBus\\Smartbushome\\app\\build\\intermediates\\res\\merged\\debug\\layout_fragment_mood.xml.flat",
-        "source": "E:\\Android_Studio_Project\\G4AirBus\\Smartbushome\\app\\src\\main\\res\\layout\\fragment_mood.xml"
+        "merged": "E:\\Android_Studio_Project\\G4AirBus\\Smartbushome\\app\\build\\intermediates\\res\\merged\\debug\\layout_include_alertheader.xml.flat",
+        "source": "E:\\Android_Studio_Project\\G4AirBus\\Smartbushome\\alertview\\build\\intermediates\\packaged_res\\debug\\layout\\include_alertheader.xml"
     },
     {
         "merged": "E:\\Android_Studio_Project\\G4AirBus\\Smartbushome\\app\\build\\intermediates\\res\\merged\\debug\\color-v11_abc_background_cache_hint_selector_material_light.xml.flat",
         "source": "C:\\Users\\Administrator\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-25.3.1.aar\\d2323c16e383ddfb03d3b7dfad3f3e85\\res\\color-v11\\abc_background_cache_hint_selector_material_light.xml"
     },
     {
-        "merged": "E:\\Android_Studio_Project\\G4AirBus\\Smartbushome\\app\\build\\intermediates\\res\\merged\\debug\\layout_include_alertheader.xml.flat",
-        "source": "E:\\Android_Studio_Project\\G4AirBus\\Smartbushome\\alertview\\build\\intermediates\\packaged_res\\debug\\layout\\include_alertheader.xml"
+        "merged": "E:\\Android_Studio_Project\\G4AirBus\\Smartbushome\\app\\build\\intermediates\\res\\merged\\debug\\layout_fragment_mood.xml.flat",
+        "source": "E:\\Android_Studio_Project\\G4AirBus\\Smartbushome\\app\\src\\main\\res\\layout\\fragment_mood.xml"
     },
     {
         "merged": "E:\\Android_Studio_Project\\G4AirBus\\Smartbushome\\app\\build\\intermediates\\res\\merged\\debug\\layout_setting_niobuttoninfo.xml.flat",
@@ -776,12 +780,12 @@
         "source": "E:\\Android_Studio_Project\\G4AirBus\\Smartbushome\\app\\src\\main\\res\\mipmap-xxhdpi\\fh.png"
     },
     {
-        "merged": "E:\\Android_Studio_Project\\G4AirBus\\Smartbushome\\app\\build\\intermediates\\res\\merged\\debug\\layout_setting_changepassword.xml.flat",
-        "source": "E:\\Android_Studio_Project\\G4AirBus\\Smartbushome\\app\\src\\main\\res\\layout\\setting_changepassword.xml"
-    },
-    {
         "merged": "E:\\Android_Studio_Project\\G4AirBus\\Smartbushome\\app\\build\\intermediates\\res\\merged\\debug\\drawable_roomitem.xml.flat",
         "source": "E:\\Android_Studio_Project\\G4AirBus\\Smartbushome\\app\\src\\main\\res\\drawable\\roomitem.xml"
+    },
+    {
+        "merged": "E:\\Android_Studio_Project\\G4AirBus\\Smartbushome\\app\\build\\intermediates\\res\\merged\\debug\\layout_setting_changepassword.xml.flat",
+        "source": "E:\\Android_Studio_Project\\G4AirBus\\Smartbushome\\app\\src\\main\\res\\layout\\setting_changepassword.xml"
     },
     {
         "merged": "E:\\Android_Studio_Project\\G4AirBus\\Smartbushome\\app\\build\\intermediates\\res\\merged\\debug\\layout_support_simple_spinner_dropdown_item.xml.flat",
@@ -848,12 +852,12 @@
         "source": "C:\\Users\\Administrator\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-25.3.1.aar\\d2323c16e383ddfb03d3b7dfad3f3e85\\res\\drawable-xxxhdpi-v4\\abc_ic_star_black_36dp.png"
     },
     {
-        "merged": "E:\\Android_Studio_Project\\G4AirBus\\Smartbushome\\app\\build\\intermediates\\res\\merged\\debug\\drawable_abc_edit_text_material.xml.flat",
-        "source": "C:\\Users\\Administrator\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-25.3.1.aar\\d2323c16e383ddfb03d3b7dfad3f3e85\\res\\drawable\\abc_edit_text_material.xml"
-    },
-    {
         "merged": "E:\\Android_Studio_Project\\G4AirBus\\Smartbushome\\app\\build\\intermediates\\res\\merged\\debug\\drawable_textcolorstyle.xml.flat",
         "source": "E:\\Android_Studio_Project\\G4AirBus\\Smartbushome\\app\\src\\main\\res\\drawable\\textcolorstyle.xml"
+    },
+    {
+        "merged": "E:\\Android_Studio_Project\\G4AirBus\\Smartbushome\\app\\build\\intermediates\\res\\merged\\debug\\drawable_abc_edit_text_material.xml.flat",
+        "source": "C:\\Users\\Administrator\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-25.3.1.aar\\d2323c16e383ddfb03d3b7dfad3f3e85\\res\\drawable\\abc_edit_text_material.xml"
     },
     {
         "merged": "E:\\Android_Studio_Project\\G4AirBus\\Smartbushome\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4_abc_ic_commit_search_api_mtrl_alpha.png.flat",
@@ -868,12 +872,12 @@
         "source": "E:\\Android_Studio_Project\\G4AirBus\\Smartbushome\\app\\src\\main\\res\\mipmap-xhdpi\\ios_thumb.png"
     },
     {
-        "merged": "E:\\Android_Studio_Project\\G4AirBus\\Smartbushome\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi-v4_abc_ic_star_black_36dp.png.flat",
-        "source": "C:\\Users\\Administrator\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-25.3.1.aar\\d2323c16e383ddfb03d3b7dfad3f3e85\\res\\drawable-xxhdpi-v4\\abc_ic_star_black_36dp.png"
-    },
-    {
         "merged": "E:\\Android_Studio_Project\\G4AirBus\\Smartbushome\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4_abc_scrubber_control_to_pressed_mtrl_005.png.flat",
         "source": "C:\\Users\\Administrator\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-25.3.1.aar\\d2323c16e383ddfb03d3b7dfad3f3e85\\res\\drawable-hdpi-v4\\abc_scrubber_control_to_pressed_mtrl_005.png"
+    },
+    {
+        "merged": "E:\\Android_Studio_Project\\G4AirBus\\Smartbushome\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi-v4_abc_ic_star_black_36dp.png.flat",
+        "source": "C:\\Users\\Administrator\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-25.3.1.aar\\d2323c16e383ddfb03d3b7dfad3f3e85\\res\\drawable-xxhdpi-v4\\abc_ic_star_black_36dp.png"
     },
     {
         "merged": "E:\\Android_Studio_Project\\G4AirBus\\Smartbushome\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi-v4_abc_ic_star_half_black_16dp.png.flat",
@@ -884,12 +888,12 @@
         "source": "C:\\Users\\Administrator\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-25.3.1.aar\\d2323c16e383ddfb03d3b7dfad3f3e85\\res\\drawable-mdpi-v4\\abc_scrubber_control_off_mtrl_alpha.png"
     },
     {
-        "merged": "E:\\Android_Studio_Project\\G4AirBus\\Smartbushome\\app\\build\\intermediates\\res\\merged\\debug\\layout_notification_template_media_custom.xml.flat",
-        "source": "C:\\Users\\Administrator\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-25.3.1.aar\\d2323c16e383ddfb03d3b7dfad3f3e85\\res\\layout\\notification_template_media_custom.xml"
-    },
-    {
         "merged": "E:\\Android_Studio_Project\\G4AirBus\\Smartbushome\\app\\build\\intermediates\\res\\merged\\debug\\drawable_dialog_bg.xml.flat",
         "source": "E:\\Android_Studio_Project\\G4AirBus\\Smartbushome\\app\\src\\main\\res\\drawable\\dialog_bg.xml"
+    },
+    {
+        "merged": "E:\\Android_Studio_Project\\G4AirBus\\Smartbushome\\app\\build\\intermediates\\res\\merged\\debug\\layout_notification_template_media_custom.xml.flat",
+        "source": "C:\\Users\\Administrator\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-25.3.1.aar\\d2323c16e383ddfb03d3b7dfad3f3e85\\res\\layout\\notification_template_media_custom.xml"
     },
     {
         "merged": "E:\\Android_Studio_Project\\G4AirBus\\Smartbushome\\app\\build\\intermediates\\res\\merged\\debug\\layout_layout_alertview_alert.xml.flat",
@@ -952,12 +956,12 @@
         "source": "C:\\Users\\Administrator\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-25.3.1.aar\\d2323c16e383ddfb03d3b7dfad3f3e85\\res\\drawable-xxhdpi-v4\\abc_ic_star_half_black_16dp.png"
     },
     {
-        "merged": "E:\\Android_Studio_Project\\G4AirBus\\Smartbushome\\app\\build\\intermediates\\res\\merged\\debug\\color_design_tint_password_toggle.xml.flat",
-        "source": "C:\\Users\\Administrator\\.gradle\\caches\\transforms-1\\files-1.1\\design-25.3.1.aar\\4aa3bd0247322d704ff2373cb6fa733c\\res\\color\\design_tint_password_toggle.xml"
-    },
-    {
         "merged": "E:\\Android_Studio_Project\\G4AirBus\\Smartbushome\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi-v4_abc_menu_hardkey_panel_mtrl_mult.9.png.flat",
         "source": "C:\\Users\\Administrator\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-25.3.1.aar\\d2323c16e383ddfb03d3b7dfad3f3e85\\res\\drawable-xxhdpi-v4\\abc_menu_hardkey_panel_mtrl_mult.9.png"
+    },
+    {
+        "merged": "E:\\Android_Studio_Project\\G4AirBus\\Smartbushome\\app\\build\\intermediates\\res\\merged\\debug\\color_design_tint_password_toggle.xml.flat",
+        "source": "C:\\Users\\Administrator\\.gradle\\caches\\transforms-1\\files-1.1\\design-25.3.1.aar\\4aa3bd0247322d704ff2373cb6fa733c\\res\\color\\design_tint_password_toggle.xml"
     },
     {
         "merged": "E:\\Android_Studio_Project\\G4AirBus\\Smartbushome\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_secerity.xml.flat",
@@ -1052,12 +1056,12 @@
         "source": "E:\\Android_Studio_Project\\G4AirBus\\Smartbushome\\app\\src\\main\\res\\layout\\adapter_light_type_item.xml"
     },
     {
-        "merged": "E:\\Android_Studio_Project\\G4AirBus\\Smartbushome\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4_abc_btn_check_to_on_mtrl_000.png.flat",
-        "source": "C:\\Users\\Administrator\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-25.3.1.aar\\d2323c16e383ddfb03d3b7dfad3f3e85\\res\\drawable-hdpi-v4\\abc_btn_check_to_on_mtrl_000.png"
-    },
-    {
         "merged": "E:\\Android_Studio_Project\\G4AirBus\\Smartbushome\\app\\build\\intermediates\\res\\merged\\debug\\layout_layout_basepickerview.xml.flat",
         "source": "C:\\Users\\Administrator\\.gradle\\caches\\transforms-1\\files-1.1\\Android-PickerView-3.0.8.aar\\bca2fc4be165a848ee25747ad6d7a977\\res\\layout\\layout_basepickerview.xml"
+    },
+    {
+        "merged": "E:\\Android_Studio_Project\\G4AirBus\\Smartbushome\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4_abc_btn_check_to_on_mtrl_000.png.flat",
+        "source": "C:\\Users\\Administrator\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-25.3.1.aar\\d2323c16e383ddfb03d3b7dfad3f3e85\\res\\drawable-hdpi-v4\\abc_btn_check_to_on_mtrl_000.png"
     },
     {
         "merged": "E:\\Android_Studio_Project\\G4AirBus\\Smartbushome\\app\\build\\intermediates\\res\\merged\\debug\\drawable-ldrtl-hdpi-v17_abc_ic_menu_copy_mtrl_am_alpha.png.flat",
@@ -1072,16 +1076,16 @@
         "source": "E:\\Android_Studio_Project\\G4AirBus\\Smartbushome\\app\\src\\main\\res\\mipmap-xxhdpi\\ic_home_white_24dp.png"
     },
     {
-        "merged": "E:\\Android_Studio_Project\\G4AirBus\\Smartbushome\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xhdpi_other_icon8_on.png.flat",
-        "source": "E:\\Android_Studio_Project\\G4AirBus\\Smartbushome\\app\\src\\main\\res\\mipmap-xhdpi\\other_icon8_on.png"
+        "merged": "E:\\Android_Studio_Project\\G4AirBus\\Smartbushome\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxhdpi_room_type3.png.flat",
+        "source": "E:\\Android_Studio_Project\\G4AirBus\\Smartbushome\\app\\src\\main\\res\\mipmap-xxhdpi\\room_type3.png"
     },
     {
         "merged": "E:\\Android_Studio_Project\\G4AirBus\\Smartbushome\\app\\build\\intermediates\\res\\merged\\debug\\drawable_key_right_1.png.flat",
         "source": "E:\\Android_Studio_Project\\G4AirBus\\Smartbushome\\app\\src\\main\\res\\drawable\\key_right_1.png"
     },
     {
-        "merged": "E:\\Android_Studio_Project\\G4AirBus\\Smartbushome\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxhdpi_room_type3.png.flat",
-        "source": "E:\\Android_Studio_Project\\G4AirBus\\Smartbushome\\app\\src\\main\\res\\mipmap-xxhdpi\\room_type3.png"
+        "merged": "E:\\Android_Studio_Project\\G4AirBus\\Smartbushome\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xhdpi_other_icon8_on.png.flat",
+        "source": "E:\\Android_Studio_Project\\G4AirBus\\Smartbushome\\app\\src\\main\\res\\mipmap-xhdpi\\other_icon8_on.png"
     },
     {
         "merged": "E:\\Android_Studio_Project\\G4AirBus\\Smartbushome\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4_abc_ic_star_black_36dp.png.flat",
@@ -1120,16 +1124,16 @@
         "source": "C:\\Users\\Administrator\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-25.3.1.aar\\d2323c16e383ddfb03d3b7dfad3f3e85\\res\\drawable-xhdpi-v4\\notification_bg_low_normal.9.png"
     },
     {
-        "merged": "E:\\Android_Studio_Project\\G4AirBus\\Smartbushome\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxhdpi_room_type15.png.flat",
-        "source": "E:\\Android_Studio_Project\\G4AirBus\\Smartbushome\\app\\src\\main\\res\\mipmap-xxhdpi\\room_type15.png"
+        "merged": "E:\\Android_Studio_Project\\G4AirBus\\Smartbushome\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4_abc_ic_star_black_48dp.png.flat",
+        "source": "C:\\Users\\Administrator\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-25.3.1.aar\\d2323c16e383ddfb03d3b7dfad3f3e85\\res\\drawable-xhdpi-v4\\abc_ic_star_black_48dp.png"
     },
     {
         "merged": "E:\\Android_Studio_Project\\G4AirBus\\Smartbushome\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi-v4_abc_ic_menu_selectall_mtrl_alpha.png.flat",
         "source": "C:\\Users\\Administrator\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-25.3.1.aar\\d2323c16e383ddfb03d3b7dfad3f3e85\\res\\drawable-xxhdpi-v4\\abc_ic_menu_selectall_mtrl_alpha.png"
     },
     {
-        "merged": "E:\\Android_Studio_Project\\G4AirBus\\Smartbushome\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4_abc_ic_star_black_48dp.png.flat",
-        "source": "C:\\Users\\Administrator\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-25.3.1.aar\\d2323c16e383ddfb03d3b7dfad3f3e85\\res\\drawable-xhdpi-v4\\abc_ic_star_black_48dp.png"
+        "merged": "E:\\Android_Studio_Project\\G4AirBus\\Smartbushome\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxhdpi_room_type15.png.flat",
+        "source": "E:\\Android_Studio_Project\\G4AirBus\\Smartbushome\\app\\src\\main\\res\\mipmap-xxhdpi\\room_type15.png"
     },
     {
         "merged": "E:\\Android_Studio_Project\\G4AirBus\\Smartbushome\\app\\build\\intermediates\\res\\merged\\debug\\drawable_notify_next.png.flat",
@@ -1278,6 +1282,10 @@
     {
         "merged": "E:\\Android_Studio_Project\\G4AirBus\\Smartbushome\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_help.xml.flat",
         "source": "E:\\Android_Studio_Project\\G4AirBus\\Smartbushome\\app\\src\\main\\res\\layout\\activity_help.xml"
+    },
+    {
+        "merged": "E:\\Android_Studio_Project\\G4AirBus\\Smartbushome\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4_btn_back_normal.png.flat",
+        "source": "E:\\Android_Studio_Project\\G4AirBus\\Smartbushome\\scan_zxing\\build\\intermediates\\packaged_res\\debug\\drawable-hdpi-v4\\btn_back_normal.png"
     },
     {
         "merged": "E:\\Android_Studio_Project\\G4AirBus\\Smartbushome\\app\\build\\intermediates\\res\\merged\\debug\\color-v23_abc_tint_switch_thumb.xml.flat",
@@ -1544,6 +1552,10 @@
         "source": "E:\\Android_Studio_Project\\G4AirBus\\Smartbushome\\app\\src\\main\\res\\layout\\adapter_music_file.xml"
     },
     {
+        "merged": "E:\\Android_Studio_Project\\G4AirBus\\Smartbushome\\app\\build\\intermediates\\res\\merged\\debug\\drawable_shape_main_title.xml.flat",
+        "source": "E:\\Android_Studio_Project\\G4AirBus\\Smartbushome\\scan_zxing\\build\\intermediates\\packaged_res\\debug\\drawable\\shape_main_title.xml"
+    },
+    {
         "merged": "E:\\Android_Studio_Project\\G4AirBus\\Smartbushome\\app\\build\\intermediates\\res\\merged\\debug\\layout_view_statuslayout.xml.flat",
         "source": "E:\\Android_Studio_Project\\G4AirBus\\Smartbushome\\app\\src\\main\\res\\layout\\view_statuslayout.xml"
     },
@@ -1554,6 +1566,10 @@
     {
         "merged": "E:\\Android_Studio_Project\\G4AirBus\\Smartbushome\\app\\build\\intermediates\\res\\merged\\debug\\drawable_play_left_2.png.flat",
         "source": "E:\\Android_Studio_Project\\G4AirBus\\Smartbushome\\vstarcam\\build\\intermediates\\packaged_res\\debug\\drawable\\play_left_2.png"
+    },
+    {
+        "merged": "E:\\Android_Studio_Project\\G4AirBus\\Smartbushome\\app\\build\\intermediates\\res\\merged\\debug\\raw_beep.ogg.flat",
+        "source": "E:\\Android_Studio_Project\\G4AirBus\\Smartbushome\\scan_zxing\\build\\intermediates\\packaged_res\\debug\\raw\\beep.ogg"
     },
     {
         "merged": "E:\\Android_Studio_Project\\G4AirBus\\Smartbushome\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-hdpi_floorheatitem_icon.png.flat",
@@ -1670,6 +1686,14 @@
     {
         "merged": "E:\\Android_Studio_Project\\G4AirBus\\Smartbushome\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4_abc_ic_star_black_16dp.png.flat",
         "source": "C:\\Users\\Administrator\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-25.3.1.aar\\d2323c16e383ddfb03d3b7dfad3f3e85\\res\\drawable-hdpi-v4\\abc_ic_star_black_16dp.png"
+    },
+    {
+        "merged": "E:\\Android_Studio_Project\\G4AirBus\\Smartbushome\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_main_scan.xml.flat",
+        "source": "E:\\Android_Studio_Project\\G4AirBus\\Smartbushome\\scan_zxing\\build\\intermediates\\packaged_res\\debug\\layout\\activity_main_scan.xml"
+    },
+    {
+        "merged": "E:\\Android_Studio_Project\\G4AirBus\\Smartbushome\\app\\build\\intermediates\\res\\merged\\debug\\drawable_selector_main_button.xml.flat",
+        "source": "E:\\Android_Studio_Project\\G4AirBus\\Smartbushome\\scan_zxing\\build\\intermediates\\packaged_res\\debug\\drawable\\selector_main_button.xml"
     },
     {
         "merged": "E:\\Android_Studio_Project\\G4AirBus\\Smartbushome\\app\\build\\intermediates\\res\\merged\\debug\\drawable_ios_thumb_selector.xml.flat",
@@ -1790,6 +1814,10 @@
     {
         "merged": "E:\\Android_Studio_Project\\G4AirBus\\Smartbushome\\app\\build\\intermediates\\res\\merged\\debug\\drawable_listitem_pressed_selector.xml.flat",
         "source": "E:\\Android_Studio_Project\\G4AirBus\\Smartbushome\\vstarcam\\build\\intermediates\\packaged_res\\debug\\drawable\\listitem_pressed_selector.xml"
+    },
+    {
+        "merged": "E:\\Android_Studio_Project\\G4AirBus\\Smartbushome\\app\\build\\intermediates\\res\\merged\\debug\\drawable_selector_capture_back.xml.flat",
+        "source": "E:\\Android_Studio_Project\\G4AirBus\\Smartbushome\\scan_zxing\\build\\intermediates\\packaged_res\\debug\\drawable\\selector_capture_back.xml"
     },
     {
         "merged": "E:\\Android_Studio_Project\\G4AirBus\\Smartbushome\\app\\build\\intermediates\\res\\merged\\debug\\drawable_bg_layout_shape.xml.flat",
@@ -1940,12 +1968,12 @@
         "source": "C:\\Users\\Administrator\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-25.3.1.aar\\d2323c16e383ddfb03d3b7dfad3f3e85\\res\\layout\\abc_search_dropdown_item_icons_2line.xml"
     },
     {
-        "merged": "E:\\Android_Studio_Project\\G4AirBus\\Smartbushome\\app\\build\\intermediates\\res\\merged\\debug\\drawable_media_minvolume.xml.flat",
-        "source": "E:\\Android_Studio_Project\\G4AirBus\\Smartbushome\\app\\src\\main\\res\\drawable\\media_minvolume.xml"
-    },
-    {
         "merged": "E:\\Android_Studio_Project\\G4AirBus\\Smartbushome\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi-v4_abc_scrubber_control_to_pressed_mtrl_005.png.flat",
         "source": "C:\\Users\\Administrator\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-25.3.1.aar\\d2323c16e383ddfb03d3b7dfad3f3e85\\res\\drawable-xxxhdpi-v4\\abc_scrubber_control_to_pressed_mtrl_005.png"
+    },
+    {
+        "merged": "E:\\Android_Studio_Project\\G4AirBus\\Smartbushome\\app\\build\\intermediates\\res\\merged\\debug\\drawable_media_minvolume.xml.flat",
+        "source": "E:\\Android_Studio_Project\\G4AirBus\\Smartbushome\\app\\src\\main\\res\\drawable\\media_minvolume.xml"
     },
     {
         "merged": "E:\\Android_Studio_Project\\G4AirBus\\Smartbushome\\app\\build\\intermediates\\res\\merged\\debug\\anim_design_snackbar_in.xml.flat",
@@ -2224,6 +2252,10 @@
         "source": "E:\\Android_Studio_Project\\G4AirBus\\Smartbushome\\vstarcam\\build\\intermediates\\packaged_res\\debug\\drawable\\play_mic.png"
     },
     {
+        "merged": "E:\\Android_Studio_Project\\G4AirBus\\Smartbushome\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4_btn_back_press.png.flat",
+        "source": "E:\\Android_Studio_Project\\G4AirBus\\Smartbushome\\scan_zxing\\build\\intermediates\\packaged_res\\debug\\drawable-hdpi-v4\\btn_back_press.png"
+    },
+    {
         "merged": "E:\\Android_Studio_Project\\G4AirBus\\Smartbushome\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4_abc_ic_star_half_black_48dp.png.flat",
         "source": "C:\\Users\\Administrator\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-25.3.1.aar\\d2323c16e383ddfb03d3b7dfad3f3e85\\res\\drawable-xhdpi-v4\\abc_ic_star_half_black_48dp.png"
     },
@@ -2266,6 +2298,10 @@
     {
         "merged": "E:\\Android_Studio_Project\\G4AirBus\\Smartbushome\\app\\build\\intermediates\\res\\merged\\debug\\drawable-ldrtl-mdpi-v17_abc_ic_menu_cut_mtrl_alpha.png.flat",
         "source": "C:\\Users\\Administrator\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-25.3.1.aar\\d2323c16e383ddfb03d3b7dfad3f3e85\\res\\drawable-ldrtl-mdpi-v17\\abc_ic_menu_cut_mtrl_alpha.png"
+    },
+    {
+        "merged": "E:\\Android_Studio_Project\\G4AirBus\\Smartbushome\\app\\build\\intermediates\\res\\merged\\debug\\drawable_shape_main_imageview.xml.flat",
+        "source": "E:\\Android_Studio_Project\\G4AirBus\\Smartbushome\\scan_zxing\\build\\intermediates\\packaged_res\\debug\\drawable\\shape_main_imageview.xml"
     },
     {
         "merged": "E:\\Android_Studio_Project\\G4AirBus\\Smartbushome\\app\\build\\intermediates\\res\\merged\\debug\\drawable_musicmenu_allsong.png.flat",
@@ -2634,6 +2670,10 @@
     {
         "merged": "E:\\Android_Studio_Project\\G4AirBus\\Smartbushome\\app\\build\\intermediates\\res\\merged\\debug\\layout_setting_maininfo2.xml.flat",
         "source": "E:\\Android_Studio_Project\\G4AirBus\\Smartbushome\\app\\src\\main\\res\\layout\\setting_maininfo2.xml"
+    },
+    {
+        "merged": "E:\\Android_Studio_Project\\G4AirBus\\Smartbushome\\app\\build\\intermediates\\res\\merged\\debug\\drawable_shape_main_edit.xml.flat",
+        "source": "E:\\Android_Studio_Project\\G4AirBus\\Smartbushome\\scan_zxing\\build\\intermediates\\packaged_res\\debug\\drawable\\shape_main_edit.xml"
     },
     {
         "merged": "E:\\Android_Studio_Project\\G4AirBus\\Smartbushome\\app\\build\\intermediates\\res\\merged\\debug\\layout_layout_alertview_alert_vertical.xml.flat",
@@ -3580,6 +3620,10 @@
         "source": "E:\\Android_Studio_Project\\G4AirBus\\Smartbushome\\app\\src\\main\\res\\menu\\main_popup_menu.xml"
     },
     {
+        "merged": "E:\\Android_Studio_Project\\G4AirBus\\Smartbushome\\app\\build\\intermediates\\res\\merged\\debug\\drawable_ipc_update.png.flat",
+        "source": "E:\\Android_Studio_Project\\G4AirBus\\Smartbushome\\vstarcam\\build\\intermediates\\packaged_res\\debug\\drawable\\ipc_update.png"
+    },
+    {
         "merged": "E:\\Android_Studio_Project\\G4AirBus\\Smartbushome\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi-v4_abc_ic_menu_share_mtrl_alpha.png.flat",
         "source": "C:\\Users\\Administrator\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-25.3.1.aar\\d2323c16e383ddfb03d3b7dfad3f3e85\\res\\drawable-xxhdpi-v4\\abc_ic_menu_share_mtrl_alpha.png"
     },
@@ -3612,6 +3656,10 @@
         "source": "C:\\Users\\Administrator\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-25.3.1.aar\\d2323c16e383ddfb03d3b7dfad3f3e85\\res\\layout-v11\\notification_template_big_media_narrow_custom.xml"
     },
     {
+        "merged": "E:\\Android_Studio_Project\\G4AirBus\\Smartbushome\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4_scan_light.png.flat",
+        "source": "E:\\Android_Studio_Project\\G4AirBus\\Smartbushome\\scan_zxing\\build\\intermediates\\packaged_res\\debug\\drawable-hdpi-v4\\scan_light.png"
+    },
+    {
         "merged": "E:\\Android_Studio_Project\\G4AirBus\\Smartbushome\\app\\build\\intermediates\\res\\merged\\debug\\anim_anim_layout.xml.flat",
         "source": "E:\\Android_Studio_Project\\G4AirBus\\Smartbushome\\app\\src\\main\\res\\anim\\anim_layout.xml"
     },
@@ -3638,6 +3686,10 @@
     {
         "merged": "E:\\Android_Studio_Project\\G4AirBus\\Smartbushome\\app\\build\\intermediates\\res\\merged\\debug\\drawable_ic_ac_power_on_in_room.xml.flat",
         "source": "E:\\Android_Studio_Project\\G4AirBus\\Smartbushome\\app\\src\\main\\res\\drawable\\ic_ac_power_on_in_room.xml"
+    },
+    {
+        "merged": "E:\\Android_Studio_Project\\G4AirBus\\Smartbushome\\app\\build\\intermediates\\res\\merged\\debug\\layout_capture.xml.flat",
+        "source": "E:\\Android_Studio_Project\\G4AirBus\\Smartbushome\\scan_zxing\\build\\intermediates\\packaged_res\\debug\\layout\\capture.xml"
     },
     {
         "merged": "E:\\Android_Studio_Project\\G4AirBus\\Smartbushome\\app\\build\\intermediates\\res\\merged\\debug\\drawable_control_blue_10.xml.flat",

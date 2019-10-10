@@ -60,36 +60,36 @@ public class IPCListAdapter extends BaseItemDraggableAdapter {
         //设置状态
         switch (ipcStates.get(helper.getAdapterPosition())){
             case PPPP_STATUS_CONNECTING : // 连接中
-                helper.setText(R.id.tv_status,"连接中");
+                helper.setText(R.id.tv_status,"connecting");
                 break;
             case PPPP_STATUS_INITIALING : // 已连接，正在初始化
-                helper.setText(R.id.tv_status,"正在初始化");
+                helper.setText(R.id.tv_status,"initializing");
                 break;
             case PPPP_STATUS_ON_LINE : // 在线
-                helper.setText(R.id.tv_status,"在线");
+                helper.setText(R.id.tv_status,"On-line");
                 break;
             case PPPP_STATUS_CONNECT_FAILED : // 连接失败
-                helper.setText(R.id.tv_status,"连接失败");
+                helper.setText(R.id.tv_status,"connection failed");
                 break;
             case PPPP_STATUS_DISCONNECT : // / 连接已关闭
-                helper.setText(R.id.tv_status,"连接已关闭");
+                helper.setText(R.id.tv_status,"connection closed");
                 break;
             case PPPP_STATUS_INVALID_ID :// 无效 UID
-                helper.setText(R.id.tv_status,"无效 UID");
+                helper.setText(R.id.tv_status,"invalid uid");
                 break;
             case PPPP_STATUS_DEVICE_NOT_ON_LINE : // 不在线
-                helper.setText(R.id.tv_status,"不在线");
+                helper.setText(R.id.tv_status,"not online");
                 break;
             case PPPP_STATUS_CONNECT_TIMEOUT : // 连接超时
-                helper.setText(R.id.tv_status,"连接超时");
+                helper.setText(R.id.tv_status,"connection timed out");
                 break;
             case PPPP_STATUS_WRONGUSER_RIGHTPWD : // 密码错误 ..
             case PPPP_STATUS_WRONGPWD_RIGHTUSER : // 密码错误. .
             case PPPP_STATUS_WRONGPWD_WRONGUSER : // 密码错误. .
-                helper.setText(R.id.tv_status,"密码错误");
+                helper.setText(R.id.tv_status,"password error");
                 break;
                 default:
-                    helper.setText(R.id.tv_status,"未知");
+                    helper.setText(R.id.tv_status,"unknown");
 
         }
 
@@ -120,10 +120,14 @@ public class IPCListAdapter extends BaseItemDraggableAdapter {
 
 
 
+        helper.addOnClickListener(R.id.iv_ipcSetting);
+        helper.addOnClickListener(R.id.iv_ipcUpdate);
         helper.addOnClickListener(R.id.iv_ipcDelete);
         helper.addOnClickListener(R.id.iv_item);
+
+        helper.addOnLongClickListener(R.id.iv_ipcSetting);
+        helper.addOnLongClickListener(R.id.iv_ipcUpdate);
         helper.addOnLongClickListener(R.id.iv_ipcDelete);
-        helper.addOnLongClickListener(R.id.iv_item);
         helper.addOnLongClickListener(R.id.iv_item);
     }
 

@@ -1,4 +1,4 @@
-include ':app', ':dialogview', ':timeselect', ':coolswitch', ':selfseekbar', ':smart_link', ':vstarcam'
+include ':app', ':dialogview', ':timeselect', ':coolswitch', ':selfseekbar', ':smart_link', ':vstarcam', ':scan_zxing'
 project(':dialogview').projectDir = new File('alertview')
 project(':timeselect').projectDir = new File('pickerview')
 project(':coolswitch').projectDir = new File('switchbutton')

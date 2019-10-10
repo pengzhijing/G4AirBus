@@ -1,14 +1,19 @@
 package com.pzj.ipcdemo;
 
+import android.Manifest;
 import android.content.Context;
 import android.content.Intent;
+import android.content.pm.PackageManager;
 import android.graphics.Bitmap;
 import android.graphics.BitmapFactory;
 import android.os.Build;
 import android.os.Bundle;
 import android.os.Handler;
 import android.os.Message;
+import android.support.annotation.NonNull;
 import android.support.design.widget.FloatingActionButton;
+import android.support.v4.app.ActivityCompat;
+import android.support.v4.content.ContextCompat;
 import android.support.v7.app.AppCompatActivity;
 import android.support.v7.widget.GridLayoutManager;
 import android.support.v7.widget.RecyclerView;
@@ -22,6 +27,7 @@ import android.view.WindowManager;
 import android.widget.EditText;
 import android.widget.FrameLayout;
 import android.widget.LinearLayout;
+import android.widget.TextView;
 import android.widget.Toast;
 
 import com.chad.library.adapter.base.BaseQuickAdapter;
@@ -33,6 +39,8 @@ import com.pzj.ipcdemo.utils.JSONUtil;
 import com.pzj.ipcdemo.utils.SPUtil;
 import com.pzj.ipcdemo.utils.SystemUIUtil;
 import com.pzj.ipcdemo.view.SearchAnyLayerView;
+
+import org.json.JSONObject;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -96,6 +104,12 @@ public class IPCActivity extends AppCompatActivity implements BridgeService.Ipca
     public static final int PPPP_STATUS_WRONGPWD_RIGHTUSER = 9; // 密码错误. .
     public static final int PPPP_STATUS_WRONGPWD_WRONGUSER = 10; // 密码错误. .
 
+
+    //扫码回传数据主键名称
+    private static final String DECODED_CONTENT_KEY = "codedContent";
+    private static final String DECODED_BITMAP_KEY = "codedBitmap";
+    private static final int REQUEST_CODE_SCAN = 0x0000;
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -140,6 +154,11 @@ public class IPCActivity extends AppCompatActivity implements BridgeService.Ipca
             @Override
             public void onItemChildClick(BaseQuickAdapter adapter, View view, int position) {
 
+                //设备信息修改
+                if (view.getId()==R.id.iv_ipcUpdate){
+                    //显示修改摄像头对话框
+                    showUpdateCameraEditDialog(vStarCameraList.get(position));
+                }
 
                 //删除IPC
                 if (view.getId()==R.id.iv_ipcDelete){
@@ -189,7 +208,7 @@ public class IPCActivity extends AppCompatActivity implements BridgeService.Ipca
                     }
                 }
                 //长按取消菜单
-                if (view.getId()==R.id.iv_ipcSetting|view.getId()==R.id.iv_ipcDelete){
+                if (view.getId()==R.id.iv_ipcSetting|view.getId()==R.id.iv_ipcDelete|view.getId()==R.id.iv_ipcUpdate){
                     layout.setVisibility(View.INVISIBLE);
                 }
 
@@ -338,8 +357,9 @@ public class IPCActivity extends AppCompatActivity implements BridgeService.Ipca
                 return;
             }
         }
-        //显示手动添加输入密码
+
         searchAnyLayerView.dismiss();
+        //显示手动添加摄像头
         showAddCameraEditDialog(vStarCamera);
     }
 
@@ -350,6 +370,8 @@ public class IPCActivity extends AppCompatActivity implements BridgeService.Ipca
         public void run() {
             super.run();
             try {
+
+
 
                 for (VStarCamera item: vStarCameraList) {
                     //初始化服务器
@@ -610,10 +632,18 @@ public class IPCActivity extends AppCompatActivity implements BridgeService.Ipca
                 .onClick(R.id.iv_scan, new AnyLayer.OnLayerClickListener() {
                     @Override
                     public void onClick(AnyLayer anyLayer, View v) {
-                        //扫描添加
+                        //扫码添加
 
                         if (anyLayer.isShow()) {
                             anyLayer.dismiss();
+                        }
+
+                        //动态权限申请
+                        if (ContextCompat.checkSelfPermission(IPCActivity.this, Manifest.permission.CAMERA) != PackageManager.PERMISSION_GRANTED) {
+                            ActivityCompat.requestPermissions(IPCActivity.this, new String[]{Manifest.permission.CAMERA}, 1);
+                        } else {
+                            //跳转到扫码页面
+                            goScan();
                         }
                     }
                 })
@@ -824,6 +854,188 @@ public class IPCActivity extends AppCompatActivity implements BridgeService.Ipca
         });
 
         editDialog.show();
+    }
+
+
+    //显示修改摄像头对话框
+    public void showUpdateCameraEditDialog(VStarCamera vStarCamera) {
+
+        editDialog = AnyLayer.with(this)
+                .contentView(R.layout.dialog_add_camera_edit)
+                .backgroundBlurPercent(0.015F)//背景高斯模糊
+                .gravity(Gravity.TOP | Gravity.CENTER)
+                .cancelableOnTouchOutside(true)
+                .cancelableOnClickKeyBack(true)
+                .onClick(R.id.fl_dialog_no, new AnyLayer.OnLayerClickListener() {
+                    @Override
+                    public void onClick(AnyLayer anyLayer, View v) {
+                        //取消
+                        if (anyLayer.isShow()) {
+                            anyLayer.dismiss();
+                        }
+                    }
+                })
+
+                .contentAnim(new AnyLayer.IAnim() {
+                    @Override
+                    public long inAnim(View content) {
+                        AnimHelper.startTopAlphaInAnim(content, 350);//设置进入动画
+                        return 350;
+                    }
+
+                    @Override
+                    public long outAnim(View content) {
+                        AnimHelper.startTopAlphaOutAnim(content, 350);//设置退出动画
+                        return 350;
+                    }
+                });
+
+        final TextView tv_title = editDialog.getView(R.id.tv_title);
+        final EditText et_name = editDialog.getView(R.id.et_name);
+        final EditText et_id = editDialog.getView(R.id.et_id);
+        final EditText et_username = editDialog.getView(R.id.et_username);
+        final EditText et_password = editDialog.getView(R.id.et_password);
+        FrameLayout fl_dialog_yes = editDialog.getView(R.id.fl_dialog_yes);
+
+        tv_title.setText("Update Camera");
+        et_name.setText(""+vStarCamera.getName());
+        et_id.setHint(""+vStarCamera.getId());
+        et_id.setFocusableInTouchMode(false);//不可编辑
+        et_username.setText(""+vStarCamera.getUsername());
+        et_password.setText(""+vStarCamera.getPassword());
+
+        fl_dialog_yes.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                //确认修改
+                String name=et_name.getText().toString();
+                String id=et_id.getText().toString().trim();
+                String username=et_username.getText().toString().trim();
+                String password=et_password.getText().toString().trim();
+
+                if (name.equals("")|id.equals("")|username.equals("")|password.equals("")){
+                    Toast.makeText(IPCActivity.this, "Input cannot be empty", Toast.LENGTH_LONG).show();
+                    return;
+                }
+
+                //修改设备连接数据
+                for (int i=0;i<vStarCameraList.size();i++){
+                    if (vStarCameraList.get(i).getId().equals(id)){
+                        vStarCameraList.get(i).setName(name);
+                        vStarCameraList.get(i).setUsername(username);
+                        vStarCameraList.get(i).setPassword(password);
+                    }
+                }
+
+                //将IPC实体对象集合转成Json字符串
+                String str=JSONUtil.listToJson(vStarCameraList);
+
+                //保存数据
+                SPUtil.put(IPCActivity.this,SP_FILE_NAME,SP_IPC_KEY,str);
+
+                //刷新列表
+                ipcListRefreshData();
+
+                if (editDialog.isShow()){
+                    editDialog.dismiss();
+                }
+
+                //准备摄像头初始化连接工作 线程
+                new IpcInitThread().start();
+
+            }
+        });
+
+        editDialog.show();
+    }
+
+
+    /**
+     * 跳转到扫码界面扫码
+     */
+    private void goScan(){
+        Intent intent = new Intent("com.shima.smartbushome.scan");
+        startActivityForResult(intent, REQUEST_CODE_SCAN);
+    }
+
+    @Override
+    public void onRequestPermissionsResult(int requestCode, @NonNull String[] permissions, @NonNull int[] grantResults) {
+        switch (requestCode) {
+            case 1:
+                if (grantResults.length > 0 && grantResults[0] == PackageManager.PERMISSION_GRANTED) {
+                    goScan();
+                } else {
+                    Toast.makeText(this, "You refused to apply for permission. You may not be able to open the camera scanner!", Toast.LENGTH_SHORT).show();
+                    //Toast.makeText(this, "你拒绝了权限申请，可能无法打开相机扫码哟！", Toast.LENGTH_SHORT).show();
+                }
+                break;
+            default:
+        }
+    }
+
+
+    @Override
+    protected void onActivityResult(int requestCode, int resultCode, Intent data) {
+        super.onActivityResult(requestCode, resultCode, data);
+        // 扫描二维码/条码回传
+        if (requestCode == REQUEST_CODE_SCAN && resultCode == RESULT_OK) {
+            if (data != null) {
+                //返回的文本内容
+                String content = data.getStringExtra(DECODED_CONTENT_KEY);
+                //返回的BitMap图像
+                Bitmap bitmap = data.getParcelableExtra(DECODED_BITMAP_KEY);
+
+                //扫码内容格式：{"ACT":"Add","ID":"VSTA899484MXNCJ","DT":"C38","WiFi":"0"}
+                Log.d(TAG,"扫码内容是：" + content);
+
+                //解析二维码内容获取摄像头ID
+                String cameraID=getCameraIDByJsonStr(content);
+
+                if (cameraID.length()==0){
+                    Toast.makeText(this, "Error: Invalid content", Toast.LENGTH_SHORT).show();
+                    return;
+                }
+
+                //查看是否已经添加
+                for (VStarCamera item: vStarCameraList){
+                    if (item.getId().equals(cameraID)){
+                        //关闭搜索对话框
+                        Toast.makeText(this, "Can't add devices repeatedly", Toast.LENGTH_SHORT).show();
+                        return;
+                    }
+                }
+
+               VStarCamera vStarCamera=new VStarCamera("IPCAM",cameraID,"admin","");
+
+                //显示手动添加摄像头
+                showAddCameraEditDialog(vStarCamera);
+
+            }
+        }
+    }
+
+
+
+    //解析二维码内容获取摄像头ID  {"ACT":"Add","ID":"VSTA899484MXNCJ","DT":"C38","WiFi":"0"}
+    public String getCameraIDByJsonStr(String jsonStr){
+        String cameraID="";
+        try{
+            JSONObject jsonObject = new JSONObject(jsonStr);
+            /**
+             * 为什么要使用jsonObject.optString， 不使用jsonObject.getString
+             * 因为jsonObject.optString获取null不会报错
+             */
+
+            cameraID = jsonObject.optString("ID", null);
+
+            // 日志打印结果：
+            Log.d(TAG, "解析二维码内容获取摄像头ID：" + cameraID) ;
+
+        } catch (Exception e) {
+            e.printStackTrace();
+        }
+
+        return cameraID;
     }
 
 

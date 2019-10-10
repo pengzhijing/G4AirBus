@@ -82,6 +82,10 @@
         android:name="android.hardware.sensor.stepdetector"
         android:required="false" />
 
+    <uses-permission android:name="android.permission.CAMERA" />
+    <uses-permission android:name="android.permission.VIBRATE" />
+    <uses-permission android:name="android.permission.FLASHLIGHT" />
+
     <meta-data
         android:name="android.support.VERSION"
         android:value="25.3.1" />
@@ -259,6 +263,23 @@
             android:label="@string/app_name" >
             <intent-filter>
                 <action android:name="com.smart.link" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity android:name="com.example.xch.scanzxing.MainActivityScan" >
+            <intent-filter>
+                <action android:name="com.shima.smartbushome.scanzing" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.example.xch.scanzxing.zxing.android.CaptureActivity"
+            android:screenOrientation="portrait"
+            android:theme="@android:style/Theme.NoTitleBar" >
+            <intent-filter>
+                <action android:name="com.shima.smartbushome.scan" />
 
                 <category android:name="android.intent.category.DEFAULT" />
             </intent-filter>

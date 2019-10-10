@@ -269,7 +269,8 @@
                     android:layout_gravity="center"
                     android:layout_weight="4"
                     android:gravity="center"
-                    android:textColor="#000000" />
+                    android:textColor="#000000"
+                    android:inputType="textPassword"/>
             </LinearLayout>
         </LinearLayout>
 
@@ -301,6 +302,7 @@
                 android:src="@null" />
 
             <TextView
+                android:layout_marginTop="-2dp"
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
                 android:gravity="center"
@@ -330,6 +332,7 @@
                 android:src="@null" />
 
             <TextView
+                android:layout_marginTop="-2dp"
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
                 android:gravity="center"
@@ -359,6 +362,7 @@
                 android:src="@null" />
 
             <TextView
+                android:layout_marginTop="-2dp"
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
                 android:gravity="center"

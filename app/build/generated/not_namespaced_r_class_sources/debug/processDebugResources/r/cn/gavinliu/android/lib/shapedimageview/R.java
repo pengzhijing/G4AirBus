@@ -20,13 +20,13 @@ public final class R {
     public static final class id {
         private id() {}
 
-        public static final int circle = 0x7f0800b9;
-        public static final int round_rect = 0x7f08031c;
+        public static final int circle = 0x7f0800bb;
+        public static final int round_rect = 0x7f080327;
     }
     public static final class string {
         private string() {}
 
-        public static final int app_name = 0x7f0d002b;
+        public static final int app_name = 0x7f0e002b;
     }
     public static final class styleable {
         private styleable() {}
