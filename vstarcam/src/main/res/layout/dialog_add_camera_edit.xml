@@ -269,8 +269,7 @@
                     android:layout_gravity="center"
                     android:layout_weight="4"
                     android:gravity="center"
-                    android:textColor="#000000"
-                    android:inputType="textPassword"/>
+                    android:textColor="#000000" />
             </LinearLayout>
         </LinearLayout>
 

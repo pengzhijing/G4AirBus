@@ -1,0 +1,260 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/play"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <android.opengl.GLSurfaceView
+        android:id="@+id/mysurfaceview"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:longClickable="true"
+        android:layout_gravity="center" />
+
+    <ImageView
+        android:id="@+id/playback_img"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:background="#ff00ffff"
+        android:scaleType="center"
+        android:visibility="gone" />
+
+    <ImageView
+        android:id="@+id/vedioview"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_gravity="center"
+        android:background="#ff000000"
+        android:scaleType="matrix"
+        android:visibility="gone" />
+
+    <LinearLayout
+        android:id="@+id/progressLayout"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:gravity="center"
+        android:orientation="vertical" >
+
+        <ProgressBar
+            style="?android:attr/progressBarStyleLarge"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center" />
+    </LinearLayout>
+
+    <RelativeLayout
+        android:id="@+id/osdlayout"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:orientation="horizontal" >
+
+        <RelativeLayout
+            android:id="@+id/top_bg"
+            android:layout_width="fill_parent"
+            android:layout_height="45dp"
+            android:visibility="visible"
+            android:layout_alignParentTop="true"
+
+            >
+
+            <TextView
+                android:id="@+id/back"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentTop="true"
+                android:layout_marginRight="10dp"
+                android:layout_marginLeft="10dp"
+                android:textColor="@color/color_white"
+                android:textSize="18.0sp"
+                android:textStyle="bold"
+                android:visibility="gone"/>
+
+            <TextView
+                android:id="@+id/textTimeStamp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_alignParentTop="true"
+                android:layout_margin="5dp"
+                android:gravity="center_horizontal"
+                android:textColor="@color/color_white"
+                android:textSize="18.0sp"
+                android:textStyle="bold" />
+
+            <ImageButton
+                android:id="@+id/login_top_back"
+                android:visibility="gone"
+                android:layout_width="65dp"
+                android:layout_height="45dp"
+                android:layout_alignParentLeft="true"
+                android:layout_centerVertical="true"
+                android:layout_gravity="center"
+                android:background="@drawable/ptz_takepic_selector"
+                android:src="@drawable/exitbutton" />
+
+            <LinearLayout
+                android:id="@+id/linearLayout2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:layout_alignParentTop="true"
+                android:orientation="horizontal" >
+                <ToggleButton
+                    android:visibility="gone"
+                    android:id="@+id/ir_switch"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginRight="5dp"
+                    android:layout_marginLeft="5dp"
+                    android:background="#00000000"
+                    android:layout_gravity="center_vertical"
+                    android:button="@drawable/my_switch"
+                    android:textOff=""
+                    android:textOn="" />
+
+                <ImageButton
+                    android:visibility="gone"
+                    android:id="@+id/ptz_hori_mirror"
+                    android:layout_width="wrap_content"
+                    android:layout_height="45dp"
+                    android:layout_marginRight="5dp"
+                    android:layout_marginLeft="5dp"
+                    android:background="#00000000"
+                    android:src="@drawable/ptz_hori_mirror" />
+
+                <TextView
+                    android:id="@+id/text_download_percent"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="5dp"
+                    android:gravity="center"
+                    android:layout_marginRight="10dp"
+                    android:layout_marginLeft="10dp"
+                    android:textColor="@color/color_white"
+                    android:visibility="gone"
+                    android:textSize="16.0sp"
+                    />
+
+                <com.pzj.ipcdemo.utils.CircularProgressBar
+                    android:id="@+id/circularProgress"
+                    android:visibility="visible"
+                    android:layout_width="30dp"
+                    android:layout_height="30dp"
+                    android:layout_marginRight="5dp"
+                    android:layout_marginLeft="5dp" />
+
+                <ImageButton
+                    android:visibility="gone"
+                    android:id="@+id/ptz_download"
+                    android:layout_width="wrap_content"
+                    android:layout_height="45dp"
+                    android:layout_marginRight="5dp"
+                    android:layout_marginLeft="5dp"
+                    android:background="#00000000"
+                    android:src="@drawable/ptz_download" />
+            </LinearLayout>
+        </RelativeLayout>
+    </RelativeLayout>
+
+    <!-- 底部菜单 -->
+    <RelativeLayout
+        android:visibility="visible"
+        android:id="@+id/bottom_view"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom"
+        android:scrollbars="none"
+        >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="45dp"
+            android:layout_gravity="bottom"
+            android:orientation="horizontal" >
+
+            <ImageButton
+                android:id="@+id/ptz_take_photos"
+                android:visibility="gone"
+                android:layout_width="wrap_content"
+                android:layout_height="45dp"
+                android:layout_marginRight="5dp"
+                android:layout_marginLeft="5dp"
+                android:background="@drawable/ptz_takepic_selector"
+                android:padding="5dp"
+                android:src="@drawable/ptz_takepic" />
+            <ImageButton
+                android:visibility="gone"
+                android:id="@+id/ptz_take_videos"
+                android:layout_width="wrap_content"
+                android:layout_height="45dp"
+                android:layout_marginRight="5dp"
+                android:layout_marginLeft="5dp"
+
+                android:background="@drawable/ptz_takepic_selector"
+                android:padding="5dp"
+                android:src="@drawable/ptz_takevideo" />
+
+            <ImageButton
+                android:visibility="gone"
+                android:id="@+id/ptz_resolution"
+                android:layout_width="wrap_content"
+                android:layout_height="45dp"
+                android:layout_marginRight="5dp"
+                android:layout_marginLeft="5dp"
+
+                android:background="@drawable/ptz_default_set_selector"
+                android:src="@drawable/easyicon_cn" />
+
+            <ImageButton
+                android:visibility="gone"
+                android:id="@+id/preset"
+                android:layout_width="wrap_content"
+                android:layout_height="45dp"
+                android:layout_marginRight="5dp"
+                android:layout_marginLeft="5dp"
+                android:background="@drawable/ptz_default_set_selector"
+                android:src="@drawable/ptz_resolution_preset" />
+	          
+            <ImageButton
+                android:visibility="gone"
+                android:id="@+id/ptz_play_pause"
+                android:layout_width="wrap_content"
+                android:layout_height="45dp"
+                android:layout_marginRight="5dp"
+                android:layout_marginLeft="5dp"
+
+                android:background="@drawable/ptz_takepic_selector"
+                android:src="@drawable/ptz_pause" />
+
+            <LinearLayout
+                android:visibility="visible"
+                android:id="@+id/playback_seekbar_layout"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_alignParentBottom="true"
+                android:background="#00ff0000"
+                android:gravity="center"
+                android:layout_marginRight="5dp"
+                android:layout_marginLeft="5dp"
+                android:orientation="vertical">
+
+                <SeekBar
+                    android:id="@+id/playback_seekbar"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:maxHeight="2dp"
+                    android:minHeight="2dp"
+                    android:max="100"
+                    android:progressDrawable="@drawable/customprogress"
+                    android:thumb="@drawable/customprogress_thumb"
+                    android:padding="10dp"
+                    />
+            </LinearLayout>
+
+        </LinearLayout>
+    </RelativeLayout>
+</FrameLayout>
+
+

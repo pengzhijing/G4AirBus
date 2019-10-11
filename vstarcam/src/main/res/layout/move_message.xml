@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+     style="@style/bg_style"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+    <RelativeLayout
+        android:id="@+id/rl_infotop"
+        style="@style/top_bg_style"
+        android:layout_width="fill_parent"
+        android:layout_height="50.0dip"
+        android:gravity="center_vertical" >
+
+        <Button
+            android:id="@+id/btn_infoback"
+            android:layout_width="60dp"
+            android:layout_height="40dp"
+            android:layout_alignParentLeft="true"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="10dip"
+            android:layout_marginRight="10dp"
+            android:layout_weight="1.0"
+            android:text="@string/back"
+            android:textColor="@color/color_black"
+            android:textSize="@dimen/text_title_size" />
+
+        <TextView
+            android:id="@+id/tv_move_info"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:layout_gravity="center_vertical"
+            android:layout_marginLeft="10.0dip"
+            android:shadowColor="@color/color_shadow"
+            android:shadowDx="1.0"
+            android:shadowDy="1.0"
+            android:shadowRadius="1.0"
+            android:text="@string/alam_inform"
+            android:textColor="@color/color_white"
+            android:textSize="18.0sp"
+            android:textStyle="bold" />
+
+     
+    </RelativeLayout>
+	<RelativeLayout
+            android:id="@+id/ll_move_all"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_margin="10dp"
+            android:background="@drawable/background_white_corner"
+            android:orientation="vertical"
+            android:padding="10dp" 
+            android:layout_below="@+id/rl_infotop"
+            >
+        <RelativeLayout
+                        android:id="@+id/rl_info_plan"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content" >
+                        
+                         <TextView
+                            android:id="@+id/tv_info_plan"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_alignParentLeft="true"
+                            android:layout_alignParentTop="true"
+                            android:text="@string/move_inform"
+                            android:textColor="@color/color_black"
+                            
+                             />
+
+                        <com.pzj.ipcdemo.view.MyListView
+                            android:id="@+id/lv_info_plan"
+                            android:layout_width="match_parent"
+			                android:layout_height="wrap_content"
+					        android:cacheColorHint="#000000"
+					        android:divider="@drawable/list_item_divider"
+					        android:listSelector="@drawable/list_bgnull_selector"
+			                android:layout_below="@+id/tv_info_plan"
+			                android:layout_marginLeft="5dp"
+                            android:layout_marginRight="5dp"
+                            >
+                        </com.pzj.ipcdemo.view.MyListView>
+
+                        <RelativeLayout
+                            android:id="@+id/rl_add_infoplan"
+                            android:layout_width="match_parent"
+                            android:layout_height="50dp"
+                            android:layout_below="@+id/lv_info_plan"
+                            android:layout_marginTop="5dp"
+                            android:background="@drawable/userinfo_list_back_1" >
+
+                            <TextView
+                                android:id="@+id/tv_add_infoplan"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:layout_alignParentLeft="true"
+                                android:layout_centerVertical="true"
+                                android:text="@string/add_move_inform"
+                                android:textColor="@color/color_black" />
+
+                            <ImageView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_alignParentRight="true"
+                                android:layout_centerVertical="true"
+                                android:background="@drawable/arrow" />
+                        </RelativeLayout>
+    </RelativeLayout>
+</RelativeLayout>
+</LinearLayout>

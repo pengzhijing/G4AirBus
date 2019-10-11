@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/cache_color_hint"
+    android:descendantFocusability="blocksDescendants" >
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        
+         >
+
+        <ImageView
+            android:id="@+id/iv_toaddedit"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+           
+            android:layout_centerVertical="true"
+            android:layout_alignParentRight="true"
+            android:layout_marginRight="10dp"
+            android:background="@drawable/more_listtem_gonext" />
+
+        <TextView
+            android:id="@+id/tv_timing_week"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="5dp"
+            android:layout_toLeftOf="@+id/iv_toaddedit"
+            android:layout_centerVertical="true"
+            android:textColor="@color/color_alarm_textcolor"
+            android:textSize="14sp" />
+
+        <TextView
+            android:id="@+id/tv_timing_time"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_alignTop="@+id/tv_timing_week"
+            android:layout_marginLeft="19dp"
+            android:layout_centerVertical="true"
+            android:textColor="@color/color_alarm_textcolor"
+            android:textSize="16sp" />
+
+    </RelativeLayout>
+
+</RelativeLayout>

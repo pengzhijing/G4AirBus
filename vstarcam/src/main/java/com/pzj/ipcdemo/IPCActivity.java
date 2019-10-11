@@ -34,6 +34,7 @@ import com.chad.library.adapter.base.BaseQuickAdapter;
 import com.pzj.ipcdemo.adapter.IPCListAdapter;
 import com.pzj.ipcdemo.entity.VStarCamera;
 import com.pzj.ipcdemo.service.BridgeService;
+import com.pzj.ipcdemo.utils.ContentCommon;
 import com.pzj.ipcdemo.utils.ImageDispose;
 import com.pzj.ipcdemo.utils.JSONUtil;
 import com.pzj.ipcdemo.utils.SPUtil;
@@ -153,6 +154,22 @@ public class IPCActivity extends AppCompatActivity implements BridgeService.Ipca
         ipcListAdapter.setOnItemChildClickListener(new BaseQuickAdapter.OnItemChildClickListener() {
             @Override
             public void onItemChildClick(BaseQuickAdapter adapter, View view, int position) {
+
+
+                //设备配置设置
+                if (view.getId()==R.id.iv_ipcSetting){
+                    //如果设备在线
+                    if ( ipcListAdapter.getIpcStates().get(position)==PPPP_STATUS_ON_LINE) {
+                        VStarCamera vStarCamera = vStarCameraList.get(position);
+                        //跳转到设置页面
+                        Intent intent=new Intent("com.shima.smartbushome.vstarcam.settings");
+                        intent.putExtra(ContentCommon.STR_CAMERA_ID,vStarCamera.getId());
+                        intent.putExtra(ContentCommon.STR_CAMERA_NAME,vStarCamera.getUsername());
+                        intent.putExtra(ContentCommon.STR_CAMERA_PWD,vStarCamera.getPassword());
+                        startActivity(intent);
+                    }
+
+                }
 
                 //设备信息修改
                 if (view.getId()==R.id.iv_ipcUpdate){
@@ -763,6 +780,16 @@ public class IPCActivity extends AppCompatActivity implements BridgeService.Ipca
                     editDialog.dismiss();
                 }
 
+                //释放资源
+                try {
+                    for (VStarCamera item:vStarCameraList){
+                        NativeCaller.StopPPPPLivestream(item.getId());
+                        NativeCaller.StopPPPP(item.getId());
+                    }
+                    NativeCaller.Free();
+                }catch (Exception e){
+                    e.printStackTrace();
+                }
                 //准备摄像头初始化连接工作 线程
                 new IpcInitThread().start();
 
@@ -847,6 +874,17 @@ public class IPCActivity extends AppCompatActivity implements BridgeService.Ipca
                     editDialog.dismiss();
                 }
 
+                //释放资源
+                try {
+                    for (VStarCamera item:vStarCameraList){
+                        NativeCaller.StopPPPPLivestream(item.getId());
+                        NativeCaller.StopPPPP(item.getId());
+                    }
+                    NativeCaller.Free();
+                }catch (Exception e){
+                    e.printStackTrace();
+                }
+
                 //准备摄像头初始化连接工作 线程
                 new IpcInitThread().start();
 
@@ -859,6 +897,8 @@ public class IPCActivity extends AppCompatActivity implements BridgeService.Ipca
 
     //显示修改摄像头对话框
     public void showUpdateCameraEditDialog(VStarCamera vStarCamera) {
+
+        final VStarCamera updateVStarCamera=vStarCamera;
 
         editDialog = AnyLayer.with(this)
                 .contentView(R.layout.dialog_add_camera_edit)
@@ -909,11 +949,11 @@ public class IPCActivity extends AppCompatActivity implements BridgeService.Ipca
             public void onClick(View v) {
                 //确认修改
                 String name=et_name.getText().toString();
-                String id=et_id.getText().toString().trim();
+                String id=updateVStarCamera.getId();
                 String username=et_username.getText().toString().trim();
                 String password=et_password.getText().toString().trim();
 
-                if (name.equals("")|id.equals("")|username.equals("")|password.equals("")){
+                if (name.equals("")|username.equals("")|password.equals("")){
                     Toast.makeText(IPCActivity.this, "Input cannot be empty", Toast.LENGTH_LONG).show();
                     return;
                 }
@@ -940,6 +980,16 @@ public class IPCActivity extends AppCompatActivity implements BridgeService.Ipca
                     editDialog.dismiss();
                 }
 
+                //释放资源
+                try {
+                    for (VStarCamera item:vStarCameraList){
+                        NativeCaller.StopPPPPLivestream(item.getId());
+                        NativeCaller.StopPPPP(item.getId());
+                    }
+                    NativeCaller.Free();
+                }catch (Exception e){
+                    e.printStackTrace();
+                }
                 //准备摄像头初始化连接工作 线程
                 new IpcInitThread().start();
 
@@ -983,7 +1033,7 @@ public class IPCActivity extends AppCompatActivity implements BridgeService.Ipca
                 //返回的文本内容
                 String content = data.getStringExtra(DECODED_CONTENT_KEY);
                 //返回的BitMap图像
-                Bitmap bitmap = data.getParcelableExtra(DECODED_BITMAP_KEY);
+                //Bitmap bitmap = data.getParcelableExtra(DECODED_BITMAP_KEY);
 
                 //扫码内容格式：{"ACT":"Add","ID":"VSTA899484MXNCJ","DT":"C38","WiFi":"0"}
                 Log.d(TAG,"扫码内容是：" + content);

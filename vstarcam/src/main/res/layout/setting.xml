@@ -1,0 +1,316 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout 
+	xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical"
+    android:background="@color/color_bg_less_shadow">
+    <RelativeLayout 
+        android:id="@+id/top"
+        android:layout_alignParentTop="true"
+        style="@style/top_bg_style"
+       	android:gravity="center_vertical"
+        android:layout_width="fill_parent" 
+        android:layout_height="50.0dip">
+         <Button
+            android:id="@+id/back"
+            android:layout_width="60dp"
+            android:layout_height="40dp"
+            android:layout_alignParentLeft="true"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="10dip"
+            android:layout_marginRight="10dp"
+            android:textColor="@color/color_black"
+            android:layout_weight="1.0"
+            android:text="@string/back"
+            android:textSize="@dimen/text_title_size" />
+        
+        <TextView 
+            android:id="@+id/tv_camera_setting"
+            android:textSize="18.0sp" 
+            android:textStyle="bold" 
+            android:layout_centerInParent="true"
+            android:textColor="@color/color_white" 
+            android:layout_gravity="center_vertical" 
+            android:layout_width="wrap_content" 
+            android:layout_height="wrap_content" 
+            android:layout_marginLeft="10.0dip" 
+            android:shadowColor="@color/color_shadow" 
+            android:text="@string/setting"
+            android:shadowDx="1.0" 
+            android:shadowDy="1.0" 
+            android:shadowRadius="1.0" />
+    </RelativeLayout>
+    <LinearLayout 
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/top"
+        android:orientation="vertical"
+        android:background="@drawable/list_bg">
+        <!--  -->
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/wifi_setting">
+            <TextView
+		        android:id="@+id/settingWifi"
+		        android:layout_width="wrap_content"
+		        android:layout_height="50dip"
+		        android:layout_alignParentLeft="true"
+		        android:layout_centerVertical="true"
+		        android:layout_marginLeft="10dp"
+		        android:textSize="20sp"
+		        android:text="@string/setting_wifi"
+		        android:textColor="@color/color_black" 
+		        android:gravity="center_vertical"/>
+           <ImageView
+		        android:layout_alignParentRight="true"
+		        android:layout_centerVertical="true"
+		        android:layout_width="wrap_content"
+		        android:layout_height="wrap_content"
+		        android:background="@drawable/arrow"/>
+        </RelativeLayout>
+        <View
+                android:layout_width="match_parent"
+                android:layout_height="0.01dp"
+                android:layout_marginLeft="5dp"
+                android:layout_marginRight="5dp"
+                android:background="#cccccc" />
+         <!--  -->
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/pwd_setting">
+            <TextView
+		        android:id="@+id/settingPwd"
+		        android:layout_width="wrap_content"
+		        android:layout_height="50dip"
+		        android:layout_alignParentLeft="true"
+		        android:layout_centerVertical="true"
+		        android:layout_marginLeft="10dp"
+		        android:textSize="20sp"
+		        android:text="@string/chang_pwd"
+		        android:textColor="@color/color_black" 
+		        android:gravity="center_vertical"/>
+           <ImageView
+		        android:layout_alignParentRight="true"
+		        android:layout_centerVertical="true"
+		        android:layout_width="wrap_content"
+		        android:layout_height="wrap_content"
+		        android:background="@drawable/arrow"/>
+        </RelativeLayout>
+        <View
+                android:layout_width="match_parent"
+                android:layout_height="0.01dp"
+                android:layout_marginLeft="5dp"
+                android:layout_marginRight="5dp"
+                android:background="#cccccc" />
+         <!--  -->
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/alarm_setting">
+            <TextView
+		        android:id="@+id/settingAlarm"
+		        android:layout_width="wrap_content"
+		        android:layout_height="50dip"
+		        android:layout_alignParentLeft="true"
+		        android:layout_centerVertical="true"
+		        android:layout_marginLeft="10dp"
+		        android:textSize="20sp"
+		        android:text="@string/setting_alerm"
+		        android:textColor="@color/color_black" 
+		        android:gravity="center_vertical"/>
+           <ImageView
+		        android:layout_alignParentRight="true"
+		        android:layout_centerVertical="true"
+		        android:layout_width="wrap_content"
+		        android:layout_height="wrap_content"
+		        android:background="@drawable/arrow"/>
+        </RelativeLayout>
+        <View
+                android:layout_width="match_parent"
+                android:layout_height="0.01dp"
+                android:layout_marginLeft="5dp"
+                android:layout_marginRight="5dp"
+                android:background="#cccccc" />
+         <!--  -->
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/time_setting">
+            <TextView
+		        android:id="@+id/settingTime"
+		        android:layout_width="wrap_content"
+		        android:layout_height="50dip"
+		        android:layout_alignParentLeft="true"
+		        android:layout_centerVertical="true"
+		        android:layout_marginLeft="10dp"
+		        android:textSize="20sp"
+		        android:text="@string/setting_time"
+		        android:textColor="@color/color_black" 
+		        android:gravity="center_vertical"/>
+           <ImageView
+		        android:layout_alignParentRight="true"
+		        android:layout_centerVertical="true"
+		        android:layout_width="wrap_content"
+		        android:layout_height="wrap_content"
+		        android:background="@drawable/arrow"/>
+        </RelativeLayout>
+        <View
+                android:layout_width="match_parent"
+                android:layout_height="0.01dp"
+                android:layout_marginLeft="5dp"
+                android:layout_marginRight="5dp"
+                android:background="#cccccc" />
+         <!--  -->
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/sd_setting">
+           <ImageView
+		        android:layout_alignParentRight="true"
+		        android:layout_centerVertical="true"
+		        android:layout_width="wrap_content"
+		        android:layout_height="wrap_content"
+		        android:background="@drawable/arrow"/>
+
+           <TextView
+               android:id="@+id/settingSD"
+               android:layout_width="wrap_content"
+               android:layout_height="50dip"
+               android:layout_alignParentLeft="true"
+               android:layout_alignParentTop="true"
+               android:layout_marginLeft="10dp"
+               android:gravity="center_vertical"
+               android:text="@string/setting_sdcard"
+               android:textColor="@color/color_black"
+               android:textSize="20sp" />
+
+        </RelativeLayout>
+        
+        <View
+                android:layout_width="match_parent"
+                android:layout_height="0.01dp"
+                android:layout_marginLeft="5dp"
+                android:layout_marginRight="5dp"
+                android:background="#cccccc" />
+         <!-- 固件升级 -->
+        <RelativeLayout
+            android:id="@+id/update_firmware"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+           <ImageView
+		        android:layout_alignParentRight="true"
+		        android:layout_centerVertical="true"
+		        android:layout_width="wrap_content"
+		        android:layout_height="wrap_content"
+		        android:background="@drawable/arrow"/>
+
+           <TextView
+               android:id="@+id/updatefirmware"
+               android:layout_width="wrap_content"
+               android:layout_height="50dip"
+               android:layout_alignParentLeft="true"
+               android:layout_alignParentTop="true"
+               android:layout_marginLeft="10dp"
+               android:gravity="center_vertical"
+               android:text="@string/others_check_update"
+               android:textColor="@color/color_black"
+               android:textSize="20sp" />
+
+        </RelativeLayout>
+        <View
+                android:layout_width="match_parent"
+                android:layout_height="0.01dp"
+                android:layout_marginLeft="5dp"
+                android:layout_marginRight="5dp"
+                android:background="#cccccc" />    
+         <!-- 传感器设置 -->
+        <RelativeLayout
+            android:id="@+id/setting_sensor"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+           <ImageView
+		        android:layout_alignParentRight="true"
+		        android:layout_centerVertical="true"
+		        android:layout_width="wrap_content"
+		        android:layout_height="wrap_content"
+		        android:background="@drawable/arrow"/>
+
+           <TextView
+               android:id="@+id/sensor_text"
+               android:layout_width="wrap_content"
+               android:layout_height="50dip"
+               android:layout_alignParentLeft="true"
+               android:layout_alignParentTop="true"
+               android:layout_marginLeft="10dp"
+               android:gravity="center_vertical"
+               android:text="@string/sensorsetting"
+               android:textColor="@color/color_black"
+               android:textSize="20sp" />
+
+        </RelativeLayout>
+        <View
+                android:layout_width="match_parent"
+                android:layout_height="0.01dp"
+                android:layout_marginLeft="5dp"
+                android:layout_marginRight="5dp"
+                android:background="#cccccc" />    
+         <!--  -->
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/tf_setting">
+            <TextView
+		        android:id="@+id/settingTF"
+		        android:layout_width="wrap_content"
+		        android:layout_height="50dip"
+		        android:layout_alignParentLeft="true"
+		        android:layout_centerVertical="true"
+		        android:layout_marginLeft="10dp"
+		        android:textSize="20sp"
+		        android:text="@string/sd_record"
+		        android:textColor="@color/color_black" 
+		        android:gravity="center_vertical"/>
+           <ImageView
+		        android:layout_alignParentRight="true"
+		        android:layout_centerVertical="true"
+		        android:layout_width="wrap_content"
+		        android:layout_height="wrap_content"
+		        android:background="@drawable/arrow"/>
+        </RelativeLayout>
+         <View
+                android:layout_width="match_parent"
+                android:layout_height="0.01dp"
+                android:layout_marginLeft="5dp"
+                android:layout_marginRight="5dp"
+                android:background="#cccccc" />    
+         <!-- 移动侦测报警通知计划 -->
+        <RelativeLayout
+            android:id="@+id/rl_move_inform"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+           <ImageView
+		        android:layout_alignParentRight="true"
+		        android:layout_centerVertical="true"
+		        android:layout_width="wrap_content"
+		        android:layout_height="wrap_content"
+		        android:background="@drawable/arrow"/>
+
+           <TextView
+               android:id="@+id/tv_move_inform"
+               android:layout_width="wrap_content"
+               android:layout_height="50dip"
+               android:layout_alignParentLeft="true"
+               android:layout_alignParentTop="true"
+               android:layout_marginLeft="10dp"
+               android:gravity="center_vertical"
+               android:text="@string/move_inform"
+               android:textColor="@color/color_black"
+               android:textSize="20sp" />
+
+        </RelativeLayout>
+    </LinearLayout>
+   
+</RelativeLayout >

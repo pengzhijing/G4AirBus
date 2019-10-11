@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+    <LinearLayout
+        android:id="@+id/linearLayout1"
+        android:layout_width="match_parent"
+        android:gravity="center_vertical"
+        android:paddingLeft="10dp"
+        android:layout_height="40dp" >
+        
+    <TextView
+        android:id="@+id/ssid"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="16sp"
+        android:textColor="@color/color_black"
+        android:text="TextView" />
+
+    <ImageView
+        android:id="@+id/img"
+        android:visibility="gone"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/abs__spinner_ab_default_holo_light" />
+    </LinearLayout>
+   
+
+   <LinearLayout
+       android:id="@+id/linearLayout2"
+       android:paddingLeft="20dp"
+       android:layout_marginBottom="10dp"
+       android:gravity="center_vertical"
+       android:layout_width="match_parent"
+       android:layout_height="wrap_content"
+       android:orientation="vertical" >
+
+       <LinearLayout
+           android:id="@+id/linearLayout3"
+           android:layout_width="match_parent"
+           android:layout_height="wrap_content" >
+           <TextView
+               android:id="@+id/textView1"
+               android:layout_width="wrap_content"
+               android:layout_height="wrap_content"
+               android:textColor="@color/color_black"
+               android:layout_marginRight="10dp"
+               android:text="@string/wifi_safe" />
+
+           <TextView
+               android:id="@+id/wifi_scan_listitem_tv_safe"
+               android:layout_width="wrap_content"
+               android:layout_height="wrap_content"
+               android:textColor="@color/color_black"
+                />
+           
+       </LinearLayout>
+      
+       <LinearLayout
+           android:id="@+id/linearLayout3"
+           android:layout_width="match_parent"
+           android:layout_height="wrap_content" >
+
+           <TextView
+               android:id="@+id/textView1"
+               android:layout_width="wrap_content"
+               android:layout_height="wrap_content"
+               android:layout_marginRight="10dp"
+               android:textColor="@color/color_black"
+               android:text="@string/wifi_signal_strong" />
+
+           <TextView
+               android:id="@+id/wifi_scan_listitem_tv_signal_strong"
+               android:layout_width="wrap_content"
+               android:layout_height="wrap_content"
+               android:textColor="@color/color_black"
+               android:text="TextView" />
+
+       </LinearLayout>
+      
+   </LinearLayout>
+
+<!--     <ImageView -->
+<!--         android:id="@+id/imageView1" -->
+<!--         android:layout_width="match_parent" -->
+<!--         android:layout_height="1dp" -->
+<!--         android:src="@color/color_grey" /> -->
+   
+</LinearLayout>

@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+   
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    style="@style/bg_style"
+    android:orientation="vertical" >
+
+    <RelativeLayout
+        android:id="@+id/top"
+        android:layout_width="fill_parent"
+        android:layout_height="50.0dip"
+        android:gravity="center_vertical" >
+
+        <Button
+            android:id="@+id/user_cancel"
+            android:layout_width="60dp"
+            android:layout_height="40dp"
+            android:layout_alignParentLeft="true"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="10dip"
+            android:layout_marginRight="10dp"
+            android:layout_weight="1.0"
+            android:text="@string/back"
+            android:textColor="@color/color_black"
+            android:textSize="@dimen/text_title_size" />
+
+        <TextView
+            android:id="@+id/tv_camera_setting"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:layout_centerInParent="true"
+            android:layout_marginLeft="10.0dip"
+            android:shadowColor="@color/color_shadow"
+            android:shadowDx="1.0"
+            android:shadowDy="1.0"
+            android:shadowRadius="1.0"
+            android:text="@string/user_setting"
+            android:textColor="@color/color_white"
+            android:textSize="18.0sp"
+            android:textStyle="bold" />
+     <Button
+            android:id="@+id/user_ok"
+            android:layout_width="50dp"
+            android:layout_height="40dp"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:layout_marginRight="10dp"
+            android:layout_weight="1.0"
+            android:background="@drawable/btnselector"
+            android:text="@string/done"
+            android:textColor="@color/color_white"
+            android:textSize="@dimen/text_title_size" />
+    </RelativeLayout>
+     <!--  android:layout_above="@+id/bottom" -->
+    <ScrollView
+        android:id="@+id/scrollView1"
+     
+        android:layout_below="@+id/top" 
+         
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" >
+
+        <LinearLayout
+            android:id="@+id/linearLayout3"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical" >
+          <LinearLayout
+            android:id="@+id/linearLayout3"
+            android:layout_margin="10dp"
+            android:padding="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@drawable/background_white_corner"
+            android:orientation="vertical" >
+
+              <TextView
+                android:id="@+id/textView0"
+                android:layout_height="40dp"
+                android:textColor="@color/color_black"
+                android:gravity="center_vertical"
+                android:layout_width="wrap_content"
+                android:textSize="@dimen/text_title_size"
+                android:text="@string/user_admin" />
+
+            <EditText
+                android:id="@+id/edit_name"
+                android:layout_width="match_parent"
+                android:background="@drawable/edit_bg"
+                android:layout_height="wrap_content"
+                android:maxLength="64"
+                android:singleLine="true"
+                android:layout_marginLeft="10dp" />
+            <TextView
+                android:id="@+id/textView1"
+                android:layout_height="40dp"
+                android:textColor="@color/color_black"
+                android:gravity="center_vertical"
+                android:layout_width="wrap_content"
+                android:textSize="@dimen/text_title_size"
+                android:text="@string/password" />
+
+            <EditText
+                android:id="@+id/edit_pwd"
+                android:layout_width="match_parent"
+                android:background="@drawable/edit_bg"
+                android:layout_height="wrap_content"
+                android:maxLength="64"
+                android:singleLine="true"
+                android:layout_marginLeft="10dp"
+                android:inputType="textPassword" />
+            <CheckBox
+                android:id="@+id/cbox_show_pwd"
+                android:layout_marginLeft="5dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="@color/color_black"                android:text="@string/showpwd" />
+            
+            
+ 			</LinearLayout>        </LinearLayout>
+    </ScrollView>
+
+</RelativeLayout>

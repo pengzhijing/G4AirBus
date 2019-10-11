@@ -81,6 +81,9 @@
     <uses-feature
         android:name="android.hardware.sensor.stepdetector"
         android:required="false" />
+    <uses-feature android:name=" android.permission.ACCESS_WIFI_STATE " />
+    <uses-feature android:name="android.permission.CHANGE_WIFI_STATE " />
+    <uses-feature android:name="android.permission.WAKE_LOCK" />
 
     <uses-permission android:name="android.permission.CAMERA" />
     <uses-permission android:name="android.permission.VIBRATE" />
@@ -242,6 +245,118 @@
         <activity android:name="com.pzj.ipcdemo.IPCActivity" >
             <intent-filter>
                 <action android:name="com.shima.smartbushome.vstarcam" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity android:name="com.pzj.ipcdemo.SettingActivity" >
+            <intent-filter>
+                <action android:name="com.shima.smartbushome.vstarcam.settings" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity android:name="com.pzj.ipcdemo.SettingWifiActivity" >
+            <intent-filter>
+                <action android:name="com.shima.smartbushome.vstarcam.setting.wifi" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity android:name="com.pzj.ipcdemo.SettingUserActivity" >
+            <intent-filter>
+                <action android:name="com.shima.smartbushome.vstarcam.setting.user" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity android:name="com.pzj.ipcdemo.SettingAlarmActivity" >
+            <intent-filter>
+                <action android:name="com.shima.smartbushome.vstarcam.setting.alarm" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity android:name="com.pzj.ipcdemo.SettingDateActivity" >
+            <intent-filter>
+                <action android:name="com.shima.smartbushome.vstarcam.setting.date" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity android:name="com.pzj.ipcdemo.SettingSDCardActivity" >
+            <intent-filter>
+                <action android:name="com.shima.smartbushome.vstarcam.setting.sdcard" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity android:name="com.pzj.ipcdemo.SCameraSetSDTiming" >
+            <intent-filter>
+                <action android:name="com.shima.smartbushome.vstarcam.setting.sdcard.sdtiming" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity android:name="com.pzj.ipcdemo.SCameraSetPlanVideoTiming" >
+            <intent-filter>
+                <action android:name="com.shima.smartbushome.vstarcam.setting.sdcard.pvtiming" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity android:name="com.pzj.ipcdemo.PlayBackActivity" >
+            <intent-filter>
+                <action android:name="com.shima.smartbushome.vstarcam.setting.sdcard.playback" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity android:name="com.pzj.ipcdemo.PlayBackTFActivity" >
+            <intent-filter>
+                <action android:name="com.shima.smartbushome.vstarcam.setting.sdcard.playbacktf" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity android:name="com.pzj.ipcdemo.FirmwareUpdateActiviy" >
+            <intent-filter>
+                <action android:name="com.shima.smartbushome.vstarcam.setting.sdcard.firmware" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity android:name="com.pzj.ipcdemo.SensorListActivty" >
+            <intent-filter>
+                <action android:name="com.shima.smartbushome.vstarcam.setting.sdcard.sensorlist" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity android:name="com.pzj.ipcdemo.SensorStartCodeActivity" >
+            <intent-filter>
+                <action android:name="com.shima.smartbushome.vstarcam.setting.sdcard.sensorstar" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity android:name="com.pzj.ipcdemo.SCameraSetPushVideoTiming" >
+            <intent-filter>
+                <action android:name="com.shima.smartbushome.vstarcam.setting.sdcard.sensorpush" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity android:name="com.pzj.ipcdemo.EditSensorActivity" >
+            <intent-filter>
+                <action android:name="com.shima.smartbushome.vstarcam.setting.sdcard.sensoredit" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity android:name="com.pzj.ipcdemo.MoveNotificationActivity" >
+            <intent-filter>
+                <action android:name="com.shima.smartbushome.vstarcam.setting.sdcard.move" />
 
                 <category android:name="android.intent.category.DEFAULT" />
             </intent-filter>

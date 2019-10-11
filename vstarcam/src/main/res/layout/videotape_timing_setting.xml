@@ -1,0 +1,282 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    style="@style/all_bg_background"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:clipToPadding="true"
+    android:fitsSystemWindows="true"
+    android:orientation="vertical" >
+
+    <ScrollView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content" >
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" >
+
+            <RelativeLayout
+                android:id="@+id/timing_top"
+                android:layout_width="fill_parent"
+                android:layout_height="50.0dip"    
+                style="@style/top_bg_style"
+                android:gravity="center_vertical" >
+
+                <LinearLayout
+                    android:id="@+id/timing_backlayout"
+                    android:layout_width="50dp"
+                    android:layout_height="50dp"
+                    android:gravity="center_vertical"
+                    android:orientation="horizontal" >
+
+                    <ImageView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="10dp"
+                        android:background="@drawable/title_back" />
+                </LinearLayout>
+
+                <TextView
+                    android:id="@+id/tv_camera_timingaddplan"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerInParent="true"
+                    android:layout_gravity="center_vertical"
+                    android:shadowColor="@color/color_shadow"
+                    android:shadowDx="1.0"
+                    android:shadowDy="1.0"
+                    android:shadowRadius="1.0"
+                    android:text="@string/add_period"
+                    android:textColor="@color/color_white"
+                    android:textSize="22.0sp"
+                    android:textStyle="normal" />
+            </RelativeLayout>
+
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:orientation="horizontal"
+                android:padding="5dp" >
+
+                <LinearLayout
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:orientation="vertical" >
+
+                    <TextView
+                        android:id="@+id/timing_textView1"
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center_vertical"
+                        android:layout_marginLeft="8dp"
+                        android:textColor="@color/color_alarm_textcolor"
+                        android:textSize="18sp" />
+
+                    <TimePicker
+                        android:id="@+id/timing_timePicker1"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_centerHorizontal="true"
+                        android:layout_marginTop="5dp" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:orientation="vertical" >
+
+                    <TextView
+                        android:id="@+id/timing_textView2"
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center_vertical"
+                        android:layout_marginLeft="8dp"
+                        android:textColor="@color/color_alarm_textcolor"
+                        android:textSize="18sp" />
+
+                    <TimePicker
+                        android:id="@+id/timing_timePicker2"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_centerHorizontal="true"
+                        android:layout_marginTop="5dp" />
+                </LinearLayout>
+            </LinearLayout>
+
+            <ImageView
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:background="@drawable/camera_defense_divider" />
+
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="15dp"
+                android:orientation="horizontal" >
+
+                <CheckBox
+                    android:id="@+id/timing_id1"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:button="@null"
+                    android:gravity="center_horizontal"
+                    android:text="@string/plan_day_1"
+                    android:textColor="@color/color_alarm_textcolor"
+                    android:textSize="18sp" />
+
+                <CheckBox
+                    android:id="@+id/timing_id2"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:button="@null"
+                    android:gravity="center_horizontal"
+                       android:text="@string/plan_day_2"
+                    android:textColor="@color/color_alarm_textcolor"
+                    android:textSize="18sp" />
+
+                <CheckBox
+                    android:id="@+id/timing_id3"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:button="@null"
+                    android:gravity="center_horizontal"
+                       android:text="@string/plan_day_3"
+                    android:textColor="@color/color_alarm_textcolor"
+                    android:textSize="18sp" />
+
+                <CheckBox
+                    android:id="@+id/timing_id4"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:button="@null"
+                    android:gravity="center_horizontal"
+                    android:text="@string/plan_day_4"
+                    android:textColor="@color/color_alarm_textcolor"
+                    android:textSize="18sp" />
+
+                
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginTop="15dp"
+                android:orientation="horizontal" >
+				<CheckBox
+                    android:id="@+id/timing_id5"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:button="@null"
+                    android:gravity="center_horizontal"
+                    android:text="@string/plan_day_5"
+                    android:textColor="@color/color_alarm_textcolor"
+                    android:textSize="18sp" />
+                <CheckBox
+                    android:id="@+id/timing_id6"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:button="@null"
+                    android:gravity="center_horizontal"
+                        android:text="@string/plan_day_6"
+                    android:textColor="@color/color_alarm_textcolor"
+                    android:textSize="18sp" />
+
+                <CheckBox
+                    android:id="@+id/timing_id7"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:button="@null"
+                    android:gravity="center_horizontal"
+                    android:text="@string/plan_day_7"
+                    android:textColor="@color/color_alarm_textcolor"
+                    android:textSize="18sp" />
+
+                <CheckBox
+                    android:id="@+id/timing_eatid"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:button="@null"
+                    android:gravity="center_horizontal"
+                    android:textSize="18sp"
+                    android:visibility="invisible" />
+
+               
+
+            </LinearLayout>
+
+            <ImageView
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:background="@drawable/camera_defense_divider" />
+
+            <LinearLayout
+                android:id="@+id/timing_edit_layout"
+                android:layout_marginTop="50dp"
+                android:visibility="gone"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:background="@color/cache_color_hint"
+                android:orientation="horizontal" >
+
+                <RelativeLayout
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="15dp"
+                    android:layout_weight="1" >
+
+                    <Button
+                        android:id="@+id/timing_start_delete"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:background="@drawable/add_defense_1"
+                        android:text="@string/delete_camera"
+                        android:textColor="@color/color_white"
+                        android:textSize="20sp" />
+                </RelativeLayout>
+
+                <RelativeLayout
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="15dp"
+                    android:layout_weight="1" >
+
+                    <Button
+                        android:id="@+id/timing_start_save"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:background="@drawable/add_defense_0"
+                        android:text="@string/camera_defense_addsave"
+                        android:textColor="@color/color_alarm_textcolor"
+                        android:textSize="20sp" />
+                </RelativeLayout>
+            </LinearLayout>
+
+            <Button
+                android:id="@+id/timing_save"
+                android:layout_width="fill_parent"
+                android:layout_height="50dp"
+                android:layout_marginTop="50dp"
+                android:background="@drawable/add_defense_ok"
+                android:gravity="center"
+                android:text="@string/camera_defense_addsave"
+                android:textColor="@color/color_alarm_textcolor"
+                android:textSize="20sp" />
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>
