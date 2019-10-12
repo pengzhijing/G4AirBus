@@ -31,6 +31,7 @@ import android.widget.TextView;
 import android.widget.Toast;
 
 import com.chad.library.adapter.base.BaseQuickAdapter;
+import com.mediatek.demo.smartconnection.MainActivity;
 import com.pzj.ipcdemo.adapter.IPCListAdapter;
 import com.pzj.ipcdemo.entity.VStarCamera;
 import com.pzj.ipcdemo.service.BridgeService;
@@ -646,6 +647,13 @@ public class IPCActivity extends AppCompatActivity implements BridgeService.Ipca
                 .gravity(Gravity.TOP | Gravity.CENTER)
                 .cancelableOnTouchOutside(true)
                 .cancelableOnClickKeyBack(true)
+                .onClick(R.id.iv_link, new AnyLayer.OnLayerClickListener() {
+                    @Override
+                    public void onClick(AnyLayer anyLayer, View v) {
+                        //跳转到配网界面
+                        startActivity(new Intent(IPCActivity.this,MainActivity.class));
+                    }
+                })
                 .onClick(R.id.iv_scan, new AnyLayer.OnLayerClickListener() {
                     @Override
                     public void onClick(AnyLayer anyLayer, View v) {

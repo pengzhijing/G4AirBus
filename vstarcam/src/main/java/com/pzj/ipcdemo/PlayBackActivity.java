@@ -397,7 +397,7 @@ public class PlayBackActivity extends Activity implements BridgeService.PlayBack
 
 
         textback = (TextView) findViewById(R.id.back);
-        textback.setText("返回");
+        textback.setText("back");
         textback.setVisibility(View.VISIBLE);
         textback.setOnClickListener(this);
 

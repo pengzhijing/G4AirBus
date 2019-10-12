@@ -838,12 +838,12 @@ ADDED from [:smart_link] E:\Android_Studio_Project\G4AirBus\Smartbushome\smart_l
 		ADDED from [:smart_link] E:\Android_Studio_Project\G4AirBus\Smartbushome\smart_link\build\intermediates\merged_manifests\debug\processDebugManifest\merged\AndroidManifest.xml:24:13-45
 	android:name
 		ADDED from [:smart_link] E:\Android_Studio_Project\G4AirBus\Smartbushome\smart_link\build\intermediates\merged_manifests\debug\processDebugManifest\merged\AndroidManifest.xml:23:13-74
-intent-filter#action:name:com.smart.link+category:name:android.intent.category.DEFAULT
+intent-filter#action:name:com.shima.smart.link+category:name:android.intent.category.DEFAULT
 ADDED from [:smart_link] E:\Android_Studio_Project\G4AirBus\Smartbushome\smart_link\build\intermediates\merged_manifests\debug\processDebugManifest\merged\AndroidManifest.xml:25:13-29:29
-action#com.smart.link
-ADDED from [:smart_link] E:\Android_Studio_Project\G4AirBus\Smartbushome\smart_link\build\intermediates\merged_manifests\debug\processDebugManifest\merged\AndroidManifest.xml:26:17-57
+action#com.shima.smart.link
+ADDED from [:smart_link] E:\Android_Studio_Project\G4AirBus\Smartbushome\smart_link\build\intermediates\merged_manifests\debug\processDebugManifest\merged\AndroidManifest.xml:26:17-63
 	android:name
-		ADDED from [:smart_link] E:\Android_Studio_Project\G4AirBus\Smartbushome\smart_link\build\intermediates\merged_manifests\debug\processDebugManifest\merged\AndroidManifest.xml:26:25-54
+		ADDED from [:smart_link] E:\Android_Studio_Project\G4AirBus\Smartbushome\smart_link\build\intermediates\merged_manifests\debug\processDebugManifest\merged\AndroidManifest.xml:26:25-60
 uses-permission#android.permission.CAMERA
 ADDED from [:scan_zxing] E:\Android_Studio_Project\G4AirBus\Smartbushome\scan_zxing\build\intermediates\merged_manifests\debug\processDebugManifest\merged\AndroidManifest.xml:11:5-65
 	android:name

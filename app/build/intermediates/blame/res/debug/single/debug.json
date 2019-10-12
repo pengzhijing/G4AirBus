@@ -260,6 +260,10 @@
         "source": "E:\\Android_Studio_Project\\G4AirBus\\Smartbushome\\app\\src\\main\\res\\drawable\\ic_ac_power_off_in_room.xml"
     },
     {
+        "merged": "E:\\Android_Studio_Project\\G4AirBus\\Smartbushome\\app\\build\\intermediates\\res\\merged\\debug\\drawable_ipc_tip.png.flat",
+        "source": "E:\\Android_Studio_Project\\G4AirBus\\Smartbushome\\vstarcam\\build\\intermediates\\packaged_res\\debug\\drawable\\ipc_tip.png"
+    },
+    {
         "merged": "E:\\Android_Studio_Project\\G4AirBus\\Smartbushome\\app\\build\\intermediates\\res\\merged\\debug\\drawable_checkright_normal.png.flat",
         "source": "E:\\Android_Studio_Project\\G4AirBus\\Smartbushome\\vstarcam\\build\\intermediates\\packaged_res\\debug\\drawable\\checkright_normal.png"
     },
@@ -546,6 +550,10 @@
     {
         "merged": "E:\\Android_Studio_Project\\G4AirBus\\Smartbushome\\app\\build\\intermediates\\res\\merged\\debug\\drawable_ptz_pause.png.flat",
         "source": "E:\\Android_Studio_Project\\G4AirBus\\Smartbushome\\vstarcam\\build\\intermediates\\packaged_res\\debug\\drawable\\ptz_pause.png"
+    },
+    {
+        "merged": "E:\\Android_Studio_Project\\G4AirBus\\Smartbushome\\app\\build\\intermediates\\res\\merged\\debug\\drawable_ipc_link.png.flat",
+        "source": "E:\\Android_Studio_Project\\G4AirBus\\Smartbushome\\vstarcam\\build\\intermediates\\packaged_res\\debug\\drawable\\ipc_link.png"
     },
     {
         "merged": "E:\\Android_Studio_Project\\G4AirBus\\Smartbushome\\app\\build\\intermediates\\res\\merged\\debug\\drawable_abc_cab_background_top_material.xml.flat",

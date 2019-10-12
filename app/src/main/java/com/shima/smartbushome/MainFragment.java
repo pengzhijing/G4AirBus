@@ -804,11 +804,15 @@ public class MainFragment extends Fragment {
                     updateroom.room_icon = settingicon;
                     updateroom.room_icon_bg = backgroudPath;//房间背景
                     List<SaveArea> saveAreaList=MainActivity.mgr.queryArea();
-                    if (saveAreaList.size()>=spAreaSelectposition){
-                        updateroom.area_id=saveAreaList.get(spAreaSelectposition).getId();//区域ID
-                    }else {
-                        updateroom.area_id=0;
+                    updateroom.area_id=0;
+                    try{
+                        if (saveAreaList.size()>=spAreaSelectposition){
+                            updateroom.area_id=saveAreaList.get(spAreaSelectposition).getId();//区域ID
+                        }
+                    }catch (Exception e){
+                        e.printStackTrace();
                     }
+
 
                     //修改房间
                     MainActivity.mgr.updataroominfo(updateroom);

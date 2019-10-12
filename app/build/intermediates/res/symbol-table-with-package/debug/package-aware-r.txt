@@ -1203,9 +1203,11 @@ drawable ios_back_drawable
 drawable ios_thumb_selector
 drawable ipc_delete
 drawable ipc_edit
+drawable ipc_link
 drawable ipc_scan
 drawable ipc_search
 drawable ipc_setting
+drawable ipc_tip
 drawable ipc_update
 drawable key_center
 drawable key_center_1
@@ -1995,6 +1997,7 @@ id iv_ipcUpdate
 id iv_item
 id iv_layout
 id iv_left
+id iv_link
 id iv_main
 id iv_mic
 id iv_right
