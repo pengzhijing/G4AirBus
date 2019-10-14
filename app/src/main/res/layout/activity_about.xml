@@ -139,7 +139,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:gravity="center"
-        android:text="Version Number： 1.4.5(beta_20191012A)"
+        android:text="Version Number： 1.4.6(beta_20191014A)"
         android:textAppearance="?android:attr/textAppearanceMedium"
         android:textColor="#ffffff"
         android:layout_marginBottom="71dp"

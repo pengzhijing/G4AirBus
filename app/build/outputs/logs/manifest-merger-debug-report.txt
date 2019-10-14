@@ -1,15 +1,15 @@
 -- Merging decision tree log ---
 manifest
-ADDED from E:\Android_Studio_Project\G4AirBus\Smartbushome\app\src\main\AndroidManifest.xml:2:1-207:12
-INJECTED from E:\Android_Studio_Project\G4AirBus\Smartbushome\app\src\main\AndroidManifest.xml:2:1-207:12
-INJECTED from E:\Android_Studio_Project\G4AirBus\Smartbushome\app\src\main\AndroidManifest.xml:2:1-207:12
-INJECTED from E:\Android_Studio_Project\G4AirBus\Smartbushome\app\src\main\AndroidManifest.xml:2:1-207:12
+ADDED from E:\Android_Studio_Project\G4AirBus\Smartbushome\app\src\main\AndroidManifest.xml:2:1-209:12
+INJECTED from E:\Android_Studio_Project\G4AirBus\Smartbushome\app\src\main\AndroidManifest.xml:2:1-209:12
+INJECTED from E:\Android_Studio_Project\G4AirBus\Smartbushome\app\src\main\AndroidManifest.xml:2:1-209:12
+INJECTED from E:\Android_Studio_Project\G4AirBus\Smartbushome\app\src\main\AndroidManifest.xml:2:1-209:12
 MERGED from [:dialogview] E:\Android_Studio_Project\G4AirBus\Smartbushome\alertview\build\intermediates\merged_manifests\debug\processDebugManifest\merged\AndroidManifest.xml:2:1-11:12
 MERGED from [:coolswitch] E:\Android_Studio_Project\G4AirBus\Smartbushome\switchbutton\build\intermediates\merged_manifests\debug\processDebugManifest\merged\AndroidManifest.xml:2:1-11:12
 MERGED from [:selfseekbar] E:\Android_Studio_Project\G4AirBus\Smartbushome\bubbleseekbar\build\intermediates\merged_manifests\debug\processDebugManifest\merged\AndroidManifest.xml:2:1-17:12
-MERGED from [:vstarcam] E:\Android_Studio_Project\G4AirBus\Smartbushome\vstarcam\build\intermediates\merged_manifests\debug\processDebugManifest\merged\AndroidManifest.xml:2:1-156:12
-MERGED from [:smart_link] E:\Android_Studio_Project\G4AirBus\Smartbushome\smart_link\build\intermediates\merged_manifests\debug\processDebugManifest\merged\AndroidManifest.xml:2:1-33:12
-MERGED from [:scan_zxing] E:\Android_Studio_Project\G4AirBus\Smartbushome\scan_zxing\build\intermediates\merged_manifests\debug\processDebugManifest\merged\AndroidManifest.xml:2:1-40:12
+MERGED from [:vstarcam] E:\Android_Studio_Project\G4AirBus\Smartbushome\vstarcam\build\intermediates\merged_manifests\debug\processDebugManifest\merged\AndroidManifest.xml:2:1-209:12
+MERGED from [:smart_link] E:\Android_Studio_Project\G4AirBus\Smartbushome\smart_link\build\intermediates\merged_manifests\debug\processDebugManifest\merged\AndroidManifest.xml:2:1-86:12
+MERGED from [:scan_zxing] E:\Android_Studio_Project\G4AirBus\Smartbushome\scan_zxing\build\intermediates\merged_manifests\debug\processDebugManifest\merged\AndroidManifest.xml:2:1-94:12
 MERGED from [com.ashokvarma.android:bottom-navigation-bar:1.3.1] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\bottom-navigation-bar-1.3.1.aar\6123b4d763cd7f7cb518095e4f8c8d40\AndroidManifest.xml:2:1-15:12
 MERGED from [com.android.support:design:25.3.1] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\design-25.3.1.aar\4aa3bd0247322d704ff2373cb6fa733c\AndroidManifest.xml:17:1-31:12
 MERGED from [ru.alexbykov:nopermission:1.1.2] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\nopermission-1.1.2.aar\bb0be417c5881eba42802fedb2e7c74b\AndroidManifest.xml:2:1-12:12
@@ -35,22 +35,22 @@ MERGED from [com.android.support:support-compat:25.3.1] C:\Users\Administrator\.
 MERGED from [com.github.bumptech.glide:gifdecoder:4.8.0] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\gifdecoder-4.8.0.aar\c8959825e800c3e1f547f96ab45da5ee\AndroidManifest.xml:2:1-11:12
 MERGED from [com.android.support.constraint:constraint-layout:1.1.3] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\constraint-layout-1.1.3.aar\3853f075abd61d7c3d63670aec971d38\AndroidManifest.xml:2:1-11:12
 MERGED from [com.github.CymChad:BaseRecyclerViewAdapterHelper:2.9.47] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\BaseRecyclerViewAdapterHelper-2.9.47.aar\f0741aaaedfdcba4e13d8b524d74a333\AndroidManifest.xml:2:1-11:12
-INJECTED from E:\Android_Studio_Project\G4AirBus\Smartbushome\app\src\main\AndroidManifest.xml:2:1-207:12
-INJECTED from E:\Android_Studio_Project\G4AirBus\Smartbushome\app\src\main\AndroidManifest.xml:2:1-207:12
-INJECTED from E:\Android_Studio_Project\G4AirBus\Smartbushome\app\src\main\AndroidManifest.xml:2:1-207:12
+INJECTED from E:\Android_Studio_Project\G4AirBus\Smartbushome\app\src\main\AndroidManifest.xml:2:1-209:12
+INJECTED from E:\Android_Studio_Project\G4AirBus\Smartbushome\app\src\main\AndroidManifest.xml:2:1-209:12
+INJECTED from E:\Android_Studio_Project\G4AirBus\Smartbushome\app\src\main\AndroidManifest.xml:2:1-209:12
 	package
 		ADDED from E:\Android_Studio_Project\G4AirBus\Smartbushome\app\src\main\AndroidManifest.xml:4:5-37
 		INJECTED from E:\Android_Studio_Project\G4AirBus\Smartbushome\app\src\main\AndroidManifest.xml
 		INJECTED from E:\Android_Studio_Project\G4AirBus\Smartbushome\app\src\main\AndroidManifest.xml
 	android:versionName
 		INJECTED from E:\Android_Studio_Project\G4AirBus\Smartbushome\app\src\main\AndroidManifest.xml
-		ADDED from E:\Android_Studio_Project\G4AirBus\Smartbushome\app\src\main\AndroidManifest.xml:2:1-207:12
+		ADDED from E:\Android_Studio_Project\G4AirBus\Smartbushome\app\src\main\AndroidManifest.xml:2:1-209:12
 		INJECTED from E:\Android_Studio_Project\G4AirBus\Smartbushome\app\src\main\AndroidManifest.xml
 	xmlns:tools
 		ADDED from E:\Android_Studio_Project\G4AirBus\Smartbushome\app\src\main\AndroidManifest.xml:3:5-51
 	android:versionCode
 		INJECTED from E:\Android_Studio_Project\G4AirBus\Smartbushome\app\src\main\AndroidManifest.xml
-		ADDED from E:\Android_Studio_Project\G4AirBus\Smartbushome\app\src\main\AndroidManifest.xml:2:1-207:12
+		ADDED from E:\Android_Studio_Project\G4AirBus\Smartbushome\app\src\main\AndroidManifest.xml:2:1-209:12
 		INJECTED from E:\Android_Studio_Project\G4AirBus\Smartbushome\app\src\main\AndroidManifest.xml
 	xmlns:android
 		ADDED from E:\Android_Studio_Project\G4AirBus\Smartbushome\app\src\main\AndroidManifest.xml:2:11-69
@@ -148,8 +148,8 @@ MERGED from [:vstarcam] E:\Android_Studio_Project\G4AirBus\Smartbushome\vstarcam
 MERGED from [:vstarcam] E:\Android_Studio_Project\G4AirBus\Smartbushome\vstarcam\build\intermediates\merged_manifests\debug\processDebugManifest\merged\AndroidManifest.xml:11:5-67
 MERGED from [:smart_link] E:\Android_Studio_Project\G4AirBus\Smartbushome\smart_link\build\intermediates\merged_manifests\debug\processDebugManifest\merged\AndroidManifest.xml:16:5-67
 MERGED from [:smart_link] E:\Android_Studio_Project\G4AirBus\Smartbushome\smart_link\build\intermediates\merged_manifests\debug\processDebugManifest\merged\AndroidManifest.xml:16:5-67
-MERGED from [:scan_zxing] E:\Android_Studio_Project\G4AirBus\Smartbushome\scan_zxing\build\intermediates\merged_manifests\debug\processDebugManifest\merged\AndroidManifest.xml:12:5-67
-MERGED from [:scan_zxing] E:\Android_Studio_Project\G4AirBus\Smartbushome\scan_zxing\build\intermediates\merged_manifests\debug\processDebugManifest\merged\AndroidManifest.xml:12:5-67
+MERGED from [:scan_zxing] E:\Android_Studio_Project\G4AirBus\Smartbushome\scan_zxing\build\intermediates\merged_manifests\debug\processDebugManifest\merged\AndroidManifest.xml:13:5-67
+MERGED from [:scan_zxing] E:\Android_Studio_Project\G4AirBus\Smartbushome\scan_zxing\build\intermediates\merged_manifests\debug\processDebugManifest\merged\AndroidManifest.xml:13:5-67
 	android:name
 		ADDED from E:\Android_Studio_Project\G4AirBus\Smartbushome\app\src\main\AndroidManifest.xml:29:22-64
 uses-permission#android.permission.ACCESS_WIFI_STATE
@@ -182,104 +182,218 @@ ADDED from E:\Android_Studio_Project\G4AirBus\Smartbushome\app\src\main\AndroidM
 		ADDED from E:\Android_Studio_Project\G4AirBus\Smartbushome\app\src\main\AndroidManifest.xml:34:22-65
 uses-feature#android.hardware.audio.low_latency
 ADDED from E:\Android_Studio_Project\G4AirBus\Smartbushome\app\src\main\AndroidManifest.xml:47:5-95
+MERGED from [:vstarcam] E:\Android_Studio_Project\G4AirBus\Smartbushome\vstarcam\build\intermediates\merged_manifests\debug\processDebugManifest\merged\AndroidManifest.xml:21:5-23:36
+MERGED from [:vstarcam] E:\Android_Studio_Project\G4AirBus\Smartbushome\vstarcam\build\intermediates\merged_manifests\debug\processDebugManifest\merged\AndroidManifest.xml:21:5-23:36
+MERGED from [:smart_link] E:\Android_Studio_Project\G4AirBus\Smartbushome\smart_link\build\intermediates\merged_manifests\debug\processDebugManifest\merged\AndroidManifest.xml:19:5-21:36
+MERGED from [:smart_link] E:\Android_Studio_Project\G4AirBus\Smartbushome\smart_link\build\intermediates\merged_manifests\debug\processDebugManifest\merged\AndroidManifest.xml:19:5-21:36
+MERGED from [:scan_zxing] E:\Android_Studio_Project\G4AirBus\Smartbushome\scan_zxing\build\intermediates\merged_manifests\debug\processDebugManifest\merged\AndroidManifest.xml:18:5-20:36
+MERGED from [:scan_zxing] E:\Android_Studio_Project\G4AirBus\Smartbushome\scan_zxing\build\intermediates\merged_manifests\debug\processDebugManifest\merged\AndroidManifest.xml:18:5-20:36
 	android:required
 		ADDED from E:\Android_Studio_Project\G4AirBus\Smartbushome\app\src\main\AndroidManifest.xml:47:69-93
 	android:name
 		ADDED from E:\Android_Studio_Project\G4AirBus\Smartbushome\app\src\main\AndroidManifest.xml:47:19-68
 uses-feature#android.hardware.location
 ADDED from E:\Android_Studio_Project\G4AirBus\Smartbushome\app\src\main\AndroidManifest.xml:48:5-86
+MERGED from [:vstarcam] E:\Android_Studio_Project\G4AirBus\Smartbushome\vstarcam\build\intermediates\merged_manifests\debug\processDebugManifest\merged\AndroidManifest.xml:24:5-26:36
+MERGED from [:vstarcam] E:\Android_Studio_Project\G4AirBus\Smartbushome\vstarcam\build\intermediates\merged_manifests\debug\processDebugManifest\merged\AndroidManifest.xml:24:5-26:36
+MERGED from [:smart_link] E:\Android_Studio_Project\G4AirBus\Smartbushome\smart_link\build\intermediates\merged_manifests\debug\processDebugManifest\merged\AndroidManifest.xml:22:5-24:36
+MERGED from [:smart_link] E:\Android_Studio_Project\G4AirBus\Smartbushome\smart_link\build\intermediates\merged_manifests\debug\processDebugManifest\merged\AndroidManifest.xml:22:5-24:36
+MERGED from [:scan_zxing] E:\Android_Studio_Project\G4AirBus\Smartbushome\scan_zxing\build\intermediates\merged_manifests\debug\processDebugManifest\merged\AndroidManifest.xml:21:5-23:36
+MERGED from [:scan_zxing] E:\Android_Studio_Project\G4AirBus\Smartbushome\scan_zxing\build\intermediates\merged_manifests\debug\processDebugManifest\merged\AndroidManifest.xml:21:5-23:36
 	android:required
 		ADDED from E:\Android_Studio_Project\G4AirBus\Smartbushome\app\src\main\AndroidManifest.xml:48:60-84
 	android:name
 		ADDED from E:\Android_Studio_Project\G4AirBus\Smartbushome\app\src\main\AndroidManifest.xml:48:19-59
 uses-feature#android.hardware.location.network
 ADDED from E:\Android_Studio_Project\G4AirBus\Smartbushome\app\src\main\AndroidManifest.xml:49:5-94
+MERGED from [:vstarcam] E:\Android_Studio_Project\G4AirBus\Smartbushome\vstarcam\build\intermediates\merged_manifests\debug\processDebugManifest\merged\AndroidManifest.xml:27:5-29:36
+MERGED from [:vstarcam] E:\Android_Studio_Project\G4AirBus\Smartbushome\vstarcam\build\intermediates\merged_manifests\debug\processDebugManifest\merged\AndroidManifest.xml:27:5-29:36
+MERGED from [:smart_link] E:\Android_Studio_Project\G4AirBus\Smartbushome\smart_link\build\intermediates\merged_manifests\debug\processDebugManifest\merged\AndroidManifest.xml:25:5-27:36
+MERGED from [:smart_link] E:\Android_Studio_Project\G4AirBus\Smartbushome\smart_link\build\intermediates\merged_manifests\debug\processDebugManifest\merged\AndroidManifest.xml:25:5-27:36
+MERGED from [:scan_zxing] E:\Android_Studio_Project\G4AirBus\Smartbushome\scan_zxing\build\intermediates\merged_manifests\debug\processDebugManifest\merged\AndroidManifest.xml:24:5-26:36
+MERGED from [:scan_zxing] E:\Android_Studio_Project\G4AirBus\Smartbushome\scan_zxing\build\intermediates\merged_manifests\debug\processDebugManifest\merged\AndroidManifest.xml:24:5-26:36
 	android:required
 		ADDED from E:\Android_Studio_Project\G4AirBus\Smartbushome\app\src\main\AndroidManifest.xml:49:68-92
 	android:name
 		ADDED from E:\Android_Studio_Project\G4AirBus\Smartbushome\app\src\main\AndroidManifest.xml:49:19-67
 uses-feature#android.hardware.location.gps
 ADDED from E:\Android_Studio_Project\G4AirBus\Smartbushome\app\src\main\AndroidManifest.xml:50:5-90
+MERGED from [:vstarcam] E:\Android_Studio_Project\G4AirBus\Smartbushome\vstarcam\build\intermediates\merged_manifests\debug\processDebugManifest\merged\AndroidManifest.xml:30:5-32:36
+MERGED from [:vstarcam] E:\Android_Studio_Project\G4AirBus\Smartbushome\vstarcam\build\intermediates\merged_manifests\debug\processDebugManifest\merged\AndroidManifest.xml:30:5-32:36
+MERGED from [:smart_link] E:\Android_Studio_Project\G4AirBus\Smartbushome\smart_link\build\intermediates\merged_manifests\debug\processDebugManifest\merged\AndroidManifest.xml:28:5-30:36
+MERGED from [:smart_link] E:\Android_Studio_Project\G4AirBus\Smartbushome\smart_link\build\intermediates\merged_manifests\debug\processDebugManifest\merged\AndroidManifest.xml:28:5-30:36
+MERGED from [:scan_zxing] E:\Android_Studio_Project\G4AirBus\Smartbushome\scan_zxing\build\intermediates\merged_manifests\debug\processDebugManifest\merged\AndroidManifest.xml:27:5-29:36
+MERGED from [:scan_zxing] E:\Android_Studio_Project\G4AirBus\Smartbushome\scan_zxing\build\intermediates\merged_manifests\debug\processDebugManifest\merged\AndroidManifest.xml:27:5-29:36
 	android:required
 		ADDED from E:\Android_Studio_Project\G4AirBus\Smartbushome\app\src\main\AndroidManifest.xml:50:64-88
 	android:name
 		ADDED from E:\Android_Studio_Project\G4AirBus\Smartbushome\app\src\main\AndroidManifest.xml:50:19-63
 uses-feature#android.hardware.microphone
 ADDED from E:\Android_Studio_Project\G4AirBus\Smartbushome\app\src\main\AndroidManifest.xml:51:5-88
+MERGED from [:vstarcam] E:\Android_Studio_Project\G4AirBus\Smartbushome\vstarcam\build\intermediates\merged_manifests\debug\processDebugManifest\merged\AndroidManifest.xml:33:5-35:36
+MERGED from [:vstarcam] E:\Android_Studio_Project\G4AirBus\Smartbushome\vstarcam\build\intermediates\merged_manifests\debug\processDebugManifest\merged\AndroidManifest.xml:33:5-35:36
+MERGED from [:smart_link] E:\Android_Studio_Project\G4AirBus\Smartbushome\smart_link\build\intermediates\merged_manifests\debug\processDebugManifest\merged\AndroidManifest.xml:31:5-33:36
+MERGED from [:smart_link] E:\Android_Studio_Project\G4AirBus\Smartbushome\smart_link\build\intermediates\merged_manifests\debug\processDebugManifest\merged\AndroidManifest.xml:31:5-33:36
+MERGED from [:scan_zxing] E:\Android_Studio_Project\G4AirBus\Smartbushome\scan_zxing\build\intermediates\merged_manifests\debug\processDebugManifest\merged\AndroidManifest.xml:30:5-32:36
+MERGED from [:scan_zxing] E:\Android_Studio_Project\G4AirBus\Smartbushome\scan_zxing\build\intermediates\merged_manifests\debug\processDebugManifest\merged\AndroidManifest.xml:30:5-32:36
 	android:required
 		ADDED from E:\Android_Studio_Project\G4AirBus\Smartbushome\app\src\main\AndroidManifest.xml:51:62-86
 	android:name
 		ADDED from E:\Android_Studio_Project\G4AirBus\Smartbushome\app\src\main\AndroidManifest.xml:51:19-61
 uses-feature#android.hardware.touchscreen
 ADDED from E:\Android_Studio_Project\G4AirBus\Smartbushome\app\src\main\AndroidManifest.xml:52:5-89
+MERGED from [:vstarcam] E:\Android_Studio_Project\G4AirBus\Smartbushome\vstarcam\build\intermediates\merged_manifests\debug\processDebugManifest\merged\AndroidManifest.xml:36:5-38:36
+MERGED from [:vstarcam] E:\Android_Studio_Project\G4AirBus\Smartbushome\vstarcam\build\intermediates\merged_manifests\debug\processDebugManifest\merged\AndroidManifest.xml:36:5-38:36
+MERGED from [:smart_link] E:\Android_Studio_Project\G4AirBus\Smartbushome\smart_link\build\intermediates\merged_manifests\debug\processDebugManifest\merged\AndroidManifest.xml:34:5-36:36
+MERGED from [:smart_link] E:\Android_Studio_Project\G4AirBus\Smartbushome\smart_link\build\intermediates\merged_manifests\debug\processDebugManifest\merged\AndroidManifest.xml:34:5-36:36
+MERGED from [:scan_zxing] E:\Android_Studio_Project\G4AirBus\Smartbushome\scan_zxing\build\intermediates\merged_manifests\debug\processDebugManifest\merged\AndroidManifest.xml:33:5-35:36
+MERGED from [:scan_zxing] E:\Android_Studio_Project\G4AirBus\Smartbushome\scan_zxing\build\intermediates\merged_manifests\debug\processDebugManifest\merged\AndroidManifest.xml:33:5-35:36
 	android:required
 		ADDED from E:\Android_Studio_Project\G4AirBus\Smartbushome\app\src\main\AndroidManifest.xml:52:63-87
 	android:name
 		ADDED from E:\Android_Studio_Project\G4AirBus\Smartbushome\app\src\main\AndroidManifest.xml:52:19-62
 uses-feature#android.hardware.touchscreen.multitouch
 ADDED from E:\Android_Studio_Project\G4AirBus\Smartbushome\app\src\main\AndroidManifest.xml:53:5-100
+MERGED from [:vstarcam] E:\Android_Studio_Project\G4AirBus\Smartbushome\vstarcam\build\intermediates\merged_manifests\debug\processDebugManifest\merged\AndroidManifest.xml:39:5-41:36
+MERGED from [:vstarcam] E:\Android_Studio_Project\G4AirBus\Smartbushome\vstarcam\build\intermediates\merged_manifests\debug\processDebugManifest\merged\AndroidManifest.xml:39:5-41:36
+MERGED from [:smart_link] E:\Android_Studio_Project\G4AirBus\Smartbushome\smart_link\build\intermediates\merged_manifests\debug\processDebugManifest\merged\AndroidManifest.xml:37:5-39:36
+MERGED from [:smart_link] E:\Android_Studio_Project\G4AirBus\Smartbushome\smart_link\build\intermediates\merged_manifests\debug\processDebugManifest\merged\AndroidManifest.xml:37:5-39:36
+MERGED from [:scan_zxing] E:\Android_Studio_Project\G4AirBus\Smartbushome\scan_zxing\build\intermediates\merged_manifests\debug\processDebugManifest\merged\AndroidManifest.xml:36:5-38:36
+MERGED from [:scan_zxing] E:\Android_Studio_Project\G4AirBus\Smartbushome\scan_zxing\build\intermediates\merged_manifests\debug\processDebugManifest\merged\AndroidManifest.xml:36:5-38:36
 	android:required
 		ADDED from E:\Android_Studio_Project\G4AirBus\Smartbushome\app\src\main\AndroidManifest.xml:53:74-98
 	android:name
 		ADDED from E:\Android_Studio_Project\G4AirBus\Smartbushome\app\src\main\AndroidManifest.xml:53:19-73
 uses-feature#android.hardware.touchscreen.multitouch.distinct
 ADDED from E:\Android_Studio_Project\G4AirBus\Smartbushome\app\src\main\AndroidManifest.xml:54:5-109
+MERGED from [:vstarcam] E:\Android_Studio_Project\G4AirBus\Smartbushome\vstarcam\build\intermediates\merged_manifests\debug\processDebugManifest\merged\AndroidManifest.xml:42:5-44:36
+MERGED from [:vstarcam] E:\Android_Studio_Project\G4AirBus\Smartbushome\vstarcam\build\intermediates\merged_manifests\debug\processDebugManifest\merged\AndroidManifest.xml:42:5-44:36
+MERGED from [:smart_link] E:\Android_Studio_Project\G4AirBus\Smartbushome\smart_link\build\intermediates\merged_manifests\debug\processDebugManifest\merged\AndroidManifest.xml:40:5-42:36
+MERGED from [:smart_link] E:\Android_Studio_Project\G4AirBus\Smartbushome\smart_link\build\intermediates\merged_manifests\debug\processDebugManifest\merged\AndroidManifest.xml:40:5-42:36
+MERGED from [:scan_zxing] E:\Android_Studio_Project\G4AirBus\Smartbushome\scan_zxing\build\intermediates\merged_manifests\debug\processDebugManifest\merged\AndroidManifest.xml:39:5-41:36
+MERGED from [:scan_zxing] E:\Android_Studio_Project\G4AirBus\Smartbushome\scan_zxing\build\intermediates\merged_manifests\debug\processDebugManifest\merged\AndroidManifest.xml:39:5-41:36
 	android:required
 		ADDED from E:\Android_Studio_Project\G4AirBus\Smartbushome\app\src\main\AndroidManifest.xml:54:83-107
 	android:name
 		ADDED from E:\Android_Studio_Project\G4AirBus\Smartbushome\app\src\main\AndroidManifest.xml:54:19-82
 uses-feature#android.hardware.touchscreen.multitouch.jazzhand
 ADDED from E:\Android_Studio_Project\G4AirBus\Smartbushome\app\src\main\AndroidManifest.xml:55:5-109
+MERGED from [:vstarcam] E:\Android_Studio_Project\G4AirBus\Smartbushome\vstarcam\build\intermediates\merged_manifests\debug\processDebugManifest\merged\AndroidManifest.xml:45:5-47:36
+MERGED from [:vstarcam] E:\Android_Studio_Project\G4AirBus\Smartbushome\vstarcam\build\intermediates\merged_manifests\debug\processDebugManifest\merged\AndroidManifest.xml:45:5-47:36
+MERGED from [:smart_link] E:\Android_Studio_Project\G4AirBus\Smartbushome\smart_link\build\intermediates\merged_manifests\debug\processDebugManifest\merged\AndroidManifest.xml:43:5-45:36
+MERGED from [:smart_link] E:\Android_Studio_Project\G4AirBus\Smartbushome\smart_link\build\intermediates\merged_manifests\debug\processDebugManifest\merged\AndroidManifest.xml:43:5-45:36
+MERGED from [:scan_zxing] E:\Android_Studio_Project\G4AirBus\Smartbushome\scan_zxing\build\intermediates\merged_manifests\debug\processDebugManifest\merged\AndroidManifest.xml:42:5-44:36
+MERGED from [:scan_zxing] E:\Android_Studio_Project\G4AirBus\Smartbushome\scan_zxing\build\intermediates\merged_manifests\debug\processDebugManifest\merged\AndroidManifest.xml:42:5-44:36
 	android:required
 		ADDED from E:\Android_Studio_Project\G4AirBus\Smartbushome\app\src\main\AndroidManifest.xml:55:83-107
 	android:name
 		ADDED from E:\Android_Studio_Project\G4AirBus\Smartbushome\app\src\main\AndroidManifest.xml:55:19-82
 uses-feature#android.hardware.screen.portrait
 ADDED from E:\Android_Studio_Project\G4AirBus\Smartbushome\app\src\main\AndroidManifest.xml:56:5-93
+MERGED from [:vstarcam] E:\Android_Studio_Project\G4AirBus\Smartbushome\vstarcam\build\intermediates\merged_manifests\debug\processDebugManifest\merged\AndroidManifest.xml:48:5-50:36
+MERGED from [:vstarcam] E:\Android_Studio_Project\G4AirBus\Smartbushome\vstarcam\build\intermediates\merged_manifests\debug\processDebugManifest\merged\AndroidManifest.xml:48:5-50:36
+MERGED from [:smart_link] E:\Android_Studio_Project\G4AirBus\Smartbushome\smart_link\build\intermediates\merged_manifests\debug\processDebugManifest\merged\AndroidManifest.xml:46:5-48:36
+MERGED from [:smart_link] E:\Android_Studio_Project\G4AirBus\Smartbushome\smart_link\build\intermediates\merged_manifests\debug\processDebugManifest\merged\AndroidManifest.xml:46:5-48:36
+MERGED from [:scan_zxing] E:\Android_Studio_Project\G4AirBus\Smartbushome\scan_zxing\build\intermediates\merged_manifests\debug\processDebugManifest\merged\AndroidManifest.xml:45:5-47:36
+MERGED from [:scan_zxing] E:\Android_Studio_Project\G4AirBus\Smartbushome\scan_zxing\build\intermediates\merged_manifests\debug\processDebugManifest\merged\AndroidManifest.xml:45:5-47:36
 	android:required
 		ADDED from E:\Android_Studio_Project\G4AirBus\Smartbushome\app\src\main\AndroidManifest.xml:56:67-91
 	android:name
 		ADDED from E:\Android_Studio_Project\G4AirBus\Smartbushome\app\src\main\AndroidManifest.xml:56:19-66
 uses-feature#android.hardware.sensor.accelerometer
 ADDED from E:\Android_Studio_Project\G4AirBus\Smartbushome\app\src\main\AndroidManifest.xml:57:5-98
+MERGED from [:vstarcam] E:\Android_Studio_Project\G4AirBus\Smartbushome\vstarcam\build\intermediates\merged_manifests\debug\processDebugManifest\merged\AndroidManifest.xml:51:5-53:36
+MERGED from [:vstarcam] E:\Android_Studio_Project\G4AirBus\Smartbushome\vstarcam\build\intermediates\merged_manifests\debug\processDebugManifest\merged\AndroidManifest.xml:51:5-53:36
+MERGED from [:smart_link] E:\Android_Studio_Project\G4AirBus\Smartbushome\smart_link\build\intermediates\merged_manifests\debug\processDebugManifest\merged\AndroidManifest.xml:49:5-51:36
+MERGED from [:smart_link] E:\Android_Studio_Project\G4AirBus\Smartbushome\smart_link\build\intermediates\merged_manifests\debug\processDebugManifest\merged\AndroidManifest.xml:49:5-51:36
+MERGED from [:scan_zxing] E:\Android_Studio_Project\G4AirBus\Smartbushome\scan_zxing\build\intermediates\merged_manifests\debug\processDebugManifest\merged\AndroidManifest.xml:48:5-50:36
+MERGED from [:scan_zxing] E:\Android_Studio_Project\G4AirBus\Smartbushome\scan_zxing\build\intermediates\merged_manifests\debug\processDebugManifest\merged\AndroidManifest.xml:48:5-50:36
 	android:required
 		ADDED from E:\Android_Studio_Project\G4AirBus\Smartbushome\app\src\main\AndroidManifest.xml:57:72-96
 	android:name
 		ADDED from E:\Android_Studio_Project\G4AirBus\Smartbushome\app\src\main\AndroidManifest.xml:57:19-71
 uses-feature#android.hardware.sensor.light
 ADDED from E:\Android_Studio_Project\G4AirBus\Smartbushome\app\src\main\AndroidManifest.xml:58:5-90
+MERGED from [:vstarcam] E:\Android_Studio_Project\G4AirBus\Smartbushome\vstarcam\build\intermediates\merged_manifests\debug\processDebugManifest\merged\AndroidManifest.xml:54:5-56:36
+MERGED from [:vstarcam] E:\Android_Studio_Project\G4AirBus\Smartbushome\vstarcam\build\intermediates\merged_manifests\debug\processDebugManifest\merged\AndroidManifest.xml:54:5-56:36
+MERGED from [:smart_link] E:\Android_Studio_Project\G4AirBus\Smartbushome\smart_link\build\intermediates\merged_manifests\debug\processDebugManifest\merged\AndroidManifest.xml:52:5-54:36
+MERGED from [:smart_link] E:\Android_Studio_Project\G4AirBus\Smartbushome\smart_link\build\intermediates\merged_manifests\debug\processDebugManifest\merged\AndroidManifest.xml:52:5-54:36
+MERGED from [:scan_zxing] E:\Android_Studio_Project\G4AirBus\Smartbushome\scan_zxing\build\intermediates\merged_manifests\debug\processDebugManifest\merged\AndroidManifest.xml:51:5-53:36
+MERGED from [:scan_zxing] E:\Android_Studio_Project\G4AirBus\Smartbushome\scan_zxing\build\intermediates\merged_manifests\debug\processDebugManifest\merged\AndroidManifest.xml:51:5-53:36
 	android:required
 		ADDED from E:\Android_Studio_Project\G4AirBus\Smartbushome\app\src\main\AndroidManifest.xml:58:64-88
 	android:name
 		ADDED from E:\Android_Studio_Project\G4AirBus\Smartbushome\app\src\main\AndroidManifest.xml:58:19-63
 uses-feature#android.hardware.sensor.compass
 ADDED from E:\Android_Studio_Project\G4AirBus\Smartbushome\app\src\main\AndroidManifest.xml:59:5-92
+MERGED from [:vstarcam] E:\Android_Studio_Project\G4AirBus\Smartbushome\vstarcam\build\intermediates\merged_manifests\debug\processDebugManifest\merged\AndroidManifest.xml:57:5-59:36
+MERGED from [:vstarcam] E:\Android_Studio_Project\G4AirBus\Smartbushome\vstarcam\build\intermediates\merged_manifests\debug\processDebugManifest\merged\AndroidManifest.xml:57:5-59:36
+MERGED from [:smart_link] E:\Android_Studio_Project\G4AirBus\Smartbushome\smart_link\build\intermediates\merged_manifests\debug\processDebugManifest\merged\AndroidManifest.xml:55:5-57:36
+MERGED from [:smart_link] E:\Android_Studio_Project\G4AirBus\Smartbushome\smart_link\build\intermediates\merged_manifests\debug\processDebugManifest\merged\AndroidManifest.xml:55:5-57:36
+MERGED from [:scan_zxing] E:\Android_Studio_Project\G4AirBus\Smartbushome\scan_zxing\build\intermediates\merged_manifests\debug\processDebugManifest\merged\AndroidManifest.xml:54:5-56:36
+MERGED from [:scan_zxing] E:\Android_Studio_Project\G4AirBus\Smartbushome\scan_zxing\build\intermediates\merged_manifests\debug\processDebugManifest\merged\AndroidManifest.xml:54:5-56:36
 	android:required
 		ADDED from E:\Android_Studio_Project\G4AirBus\Smartbushome\app\src\main\AndroidManifest.xml:59:66-90
 	android:name
 		ADDED from E:\Android_Studio_Project\G4AirBus\Smartbushome\app\src\main\AndroidManifest.xml:59:19-65
 uses-feature#android.hardware.sensor.barometer
 ADDED from E:\Android_Studio_Project\G4AirBus\Smartbushome\app\src\main\AndroidManifest.xml:60:5-94
+MERGED from [:vstarcam] E:\Android_Studio_Project\G4AirBus\Smartbushome\vstarcam\build\intermediates\merged_manifests\debug\processDebugManifest\merged\AndroidManifest.xml:60:5-62:36
+MERGED from [:vstarcam] E:\Android_Studio_Project\G4AirBus\Smartbushome\vstarcam\build\intermediates\merged_manifests\debug\processDebugManifest\merged\AndroidManifest.xml:60:5-62:36
+MERGED from [:smart_link] E:\Android_Studio_Project\G4AirBus\Smartbushome\smart_link\build\intermediates\merged_manifests\debug\processDebugManifest\merged\AndroidManifest.xml:58:5-60:36
+MERGED from [:smart_link] E:\Android_Studio_Project\G4AirBus\Smartbushome\smart_link\build\intermediates\merged_manifests\debug\processDebugManifest\merged\AndroidManifest.xml:58:5-60:36
+MERGED from [:scan_zxing] E:\Android_Studio_Project\G4AirBus\Smartbushome\scan_zxing\build\intermediates\merged_manifests\debug\processDebugManifest\merged\AndroidManifest.xml:57:5-59:36
+MERGED from [:scan_zxing] E:\Android_Studio_Project\G4AirBus\Smartbushome\scan_zxing\build\intermediates\merged_manifests\debug\processDebugManifest\merged\AndroidManifest.xml:57:5-59:36
 	android:required
 		ADDED from E:\Android_Studio_Project\G4AirBus\Smartbushome\app\src\main\AndroidManifest.xml:60:68-92
 	android:name
 		ADDED from E:\Android_Studio_Project\G4AirBus\Smartbushome\app\src\main\AndroidManifest.xml:60:19-67
 uses-feature#android.hardware.sensor.stepdetector
 ADDED from E:\Android_Studio_Project\G4AirBus\Smartbushome\app\src\main\AndroidManifest.xml:61:5-97
+MERGED from [:vstarcam] E:\Android_Studio_Project\G4AirBus\Smartbushome\vstarcam\build\intermediates\merged_manifests\debug\processDebugManifest\merged\AndroidManifest.xml:63:5-65:36
+MERGED from [:vstarcam] E:\Android_Studio_Project\G4AirBus\Smartbushome\vstarcam\build\intermediates\merged_manifests\debug\processDebugManifest\merged\AndroidManifest.xml:63:5-65:36
+MERGED from [:smart_link] E:\Android_Studio_Project\G4AirBus\Smartbushome\smart_link\build\intermediates\merged_manifests\debug\processDebugManifest\merged\AndroidManifest.xml:61:5-63:36
+MERGED from [:smart_link] E:\Android_Studio_Project\G4AirBus\Smartbushome\smart_link\build\intermediates\merged_manifests\debug\processDebugManifest\merged\AndroidManifest.xml:61:5-63:36
+MERGED from [:scan_zxing] E:\Android_Studio_Project\G4AirBus\Smartbushome\scan_zxing\build\intermediates\merged_manifests\debug\processDebugManifest\merged\AndroidManifest.xml:60:5-62:36
+MERGED from [:scan_zxing] E:\Android_Studio_Project\G4AirBus\Smartbushome\scan_zxing\build\intermediates\merged_manifests\debug\processDebugManifest\merged\AndroidManifest.xml:60:5-62:36
 	android:required
 		ADDED from E:\Android_Studio_Project\G4AirBus\Smartbushome\app\src\main\AndroidManifest.xml:61:71-95
 	android:name
 		ADDED from E:\Android_Studio_Project\G4AirBus\Smartbushome\app\src\main\AndroidManifest.xml:61:19-70
+uses-feature#android.hardware.camera
+ADDED from E:\Android_Studio_Project\G4AirBus\Smartbushome\app\src\main\AndroidManifest.xml:62:5-84
+MERGED from [:vstarcam] E:\Android_Studio_Project\G4AirBus\Smartbushome\vstarcam\build\intermediates\merged_manifests\debug\processDebugManifest\merged\AndroidManifest.xml:66:5-68:36
+MERGED from [:vstarcam] E:\Android_Studio_Project\G4AirBus\Smartbushome\vstarcam\build\intermediates\merged_manifests\debug\processDebugManifest\merged\AndroidManifest.xml:66:5-68:36
+MERGED from [:smart_link] E:\Android_Studio_Project\G4AirBus\Smartbushome\smart_link\build\intermediates\merged_manifests\debug\processDebugManifest\merged\AndroidManifest.xml:64:5-66:36
+MERGED from [:smart_link] E:\Android_Studio_Project\G4AirBus\Smartbushome\smart_link\build\intermediates\merged_manifests\debug\processDebugManifest\merged\AndroidManifest.xml:64:5-66:36
+MERGED from [:scan_zxing] E:\Android_Studio_Project\G4AirBus\Smartbushome\scan_zxing\build\intermediates\merged_manifests\debug\processDebugManifest\merged\AndroidManifest.xml:63:5-65:36
+MERGED from [:scan_zxing] E:\Android_Studio_Project\G4AirBus\Smartbushome\scan_zxing\build\intermediates\merged_manifests\debug\processDebugManifest\merged\AndroidManifest.xml:63:5-65:36
+	android:required
+		ADDED from E:\Android_Studio_Project\G4AirBus\Smartbushome\app\src\main\AndroidManifest.xml:62:58-82
+	android:name
+		ADDED from E:\Android_Studio_Project\G4AirBus\Smartbushome\app\src\main\AndroidManifest.xml:62:19-57
+uses-feature#android.hardware.camera.autofocus
+ADDED from E:\Android_Studio_Project\G4AirBus\Smartbushome\app\src\main\AndroidManifest.xml:63:5-94
+MERGED from [:vstarcam] E:\Android_Studio_Project\G4AirBus\Smartbushome\vstarcam\build\intermediates\merged_manifests\debug\processDebugManifest\merged\AndroidManifest.xml:69:5-71:36
+MERGED from [:vstarcam] E:\Android_Studio_Project\G4AirBus\Smartbushome\vstarcam\build\intermediates\merged_manifests\debug\processDebugManifest\merged\AndroidManifest.xml:69:5-71:36
+MERGED from [:smart_link] E:\Android_Studio_Project\G4AirBus\Smartbushome\smart_link\build\intermediates\merged_manifests\debug\processDebugManifest\merged\AndroidManifest.xml:67:5-69:36
+MERGED from [:smart_link] E:\Android_Studio_Project\G4AirBus\Smartbushome\smart_link\build\intermediates\merged_manifests\debug\processDebugManifest\merged\AndroidManifest.xml:67:5-69:36
+MERGED from [:scan_zxing] E:\Android_Studio_Project\G4AirBus\Smartbushome\scan_zxing\build\intermediates\merged_manifests\debug\processDebugManifest\merged\AndroidManifest.xml:66:5-68:36
+MERGED from [:scan_zxing] E:\Android_Studio_Project\G4AirBus\Smartbushome\scan_zxing\build\intermediates\merged_manifests\debug\processDebugManifest\merged\AndroidManifest.xml:66:5-68:36
+	android:required
+		ADDED from E:\Android_Studio_Project\G4AirBus\Smartbushome\app\src\main\AndroidManifest.xml:63:68-92
+	android:name
+		ADDED from E:\Android_Studio_Project\G4AirBus\Smartbushome\app\src\main\AndroidManifest.xml:63:19-67
 application
-ADDED from E:\Android_Studio_Project\G4AirBus\Smartbushome\app\src\main\AndroidManifest.xml:64:5-205:19
+ADDED from E:\Android_Studio_Project\G4AirBus\Smartbushome\app\src\main\AndroidManifest.xml:66:5-207:19
 MERGED from [:selfseekbar] E:\Android_Studio_Project\G4AirBus\Smartbushome\bubbleseekbar\build\intermediates\merged_manifests\debug\processDebugManifest\merged\AndroidManifest.xml:11:5-15:19
 MERGED from [:selfseekbar] E:\Android_Studio_Project\G4AirBus\Smartbushome\bubbleseekbar\build\intermediates\merged_manifests\debug\processDebugManifest\merged\AndroidManifest.xml:11:5-15:19
-MERGED from [:vstarcam] E:\Android_Studio_Project\G4AirBus\Smartbushome\vstarcam\build\intermediates\merged_manifests\debug\processDebugManifest\merged\AndroidManifest.xml:20:5-154:19
-MERGED from [:vstarcam] E:\Android_Studio_Project\G4AirBus\Smartbushome\vstarcam\build\intermediates\merged_manifests\debug\processDebugManifest\merged\AndroidManifest.xml:20:5-154:19
-MERGED from [:smart_link] E:\Android_Studio_Project\G4AirBus\Smartbushome\smart_link\build\intermediates\merged_manifests\debug\processDebugManifest\merged\AndroidManifest.xml:18:5-31:19
-MERGED from [:smart_link] E:\Android_Studio_Project\G4AirBus\Smartbushome\smart_link\build\intermediates\merged_manifests\debug\processDebugManifest\merged\AndroidManifest.xml:18:5-31:19
-MERGED from [:scan_zxing] E:\Android_Studio_Project\G4AirBus\Smartbushome\scan_zxing\build\intermediates\merged_manifests\debug\processDebugManifest\merged\AndroidManifest.xml:16:5-38:19
-MERGED from [:scan_zxing] E:\Android_Studio_Project\G4AirBus\Smartbushome\scan_zxing\build\intermediates\merged_manifests\debug\processDebugManifest\merged\AndroidManifest.xml:16:5-38:19
+MERGED from [:vstarcam] E:\Android_Studio_Project\G4AirBus\Smartbushome\vstarcam\build\intermediates\merged_manifests\debug\processDebugManifest\merged\AndroidManifest.xml:73:5-207:19
+MERGED from [:vstarcam] E:\Android_Studio_Project\G4AirBus\Smartbushome\vstarcam\build\intermediates\merged_manifests\debug\processDebugManifest\merged\AndroidManifest.xml:73:5-207:19
+MERGED from [:smart_link] E:\Android_Studio_Project\G4AirBus\Smartbushome\smart_link\build\intermediates\merged_manifests\debug\processDebugManifest\merged\AndroidManifest.xml:71:5-84:19
+MERGED from [:smart_link] E:\Android_Studio_Project\G4AirBus\Smartbushome\smart_link\build\intermediates\merged_manifests\debug\processDebugManifest\merged\AndroidManifest.xml:71:5-84:19
+MERGED from [:scan_zxing] E:\Android_Studio_Project\G4AirBus\Smartbushome\scan_zxing\build\intermediates\merged_manifests\debug\processDebugManifest\merged\AndroidManifest.xml:70:5-92:19
+MERGED from [:scan_zxing] E:\Android_Studio_Project\G4AirBus\Smartbushome\scan_zxing\build\intermediates\merged_manifests\debug\processDebugManifest\merged\AndroidManifest.xml:70:5-92:19
 MERGED from [com.ashokvarma.android:bottom-navigation-bar:1.3.1] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\bottom-navigation-bar-1.3.1.aar\6123b4d763cd7f7cb518095e4f8c8d40\AndroidManifest.xml:11:5-13:38
 MERGED from [com.ashokvarma.android:bottom-navigation-bar:1.3.1] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\bottom-navigation-bar-1.3.1.aar\6123b4d763cd7f7cb518095e4f8c8d40\AndroidManifest.xml:11:5-13:38
 MERGED from [com.android.support:design:25.3.1] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\design-25.3.1.aar\4aa3bd0247322d704ff2373cb6fa733c\AndroidManifest.xml:29:5-20
@@ -313,249 +427,249 @@ MERGED from [com.github.bumptech.glide:gifdecoder:4.8.0] C:\Users\Administrator\
 MERGED from [com.android.support.constraint:constraint-layout:1.1.3] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\constraint-layout-1.1.3.aar\3853f075abd61d7c3d63670aec971d38\AndroidManifest.xml:9:5-20
 MERGED from [com.android.support.constraint:constraint-layout:1.1.3] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\constraint-layout-1.1.3.aar\3853f075abd61d7c3d63670aec971d38\AndroidManifest.xml:9:5-20
 	android:supportsRtl
-		ADDED from E:\Android_Studio_Project\G4AirBus\Smartbushome\app\src\main\AndroidManifest.xml:70:6-32
+		ADDED from E:\Android_Studio_Project\G4AirBus\Smartbushome\app\src\main\AndroidManifest.xml:72:6-32
 	android:label
-		ADDED from E:\Android_Studio_Project\G4AirBus\Smartbushome\app\src\main\AndroidManifest.xml:69:6-38
+		ADDED from E:\Android_Studio_Project\G4AirBus\Smartbushome\app\src\main\AndroidManifest.xml:71:6-38
 	android:icon
-		ADDED from E:\Android_Studio_Project\G4AirBus\Smartbushome\app\src\main\AndroidManifest.xml:67:6-40
+		ADDED from E:\Android_Studio_Project\G4AirBus\Smartbushome\app\src\main\AndroidManifest.xml:69:6-40
 	android:allowBackup
-		ADDED from E:\Android_Studio_Project\G4AirBus\Smartbushome\app\src\main\AndroidManifest.xml:66:6-32
+		ADDED from E:\Android_Studio_Project\G4AirBus\Smartbushome\app\src\main\AndroidManifest.xml:68:6-32
 	android:theme
-		ADDED from E:\Android_Studio_Project\G4AirBus\Smartbushome\app\src\main\AndroidManifest.xml:71:6-37
+		ADDED from E:\Android_Studio_Project\G4AirBus\Smartbushome\app\src\main\AndroidManifest.xml:73:6-37
 	android:networkSecurityConfig
-		ADDED from E:\Android_Studio_Project\G4AirBus\Smartbushome\app\src\main\AndroidManifest.xml:68:6-66
+		ADDED from E:\Android_Studio_Project\G4AirBus\Smartbushome\app\src\main\AndroidManifest.xml:70:6-66
 	android:name
-		ADDED from E:\Android_Studio_Project\G4AirBus\Smartbushome\app\src\main\AndroidManifest.xml:65:6-38
+		ADDED from E:\Android_Studio_Project\G4AirBus\Smartbushome\app\src\main\AndroidManifest.xml:67:6-38
 activity#com.shima.smartbushome.WelcomeActivity
-ADDED from E:\Android_Studio_Project\G4AirBus\Smartbushome\app\src\main\AndroidManifest.xml:75:9-84:20
+ADDED from E:\Android_Studio_Project\G4AirBus\Smartbushome\app\src\main\AndroidManifest.xml:77:9-86:20
 	android:screenOrientation
-		ADDED from E:\Android_Studio_Project\G4AirBus\Smartbushome\app\src\main\AndroidManifest.xml:77:13-52
+		ADDED from E:\Android_Studio_Project\G4AirBus\Smartbushome\app\src\main\AndroidManifest.xml:79:13-52
 	android:configChanges
-		ADDED from E:\Android_Studio_Project\G4AirBus\Smartbushome\app\src\main\AndroidManifest.xml:78:13-74
+		ADDED from E:\Android_Studio_Project\G4AirBus\Smartbushome\app\src\main\AndroidManifest.xml:80:13-74
 	android:theme
-		ADDED from E:\Android_Studio_Project\G4AirBus\Smartbushome\app\src\main\AndroidManifest.xml:79:13-48
+		ADDED from E:\Android_Studio_Project\G4AirBus\Smartbushome\app\src\main\AndroidManifest.xml:81:13-48
 	android:name
-		ADDED from E:\Android_Studio_Project\G4AirBus\Smartbushome\app\src\main\AndroidManifest.xml:76:13-66
+		ADDED from E:\Android_Studio_Project\G4AirBus\Smartbushome\app\src\main\AndroidManifest.xml:78:13-66
 intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
-ADDED from E:\Android_Studio_Project\G4AirBus\Smartbushome\app\src\main\AndroidManifest.xml:80:13-83:29
+ADDED from E:\Android_Studio_Project\G4AirBus\Smartbushome\app\src\main\AndroidManifest.xml:82:13-85:29
 action#android.intent.action.MAIN
-ADDED from E:\Android_Studio_Project\G4AirBus\Smartbushome\app\src\main\AndroidManifest.xml:81:17-69
+ADDED from E:\Android_Studio_Project\G4AirBus\Smartbushome\app\src\main\AndroidManifest.xml:83:17-69
 	android:name
-		ADDED from E:\Android_Studio_Project\G4AirBus\Smartbushome\app\src\main\AndroidManifest.xml:81:25-66
+		ADDED from E:\Android_Studio_Project\G4AirBus\Smartbushome\app\src\main\AndroidManifest.xml:83:25-66
 category#android.intent.category.LAUNCHER
-ADDED from E:\Android_Studio_Project\G4AirBus\Smartbushome\app\src\main\AndroidManifest.xml:82:17-77
+ADDED from E:\Android_Studio_Project\G4AirBus\Smartbushome\app\src\main\AndroidManifest.xml:84:17-77
 	android:name
-		ADDED from E:\Android_Studio_Project\G4AirBus\Smartbushome\app\src\main\AndroidManifest.xml:82:27-74
+		ADDED from E:\Android_Studio_Project\G4AirBus\Smartbushome\app\src\main\AndroidManifest.xml:84:27-74
 activity#com.shima.smartbushome.MainActivity
-ADDED from E:\Android_Studio_Project\G4AirBus\Smartbushome\app\src\main\AndroidManifest.xml:86:9-105:20
+ADDED from E:\Android_Studio_Project\G4AirBus\Smartbushome\app\src\main\AndroidManifest.xml:88:9-107:20
 	android:screenOrientation
-		ADDED from E:\Android_Studio_Project\G4AirBus\Smartbushome\app\src\main\AndroidManifest.xml:89:13-52
+		ADDED from E:\Android_Studio_Project\G4AirBus\Smartbushome\app\src\main\AndroidManifest.xml:91:13-52
 	android:configChanges
-		ADDED from E:\Android_Studio_Project\G4AirBus\Smartbushome\app\src\main\AndroidManifest.xml:88:13-74
+		ADDED from E:\Android_Studio_Project\G4AirBus\Smartbushome\app\src\main\AndroidManifest.xml:90:13-74
 	android:name
-		ADDED from E:\Android_Studio_Project\G4AirBus\Smartbushome\app\src\main\AndroidManifest.xml:87:13-63
+		ADDED from E:\Android_Studio_Project\G4AirBus\Smartbushome\app\src\main\AndroidManifest.xml:89:13-63
 intent-filter#action:name:android.intent.action.main+category:name:android.intent.category.DEFAULT
-ADDED from E:\Android_Studio_Project\G4AirBus\Smartbushome\app\src\main\AndroidManifest.xml:90:13-94:29
+ADDED from E:\Android_Studio_Project\G4AirBus\Smartbushome\app\src\main\AndroidManifest.xml:92:13-96:29
 action#android.intent.action.main
-ADDED from E:\Android_Studio_Project\G4AirBus\Smartbushome\app\src\main\AndroidManifest.xml:91:17-69
+ADDED from E:\Android_Studio_Project\G4AirBus\Smartbushome\app\src\main\AndroidManifest.xml:93:17-69
 	android:name
-		ADDED from E:\Android_Studio_Project\G4AirBus\Smartbushome\app\src\main\AndroidManifest.xml:91:25-66
+		ADDED from E:\Android_Studio_Project\G4AirBus\Smartbushome\app\src\main\AndroidManifest.xml:93:25-66
 category#android.intent.category.DEFAULT
-ADDED from E:\Android_Studio_Project\G4AirBus\Smartbushome\app\src\main\AndroidManifest.xml:93:17-76
+ADDED from E:\Android_Studio_Project\G4AirBus\Smartbushome\app\src\main\AndroidManifest.xml:95:17-76
 	android:name
-		ADDED from E:\Android_Studio_Project\G4AirBus\Smartbushome\app\src\main\AndroidManifest.xml:93:27-73
+		ADDED from E:\Android_Studio_Project\G4AirBus\Smartbushome\app\src\main\AndroidManifest.xml:95:27-73
 intent-filter#action:name:android.nfc.action.TAG_DISCOVERED+action:name:android.nfc.action.TECH_DISCOVERED+category:name:android.intent.category.DEFAULT
-ADDED from E:\Android_Studio_Project\G4AirBus\Smartbushome\app\src\main\AndroidManifest.xml:95:13-100:29
+ADDED from E:\Android_Studio_Project\G4AirBus\Smartbushome\app\src\main\AndroidManifest.xml:97:13-102:29
 action#android.nfc.action.TECH_DISCOVERED
-ADDED from E:\Android_Studio_Project\G4AirBus\Smartbushome\app\src\main\AndroidManifest.xml:96:17-77
+ADDED from E:\Android_Studio_Project\G4AirBus\Smartbushome\app\src\main\AndroidManifest.xml:98:17-77
 	android:name
-		ADDED from E:\Android_Studio_Project\G4AirBus\Smartbushome\app\src\main\AndroidManifest.xml:96:25-74
+		ADDED from E:\Android_Studio_Project\G4AirBus\Smartbushome\app\src\main\AndroidManifest.xml:98:25-74
 action#android.nfc.action.TAG_DISCOVERED
-ADDED from E:\Android_Studio_Project\G4AirBus\Smartbushome\app\src\main\AndroidManifest.xml:97:17-76
+ADDED from E:\Android_Studio_Project\G4AirBus\Smartbushome\app\src\main\AndroidManifest.xml:99:17-76
 	android:name
-		ADDED from E:\Android_Studio_Project\G4AirBus\Smartbushome\app\src\main\AndroidManifest.xml:97:25-73
+		ADDED from E:\Android_Studio_Project\G4AirBus\Smartbushome\app\src\main\AndroidManifest.xml:99:25-73
 meta-data#android.nfc.action.TECH_DISCOVERED
-ADDED from E:\Android_Studio_Project\G4AirBus\Smartbushome\app\src\main\AndroidManifest.xml:102:13-104:59
+ADDED from E:\Android_Studio_Project\G4AirBus\Smartbushome\app\src\main\AndroidManifest.xml:104:13-106:59
 	android:resource
-		ADDED from E:\Android_Studio_Project\G4AirBus\Smartbushome\app\src\main\AndroidManifest.xml:104:17-56
+		ADDED from E:\Android_Studio_Project\G4AirBus\Smartbushome\app\src\main\AndroidManifest.xml:106:17-56
 	android:name
-		ADDED from E:\Android_Studio_Project\G4AirBus\Smartbushome\app\src\main\AndroidManifest.xml:103:17-66
+		ADDED from E:\Android_Studio_Project\G4AirBus\Smartbushome\app\src\main\AndroidManifest.xml:105:17-66
 activity#com.shima.smartbushome.DatabaseActivity
-ADDED from E:\Android_Studio_Project\G4AirBus\Smartbushome\app\src\main\AndroidManifest.xml:107:9-113:20
+ADDED from E:\Android_Studio_Project\G4AirBus\Smartbushome\app\src\main\AndroidManifest.xml:109:9-115:20
 	android:screenOrientation
-		ADDED from E:\Android_Studio_Project\G4AirBus\Smartbushome\app\src\main\AndroidManifest.xml:108:13-52
+		ADDED from E:\Android_Studio_Project\G4AirBus\Smartbushome\app\src\main\AndroidManifest.xml:110:13-52
 	android:name
-		ADDED from E:\Android_Studio_Project\G4AirBus\Smartbushome\app\src\main\AndroidManifest.xml:107:19-51
+		ADDED from E:\Android_Studio_Project\G4AirBus\Smartbushome\app\src\main\AndroidManifest.xml:109:19-51
 intent-filter#action:name:com.shima.smartbushome.databaseactivity+category:name:android.intent.category.DEFAULT
-ADDED from E:\Android_Studio_Project\G4AirBus\Smartbushome\app\src\main\AndroidManifest.xml:109:13-112:29
+ADDED from E:\Android_Studio_Project\G4AirBus\Smartbushome\app\src\main\AndroidManifest.xml:111:13-114:29
 action#com.shima.smartbushome.databaseactivity
-ADDED from E:\Android_Studio_Project\G4AirBus\Smartbushome\app\src\main\AndroidManifest.xml:110:17-82
+ADDED from E:\Android_Studio_Project\G4AirBus\Smartbushome\app\src\main\AndroidManifest.xml:112:17-82
 	android:name
-		ADDED from E:\Android_Studio_Project\G4AirBus\Smartbushome\app\src\main\AndroidManifest.xml:110:25-79
+		ADDED from E:\Android_Studio_Project\G4AirBus\Smartbushome\app\src\main\AndroidManifest.xml:112:25-79
 activity#com.shima.smartbushome.RoomActivity
-ADDED from E:\Android_Studio_Project\G4AirBus\Smartbushome\app\src\main\AndroidManifest.xml:115:9-117:55
+ADDED from E:\Android_Studio_Project\G4AirBus\Smartbushome\app\src\main\AndroidManifest.xml:117:9-119:55
 	android:screenOrientation
-		ADDED from E:\Android_Studio_Project\G4AirBus\Smartbushome\app\src\main\AndroidManifest.xml:117:13-52
+		ADDED from E:\Android_Studio_Project\G4AirBus\Smartbushome\app\src\main\AndroidManifest.xml:119:13-52
 	android:name
-		ADDED from E:\Android_Studio_Project\G4AirBus\Smartbushome\app\src\main\AndroidManifest.xml:116:13-63
+		ADDED from E:\Android_Studio_Project\G4AirBus\Smartbushome\app\src\main\AndroidManifest.xml:118:13-63
 activity#com.shima.smartbushome.FounctionActivity
-ADDED from E:\Android_Studio_Project\G4AirBus\Smartbushome\app\src\main\AndroidManifest.xml:118:9-121:55
+ADDED from E:\Android_Studio_Project\G4AirBus\Smartbushome\app\src\main\AndroidManifest.xml:120:9-123:55
 	android:screenOrientation
-		ADDED from E:\Android_Studio_Project\G4AirBus\Smartbushome\app\src\main\AndroidManifest.xml:120:13-52
+		ADDED from E:\Android_Studio_Project\G4AirBus\Smartbushome\app\src\main\AndroidManifest.xml:122:13-52
 	android:windowSoftInputMode
-		ADDED from E:\Android_Studio_Project\G4AirBus\Smartbushome\app\src\main\AndroidManifest.xml:121:13-52
+		ADDED from E:\Android_Studio_Project\G4AirBus\Smartbushome\app\src\main\AndroidManifest.xml:123:13-52
 	android:name
-		ADDED from E:\Android_Studio_Project\G4AirBus\Smartbushome\app\src\main\AndroidManifest.xml:119:13-68
+		ADDED from E:\Android_Studio_Project\G4AirBus\Smartbushome\app\src\main\AndroidManifest.xml:121:13-68
 activity#com.shima.smartbushome.NetDaviceListActivity
-ADDED from E:\Android_Studio_Project\G4AirBus\Smartbushome\app\src\main\AndroidManifest.xml:122:9-125:53
+ADDED from E:\Android_Studio_Project\G4AirBus\Smartbushome\app\src\main\AndroidManifest.xml:124:9-127:53
 	android:screenOrientation
-		ADDED from E:\Android_Studio_Project\G4AirBus\Smartbushome\app\src\main\AndroidManifest.xml:124:13-52
+		ADDED from E:\Android_Studio_Project\G4AirBus\Smartbushome\app\src\main\AndroidManifest.xml:126:13-52
 	android:theme
-		ADDED from E:\Android_Studio_Project\G4AirBus\Smartbushome\app\src\main\AndroidManifest.xml:125:13-50
+		ADDED from E:\Android_Studio_Project\G4AirBus\Smartbushome\app\src\main\AndroidManifest.xml:127:13-50
 	android:name
-		ADDED from E:\Android_Studio_Project\G4AirBus\Smartbushome\app\src\main\AndroidManifest.xml:123:13-72
+		ADDED from E:\Android_Studio_Project\G4AirBus\Smartbushome\app\src\main\AndroidManifest.xml:125:13-72
 activity#com.shima.smartbushome.about.HelpActivity
-ADDED from E:\Android_Studio_Project\G4AirBus\Smartbushome\app\src\main\AndroidManifest.xml:126:9-128:55
+ADDED from E:\Android_Studio_Project\G4AirBus\Smartbushome\app\src\main\AndroidManifest.xml:128:9-130:55
 	android:screenOrientation
-		ADDED from E:\Android_Studio_Project\G4AirBus\Smartbushome\app\src\main\AndroidManifest.xml:128:13-52
+		ADDED from E:\Android_Studio_Project\G4AirBus\Smartbushome\app\src\main\AndroidManifest.xml:130:13-52
 	android:name
-		ADDED from E:\Android_Studio_Project\G4AirBus\Smartbushome\app\src\main\AndroidManifest.xml:127:13-69
+		ADDED from E:\Android_Studio_Project\G4AirBus\Smartbushome\app\src\main\AndroidManifest.xml:129:13-69
 activity#com.shima.smartbushome.about.AboutActivity
-ADDED from E:\Android_Studio_Project\G4AirBus\Smartbushome\app\src\main\AndroidManifest.xml:129:9-131:55
+ADDED from E:\Android_Studio_Project\G4AirBus\Smartbushome\app\src\main\AndroidManifest.xml:131:9-133:55
 	android:screenOrientation
-		ADDED from E:\Android_Studio_Project\G4AirBus\Smartbushome\app\src\main\AndroidManifest.xml:131:13-52
+		ADDED from E:\Android_Studio_Project\G4AirBus\Smartbushome\app\src\main\AndroidManifest.xml:133:13-52
 	android:name
-		ADDED from E:\Android_Studio_Project\G4AirBus\Smartbushome\app\src\main\AndroidManifest.xml:130:13-70
+		ADDED from E:\Android_Studio_Project\G4AirBus\Smartbushome\app\src\main\AndroidManifest.xml:132:13-70
 activity#com.shima.smartbushome.mainsetting.MainSettingActivity
-ADDED from E:\Android_Studio_Project\G4AirBus\Smartbushome\app\src\main\AndroidManifest.xml:132:9-135:57
+ADDED from E:\Android_Studio_Project\G4AirBus\Smartbushome\app\src\main\AndroidManifest.xml:134:9-137:57
 	android:screenOrientation
-		ADDED from E:\Android_Studio_Project\G4AirBus\Smartbushome\app\src\main\AndroidManifest.xml:134:13-52
+		ADDED from E:\Android_Studio_Project\G4AirBus\Smartbushome\app\src\main\AndroidManifest.xml:136:13-52
 	android:windowSoftInputMode
-		ADDED from E:\Android_Studio_Project\G4AirBus\Smartbushome\app\src\main\AndroidManifest.xml:135:13-54
+		ADDED from E:\Android_Studio_Project\G4AirBus\Smartbushome\app\src\main\AndroidManifest.xml:137:13-54
 	android:name
-		ADDED from E:\Android_Studio_Project\G4AirBus\Smartbushome\app\src\main\AndroidManifest.xml:133:13-82
+		ADDED from E:\Android_Studio_Project\G4AirBus\Smartbushome\app\src\main\AndroidManifest.xml:135:13-82
 activity#com.shima.smartbushome.centercontrol.MarcoActivity
-ADDED from E:\Android_Studio_Project\G4AirBus\Smartbushome\app\src\main\AndroidManifest.xml:136:9-138:55
+ADDED from E:\Android_Studio_Project\G4AirBus\Smartbushome\app\src\main\AndroidManifest.xml:138:9-140:55
 	android:screenOrientation
-		ADDED from E:\Android_Studio_Project\G4AirBus\Smartbushome\app\src\main\AndroidManifest.xml:138:13-52
+		ADDED from E:\Android_Studio_Project\G4AirBus\Smartbushome\app\src\main\AndroidManifest.xml:140:13-52
 	android:name
-		ADDED from E:\Android_Studio_Project\G4AirBus\Smartbushome\app\src\main\AndroidManifest.xml:137:13-78
+		ADDED from E:\Android_Studio_Project\G4AirBus\Smartbushome\app\src\main\AndroidManifest.xml:139:13-78
 activity#com.shima.smartbushome.centercontrol.MarcoAddActivity
-ADDED from E:\Android_Studio_Project\G4AirBus\Smartbushome\app\src\main\AndroidManifest.xml:139:9-143:57
+ADDED from E:\Android_Studio_Project\G4AirBus\Smartbushome\app\src\main\AndroidManifest.xml:141:9-145:57
 	android:screenOrientation
-		ADDED from E:\Android_Studio_Project\G4AirBus\Smartbushome\app\src\main\AndroidManifest.xml:141:13-52
+		ADDED from E:\Android_Studio_Project\G4AirBus\Smartbushome\app\src\main\AndroidManifest.xml:143:13-52
 	android:windowSoftInputMode
-		ADDED from E:\Android_Studio_Project\G4AirBus\Smartbushome\app\src\main\AndroidManifest.xml:143:13-54
+		ADDED from E:\Android_Studio_Project\G4AirBus\Smartbushome\app\src\main\AndroidManifest.xml:145:13-54
 	android:theme
-		ADDED from E:\Android_Studio_Project\G4AirBus\Smartbushome\app\src\main\AndroidManifest.xml:142:13-49
+		ADDED from E:\Android_Studio_Project\G4AirBus\Smartbushome\app\src\main\AndroidManifest.xml:144:13-49
 	android:name
-		ADDED from E:\Android_Studio_Project\G4AirBus\Smartbushome\app\src\main\AndroidManifest.xml:140:13-81
+		ADDED from E:\Android_Studio_Project\G4AirBus\Smartbushome\app\src\main\AndroidManifest.xml:142:13-81
 activity#com.shima.smartbushome.centercontrol.AllLightActivity
-ADDED from E:\Android_Studio_Project\G4AirBus\Smartbushome\app\src\main\AndroidManifest.xml:144:9-146:55
+ADDED from E:\Android_Studio_Project\G4AirBus\Smartbushome\app\src\main\AndroidManifest.xml:146:9-148:55
 	android:screenOrientation
-		ADDED from E:\Android_Studio_Project\G4AirBus\Smartbushome\app\src\main\AndroidManifest.xml:146:13-52
+		ADDED from E:\Android_Studio_Project\G4AirBus\Smartbushome\app\src\main\AndroidManifest.xml:148:13-52
 	android:name
-		ADDED from E:\Android_Studio_Project\G4AirBus\Smartbushome\app\src\main\AndroidManifest.xml:145:13-81
+		ADDED from E:\Android_Studio_Project\G4AirBus\Smartbushome\app\src\main\AndroidManifest.xml:147:13-81
 activity#com.shima.smartbushome.centercontrol.AllHVACActivity
-ADDED from E:\Android_Studio_Project\G4AirBus\Smartbushome\app\src\main\AndroidManifest.xml:147:9-149:55
+ADDED from E:\Android_Studio_Project\G4AirBus\Smartbushome\app\src\main\AndroidManifest.xml:149:9-151:55
 	android:screenOrientation
-		ADDED from E:\Android_Studio_Project\G4AirBus\Smartbushome\app\src\main\AndroidManifest.xml:149:13-52
+		ADDED from E:\Android_Studio_Project\G4AirBus\Smartbushome\app\src\main\AndroidManifest.xml:151:13-52
 	android:name
-		ADDED from E:\Android_Studio_Project\G4AirBus\Smartbushome\app\src\main\AndroidManifest.xml:148:13-80
+		ADDED from E:\Android_Studio_Project\G4AirBus\Smartbushome\app\src\main\AndroidManifest.xml:150:13-80
 activity#com.shima.smartbushome.centercontrol.AllMusicActivity
-ADDED from E:\Android_Studio_Project\G4AirBus\Smartbushome\app\src\main\AndroidManifest.xml:150:9-152:55
+ADDED from E:\Android_Studio_Project\G4AirBus\Smartbushome\app\src\main\AndroidManifest.xml:152:9-154:55
 	android:screenOrientation
-		ADDED from E:\Android_Studio_Project\G4AirBus\Smartbushome\app\src\main\AndroidManifest.xml:152:13-52
+		ADDED from E:\Android_Studio_Project\G4AirBus\Smartbushome\app\src\main\AndroidManifest.xml:154:13-52
 	android:name
-		ADDED from E:\Android_Studio_Project\G4AirBus\Smartbushome\app\src\main\AndroidManifest.xml:151:13-81
+		ADDED from E:\Android_Studio_Project\G4AirBus\Smartbushome\app\src\main\AndroidManifest.xml:153:13-81
 activity#com.shima.smartbushome.centercontrol.AllCurtainActivity
-ADDED from E:\Android_Studio_Project\G4AirBus\Smartbushome\app\src\main\AndroidManifest.xml:153:9-155:55
+ADDED from E:\Android_Studio_Project\G4AirBus\Smartbushome\app\src\main\AndroidManifest.xml:155:9-157:55
 	android:screenOrientation
-		ADDED from E:\Android_Studio_Project\G4AirBus\Smartbushome\app\src\main\AndroidManifest.xml:155:13-52
+		ADDED from E:\Android_Studio_Project\G4AirBus\Smartbushome\app\src\main\AndroidManifest.xml:157:13-52
 	android:name
-		ADDED from E:\Android_Studio_Project\G4AirBus\Smartbushome\app\src\main\AndroidManifest.xml:154:13-83
+		ADDED from E:\Android_Studio_Project\G4AirBus\Smartbushome\app\src\main\AndroidManifest.xml:156:13-83
 activity#com.shima.smartbushome.centercontrol.MarcoAddDetailActivity
-ADDED from E:\Android_Studio_Project\G4AirBus\Smartbushome\app\src\main\AndroidManifest.xml:156:9-158:55
+ADDED from E:\Android_Studio_Project\G4AirBus\Smartbushome\app\src\main\AndroidManifest.xml:158:9-160:55
 	android:screenOrientation
-		ADDED from E:\Android_Studio_Project\G4AirBus\Smartbushome\app\src\main\AndroidManifest.xml:158:13-52
+		ADDED from E:\Android_Studio_Project\G4AirBus\Smartbushome\app\src\main\AndroidManifest.xml:160:13-52
 	android:name
-		ADDED from E:\Android_Studio_Project\G4AirBus\Smartbushome\app\src\main\AndroidManifest.xml:157:13-87
+		ADDED from E:\Android_Studio_Project\G4AirBus\Smartbushome\app\src\main\AndroidManifest.xml:159:13-87
 activity#com.shima.smartbushome.centercontrol.AllOtherActivity
-ADDED from E:\Android_Studio_Project\G4AirBus\Smartbushome\app\src\main\AndroidManifest.xml:159:9-161:55
+ADDED from E:\Android_Studio_Project\G4AirBus\Smartbushome\app\src\main\AndroidManifest.xml:161:9-163:55
 	android:screenOrientation
-		ADDED from E:\Android_Studio_Project\G4AirBus\Smartbushome\app\src\main\AndroidManifest.xml:161:13-52
+		ADDED from E:\Android_Studio_Project\G4AirBus\Smartbushome\app\src\main\AndroidManifest.xml:163:13-52
 	android:name
-		ADDED from E:\Android_Studio_Project\G4AirBus\Smartbushome\app\src\main\AndroidManifest.xml:160:13-81
+		ADDED from E:\Android_Studio_Project\G4AirBus\Smartbushome\app\src\main\AndroidManifest.xml:162:13-81
 activity#com.shima.smartbushome.centercontrol.AllFanActivity
-ADDED from E:\Android_Studio_Project\G4AirBus\Smartbushome\app\src\main\AndroidManifest.xml:162:9-164:55
+ADDED from E:\Android_Studio_Project\G4AirBus\Smartbushome\app\src\main\AndroidManifest.xml:164:9-166:55
 	android:screenOrientation
-		ADDED from E:\Android_Studio_Project\G4AirBus\Smartbushome\app\src\main\AndroidManifest.xml:164:13-52
+		ADDED from E:\Android_Studio_Project\G4AirBus\Smartbushome\app\src\main\AndroidManifest.xml:166:13-52
 	android:name
-		ADDED from E:\Android_Studio_Project\G4AirBus\Smartbushome\app\src\main\AndroidManifest.xml:163:13-79
+		ADDED from E:\Android_Studio_Project\G4AirBus\Smartbushome\app\src\main\AndroidManifest.xml:165:13-79
 activity#com.shima.smartbushome.centercontrol.Security
-ADDED from E:\Android_Studio_Project\G4AirBus\Smartbushome\app\src\main\AndroidManifest.xml:165:9-168:67
+ADDED from E:\Android_Studio_Project\G4AirBus\Smartbushome\app\src\main\AndroidManifest.xml:167:9-170:67
 	android:screenOrientation
-		ADDED from E:\Android_Studio_Project\G4AirBus\Smartbushome\app\src\main\AndroidManifest.xml:167:13-52
+		ADDED from E:\Android_Studio_Project\G4AirBus\Smartbushome\app\src\main\AndroidManifest.xml:169:13-52
 	android:windowSoftInputMode
-		ADDED from E:\Android_Studio_Project\G4AirBus\Smartbushome\app\src\main\AndroidManifest.xml:168:13-64
+		ADDED from E:\Android_Studio_Project\G4AirBus\Smartbushome\app\src\main\AndroidManifest.xml:170:13-64
 	android:name
-		ADDED from E:\Android_Studio_Project\G4AirBus\Smartbushome\app\src\main\AndroidManifest.xml:166:13-73
+		ADDED from E:\Android_Studio_Project\G4AirBus\Smartbushome\app\src\main\AndroidManifest.xml:168:13-73
 activity#com.shima.smartbushome.centercontrol.SecuritySettingActivity
-ADDED from E:\Android_Studio_Project\G4AirBus\Smartbushome\app\src\main\AndroidManifest.xml:169:9-171:55
+ADDED from E:\Android_Studio_Project\G4AirBus\Smartbushome\app\src\main\AndroidManifest.xml:171:9-173:55
 	android:screenOrientation
-		ADDED from E:\Android_Studio_Project\G4AirBus\Smartbushome\app\src\main\AndroidManifest.xml:171:13-52
+		ADDED from E:\Android_Studio_Project\G4AirBus\Smartbushome\app\src\main\AndroidManifest.xml:173:13-52
 	android:name
-		ADDED from E:\Android_Studio_Project\G4AirBus\Smartbushome\app\src\main\AndroidManifest.xml:170:13-88
+		ADDED from E:\Android_Studio_Project\G4AirBus\Smartbushome\app\src\main\AndroidManifest.xml:172:13-88
 activity#com.shima.smartbushome.centercontrol.EnergyActivity
-ADDED from E:\Android_Studio_Project\G4AirBus\Smartbushome\app\src\main\AndroidManifest.xml:172:9-174:55
+ADDED from E:\Android_Studio_Project\G4AirBus\Smartbushome\app\src\main\AndroidManifest.xml:174:9-176:55
 	android:screenOrientation
-		ADDED from E:\Android_Studio_Project\G4AirBus\Smartbushome\app\src\main\AndroidManifest.xml:174:13-52
+		ADDED from E:\Android_Studio_Project\G4AirBus\Smartbushome\app\src\main\AndroidManifest.xml:176:13-52
 	android:name
-		ADDED from E:\Android_Studio_Project\G4AirBus\Smartbushome\app\src\main\AndroidManifest.xml:173:13-79
+		ADDED from E:\Android_Studio_Project\G4AirBus\Smartbushome\app\src\main\AndroidManifest.xml:175:13-79
 activity#com.shima.smartbushome.centercontrol.EnergyLogActivity
-ADDED from E:\Android_Studio_Project\G4AirBus\Smartbushome\app\src\main\AndroidManifest.xml:175:9-177:55
+ADDED from E:\Android_Studio_Project\G4AirBus\Smartbushome\app\src\main\AndroidManifest.xml:177:9-179:55
 	android:screenOrientation
-		ADDED from E:\Android_Studio_Project\G4AirBus\Smartbushome\app\src\main\AndroidManifest.xml:177:13-52
+		ADDED from E:\Android_Studio_Project\G4AirBus\Smartbushome\app\src\main\AndroidManifest.xml:179:13-52
 	android:name
-		ADDED from E:\Android_Studio_Project\G4AirBus\Smartbushome\app\src\main\AndroidManifest.xml:176:13-82
+		ADDED from E:\Android_Studio_Project\G4AirBus\Smartbushome\app\src\main\AndroidManifest.xml:178:13-82
 activity#com.shima.smartbushome.centercontrol.StatusActivity
-ADDED from E:\Android_Studio_Project\G4AirBus\Smartbushome\app\src\main\AndroidManifest.xml:178:9-88
+ADDED from E:\Android_Studio_Project\G4AirBus\Smartbushome\app\src\main\AndroidManifest.xml:180:9-88
 	android:name
-		ADDED from E:\Android_Studio_Project\G4AirBus\Smartbushome\app\src\main\AndroidManifest.xml:178:19-85
+		ADDED from E:\Android_Studio_Project\G4AirBus\Smartbushome\app\src\main\AndroidManifest.xml:180:19-85
 service#com.shima.smartbushome.assist.AutoUpdate.UpdateService
-ADDED from E:\Android_Studio_Project\G4AirBus\Smartbushome\app\src\main\AndroidManifest.xml:180:9-90
+ADDED from E:\Android_Studio_Project\G4AirBus\Smartbushome\app\src\main\AndroidManifest.xml:182:9-90
 	android:name
-		ADDED from E:\Android_Studio_Project\G4AirBus\Smartbushome\app\src\main\AndroidManifest.xml:180:18-87
+		ADDED from E:\Android_Studio_Project\G4AirBus\Smartbushome\app\src\main\AndroidManifest.xml:182:18-87
 activity#com.shima.smartbushome.centercontrol.ScheduleActivity
-ADDED from E:\Android_Studio_Project\G4AirBus\Smartbushome\app\src\main\AndroidManifest.xml:182:9-131
+ADDED from E:\Android_Studio_Project\G4AirBus\Smartbushome\app\src\main\AndroidManifest.xml:184:9-131
 	android:screenOrientation
-		ADDED from E:\Android_Studio_Project\G4AirBus\Smartbushome\app\src\main\AndroidManifest.xml:182:89-128
+		ADDED from E:\Android_Studio_Project\G4AirBus\Smartbushome\app\src\main\AndroidManifest.xml:184:89-128
 	android:name
-		ADDED from E:\Android_Studio_Project\G4AirBus\Smartbushome\app\src\main\AndroidManifest.xml:182:19-87
+		ADDED from E:\Android_Studio_Project\G4AirBus\Smartbushome\app\src\main\AndroidManifest.xml:184:19-87
 activity#com.shima.smartbushome.centercontrol.ScheduleAddActivity
-ADDED from E:\Android_Studio_Project\G4AirBus\Smartbushome\app\src\main\AndroidManifest.xml:183:9-134
+ADDED from E:\Android_Studio_Project\G4AirBus\Smartbushome\app\src\main\AndroidManifest.xml:185:9-134
 	android:screenOrientation
-		ADDED from E:\Android_Studio_Project\G4AirBus\Smartbushome\app\src\main\AndroidManifest.xml:183:92-131
+		ADDED from E:\Android_Studio_Project\G4AirBus\Smartbushome\app\src\main\AndroidManifest.xml:185:92-131
 	android:name
-		ADDED from E:\Android_Studio_Project\G4AirBus\Smartbushome\app\src\main\AndroidManifest.xml:183:19-90
+		ADDED from E:\Android_Studio_Project\G4AirBus\Smartbushome\app\src\main\AndroidManifest.xml:185:19-90
 activity#com.shima.smartbushome.centercontrol.NFCActivity
-ADDED from E:\Android_Studio_Project\G4AirBus\Smartbushome\app\src\main\AndroidManifest.xml:184:9-126
+ADDED from E:\Android_Studio_Project\G4AirBus\Smartbushome\app\src\main\AndroidManifest.xml:186:9-126
 	android:screenOrientation
-		ADDED from E:\Android_Studio_Project\G4AirBus\Smartbushome\app\src\main\AndroidManifest.xml:184:84-123
+		ADDED from E:\Android_Studio_Project\G4AirBus\Smartbushome\app\src\main\AndroidManifest.xml:186:84-123
 	android:name
-		ADDED from E:\Android_Studio_Project\G4AirBus\Smartbushome\app\src\main\AndroidManifest.xml:184:19-82
+		ADDED from E:\Android_Studio_Project\G4AirBus\Smartbushome\app\src\main\AndroidManifest.xml:186:19-82
 activity#com.shima.smartbushome.centercontrol.NFCAddActivity
-ADDED from E:\Android_Studio_Project\G4AirBus\Smartbushome\app\src\main\AndroidManifest.xml:185:9-129
+ADDED from E:\Android_Studio_Project\G4AirBus\Smartbushome\app\src\main\AndroidManifest.xml:187:9-129
 	android:screenOrientation
-		ADDED from E:\Android_Studio_Project\G4AirBus\Smartbushome\app\src\main\AndroidManifest.xml:185:87-126
+		ADDED from E:\Android_Studio_Project\G4AirBus\Smartbushome\app\src\main\AndroidManifest.xml:187:87-126
 	android:name
-		ADDED from E:\Android_Studio_Project\G4AirBus\Smartbushome\app\src\main\AndroidManifest.xml:185:19-85
+		ADDED from E:\Android_Studio_Project\G4AirBus\Smartbushome\app\src\main\AndroidManifest.xml:187:19-85
 service#com.shima.smartbushome.andserver.CoreService
-ADDED from E:\Android_Studio_Project\G4AirBus\Smartbushome\app\src\main\AndroidManifest.xml:189:9-191:39
+ADDED from E:\Android_Studio_Project\G4AirBus\Smartbushome\app\src\main\AndroidManifest.xml:191:9-193:39
 	android:exported
-		ADDED from E:\Android_Studio_Project\G4AirBus\Smartbushome\app\src\main\AndroidManifest.xml:191:13-37
+		ADDED from E:\Android_Studio_Project\G4AirBus\Smartbushome\app\src\main\AndroidManifest.xml:193:13-37
 	android:name
-		ADDED from E:\Android_Studio_Project\G4AirBus\Smartbushome\app\src\main\AndroidManifest.xml:190:13-50
+		ADDED from E:\Android_Studio_Project\G4AirBus\Smartbushome\app\src\main\AndroidManifest.xml:192:13-50
 uses-sdk
 INJECTED from E:\Android_Studio_Project\G4AirBus\Smartbushome\app\src\main\AndroidManifest.xml reason: use-sdk injection requested
 INJECTED from E:\Android_Studio_Project\G4AirBus\Smartbushome\app\src\main\AndroidManifest.xml
@@ -570,8 +684,8 @@ MERGED from [:vstarcam] E:\Android_Studio_Project\G4AirBus\Smartbushome\vstarcam
 MERGED from [:vstarcam] E:\Android_Studio_Project\G4AirBus\Smartbushome\vstarcam\build\intermediates\merged_manifests\debug\processDebugManifest\merged\AndroidManifest.xml:7:5-9:41
 MERGED from [:smart_link] E:\Android_Studio_Project\G4AirBus\Smartbushome\smart_link\build\intermediates\merged_manifests\debug\processDebugManifest\merged\AndroidManifest.xml:7:5-9:41
 MERGED from [:smart_link] E:\Android_Studio_Project\G4AirBus\Smartbushome\smart_link\build\intermediates\merged_manifests\debug\processDebugManifest\merged\AndroidManifest.xml:7:5-9:41
-MERGED from [:scan_zxing] E:\Android_Studio_Project\G4AirBus\Smartbushome\scan_zxing\build\intermediates\merged_manifests\debug\processDebugManifest\merged\AndroidManifest.xml:7:5-9:41
-MERGED from [:scan_zxing] E:\Android_Studio_Project\G4AirBus\Smartbushome\scan_zxing\build\intermediates\merged_manifests\debug\processDebugManifest\merged\AndroidManifest.xml:7:5-9:41
+MERGED from [:scan_zxing] E:\Android_Studio_Project\G4AirBus\Smartbushome\scan_zxing\build\intermediates\merged_manifests\debug\processDebugManifest\merged\AndroidManifest.xml:8:5-10:41
+MERGED from [:scan_zxing] E:\Android_Studio_Project\G4AirBus\Smartbushome\scan_zxing\build\intermediates\merged_manifests\debug\processDebugManifest\merged\AndroidManifest.xml:8:5-10:41
 MERGED from [com.ashokvarma.android:bottom-navigation-bar:1.3.1] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\bottom-navigation-bar-1.3.1.aar\6123b4d763cd7f7cb518095e4f8c8d40\AndroidManifest.xml:7:5-9:41
 MERGED from [com.ashokvarma.android:bottom-navigation-bar:1.3.1] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\bottom-navigation-bar-1.3.1.aar\6123b4d763cd7f7cb518095e4f8c8d40\AndroidManifest.xml:7:5-9:41
 MERGED from [com.android.support:design:25.3.1] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\design-25.3.1.aar\4aa3bd0247322d704ff2373cb6fa733c\AndroidManifest.xml:21:5-23:62
@@ -647,239 +761,239 @@ ADDED from [:vstarcam] E:\Android_Studio_Project\G4AirBus\Smartbushome\vstarcam\
 	android:name
 		ADDED from [:vstarcam] E:\Android_Studio_Project\G4AirBus\Smartbushome\vstarcam\build\intermediates\merged_manifests\debug\processDebugManifest\merged\AndroidManifest.xml:15:19-62
 activity#com.pzj.ipcdemo.IPCActivity
-ADDED from [:vstarcam] E:\Android_Studio_Project\G4AirBus\Smartbushome\vstarcam\build\intermediates\merged_manifests\debug\processDebugManifest\merged\AndroidManifest.xml:24:9-30:20
+ADDED from [:vstarcam] E:\Android_Studio_Project\G4AirBus\Smartbushome\vstarcam\build\intermediates\merged_manifests\debug\processDebugManifest\merged\AndroidManifest.xml:77:9-83:20
 	android:name
-		ADDED from [:vstarcam] E:\Android_Studio_Project\G4AirBus\Smartbushome\vstarcam\build\intermediates\merged_manifests\debug\processDebugManifest\merged\AndroidManifest.xml:24:19-61
+		ADDED from [:vstarcam] E:\Android_Studio_Project\G4AirBus\Smartbushome\vstarcam\build\intermediates\merged_manifests\debug\processDebugManifest\merged\AndroidManifest.xml:77:19-61
 intent-filter#action:name:com.shima.smartbushome.vstarcam+category:name:android.intent.category.DEFAULT
-ADDED from [:vstarcam] E:\Android_Studio_Project\G4AirBus\Smartbushome\vstarcam\build\intermediates\merged_manifests\debug\processDebugManifest\merged\AndroidManifest.xml:25:13-29:29
+ADDED from [:vstarcam] E:\Android_Studio_Project\G4AirBus\Smartbushome\vstarcam\build\intermediates\merged_manifests\debug\processDebugManifest\merged\AndroidManifest.xml:78:13-82:29
 action#com.shima.smartbushome.vstarcam
-ADDED from [:vstarcam] E:\Android_Studio_Project\G4AirBus\Smartbushome\vstarcam\build\intermediates\merged_manifests\debug\processDebugManifest\merged\AndroidManifest.xml:26:17-74
+ADDED from [:vstarcam] E:\Android_Studio_Project\G4AirBus\Smartbushome\vstarcam\build\intermediates\merged_manifests\debug\processDebugManifest\merged\AndroidManifest.xml:79:17-74
 	android:name
-		ADDED from [:vstarcam] E:\Android_Studio_Project\G4AirBus\Smartbushome\vstarcam\build\intermediates\merged_manifests\debug\processDebugManifest\merged\AndroidManifest.xml:26:25-71
+		ADDED from [:vstarcam] E:\Android_Studio_Project\G4AirBus\Smartbushome\vstarcam\build\intermediates\merged_manifests\debug\processDebugManifest\merged\AndroidManifest.xml:79:25-71
 activity#com.pzj.ipcdemo.SettingActivity
-ADDED from [:vstarcam] E:\Android_Studio_Project\G4AirBus\Smartbushome\vstarcam\build\intermediates\merged_manifests\debug\processDebugManifest\merged\AndroidManifest.xml:31:9-37:20
+ADDED from [:vstarcam] E:\Android_Studio_Project\G4AirBus\Smartbushome\vstarcam\build\intermediates\merged_manifests\debug\processDebugManifest\merged\AndroidManifest.xml:84:9-90:20
 	android:name
-		ADDED from [:vstarcam] E:\Android_Studio_Project\G4AirBus\Smartbushome\vstarcam\build\intermediates\merged_manifests\debug\processDebugManifest\merged\AndroidManifest.xml:31:19-65
+		ADDED from [:vstarcam] E:\Android_Studio_Project\G4AirBus\Smartbushome\vstarcam\build\intermediates\merged_manifests\debug\processDebugManifest\merged\AndroidManifest.xml:84:19-65
 intent-filter#action:name:com.shima.smartbushome.vstarcam.settings+category:name:android.intent.category.DEFAULT
-ADDED from [:vstarcam] E:\Android_Studio_Project\G4AirBus\Smartbushome\vstarcam\build\intermediates\merged_manifests\debug\processDebugManifest\merged\AndroidManifest.xml:32:13-36:29
+ADDED from [:vstarcam] E:\Android_Studio_Project\G4AirBus\Smartbushome\vstarcam\build\intermediates\merged_manifests\debug\processDebugManifest\merged\AndroidManifest.xml:85:13-89:29
 action#com.shima.smartbushome.vstarcam.settings
-ADDED from [:vstarcam] E:\Android_Studio_Project\G4AirBus\Smartbushome\vstarcam\build\intermediates\merged_manifests\debug\processDebugManifest\merged\AndroidManifest.xml:33:17-83
+ADDED from [:vstarcam] E:\Android_Studio_Project\G4AirBus\Smartbushome\vstarcam\build\intermediates\merged_manifests\debug\processDebugManifest\merged\AndroidManifest.xml:86:17-83
 	android:name
-		ADDED from [:vstarcam] E:\Android_Studio_Project\G4AirBus\Smartbushome\vstarcam\build\intermediates\merged_manifests\debug\processDebugManifest\merged\AndroidManifest.xml:33:25-80
+		ADDED from [:vstarcam] E:\Android_Studio_Project\G4AirBus\Smartbushome\vstarcam\build\intermediates\merged_manifests\debug\processDebugManifest\merged\AndroidManifest.xml:86:25-80
 activity#com.pzj.ipcdemo.SettingWifiActivity
-ADDED from [:vstarcam] E:\Android_Studio_Project\G4AirBus\Smartbushome\vstarcam\build\intermediates\merged_manifests\debug\processDebugManifest\merged\AndroidManifest.xml:38:9-44:20
+ADDED from [:vstarcam] E:\Android_Studio_Project\G4AirBus\Smartbushome\vstarcam\build\intermediates\merged_manifests\debug\processDebugManifest\merged\AndroidManifest.xml:91:9-97:20
 	android:name
-		ADDED from [:vstarcam] E:\Android_Studio_Project\G4AirBus\Smartbushome\vstarcam\build\intermediates\merged_manifests\debug\processDebugManifest\merged\AndroidManifest.xml:38:19-69
+		ADDED from [:vstarcam] E:\Android_Studio_Project\G4AirBus\Smartbushome\vstarcam\build\intermediates\merged_manifests\debug\processDebugManifest\merged\AndroidManifest.xml:91:19-69
 intent-filter#action:name:com.shima.smartbushome.vstarcam.setting.wifi+category:name:android.intent.category.DEFAULT
-ADDED from [:vstarcam] E:\Android_Studio_Project\G4AirBus\Smartbushome\vstarcam\build\intermediates\merged_manifests\debug\processDebugManifest\merged\AndroidManifest.xml:39:13-43:29
+ADDED from [:vstarcam] E:\Android_Studio_Project\G4AirBus\Smartbushome\vstarcam\build\intermediates\merged_manifests\debug\processDebugManifest\merged\AndroidManifest.xml:92:13-96:29
 action#com.shima.smartbushome.vstarcam.setting.wifi
-ADDED from [:vstarcam] E:\Android_Studio_Project\G4AirBus\Smartbushome\vstarcam\build\intermediates\merged_manifests\debug\processDebugManifest\merged\AndroidManifest.xml:40:17-87
+ADDED from [:vstarcam] E:\Android_Studio_Project\G4AirBus\Smartbushome\vstarcam\build\intermediates\merged_manifests\debug\processDebugManifest\merged\AndroidManifest.xml:93:17-87
 	android:name
-		ADDED from [:vstarcam] E:\Android_Studio_Project\G4AirBus\Smartbushome\vstarcam\build\intermediates\merged_manifests\debug\processDebugManifest\merged\AndroidManifest.xml:40:25-84
+		ADDED from [:vstarcam] E:\Android_Studio_Project\G4AirBus\Smartbushome\vstarcam\build\intermediates\merged_manifests\debug\processDebugManifest\merged\AndroidManifest.xml:93:25-84
 activity#com.pzj.ipcdemo.SettingUserActivity
-ADDED from [:vstarcam] E:\Android_Studio_Project\G4AirBus\Smartbushome\vstarcam\build\intermediates\merged_manifests\debug\processDebugManifest\merged\AndroidManifest.xml:45:9-51:20
+ADDED from [:vstarcam] E:\Android_Studio_Project\G4AirBus\Smartbushome\vstarcam\build\intermediates\merged_manifests\debug\processDebugManifest\merged\AndroidManifest.xml:98:9-104:20
 	android:name
-		ADDED from [:vstarcam] E:\Android_Studio_Project\G4AirBus\Smartbushome\vstarcam\build\intermediates\merged_manifests\debug\processDebugManifest\merged\AndroidManifest.xml:45:19-69
+		ADDED from [:vstarcam] E:\Android_Studio_Project\G4AirBus\Smartbushome\vstarcam\build\intermediates\merged_manifests\debug\processDebugManifest\merged\AndroidManifest.xml:98:19-69
 intent-filter#action:name:com.shima.smartbushome.vstarcam.setting.user+category:name:android.intent.category.DEFAULT
-ADDED from [:vstarcam] E:\Android_Studio_Project\G4AirBus\Smartbushome\vstarcam\build\intermediates\merged_manifests\debug\processDebugManifest\merged\AndroidManifest.xml:46:13-50:29
+ADDED from [:vstarcam] E:\Android_Studio_Project\G4AirBus\Smartbushome\vstarcam\build\intermediates\merged_manifests\debug\processDebugManifest\merged\AndroidManifest.xml:99:13-103:29
 action#com.shima.smartbushome.vstarcam.setting.user
-ADDED from [:vstarcam] E:\Android_Studio_Project\G4AirBus\Smartbushome\vstarcam\build\intermediates\merged_manifests\debug\processDebugManifest\merged\AndroidManifest.xml:47:17-87
+ADDED from [:vstarcam] E:\Android_Studio_Project\G4AirBus\Smartbushome\vstarcam\build\intermediates\merged_manifests\debug\processDebugManifest\merged\AndroidManifest.xml:100:17-87
 	android:name
-		ADDED from [:vstarcam] E:\Android_Studio_Project\G4AirBus\Smartbushome\vstarcam\build\intermediates\merged_manifests\debug\processDebugManifest\merged\AndroidManifest.xml:47:25-84
+		ADDED from [:vstarcam] E:\Android_Studio_Project\G4AirBus\Smartbushome\vstarcam\build\intermediates\merged_manifests\debug\processDebugManifest\merged\AndroidManifest.xml:100:25-84
 activity#com.pzj.ipcdemo.SettingAlarmActivity
-ADDED from [:vstarcam] E:\Android_Studio_Project\G4AirBus\Smartbushome\vstarcam\build\intermediates\merged_manifests\debug\processDebugManifest\merged\AndroidManifest.xml:52:9-58:20
+ADDED from [:vstarcam] E:\Android_Studio_Project\G4AirBus\Smartbushome\vstarcam\build\intermediates\merged_manifests\debug\processDebugManifest\merged\AndroidManifest.xml:105:9-111:20
 	android:name
-		ADDED from [:vstarcam] E:\Android_Studio_Project\G4AirBus\Smartbushome\vstarcam\build\intermediates\merged_manifests\debug\processDebugManifest\merged\AndroidManifest.xml:52:19-70
+		ADDED from [:vstarcam] E:\Android_Studio_Project\G4AirBus\Smartbushome\vstarcam\build\intermediates\merged_manifests\debug\processDebugManifest\merged\AndroidManifest.xml:105:19-70
 intent-filter#action:name:com.shima.smartbushome.vstarcam.setting.alarm+category:name:android.intent.category.DEFAULT
-ADDED from [:vstarcam] E:\Android_Studio_Project\G4AirBus\Smartbushome\vstarcam\build\intermediates\merged_manifests\debug\processDebugManifest\merged\AndroidManifest.xml:53:13-57:29
+ADDED from [:vstarcam] E:\Android_Studio_Project\G4AirBus\Smartbushome\vstarcam\build\intermediates\merged_manifests\debug\processDebugManifest\merged\AndroidManifest.xml:106:13-110:29
 action#com.shima.smartbushome.vstarcam.setting.alarm
-ADDED from [:vstarcam] E:\Android_Studio_Project\G4AirBus\Smartbushome\vstarcam\build\intermediates\merged_manifests\debug\processDebugManifest\merged\AndroidManifest.xml:54:17-88
+ADDED from [:vstarcam] E:\Android_Studio_Project\G4AirBus\Smartbushome\vstarcam\build\intermediates\merged_manifests\debug\processDebugManifest\merged\AndroidManifest.xml:107:17-88
 	android:name
-		ADDED from [:vstarcam] E:\Android_Studio_Project\G4AirBus\Smartbushome\vstarcam\build\intermediates\merged_manifests\debug\processDebugManifest\merged\AndroidManifest.xml:54:25-85
+		ADDED from [:vstarcam] E:\Android_Studio_Project\G4AirBus\Smartbushome\vstarcam\build\intermediates\merged_manifests\debug\processDebugManifest\merged\AndroidManifest.xml:107:25-85
 activity#com.pzj.ipcdemo.SettingDateActivity
-ADDED from [:vstarcam] E:\Android_Studio_Project\G4AirBus\Smartbushome\vstarcam\build\intermediates\merged_manifests\debug\processDebugManifest\merged\AndroidManifest.xml:59:9-65:20
+ADDED from [:vstarcam] E:\Android_Studio_Project\G4AirBus\Smartbushome\vstarcam\build\intermediates\merged_manifests\debug\processDebugManifest\merged\AndroidManifest.xml:112:9-118:20
 	android:name
-		ADDED from [:vstarcam] E:\Android_Studio_Project\G4AirBus\Smartbushome\vstarcam\build\intermediates\merged_manifests\debug\processDebugManifest\merged\AndroidManifest.xml:59:19-69
+		ADDED from [:vstarcam] E:\Android_Studio_Project\G4AirBus\Smartbushome\vstarcam\build\intermediates\merged_manifests\debug\processDebugManifest\merged\AndroidManifest.xml:112:19-69
 intent-filter#action:name:com.shima.smartbushome.vstarcam.setting.date+category:name:android.intent.category.DEFAULT
-ADDED from [:vstarcam] E:\Android_Studio_Project\G4AirBus\Smartbushome\vstarcam\build\intermediates\merged_manifests\debug\processDebugManifest\merged\AndroidManifest.xml:60:13-64:29
+ADDED from [:vstarcam] E:\Android_Studio_Project\G4AirBus\Smartbushome\vstarcam\build\intermediates\merged_manifests\debug\processDebugManifest\merged\AndroidManifest.xml:113:13-117:29
 action#com.shima.smartbushome.vstarcam.setting.date
-ADDED from [:vstarcam] E:\Android_Studio_Project\G4AirBus\Smartbushome\vstarcam\build\intermediates\merged_manifests\debug\processDebugManifest\merged\AndroidManifest.xml:61:17-87
+ADDED from [:vstarcam] E:\Android_Studio_Project\G4AirBus\Smartbushome\vstarcam\build\intermediates\merged_manifests\debug\processDebugManifest\merged\AndroidManifest.xml:114:17-87
 	android:name
-		ADDED from [:vstarcam] E:\Android_Studio_Project\G4AirBus\Smartbushome\vstarcam\build\intermediates\merged_manifests\debug\processDebugManifest\merged\AndroidManifest.xml:61:25-84
+		ADDED from [:vstarcam] E:\Android_Studio_Project\G4AirBus\Smartbushome\vstarcam\build\intermediates\merged_manifests\debug\processDebugManifest\merged\AndroidManifest.xml:114:25-84
 activity#com.pzj.ipcdemo.SettingSDCardActivity
-ADDED from [:vstarcam] E:\Android_Studio_Project\G4AirBus\Smartbushome\vstarcam\build\intermediates\merged_manifests\debug\processDebugManifest\merged\AndroidManifest.xml:66:9-72:20
+ADDED from [:vstarcam] E:\Android_Studio_Project\G4AirBus\Smartbushome\vstarcam\build\intermediates\merged_manifests\debug\processDebugManifest\merged\AndroidManifest.xml:119:9-125:20
 	android:name
-		ADDED from [:vstarcam] E:\Android_Studio_Project\G4AirBus\Smartbushome\vstarcam\build\intermediates\merged_manifests\debug\processDebugManifest\merged\AndroidManifest.xml:66:19-71
+		ADDED from [:vstarcam] E:\Android_Studio_Project\G4AirBus\Smartbushome\vstarcam\build\intermediates\merged_manifests\debug\processDebugManifest\merged\AndroidManifest.xml:119:19-71
 intent-filter#action:name:com.shima.smartbushome.vstarcam.setting.sdcard+category:name:android.intent.category.DEFAULT
-ADDED from [:vstarcam] E:\Android_Studio_Project\G4AirBus\Smartbushome\vstarcam\build\intermediates\merged_manifests\debug\processDebugManifest\merged\AndroidManifest.xml:67:13-71:29
+ADDED from [:vstarcam] E:\Android_Studio_Project\G4AirBus\Smartbushome\vstarcam\build\intermediates\merged_manifests\debug\processDebugManifest\merged\AndroidManifest.xml:120:13-124:29
 action#com.shima.smartbushome.vstarcam.setting.sdcard
-ADDED from [:vstarcam] E:\Android_Studio_Project\G4AirBus\Smartbushome\vstarcam\build\intermediates\merged_manifests\debug\processDebugManifest\merged\AndroidManifest.xml:68:17-89
+ADDED from [:vstarcam] E:\Android_Studio_Project\G4AirBus\Smartbushome\vstarcam\build\intermediates\merged_manifests\debug\processDebugManifest\merged\AndroidManifest.xml:121:17-89
 	android:name
-		ADDED from [:vstarcam] E:\Android_Studio_Project\G4AirBus\Smartbushome\vstarcam\build\intermediates\merged_manifests\debug\processDebugManifest\merged\AndroidManifest.xml:68:25-86
+		ADDED from [:vstarcam] E:\Android_Studio_Project\G4AirBus\Smartbushome\vstarcam\build\intermediates\merged_manifests\debug\processDebugManifest\merged\AndroidManifest.xml:121:25-86
 activity#com.pzj.ipcdemo.SCameraSetSDTiming
-ADDED from [:vstarcam] E:\Android_Studio_Project\G4AirBus\Smartbushome\vstarcam\build\intermediates\merged_manifests\debug\processDebugManifest\merged\AndroidManifest.xml:73:9-79:20
+ADDED from [:vstarcam] E:\Android_Studio_Project\G4AirBus\Smartbushome\vstarcam\build\intermediates\merged_manifests\debug\processDebugManifest\merged\AndroidManifest.xml:126:9-132:20
 	android:name
-		ADDED from [:vstarcam] E:\Android_Studio_Project\G4AirBus\Smartbushome\vstarcam\build\intermediates\merged_manifests\debug\processDebugManifest\merged\AndroidManifest.xml:73:19-68
+		ADDED from [:vstarcam] E:\Android_Studio_Project\G4AirBus\Smartbushome\vstarcam\build\intermediates\merged_manifests\debug\processDebugManifest\merged\AndroidManifest.xml:126:19-68
 intent-filter#action:name:com.shima.smartbushome.vstarcam.setting.sdcard.sdtiming+category:name:android.intent.category.DEFAULT
-ADDED from [:vstarcam] E:\Android_Studio_Project\G4AirBus\Smartbushome\vstarcam\build\intermediates\merged_manifests\debug\processDebugManifest\merged\AndroidManifest.xml:74:13-78:29
+ADDED from [:vstarcam] E:\Android_Studio_Project\G4AirBus\Smartbushome\vstarcam\build\intermediates\merged_manifests\debug\processDebugManifest\merged\AndroidManifest.xml:127:13-131:29
 action#com.shima.smartbushome.vstarcam.setting.sdcard.sdtiming
-ADDED from [:vstarcam] E:\Android_Studio_Project\G4AirBus\Smartbushome\vstarcam\build\intermediates\merged_manifests\debug\processDebugManifest\merged\AndroidManifest.xml:75:17-98
+ADDED from [:vstarcam] E:\Android_Studio_Project\G4AirBus\Smartbushome\vstarcam\build\intermediates\merged_manifests\debug\processDebugManifest\merged\AndroidManifest.xml:128:17-98
 	android:name
-		ADDED from [:vstarcam] E:\Android_Studio_Project\G4AirBus\Smartbushome\vstarcam\build\intermediates\merged_manifests\debug\processDebugManifest\merged\AndroidManifest.xml:75:25-95
+		ADDED from [:vstarcam] E:\Android_Studio_Project\G4AirBus\Smartbushome\vstarcam\build\intermediates\merged_manifests\debug\processDebugManifest\merged\AndroidManifest.xml:128:25-95
 activity#com.pzj.ipcdemo.SCameraSetPlanVideoTiming
-ADDED from [:vstarcam] E:\Android_Studio_Project\G4AirBus\Smartbushome\vstarcam\build\intermediates\merged_manifests\debug\processDebugManifest\merged\AndroidManifest.xml:80:9-86:20
+ADDED from [:vstarcam] E:\Android_Studio_Project\G4AirBus\Smartbushome\vstarcam\build\intermediates\merged_manifests\debug\processDebugManifest\merged\AndroidManifest.xml:133:9-139:20
 	android:name
-		ADDED from [:vstarcam] E:\Android_Studio_Project\G4AirBus\Smartbushome\vstarcam\build\intermediates\merged_manifests\debug\processDebugManifest\merged\AndroidManifest.xml:80:19-75
+		ADDED from [:vstarcam] E:\Android_Studio_Project\G4AirBus\Smartbushome\vstarcam\build\intermediates\merged_manifests\debug\processDebugManifest\merged\AndroidManifest.xml:133:19-75
 intent-filter#action:name:com.shima.smartbushome.vstarcam.setting.sdcard.pvtiming+category:name:android.intent.category.DEFAULT
-ADDED from [:vstarcam] E:\Android_Studio_Project\G4AirBus\Smartbushome\vstarcam\build\intermediates\merged_manifests\debug\processDebugManifest\merged\AndroidManifest.xml:81:13-85:29
+ADDED from [:vstarcam] E:\Android_Studio_Project\G4AirBus\Smartbushome\vstarcam\build\intermediates\merged_manifests\debug\processDebugManifest\merged\AndroidManifest.xml:134:13-138:29
 action#com.shima.smartbushome.vstarcam.setting.sdcard.pvtiming
-ADDED from [:vstarcam] E:\Android_Studio_Project\G4AirBus\Smartbushome\vstarcam\build\intermediates\merged_manifests\debug\processDebugManifest\merged\AndroidManifest.xml:82:17-98
+ADDED from [:vstarcam] E:\Android_Studio_Project\G4AirBus\Smartbushome\vstarcam\build\intermediates\merged_manifests\debug\processDebugManifest\merged\AndroidManifest.xml:135:17-98
 	android:name
-		ADDED from [:vstarcam] E:\Android_Studio_Project\G4AirBus\Smartbushome\vstarcam\build\intermediates\merged_manifests\debug\processDebugManifest\merged\AndroidManifest.xml:82:25-95
+		ADDED from [:vstarcam] E:\Android_Studio_Project\G4AirBus\Smartbushome\vstarcam\build\intermediates\merged_manifests\debug\processDebugManifest\merged\AndroidManifest.xml:135:25-95
 activity#com.pzj.ipcdemo.PlayBackActivity
-ADDED from [:vstarcam] E:\Android_Studio_Project\G4AirBus\Smartbushome\vstarcam\build\intermediates\merged_manifests\debug\processDebugManifest\merged\AndroidManifest.xml:87:9-93:20
+ADDED from [:vstarcam] E:\Android_Studio_Project\G4AirBus\Smartbushome\vstarcam\build\intermediates\merged_manifests\debug\processDebugManifest\merged\AndroidManifest.xml:140:9-146:20
 	android:name
-		ADDED from [:vstarcam] E:\Android_Studio_Project\G4AirBus\Smartbushome\vstarcam\build\intermediates\merged_manifests\debug\processDebugManifest\merged\AndroidManifest.xml:87:19-66
+		ADDED from [:vstarcam] E:\Android_Studio_Project\G4AirBus\Smartbushome\vstarcam\build\intermediates\merged_manifests\debug\processDebugManifest\merged\AndroidManifest.xml:140:19-66
 intent-filter#action:name:com.shima.smartbushome.vstarcam.setting.sdcard.playback+category:name:android.intent.category.DEFAULT
-ADDED from [:vstarcam] E:\Android_Studio_Project\G4AirBus\Smartbushome\vstarcam\build\intermediates\merged_manifests\debug\processDebugManifest\merged\AndroidManifest.xml:88:13-92:29
+ADDED from [:vstarcam] E:\Android_Studio_Project\G4AirBus\Smartbushome\vstarcam\build\intermediates\merged_manifests\debug\processDebugManifest\merged\AndroidManifest.xml:141:13-145:29
 action#com.shima.smartbushome.vstarcam.setting.sdcard.playback
-ADDED from [:vstarcam] E:\Android_Studio_Project\G4AirBus\Smartbushome\vstarcam\build\intermediates\merged_manifests\debug\processDebugManifest\merged\AndroidManifest.xml:89:17-98
+ADDED from [:vstarcam] E:\Android_Studio_Project\G4AirBus\Smartbushome\vstarcam\build\intermediates\merged_manifests\debug\processDebugManifest\merged\AndroidManifest.xml:142:17-98
 	android:name
-		ADDED from [:vstarcam] E:\Android_Studio_Project\G4AirBus\Smartbushome\vstarcam\build\intermediates\merged_manifests\debug\processDebugManifest\merged\AndroidManifest.xml:89:25-95
+		ADDED from [:vstarcam] E:\Android_Studio_Project\G4AirBus\Smartbushome\vstarcam\build\intermediates\merged_manifests\debug\processDebugManifest\merged\AndroidManifest.xml:142:25-95
 activity#com.pzj.ipcdemo.PlayBackTFActivity
-ADDED from [:vstarcam] E:\Android_Studio_Project\G4AirBus\Smartbushome\vstarcam\build\intermediates\merged_manifests\debug\processDebugManifest\merged\AndroidManifest.xml:94:9-100:20
+ADDED from [:vstarcam] E:\Android_Studio_Project\G4AirBus\Smartbushome\vstarcam\build\intermediates\merged_manifests\debug\processDebugManifest\merged\AndroidManifest.xml:147:9-153:20
 	android:name
-		ADDED from [:vstarcam] E:\Android_Studio_Project\G4AirBus\Smartbushome\vstarcam\build\intermediates\merged_manifests\debug\processDebugManifest\merged\AndroidManifest.xml:94:19-68
+		ADDED from [:vstarcam] E:\Android_Studio_Project\G4AirBus\Smartbushome\vstarcam\build\intermediates\merged_manifests\debug\processDebugManifest\merged\AndroidManifest.xml:147:19-68
 intent-filter#action:name:com.shima.smartbushome.vstarcam.setting.sdcard.playbacktf+category:name:android.intent.category.DEFAULT
-ADDED from [:vstarcam] E:\Android_Studio_Project\G4AirBus\Smartbushome\vstarcam\build\intermediates\merged_manifests\debug\processDebugManifest\merged\AndroidManifest.xml:95:13-99:29
+ADDED from [:vstarcam] E:\Android_Studio_Project\G4AirBus\Smartbushome\vstarcam\build\intermediates\merged_manifests\debug\processDebugManifest\merged\AndroidManifest.xml:148:13-152:29
 action#com.shima.smartbushome.vstarcam.setting.sdcard.playbacktf
-ADDED from [:vstarcam] E:\Android_Studio_Project\G4AirBus\Smartbushome\vstarcam\build\intermediates\merged_manifests\debug\processDebugManifest\merged\AndroidManifest.xml:96:17-100
+ADDED from [:vstarcam] E:\Android_Studio_Project\G4AirBus\Smartbushome\vstarcam\build\intermediates\merged_manifests\debug\processDebugManifest\merged\AndroidManifest.xml:149:17-100
 	android:name
-		ADDED from [:vstarcam] E:\Android_Studio_Project\G4AirBus\Smartbushome\vstarcam\build\intermediates\merged_manifests\debug\processDebugManifest\merged\AndroidManifest.xml:96:25-97
+		ADDED from [:vstarcam] E:\Android_Studio_Project\G4AirBus\Smartbushome\vstarcam\build\intermediates\merged_manifests\debug\processDebugManifest\merged\AndroidManifest.xml:149:25-97
 activity#com.pzj.ipcdemo.FirmwareUpdateActiviy
-ADDED from [:vstarcam] E:\Android_Studio_Project\G4AirBus\Smartbushome\vstarcam\build\intermediates\merged_manifests\debug\processDebugManifest\merged\AndroidManifest.xml:101:9-107:20
+ADDED from [:vstarcam] E:\Android_Studio_Project\G4AirBus\Smartbushome\vstarcam\build\intermediates\merged_manifests\debug\processDebugManifest\merged\AndroidManifest.xml:154:9-160:20
 	android:name
-		ADDED from [:vstarcam] E:\Android_Studio_Project\G4AirBus\Smartbushome\vstarcam\build\intermediates\merged_manifests\debug\processDebugManifest\merged\AndroidManifest.xml:101:19-71
+		ADDED from [:vstarcam] E:\Android_Studio_Project\G4AirBus\Smartbushome\vstarcam\build\intermediates\merged_manifests\debug\processDebugManifest\merged\AndroidManifest.xml:154:19-71
 intent-filter#action:name:com.shima.smartbushome.vstarcam.setting.sdcard.firmware+category:name:android.intent.category.DEFAULT
-ADDED from [:vstarcam] E:\Android_Studio_Project\G4AirBus\Smartbushome\vstarcam\build\intermediates\merged_manifests\debug\processDebugManifest\merged\AndroidManifest.xml:102:13-106:29
+ADDED from [:vstarcam] E:\Android_Studio_Project\G4AirBus\Smartbushome\vstarcam\build\intermediates\merged_manifests\debug\processDebugManifest\merged\AndroidManifest.xml:155:13-159:29
 action#com.shima.smartbushome.vstarcam.setting.sdcard.firmware
-ADDED from [:vstarcam] E:\Android_Studio_Project\G4AirBus\Smartbushome\vstarcam\build\intermediates\merged_manifests\debug\processDebugManifest\merged\AndroidManifest.xml:103:17-98
+ADDED from [:vstarcam] E:\Android_Studio_Project\G4AirBus\Smartbushome\vstarcam\build\intermediates\merged_manifests\debug\processDebugManifest\merged\AndroidManifest.xml:156:17-98
 	android:name
-		ADDED from [:vstarcam] E:\Android_Studio_Project\G4AirBus\Smartbushome\vstarcam\build\intermediates\merged_manifests\debug\processDebugManifest\merged\AndroidManifest.xml:103:25-95
+		ADDED from [:vstarcam] E:\Android_Studio_Project\G4AirBus\Smartbushome\vstarcam\build\intermediates\merged_manifests\debug\processDebugManifest\merged\AndroidManifest.xml:156:25-95
 activity#com.pzj.ipcdemo.SensorListActivty
-ADDED from [:vstarcam] E:\Android_Studio_Project\G4AirBus\Smartbushome\vstarcam\build\intermediates\merged_manifests\debug\processDebugManifest\merged\AndroidManifest.xml:108:9-114:20
+ADDED from [:vstarcam] E:\Android_Studio_Project\G4AirBus\Smartbushome\vstarcam\build\intermediates\merged_manifests\debug\processDebugManifest\merged\AndroidManifest.xml:161:9-167:20
 	android:name
-		ADDED from [:vstarcam] E:\Android_Studio_Project\G4AirBus\Smartbushome\vstarcam\build\intermediates\merged_manifests\debug\processDebugManifest\merged\AndroidManifest.xml:108:19-67
+		ADDED from [:vstarcam] E:\Android_Studio_Project\G4AirBus\Smartbushome\vstarcam\build\intermediates\merged_manifests\debug\processDebugManifest\merged\AndroidManifest.xml:161:19-67
 intent-filter#action:name:com.shima.smartbushome.vstarcam.setting.sdcard.sensorlist+category:name:android.intent.category.DEFAULT
-ADDED from [:vstarcam] E:\Android_Studio_Project\G4AirBus\Smartbushome\vstarcam\build\intermediates\merged_manifests\debug\processDebugManifest\merged\AndroidManifest.xml:109:13-113:29
+ADDED from [:vstarcam] E:\Android_Studio_Project\G4AirBus\Smartbushome\vstarcam\build\intermediates\merged_manifests\debug\processDebugManifest\merged\AndroidManifest.xml:162:13-166:29
 action#com.shima.smartbushome.vstarcam.setting.sdcard.sensorlist
-ADDED from [:vstarcam] E:\Android_Studio_Project\G4AirBus\Smartbushome\vstarcam\build\intermediates\merged_manifests\debug\processDebugManifest\merged\AndroidManifest.xml:110:17-100
+ADDED from [:vstarcam] E:\Android_Studio_Project\G4AirBus\Smartbushome\vstarcam\build\intermediates\merged_manifests\debug\processDebugManifest\merged\AndroidManifest.xml:163:17-100
 	android:name
-		ADDED from [:vstarcam] E:\Android_Studio_Project\G4AirBus\Smartbushome\vstarcam\build\intermediates\merged_manifests\debug\processDebugManifest\merged\AndroidManifest.xml:110:25-97
+		ADDED from [:vstarcam] E:\Android_Studio_Project\G4AirBus\Smartbushome\vstarcam\build\intermediates\merged_manifests\debug\processDebugManifest\merged\AndroidManifest.xml:163:25-97
 activity#com.pzj.ipcdemo.SensorStartCodeActivity
-ADDED from [:vstarcam] E:\Android_Studio_Project\G4AirBus\Smartbushome\vstarcam\build\intermediates\merged_manifests\debug\processDebugManifest\merged\AndroidManifest.xml:115:9-121:20
+ADDED from [:vstarcam] E:\Android_Studio_Project\G4AirBus\Smartbushome\vstarcam\build\intermediates\merged_manifests\debug\processDebugManifest\merged\AndroidManifest.xml:168:9-174:20
 	android:name
-		ADDED from [:vstarcam] E:\Android_Studio_Project\G4AirBus\Smartbushome\vstarcam\build\intermediates\merged_manifests\debug\processDebugManifest\merged\AndroidManifest.xml:115:19-73
+		ADDED from [:vstarcam] E:\Android_Studio_Project\G4AirBus\Smartbushome\vstarcam\build\intermediates\merged_manifests\debug\processDebugManifest\merged\AndroidManifest.xml:168:19-73
 intent-filter#action:name:com.shima.smartbushome.vstarcam.setting.sdcard.sensorstar+category:name:android.intent.category.DEFAULT
-ADDED from [:vstarcam] E:\Android_Studio_Project\G4AirBus\Smartbushome\vstarcam\build\intermediates\merged_manifests\debug\processDebugManifest\merged\AndroidManifest.xml:116:13-120:29
+ADDED from [:vstarcam] E:\Android_Studio_Project\G4AirBus\Smartbushome\vstarcam\build\intermediates\merged_manifests\debug\processDebugManifest\merged\AndroidManifest.xml:169:13-173:29
 action#com.shima.smartbushome.vstarcam.setting.sdcard.sensorstar
-ADDED from [:vstarcam] E:\Android_Studio_Project\G4AirBus\Smartbushome\vstarcam\build\intermediates\merged_manifests\debug\processDebugManifest\merged\AndroidManifest.xml:117:17-100
+ADDED from [:vstarcam] E:\Android_Studio_Project\G4AirBus\Smartbushome\vstarcam\build\intermediates\merged_manifests\debug\processDebugManifest\merged\AndroidManifest.xml:170:17-100
 	android:name
-		ADDED from [:vstarcam] E:\Android_Studio_Project\G4AirBus\Smartbushome\vstarcam\build\intermediates\merged_manifests\debug\processDebugManifest\merged\AndroidManifest.xml:117:25-97
+		ADDED from [:vstarcam] E:\Android_Studio_Project\G4AirBus\Smartbushome\vstarcam\build\intermediates\merged_manifests\debug\processDebugManifest\merged\AndroidManifest.xml:170:25-97
 activity#com.pzj.ipcdemo.SCameraSetPushVideoTiming
-ADDED from [:vstarcam] E:\Android_Studio_Project\G4AirBus\Smartbushome\vstarcam\build\intermediates\merged_manifests\debug\processDebugManifest\merged\AndroidManifest.xml:122:9-128:20
+ADDED from [:vstarcam] E:\Android_Studio_Project\G4AirBus\Smartbushome\vstarcam\build\intermediates\merged_manifests\debug\processDebugManifest\merged\AndroidManifest.xml:175:9-181:20
 	android:name
-		ADDED from [:vstarcam] E:\Android_Studio_Project\G4AirBus\Smartbushome\vstarcam\build\intermediates\merged_manifests\debug\processDebugManifest\merged\AndroidManifest.xml:122:19-75
+		ADDED from [:vstarcam] E:\Android_Studio_Project\G4AirBus\Smartbushome\vstarcam\build\intermediates\merged_manifests\debug\processDebugManifest\merged\AndroidManifest.xml:175:19-75
 intent-filter#action:name:com.shima.smartbushome.vstarcam.setting.sdcard.sensorpush+category:name:android.intent.category.DEFAULT
-ADDED from [:vstarcam] E:\Android_Studio_Project\G4AirBus\Smartbushome\vstarcam\build\intermediates\merged_manifests\debug\processDebugManifest\merged\AndroidManifest.xml:123:13-127:29
+ADDED from [:vstarcam] E:\Android_Studio_Project\G4AirBus\Smartbushome\vstarcam\build\intermediates\merged_manifests\debug\processDebugManifest\merged\AndroidManifest.xml:176:13-180:29
 action#com.shima.smartbushome.vstarcam.setting.sdcard.sensorpush
-ADDED from [:vstarcam] E:\Android_Studio_Project\G4AirBus\Smartbushome\vstarcam\build\intermediates\merged_manifests\debug\processDebugManifest\merged\AndroidManifest.xml:124:17-100
+ADDED from [:vstarcam] E:\Android_Studio_Project\G4AirBus\Smartbushome\vstarcam\build\intermediates\merged_manifests\debug\processDebugManifest\merged\AndroidManifest.xml:177:17-100
 	android:name
-		ADDED from [:vstarcam] E:\Android_Studio_Project\G4AirBus\Smartbushome\vstarcam\build\intermediates\merged_manifests\debug\processDebugManifest\merged\AndroidManifest.xml:124:25-97
+		ADDED from [:vstarcam] E:\Android_Studio_Project\G4AirBus\Smartbushome\vstarcam\build\intermediates\merged_manifests\debug\processDebugManifest\merged\AndroidManifest.xml:177:25-97
 activity#com.pzj.ipcdemo.EditSensorActivity
-ADDED from [:vstarcam] E:\Android_Studio_Project\G4AirBus\Smartbushome\vstarcam\build\intermediates\merged_manifests\debug\processDebugManifest\merged\AndroidManifest.xml:129:9-135:20
+ADDED from [:vstarcam] E:\Android_Studio_Project\G4AirBus\Smartbushome\vstarcam\build\intermediates\merged_manifests\debug\processDebugManifest\merged\AndroidManifest.xml:182:9-188:20
 	android:name
-		ADDED from [:vstarcam] E:\Android_Studio_Project\G4AirBus\Smartbushome\vstarcam\build\intermediates\merged_manifests\debug\processDebugManifest\merged\AndroidManifest.xml:129:19-68
+		ADDED from [:vstarcam] E:\Android_Studio_Project\G4AirBus\Smartbushome\vstarcam\build\intermediates\merged_manifests\debug\processDebugManifest\merged\AndroidManifest.xml:182:19-68
 intent-filter#action:name:com.shima.smartbushome.vstarcam.setting.sdcard.sensoredit+category:name:android.intent.category.DEFAULT
-ADDED from [:vstarcam] E:\Android_Studio_Project\G4AirBus\Smartbushome\vstarcam\build\intermediates\merged_manifests\debug\processDebugManifest\merged\AndroidManifest.xml:130:13-134:29
+ADDED from [:vstarcam] E:\Android_Studio_Project\G4AirBus\Smartbushome\vstarcam\build\intermediates\merged_manifests\debug\processDebugManifest\merged\AndroidManifest.xml:183:13-187:29
 action#com.shima.smartbushome.vstarcam.setting.sdcard.sensoredit
-ADDED from [:vstarcam] E:\Android_Studio_Project\G4AirBus\Smartbushome\vstarcam\build\intermediates\merged_manifests\debug\processDebugManifest\merged\AndroidManifest.xml:131:17-100
+ADDED from [:vstarcam] E:\Android_Studio_Project\G4AirBus\Smartbushome\vstarcam\build\intermediates\merged_manifests\debug\processDebugManifest\merged\AndroidManifest.xml:184:17-100
 	android:name
-		ADDED from [:vstarcam] E:\Android_Studio_Project\G4AirBus\Smartbushome\vstarcam\build\intermediates\merged_manifests\debug\processDebugManifest\merged\AndroidManifest.xml:131:25-97
+		ADDED from [:vstarcam] E:\Android_Studio_Project\G4AirBus\Smartbushome\vstarcam\build\intermediates\merged_manifests\debug\processDebugManifest\merged\AndroidManifest.xml:184:25-97
 activity#com.pzj.ipcdemo.MoveNotificationActivity
-ADDED from [:vstarcam] E:\Android_Studio_Project\G4AirBus\Smartbushome\vstarcam\build\intermediates\merged_manifests\debug\processDebugManifest\merged\AndroidManifest.xml:136:9-142:20
+ADDED from [:vstarcam] E:\Android_Studio_Project\G4AirBus\Smartbushome\vstarcam\build\intermediates\merged_manifests\debug\processDebugManifest\merged\AndroidManifest.xml:189:9-195:20
 	android:name
-		ADDED from [:vstarcam] E:\Android_Studio_Project\G4AirBus\Smartbushome\vstarcam\build\intermediates\merged_manifests\debug\processDebugManifest\merged\AndroidManifest.xml:136:19-74
+		ADDED from [:vstarcam] E:\Android_Studio_Project\G4AirBus\Smartbushome\vstarcam\build\intermediates\merged_manifests\debug\processDebugManifest\merged\AndroidManifest.xml:189:19-74
 intent-filter#action:name:com.shima.smartbushome.vstarcam.setting.sdcard.move+category:name:android.intent.category.DEFAULT
-ADDED from [:vstarcam] E:\Android_Studio_Project\G4AirBus\Smartbushome\vstarcam\build\intermediates\merged_manifests\debug\processDebugManifest\merged\AndroidManifest.xml:137:13-141:29
+ADDED from [:vstarcam] E:\Android_Studio_Project\G4AirBus\Smartbushome\vstarcam\build\intermediates\merged_manifests\debug\processDebugManifest\merged\AndroidManifest.xml:190:13-194:29
 action#com.shima.smartbushome.vstarcam.setting.sdcard.move
-ADDED from [:vstarcam] E:\Android_Studio_Project\G4AirBus\Smartbushome\vstarcam\build\intermediates\merged_manifests\debug\processDebugManifest\merged\AndroidManifest.xml:138:17-94
+ADDED from [:vstarcam] E:\Android_Studio_Project\G4AirBus\Smartbushome\vstarcam\build\intermediates\merged_manifests\debug\processDebugManifest\merged\AndroidManifest.xml:191:17-94
 	android:name
-		ADDED from [:vstarcam] E:\Android_Studio_Project\G4AirBus\Smartbushome\vstarcam\build\intermediates\merged_manifests\debug\processDebugManifest\merged\AndroidManifest.xml:138:25-91
+		ADDED from [:vstarcam] E:\Android_Studio_Project\G4AirBus\Smartbushome\vstarcam\build\intermediates\merged_manifests\debug\processDebugManifest\merged\AndroidManifest.xml:191:25-91
 activity#com.pzj.ipcdemo.PlayActivity
-ADDED from [:vstarcam] E:\Android_Studio_Project\G4AirBus\Smartbushome\vstarcam\build\intermediates\merged_manifests\debug\processDebugManifest\merged\AndroidManifest.xml:143:9-151:20
+ADDED from [:vstarcam] E:\Android_Studio_Project\G4AirBus\Smartbushome\vstarcam\build\intermediates\merged_manifests\debug\processDebugManifest\merged\AndroidManifest.xml:196:9-204:20
 	android:configChanges
-		ADDED from [:vstarcam] E:\Android_Studio_Project\G4AirBus\Smartbushome\vstarcam\build\intermediates\merged_manifests\debug\processDebugManifest\merged\AndroidManifest.xml:145:13-74
+		ADDED from [:vstarcam] E:\Android_Studio_Project\G4AirBus\Smartbushome\vstarcam\build\intermediates\merged_manifests\debug\processDebugManifest\merged\AndroidManifest.xml:198:13-74
 	android:name
-		ADDED from [:vstarcam] E:\Android_Studio_Project\G4AirBus\Smartbushome\vstarcam\build\intermediates\merged_manifests\debug\processDebugManifest\merged\AndroidManifest.xml:144:13-56
+		ADDED from [:vstarcam] E:\Android_Studio_Project\G4AirBus\Smartbushome\vstarcam\build\intermediates\merged_manifests\debug\processDebugManifest\merged\AndroidManifest.xml:197:13-56
 intent-filter#action:name:com.pzj.play+category:name:android.intent.category.DEFAULT
-ADDED from [:vstarcam] E:\Android_Studio_Project\G4AirBus\Smartbushome\vstarcam\build\intermediates\merged_manifests\debug\processDebugManifest\merged\AndroidManifest.xml:146:13-150:29
+ADDED from [:vstarcam] E:\Android_Studio_Project\G4AirBus\Smartbushome\vstarcam\build\intermediates\merged_manifests\debug\processDebugManifest\merged\AndroidManifest.xml:199:13-203:29
 action#com.pzj.play
-ADDED from [:vstarcam] E:\Android_Studio_Project\G4AirBus\Smartbushome\vstarcam\build\intermediates\merged_manifests\debug\processDebugManifest\merged\AndroidManifest.xml:147:17-55
+ADDED from [:vstarcam] E:\Android_Studio_Project\G4AirBus\Smartbushome\vstarcam\build\intermediates\merged_manifests\debug\processDebugManifest\merged\AndroidManifest.xml:200:17-55
 	android:name
-		ADDED from [:vstarcam] E:\Android_Studio_Project\G4AirBus\Smartbushome\vstarcam\build\intermediates\merged_manifests\debug\processDebugManifest\merged\AndroidManifest.xml:147:25-52
+		ADDED from [:vstarcam] E:\Android_Studio_Project\G4AirBus\Smartbushome\vstarcam\build\intermediates\merged_manifests\debug\processDebugManifest\merged\AndroidManifest.xml:200:25-52
 service#com.pzj.ipcdemo.service.BridgeService
-ADDED from [:vstarcam] E:\Android_Studio_Project\G4AirBus\Smartbushome\vstarcam\build\intermediates\merged_manifests\debug\processDebugManifest\merged\AndroidManifest.xml:153:9-73
+ADDED from [:vstarcam] E:\Android_Studio_Project\G4AirBus\Smartbushome\vstarcam\build\intermediates\merged_manifests\debug\processDebugManifest\merged\AndroidManifest.xml:206:9-73
 	android:name
-		ADDED from [:vstarcam] E:\Android_Studio_Project\G4AirBus\Smartbushome\vstarcam\build\intermediates\merged_manifests\debug\processDebugManifest\merged\AndroidManifest.xml:153:18-70
+		ADDED from [:vstarcam] E:\Android_Studio_Project\G4AirBus\Smartbushome\vstarcam\build\intermediates\merged_manifests\debug\processDebugManifest\merged\AndroidManifest.xml:206:18-70
 activity#com.mediatek.demo.smartconnection.MainActivity
-ADDED from [:smart_link] E:\Android_Studio_Project\G4AirBus\Smartbushome\smart_link\build\intermediates\merged_manifests\debug\processDebugManifest\merged\AndroidManifest.xml:22:9-30:20
+ADDED from [:smart_link] E:\Android_Studio_Project\G4AirBus\Smartbushome\smart_link\build\intermediates\merged_manifests\debug\processDebugManifest\merged\AndroidManifest.xml:75:9-83:20
 	android:label
-		ADDED from [:smart_link] E:\Android_Studio_Project\G4AirBus\Smartbushome\smart_link\build\intermediates\merged_manifests\debug\processDebugManifest\merged\AndroidManifest.xml:24:13-45
+		ADDED from [:smart_link] E:\Android_Studio_Project\G4AirBus\Smartbushome\smart_link\build\intermediates\merged_manifests\debug\processDebugManifest\merged\AndroidManifest.xml:77:13-45
 	android:name
-		ADDED from [:smart_link] E:\Android_Studio_Project\G4AirBus\Smartbushome\smart_link\build\intermediates\merged_manifests\debug\processDebugManifest\merged\AndroidManifest.xml:23:13-74
+		ADDED from [:smart_link] E:\Android_Studio_Project\G4AirBus\Smartbushome\smart_link\build\intermediates\merged_manifests\debug\processDebugManifest\merged\AndroidManifest.xml:76:13-74
 intent-filter#action:name:com.shima.smart.link+category:name:android.intent.category.DEFAULT
-ADDED from [:smart_link] E:\Android_Studio_Project\G4AirBus\Smartbushome\smart_link\build\intermediates\merged_manifests\debug\processDebugManifest\merged\AndroidManifest.xml:25:13-29:29
+ADDED from [:smart_link] E:\Android_Studio_Project\G4AirBus\Smartbushome\smart_link\build\intermediates\merged_manifests\debug\processDebugManifest\merged\AndroidManifest.xml:78:13-82:29
 action#com.shima.smart.link
-ADDED from [:smart_link] E:\Android_Studio_Project\G4AirBus\Smartbushome\smart_link\build\intermediates\merged_manifests\debug\processDebugManifest\merged\AndroidManifest.xml:26:17-63
+ADDED from [:smart_link] E:\Android_Studio_Project\G4AirBus\Smartbushome\smart_link\build\intermediates\merged_manifests\debug\processDebugManifest\merged\AndroidManifest.xml:79:17-63
 	android:name
-		ADDED from [:smart_link] E:\Android_Studio_Project\G4AirBus\Smartbushome\smart_link\build\intermediates\merged_manifests\debug\processDebugManifest\merged\AndroidManifest.xml:26:25-60
+		ADDED from [:smart_link] E:\Android_Studio_Project\G4AirBus\Smartbushome\smart_link\build\intermediates\merged_manifests\debug\processDebugManifest\merged\AndroidManifest.xml:79:25-60
 uses-permission#android.permission.CAMERA
-ADDED from [:scan_zxing] E:\Android_Studio_Project\G4AirBus\Smartbushome\scan_zxing\build\intermediates\merged_manifests\debug\processDebugManifest\merged\AndroidManifest.xml:11:5-65
+ADDED from [:scan_zxing] E:\Android_Studio_Project\G4AirBus\Smartbushome\scan_zxing\build\intermediates\merged_manifests\debug\processDebugManifest\merged\AndroidManifest.xml:12:5-65
 	android:name
-		ADDED from [:scan_zxing] E:\Android_Studio_Project\G4AirBus\Smartbushome\scan_zxing\build\intermediates\merged_manifests\debug\processDebugManifest\merged\AndroidManifest.xml:11:22-62
+		ADDED from [:scan_zxing] E:\Android_Studio_Project\G4AirBus\Smartbushome\scan_zxing\build\intermediates\merged_manifests\debug\processDebugManifest\merged\AndroidManifest.xml:12:22-62
 uses-permission#android.permission.VIBRATE
-ADDED from [:scan_zxing] E:\Android_Studio_Project\G4AirBus\Smartbushome\scan_zxing\build\intermediates\merged_manifests\debug\processDebugManifest\merged\AndroidManifest.xml:13:5-66
+ADDED from [:scan_zxing] E:\Android_Studio_Project\G4AirBus\Smartbushome\scan_zxing\build\intermediates\merged_manifests\debug\processDebugManifest\merged\AndroidManifest.xml:14:5-66
 	android:name
-		ADDED from [:scan_zxing] E:\Android_Studio_Project\G4AirBus\Smartbushome\scan_zxing\build\intermediates\merged_manifests\debug\processDebugManifest\merged\AndroidManifest.xml:13:22-63
+		ADDED from [:scan_zxing] E:\Android_Studio_Project\G4AirBus\Smartbushome\scan_zxing\build\intermediates\merged_manifests\debug\processDebugManifest\merged\AndroidManifest.xml:14:22-63
 uses-permission#android.permission.FLASHLIGHT
-ADDED from [:scan_zxing] E:\Android_Studio_Project\G4AirBus\Smartbushome\scan_zxing\build\intermediates\merged_manifests\debug\processDebugManifest\merged\AndroidManifest.xml:14:5-69
+ADDED from [:scan_zxing] E:\Android_Studio_Project\G4AirBus\Smartbushome\scan_zxing\build\intermediates\merged_manifests\debug\processDebugManifest\merged\AndroidManifest.xml:15:5-69
 	android:name
-		ADDED from [:scan_zxing] E:\Android_Studio_Project\G4AirBus\Smartbushome\scan_zxing\build\intermediates\merged_manifests\debug\processDebugManifest\merged\AndroidManifest.xml:14:22-66
+		ADDED from [:scan_zxing] E:\Android_Studio_Project\G4AirBus\Smartbushome\scan_zxing\build\intermediates\merged_manifests\debug\processDebugManifest\merged\AndroidManifest.xml:15:22-66
 activity#com.example.xch.scanzxing.MainActivityScan
-ADDED from [:scan_zxing] E:\Android_Studio_Project\G4AirBus\Smartbushome\scan_zxing\build\intermediates\merged_manifests\debug\processDebugManifest\merged\AndroidManifest.xml:21:9-27:20
+ADDED from [:scan_zxing] E:\Android_Studio_Project\G4AirBus\Smartbushome\scan_zxing\build\intermediates\merged_manifests\debug\processDebugManifest\merged\AndroidManifest.xml:75:9-81:20
 	android:name
-		ADDED from [:scan_zxing] E:\Android_Studio_Project\G4AirBus\Smartbushome\scan_zxing\build\intermediates\merged_manifests\debug\processDebugManifest\merged\AndroidManifest.xml:21:19-76
+		ADDED from [:scan_zxing] E:\Android_Studio_Project\G4AirBus\Smartbushome\scan_zxing\build\intermediates\merged_manifests\debug\processDebugManifest\merged\AndroidManifest.xml:75:19-76
 intent-filter#action:name:com.shima.smartbushome.scanzing+category:name:android.intent.category.DEFAULT
-ADDED from [:scan_zxing] E:\Android_Studio_Project\G4AirBus\Smartbushome\scan_zxing\build\intermediates\merged_manifests\debug\processDebugManifest\merged\AndroidManifest.xml:22:13-26:29
+ADDED from [:scan_zxing] E:\Android_Studio_Project\G4AirBus\Smartbushome\scan_zxing\build\intermediates\merged_manifests\debug\processDebugManifest\merged\AndroidManifest.xml:76:13-80:29
 action#com.shima.smartbushome.scanzing
-ADDED from [:scan_zxing] E:\Android_Studio_Project\G4AirBus\Smartbushome\scan_zxing\build\intermediates\merged_manifests\debug\processDebugManifest\merged\AndroidManifest.xml:23:17-74
+ADDED from [:scan_zxing] E:\Android_Studio_Project\G4AirBus\Smartbushome\scan_zxing\build\intermediates\merged_manifests\debug\processDebugManifest\merged\AndroidManifest.xml:77:17-74
 	android:name
-		ADDED from [:scan_zxing] E:\Android_Studio_Project\G4AirBus\Smartbushome\scan_zxing\build\intermediates\merged_manifests\debug\processDebugManifest\merged\AndroidManifest.xml:23:25-71
+		ADDED from [:scan_zxing] E:\Android_Studio_Project\G4AirBus\Smartbushome\scan_zxing\build\intermediates\merged_manifests\debug\processDebugManifest\merged\AndroidManifest.xml:77:25-71
 activity#com.example.xch.scanzxing.zxing.android.CaptureActivity
-ADDED from [:scan_zxing] E:\Android_Studio_Project\G4AirBus\Smartbushome\scan_zxing\build\intermediates\merged_manifests\debug\processDebugManifest\merged\AndroidManifest.xml:28:9-37:20
+ADDED from [:scan_zxing] E:\Android_Studio_Project\G4AirBus\Smartbushome\scan_zxing\build\intermediates\merged_manifests\debug\processDebugManifest\merged\AndroidManifest.xml:82:9-91:20
 	android:screenOrientation
-		ADDED from [:scan_zxing] E:\Android_Studio_Project\G4AirBus\Smartbushome\scan_zxing\build\intermediates\merged_manifests\debug\processDebugManifest\merged\AndroidManifest.xml:30:13-49
+		ADDED from [:scan_zxing] E:\Android_Studio_Project\G4AirBus\Smartbushome\scan_zxing\build\intermediates\merged_manifests\debug\processDebugManifest\merged\AndroidManifest.xml:84:13-49
 	android:theme
-		ADDED from [:scan_zxing] E:\Android_Studio_Project\G4AirBus\Smartbushome\scan_zxing\build\intermediates\merged_manifests\debug\processDebugManifest\merged\AndroidManifest.xml:31:13-60
+		ADDED from [:scan_zxing] E:\Android_Studio_Project\G4AirBus\Smartbushome\scan_zxing\build\intermediates\merged_manifests\debug\processDebugManifest\merged\AndroidManifest.xml:85:13-60
 	android:name
-		ADDED from [:scan_zxing] E:\Android_Studio_Project\G4AirBus\Smartbushome\scan_zxing\build\intermediates\merged_manifests\debug\processDebugManifest\merged\AndroidManifest.xml:29:13-83
+		ADDED from [:scan_zxing] E:\Android_Studio_Project\G4AirBus\Smartbushome\scan_zxing\build\intermediates\merged_manifests\debug\processDebugManifest\merged\AndroidManifest.xml:83:13-83
 intent-filter#action:name:com.shima.smartbushome.scan+category:name:android.intent.category.DEFAULT
-ADDED from [:scan_zxing] E:\Android_Studio_Project\G4AirBus\Smartbushome\scan_zxing\build\intermediates\merged_manifests\debug\processDebugManifest\merged\AndroidManifest.xml:32:13-36:29
+ADDED from [:scan_zxing] E:\Android_Studio_Project\G4AirBus\Smartbushome\scan_zxing\build\intermediates\merged_manifests\debug\processDebugManifest\merged\AndroidManifest.xml:86:13-90:29
 action#com.shima.smartbushome.scan
-ADDED from [:scan_zxing] E:\Android_Studio_Project\G4AirBus\Smartbushome\scan_zxing\build\intermediates\merged_manifests\debug\processDebugManifest\merged\AndroidManifest.xml:33:17-70
+ADDED from [:scan_zxing] E:\Android_Studio_Project\G4AirBus\Smartbushome\scan_zxing\build\intermediates\merged_manifests\debug\processDebugManifest\merged\AndroidManifest.xml:87:17-70
 	android:name
-		ADDED from [:scan_zxing] E:\Android_Studio_Project\G4AirBus\Smartbushome\scan_zxing\build\intermediates\merged_manifests\debug\processDebugManifest\merged\AndroidManifest.xml:33:25-67
+		ADDED from [:scan_zxing] E:\Android_Studio_Project\G4AirBus\Smartbushome\scan_zxing\build\intermediates\merged_manifests\debug\processDebugManifest\merged\AndroidManifest.xml:87:25-67
 meta-data#android.support.VERSION
 ADDED from [com.android.support:design:25.3.1] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\design-25.3.1.aar\4aa3bd0247322d704ff2373cb6fa733c\AndroidManifest.xml:25:5-27:34
 MERGED from [com.android.support:appcompat-v7:25.3.1] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\appcompat-v7-25.3.1.aar\d2323c16e383ddfb03d3b7dfad3f3e85\AndroidManifest.xml:25:5-27:34

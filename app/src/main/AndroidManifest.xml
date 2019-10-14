@@ -59,6 +59,8 @@
     <uses-feature android:name="android.hardware.sensor.compass" android:required="false"/>
     <uses-feature android:name="android.hardware.sensor.barometer" android:required="false"/>
     <uses-feature android:name="android.hardware.sensor.stepdetector" android:required="false"/>
+    <uses-feature android:name="android.hardware.camera" android:required="false"/>
+    <uses-feature android:name="android.hardware.camera.autofocus" android:required="false"/>
 
 
     <application
