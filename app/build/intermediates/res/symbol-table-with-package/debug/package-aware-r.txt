@@ -1608,6 +1608,7 @@ id bottom_navigation_bar_overLay
 id bottom_sides
 id bottom_view
 id bt_daytime
+id bt_g4_server_save
 id bt_modifypassword
 id bt_nighttime
 id bt_off
@@ -1860,6 +1861,7 @@ id et_newpassword
 id et_oldpassword
 id et_password
 id et_psw
+id et_realm
 id et_sensordevid
 id et_sensorsubid
 id et_statusch
@@ -2919,6 +2921,7 @@ id tv_drugcycle_once
 id tv_drugcycle_sure
 id tv_encryption_key
 id tv_finish
+id tv_g4server
 id tv_info_plan
 id tv_interval
 id tv_ipcName

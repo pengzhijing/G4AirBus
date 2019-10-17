@@ -67,16 +67,16 @@ public final class R {
         private id() {}
 
         public static final int alertButtonListView = 0x7f080045;
-        public static final int content_container = 0x7f0800ef;
-        public static final int loAlertButtons = 0x7f080256;
-        public static final int loAlertHeader = 0x7f080257;
-        public static final int outmost_container = 0x7f080357;
-        public static final int tvAlert = 0x7f080576;
-        public static final int tvAlertCancel = 0x7f080577;
-        public static final int tvAlertMsg = 0x7f080578;
-        public static final int tvAlertTitle = 0x7f080579;
-        public static final int viewStubHorizontal = 0x7f0805d1;
-        public static final int viewStubVertical = 0x7f0805d2;
+        public static final int content_container = 0x7f0800f0;
+        public static final int loAlertButtons = 0x7f080258;
+        public static final int loAlertHeader = 0x7f080259;
+        public static final int outmost_container = 0x7f080359;
+        public static final int tvAlert = 0x7f080578;
+        public static final int tvAlertCancel = 0x7f080579;
+        public static final int tvAlertMsg = 0x7f08057a;
+        public static final int tvAlertTitle = 0x7f08057b;
+        public static final int viewStubHorizontal = 0x7f0805d4;
+        public static final int viewStubVertical = 0x7f0805d5;
     }
     public static final class integer {
         private integer() {}

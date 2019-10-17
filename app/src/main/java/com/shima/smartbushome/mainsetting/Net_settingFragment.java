@@ -60,8 +60,8 @@ import ru.alexbykov.nopermission.PermissionHelper;
  * A simple {@link Fragment} subclass.
  */
 public class Net_settingFragment extends Fragment implements View.OnClickListener{
-    Button bt_login,bt_logout,bt_select,bt_save,ms_ns_savewifiname,ms_ns_deletewifiname,bt_modifypassword;
-    EditText et_username,et_password;
+    Button bt_login,bt_logout,bt_select,bt_save,ms_ns_savewifiname,ms_ns_deletewifiname,bt_modifypassword,bt_g4_server_save;
+    EditText et_username,et_password,et_realm;
     CheckBox cb_usehttp;
     TextView ms_ns_wifinametext;
     View view;
@@ -71,7 +71,9 @@ public class Net_settingFragment extends Fragment implements View.OnClickListene
     protected static LiteHttp liteHttp;
     public final int OP_LOGIN = 1, OP_LOGOUT = 2, OP_IP_LIST = 3,
             OP_SERVER_LIST = 4;
-    public final String IP = "http://smartbuscloud.com"; // "179.186.3.85"; //http://smartbuscloud.com
+    //远程服务器域名
+    public  String g4Realm="smartbuscloud.com";
+    public String IP = "http://"+g4Realm; // "179.186.3.85"; //http://smartbuscloud.com
     //http://www.g4cloud.ir
     public final byte TERMINAL_TYPE = 0x03;
     // RequetType
@@ -96,7 +98,8 @@ public class Net_settingFragment extends Fragment implements View.OnClickListene
         return pageFragment;
     }
     public Net_settingFragment() {
-        // Required empty public constructor
+
+
     }
 
     //权限申请对象
@@ -120,6 +123,7 @@ public class Net_settingFragment extends Fragment implements View.OnClickListene
         bt_modifypassword=(Button)view.findViewById(R.id.bt_modifypassword);
         bt_select=(Button)view.findViewById(R.id.ms_ns_select);
         bt_save=(Button)view.findViewById(R.id.ms_ns_save);
+        bt_g4_server_save=view.findViewById(R.id.bt_g4_server_save);
         ms_ns_savewifiname=(Button)view.findViewById(R.id.ms_ns_savewifiname);
         ms_ns_deletewifiname=(Button)view.findViewById(R.id.ms_ns_deletewifiname);
         ms_ns_wifinametext=(TextView)view.findViewById(R.id.ms_ns_wifinametext);
@@ -128,10 +132,12 @@ public class Net_settingFragment extends Fragment implements View.OnClickListene
         bt_modifypassword.setOnClickListener(this);
         bt_select.setOnClickListener(this);
         bt_save.setOnClickListener(this);
+        bt_g4_server_save.setOnClickListener(this);
         ms_ns_deletewifiname.setOnClickListener(this);
         ms_ns_savewifiname.setOnClickListener(this);
         et_username=(EditText)view.findViewById(R.id.ms_ns_etname);
         et_password=(EditText)view.findViewById(R.id.ms_ns_etpassword);
+        et_realm=(EditText)view.findViewById(R.id.et_realm);
         cb_usehttp=(CheckBox)view.findViewById(R.id.ms_ns_cb);
         postProgress=new ProgressDialog(getActivity());
         postProgress.setMessage("logining");
@@ -147,6 +153,16 @@ public class Net_settingFragment extends Fragment implements View.OnClickListene
         SharedPreferences sharedPre4 = getActivity().getSharedPreferences("wifiinfo", getActivity().MODE_PRIVATE);
         wifiname=sharedPre4.getString("wifiname", "not set wifiname");
         ms_ns_wifinametext.setText("Remember your current wifi: "+wifiname);
+
+
+
+        //远程服务器域名
+        SharedPreferences sharedPre5 = getActivity().getSharedPreferences("remoteinfo", getActivity().MODE_PRIVATE);
+        g4Realm=sharedPre5.getString("g4Realm", "smartbuscloud.com");
+        et_realm.setText(g4Realm);
+        IP = "http://"+g4Realm; // "179.186.3.85"; //http://smartbuscloud.com
+
+        et_realm.setText(""+g4Realm);
 
     }
 
@@ -240,6 +256,19 @@ public class Net_settingFragment extends Fragment implements View.OnClickListene
                     MainActivity.mydupsocket.StopAllThread();
                     MainActivity.mydupsocket.initprocess();
                 }
+                break;
+            case R.id.bt_g4_server_save:
+                if (et_realm.getText().toString().trim().length()>0){
+                    savevalueInfo(getActivity(), "remoteinfo", "g4Realm", et_realm.getText().toString().trim());
+                    Toast.makeText(getActivity(), "saved", Toast.LENGTH_SHORT).show();
+                    g4Realm=et_realm.getText().toString().trim();
+                    IP = "http://"+g4Realm; // "179.186.3.85"; //http://smartbuscloud.com
+                }else{
+                    et_realm.setText("");
+                    Toast.makeText(getActivity(), "Input cannot be empty", Toast.LENGTH_SHORT).show();
+                }
+
+
                 break;
             case R.id.ms_ns_savewifiname:
 //                WifiManager wifiManager = (WifiManager) getActivity().getApplicationContext().getSystemService(getActivity().WIFI_SERVICE);

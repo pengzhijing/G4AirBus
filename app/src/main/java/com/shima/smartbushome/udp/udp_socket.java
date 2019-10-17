@@ -5,6 +5,7 @@ import java.net.DatagramPacket;
 import java.net.DatagramSocket;
 import java.net.InetAddress;
 import java.net.NetworkInterface;
+import java.net.URL;
 import java.net.UnknownHostException;
 import java.util.Enumeration;
 
@@ -609,20 +610,28 @@ public class udp_socket  {
 		return blnIsClose;
 	}
 
+	//远程服务器域名
+	public  String g4Realm="smartbuscloud.com";
 	//远程服务器地址
 	public byte[] remoteByte=new byte[4];
 	// 网络操作相关的子线程
 	Runnable networkTask = new Runnable() {
 		@Override
 		public void run() {
-			// TODO
+
+			//获取设置的域名
+			//远程服务器域名
+			SharedPreferences sharedPre5 = mcontext.getSharedPreferences("remoteinfo", mcontext.MODE_PRIVATE);
+			g4Realm=sharedPre5.getString("g4Realm", "smartbuscloud.com");
+
 			// 在这里进行 http request.网络请求相关操作
-			remoteByte=GetInetAddress("www.smartbuscloud.com");
+			remoteByte=GetInetAddress(g4Realm);
 			//www.smartbuscloud.com
 			//74.208.144.185
 
 			//www.g4cloud.ir
 			//89.42.208.100
+
 		}
 	};
 
@@ -636,7 +645,7 @@ public class udp_socket  {
 		ipByte[2]=(byte)144;
 		ipByte[3]=(byte)185;
 		try {
-			InetAddress ReturnStr1 = java.net.InetAddress.getByName(host);
+			InetAddress ReturnStr1 = InetAddress.getByName(new URL("http://wwww."+host).getHost());
 			IPAddress = ReturnStr1.getHostAddress();
 			String[] ip_split=IPAddress.split("\\.");
 			if (ip_split.length==4){
@@ -646,8 +655,18 @@ public class udp_socket  {
 				ipByte[3]=(byte) Integer.parseInt(ip_split[3]);
 			}
 		} catch (Exception e) {
+			String[] ip_split=g4Realm.split("\\.");
+			if (ip_split.length==4){
+				ipByte[0]=(byte) Integer.parseInt(ip_split[0]);
+				ipByte[1]=(byte) Integer.parseInt(ip_split[1]);
+				ipByte[2]=(byte) Integer.parseInt(ip_split[2]);
+				ipByte[3]=(byte) Integer.parseInt(ip_split[3]);
+			}
 			e.printStackTrace();
 		}
+		Log.d("GetInetAddress",ipByte[0]+"."+ipByte[1]+"."+ipByte[2]+"."+ipByte[3]);
 		return ipByte;
 	}
 }
+
+

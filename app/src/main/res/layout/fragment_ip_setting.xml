@@ -120,7 +120,7 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:textAppearance="?android:attr/textAppearanceLarge"
-                android:text="NNDS:"
+                android:text="DDNS:"
                 android:id="@+id/textView46"
                 android:textColor="#5297ff"
                 android:gravity="center"

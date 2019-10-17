@@ -16,9 +16,50 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:textAppearance="?android:attr/textAppearanceLarge"
+                android:text="G4 Server Website or IP address"
+                android:id="@+id/tv_g4server"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true"
+                android:textColor="#5297ff"
+                android:layout_alignParentRight="true"
+                android:layout_alignParentEnd="true" />
+
+            <EditText
+                android:layout_width="wrap_content"
+                android:layout_height="50dp"
+                android:id="@+id/et_realm"
+                android:hint="smartbuscloud.com/74.208.144.185"
+                android:layout_below="@+id/tv_g4server"
+                android:layout_alignRight="@+id/ms_ns_save"
+                android:layout_alignEnd="@+id/ms_ns_save"
+                android:layout_alignLeft="@+id/ms_ns_save"
+                android:layout_alignStart="@+id/ms_ns_save" />
+
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="save"
+                android:id="@+id/bt_g4_server_save"
+                android:layout_below="@+id/et_realm"
+                android:layout_alignRight="@+id/ms_ns_etpassword"
+                android:layout_alignEnd="@+id/ms_ns_etpassword"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true"
+                android:layout_marginBottom="10dp"
+                android:background="@drawable/media_back"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:textColor="#5297ff" />
+
+
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceLarge"
                 android:text=" NetSetting"
                 android:id="@+id/textView84"
-                android:layout_alignParentTop="true"
+                android:layout_below="@+id/bt_g4_server_save"
                 android:layout_alignParentLeft="true"
                 android:layout_alignParentStart="true"
                 android:textColor="#5297ff"
@@ -107,6 +148,8 @@
                 android:layout_alignEnd="@+id/ms_ns_save"
                 android:layout_alignLeft="@+id/ms_ns_save"
                 android:layout_alignStart="@+id/ms_ns_save" />
+
+
 
             <Button
                 android:layout_width="wrap_content"

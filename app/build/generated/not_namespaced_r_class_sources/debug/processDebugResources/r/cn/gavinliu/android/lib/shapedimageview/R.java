@@ -20,8 +20,8 @@ public final class R {
     public static final class id {
         private id() {}
 
-        public static final int circle = 0x7f0800e5;
-        public static final int round_rect = 0x7f0803dc;
+        public static final int circle = 0x7f0800e6;
+        public static final int round_rect = 0x7f0803de;
     }
     public static final class string {
         private string() {}
