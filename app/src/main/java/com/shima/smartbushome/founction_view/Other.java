@@ -516,6 +516,7 @@ public class Other extends Fragment {
                 break;
 
             case 0xDC22://干节点状态改变
+            case 0xE017:
                 for(int i=0;i<type1list.size();i++){
                     if(type1list.get(i).getsubid()==subid&&type1list.get(i).getdevid()==devid){
                         int contectCount = (data[25] & 0xff);//干接点数量
