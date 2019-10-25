@@ -33,7 +33,7 @@
         android:textColor="#5a88ff"
         android:layout_toLeftOf="@+id/space10"
         android:layout_toStartOf="@+id/space10"
-        android:onClick="cancel" />
+         />
 
     <Button
         android:layout_width="wrap_content"
@@ -47,7 +47,7 @@
         android:textColor="#ff0000"
         android:layout_toRightOf="@+id/space10"
         android:layout_toEndOf="@+id/space10"
-        android:onClick="save" />
+        />
 
     <Space
         android:layout_width="2px"

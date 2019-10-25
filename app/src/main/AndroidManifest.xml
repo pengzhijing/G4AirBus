@@ -4,7 +4,7 @@
     package="com.shima.smartbushome">
 
     <!-- NFC 权限 -->
-    <uses-permission android:name="android.permission.NFC" tools:node="remove"/>
+    <uses-permission android:name="android.permission.NFC" />
     <!-- 忽略电池优化，安卓6.0以上的要忽略定时才准确 -->
     <uses-permission android:name="android.permission.REQUEST_IGNORE_BATTERY_OPTIMIZATIONS" tools:node="remove"/>
     <!-- 文件系统，保存到本地的权限 -->
@@ -95,6 +95,7 @@
                 <category android:name="android.intent.category.DEFAULT" />
             </intent-filter>
             <intent-filter>
+                <action android:name="android.nfc.action.NDEF_DISCOVERED" />
                 <action android:name="android.nfc.action.TECH_DISCOVERED" />
                 <action android:name="android.nfc.action.TAG_DISCOVERED" />
 
@@ -183,7 +184,7 @@
 
         <activity android:name="com.shima.smartbushome.centercontrol.ScheduleActivity"  android:screenOrientation="unspecified" />
         <activity android:name="com.shima.smartbushome.centercontrol.ScheduleAddActivity"  android:screenOrientation="unspecified" />
-        <activity android:name="com.shima.smartbushome.centercontrol.NFCActivity"  android:screenOrientation="unspecified" />
+        <activity android:name="com.shima.smartbushome.centercontrol.NFCActivity"   android:screenOrientation="unspecified" />
         <activity android:name="com.shima.smartbushome.centercontrol.NFCAddActivity"  android:screenOrientation="unspecified" />
 
 

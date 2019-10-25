@@ -1,9 +1,9 @@
 -- Merging decision tree log ---
 manifest
-ADDED from E:\Android_Studio_Project\G4AirBus\Smartbushome\app\src\main\AndroidManifest.xml:2:1-209:12
-INJECTED from E:\Android_Studio_Project\G4AirBus\Smartbushome\app\src\main\AndroidManifest.xml:2:1-209:12
-INJECTED from E:\Android_Studio_Project\G4AirBus\Smartbushome\app\src\main\AndroidManifest.xml:2:1-209:12
-INJECTED from E:\Android_Studio_Project\G4AirBus\Smartbushome\app\src\main\AndroidManifest.xml:2:1-209:12
+ADDED from E:\Android_Studio_Project\G4AirBus\Smartbushome\app\src\main\AndroidManifest.xml:2:1-210:12
+INJECTED from E:\Android_Studio_Project\G4AirBus\Smartbushome\app\src\main\AndroidManifest.xml:2:1-210:12
+INJECTED from E:\Android_Studio_Project\G4AirBus\Smartbushome\app\src\main\AndroidManifest.xml:2:1-210:12
+INJECTED from E:\Android_Studio_Project\G4AirBus\Smartbushome\app\src\main\AndroidManifest.xml:2:1-210:12
 MERGED from [:dialogview] E:\Android_Studio_Project\G4AirBus\Smartbushome\alertview\build\intermediates\merged_manifests\debug\processDebugManifest\merged\AndroidManifest.xml:2:1-11:12
 MERGED from [:coolswitch] E:\Android_Studio_Project\G4AirBus\Smartbushome\switchbutton\build\intermediates\merged_manifests\debug\processDebugManifest\merged\AndroidManifest.xml:2:1-11:12
 MERGED from [:selfseekbar] E:\Android_Studio_Project\G4AirBus\Smartbushome\bubbleseekbar\build\intermediates\merged_manifests\debug\processDebugManifest\merged\AndroidManifest.xml:2:1-17:12
@@ -35,29 +35,27 @@ MERGED from [com.android.support:support-compat:25.3.1] C:\Users\Administrator\.
 MERGED from [com.github.bumptech.glide:gifdecoder:4.8.0] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\gifdecoder-4.8.0.aar\c8959825e800c3e1f547f96ab45da5ee\AndroidManifest.xml:2:1-11:12
 MERGED from [com.android.support.constraint:constraint-layout:1.1.3] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\constraint-layout-1.1.3.aar\3853f075abd61d7c3d63670aec971d38\AndroidManifest.xml:2:1-11:12
 MERGED from [com.github.CymChad:BaseRecyclerViewAdapterHelper:2.9.47] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\BaseRecyclerViewAdapterHelper-2.9.47.aar\f0741aaaedfdcba4e13d8b524d74a333\AndroidManifest.xml:2:1-11:12
-INJECTED from E:\Android_Studio_Project\G4AirBus\Smartbushome\app\src\main\AndroidManifest.xml:2:1-209:12
-INJECTED from E:\Android_Studio_Project\G4AirBus\Smartbushome\app\src\main\AndroidManifest.xml:2:1-209:12
-INJECTED from E:\Android_Studio_Project\G4AirBus\Smartbushome\app\src\main\AndroidManifest.xml:2:1-209:12
+INJECTED from E:\Android_Studio_Project\G4AirBus\Smartbushome\app\src\main\AndroidManifest.xml:2:1-210:12
+INJECTED from E:\Android_Studio_Project\G4AirBus\Smartbushome\app\src\main\AndroidManifest.xml:2:1-210:12
+INJECTED from E:\Android_Studio_Project\G4AirBus\Smartbushome\app\src\main\AndroidManifest.xml:2:1-210:12
 	package
 		ADDED from E:\Android_Studio_Project\G4AirBus\Smartbushome\app\src\main\AndroidManifest.xml:4:5-37
 		INJECTED from E:\Android_Studio_Project\G4AirBus\Smartbushome\app\src\main\AndroidManifest.xml
 		INJECTED from E:\Android_Studio_Project\G4AirBus\Smartbushome\app\src\main\AndroidManifest.xml
 	android:versionName
 		INJECTED from E:\Android_Studio_Project\G4AirBus\Smartbushome\app\src\main\AndroidManifest.xml
-		ADDED from E:\Android_Studio_Project\G4AirBus\Smartbushome\app\src\main\AndroidManifest.xml:2:1-209:12
+		ADDED from E:\Android_Studio_Project\G4AirBus\Smartbushome\app\src\main\AndroidManifest.xml:2:1-210:12
 		INJECTED from E:\Android_Studio_Project\G4AirBus\Smartbushome\app\src\main\AndroidManifest.xml
 	xmlns:tools
 		ADDED from E:\Android_Studio_Project\G4AirBus\Smartbushome\app\src\main\AndroidManifest.xml:3:5-51
 	android:versionCode
 		INJECTED from E:\Android_Studio_Project\G4AirBus\Smartbushome\app\src\main\AndroidManifest.xml
-		ADDED from E:\Android_Studio_Project\G4AirBus\Smartbushome\app\src\main\AndroidManifest.xml:2:1-209:12
+		ADDED from E:\Android_Studio_Project\G4AirBus\Smartbushome\app\src\main\AndroidManifest.xml:2:1-210:12
 		INJECTED from E:\Android_Studio_Project\G4AirBus\Smartbushome\app\src\main\AndroidManifest.xml
 	xmlns:android
 		ADDED from E:\Android_Studio_Project\G4AirBus\Smartbushome\app\src\main\AndroidManifest.xml:2:11-69
 uses-permission#android.permission.NFC
-ADDED from E:\Android_Studio_Project\G4AirBus\Smartbushome\app\src\main\AndroidManifest.xml:7:5-81
-	tools:node
-		ADDED from E:\Android_Studio_Project\G4AirBus\Smartbushome\app\src\main\AndroidManifest.xml:7:60-79
+ADDED from E:\Android_Studio_Project\G4AirBus\Smartbushome\app\src\main\AndroidManifest.xml:7:5-62
 	android:name
 		ADDED from E:\Android_Studio_Project\G4AirBus\Smartbushome\app\src\main\AndroidManifest.xml:7:22-59
 uses-permission#android.permission.REQUEST_IGNORE_BATTERY_OPTIMIZATIONS
@@ -385,7 +383,7 @@ MERGED from [:scan_zxing] E:\Android_Studio_Project\G4AirBus\Smartbushome\scan_z
 	android:name
 		ADDED from E:\Android_Studio_Project\G4AirBus\Smartbushome\app\src\main\AndroidManifest.xml:63:19-67
 application
-ADDED from E:\Android_Studio_Project\G4AirBus\Smartbushome\app\src\main\AndroidManifest.xml:66:5-207:19
+ADDED from E:\Android_Studio_Project\G4AirBus\Smartbushome\app\src\main\AndroidManifest.xml:66:5-208:19
 MERGED from [:selfseekbar] E:\Android_Studio_Project\G4AirBus\Smartbushome\bubbleseekbar\build\intermediates\merged_manifests\debug\processDebugManifest\merged\AndroidManifest.xml:11:5-15:19
 MERGED from [:selfseekbar] E:\Android_Studio_Project\G4AirBus\Smartbushome\bubbleseekbar\build\intermediates\merged_manifests\debug\processDebugManifest\merged\AndroidManifest.xml:11:5-15:19
 MERGED from [:vstarcam] E:\Android_Studio_Project\G4AirBus\Smartbushome\vstarcam\build\intermediates\merged_manifests\debug\processDebugManifest\merged\AndroidManifest.xml:73:5-207:19
@@ -461,7 +459,7 @@ ADDED from E:\Android_Studio_Project\G4AirBus\Smartbushome\app\src\main\AndroidM
 	android:name
 		ADDED from E:\Android_Studio_Project\G4AirBus\Smartbushome\app\src\main\AndroidManifest.xml:84:27-74
 activity#com.shima.smartbushome.MainActivity
-ADDED from E:\Android_Studio_Project\G4AirBus\Smartbushome\app\src\main\AndroidManifest.xml:88:9-107:20
+ADDED from E:\Android_Studio_Project\G4AirBus\Smartbushome\app\src\main\AndroidManifest.xml:88:9-108:20
 	android:screenOrientation
 		ADDED from E:\Android_Studio_Project\G4AirBus\Smartbushome\app\src\main\AndroidManifest.xml:91:13-52
 	android:configChanges
@@ -478,198 +476,202 @@ category#android.intent.category.DEFAULT
 ADDED from E:\Android_Studio_Project\G4AirBus\Smartbushome\app\src\main\AndroidManifest.xml:95:17-76
 	android:name
 		ADDED from E:\Android_Studio_Project\G4AirBus\Smartbushome\app\src\main\AndroidManifest.xml:95:27-73
-intent-filter#action:name:android.nfc.action.TAG_DISCOVERED+action:name:android.nfc.action.TECH_DISCOVERED+category:name:android.intent.category.DEFAULT
-ADDED from E:\Android_Studio_Project\G4AirBus\Smartbushome\app\src\main\AndroidManifest.xml:97:13-102:29
-action#android.nfc.action.TECH_DISCOVERED
+intent-filter#action:name:android.nfc.action.NDEF_DISCOVERED+action:name:android.nfc.action.TAG_DISCOVERED+action:name:android.nfc.action.TECH_DISCOVERED+category:name:android.intent.category.DEFAULT
+ADDED from E:\Android_Studio_Project\G4AirBus\Smartbushome\app\src\main\AndroidManifest.xml:97:13-103:29
+action#android.nfc.action.NDEF_DISCOVERED
 ADDED from E:\Android_Studio_Project\G4AirBus\Smartbushome\app\src\main\AndroidManifest.xml:98:17-77
 	android:name
 		ADDED from E:\Android_Studio_Project\G4AirBus\Smartbushome\app\src\main\AndroidManifest.xml:98:25-74
+action#android.nfc.action.TECH_DISCOVERED
+ADDED from E:\Android_Studio_Project\G4AirBus\Smartbushome\app\src\main\AndroidManifest.xml:99:17-77
+	android:name
+		ADDED from E:\Android_Studio_Project\G4AirBus\Smartbushome\app\src\main\AndroidManifest.xml:99:25-74
 action#android.nfc.action.TAG_DISCOVERED
-ADDED from E:\Android_Studio_Project\G4AirBus\Smartbushome\app\src\main\AndroidManifest.xml:99:17-76
+ADDED from E:\Android_Studio_Project\G4AirBus\Smartbushome\app\src\main\AndroidManifest.xml:100:17-76
 	android:name
-		ADDED from E:\Android_Studio_Project\G4AirBus\Smartbushome\app\src\main\AndroidManifest.xml:99:25-73
+		ADDED from E:\Android_Studio_Project\G4AirBus\Smartbushome\app\src\main\AndroidManifest.xml:100:25-73
 meta-data#android.nfc.action.TECH_DISCOVERED
-ADDED from E:\Android_Studio_Project\G4AirBus\Smartbushome\app\src\main\AndroidManifest.xml:104:13-106:59
+ADDED from E:\Android_Studio_Project\G4AirBus\Smartbushome\app\src\main\AndroidManifest.xml:105:13-107:59
 	android:resource
-		ADDED from E:\Android_Studio_Project\G4AirBus\Smartbushome\app\src\main\AndroidManifest.xml:106:17-56
+		ADDED from E:\Android_Studio_Project\G4AirBus\Smartbushome\app\src\main\AndroidManifest.xml:107:17-56
 	android:name
-		ADDED from E:\Android_Studio_Project\G4AirBus\Smartbushome\app\src\main\AndroidManifest.xml:105:17-66
+		ADDED from E:\Android_Studio_Project\G4AirBus\Smartbushome\app\src\main\AndroidManifest.xml:106:17-66
 activity#com.shima.smartbushome.DatabaseActivity
-ADDED from E:\Android_Studio_Project\G4AirBus\Smartbushome\app\src\main\AndroidManifest.xml:109:9-115:20
+ADDED from E:\Android_Studio_Project\G4AirBus\Smartbushome\app\src\main\AndroidManifest.xml:110:9-116:20
 	android:screenOrientation
-		ADDED from E:\Android_Studio_Project\G4AirBus\Smartbushome\app\src\main\AndroidManifest.xml:110:13-52
+		ADDED from E:\Android_Studio_Project\G4AirBus\Smartbushome\app\src\main\AndroidManifest.xml:111:13-52
 	android:name
-		ADDED from E:\Android_Studio_Project\G4AirBus\Smartbushome\app\src\main\AndroidManifest.xml:109:19-51
+		ADDED from E:\Android_Studio_Project\G4AirBus\Smartbushome\app\src\main\AndroidManifest.xml:110:19-51
 intent-filter#action:name:com.shima.smartbushome.databaseactivity+category:name:android.intent.category.DEFAULT
-ADDED from E:\Android_Studio_Project\G4AirBus\Smartbushome\app\src\main\AndroidManifest.xml:111:13-114:29
+ADDED from E:\Android_Studio_Project\G4AirBus\Smartbushome\app\src\main\AndroidManifest.xml:112:13-115:29
 action#com.shima.smartbushome.databaseactivity
-ADDED from E:\Android_Studio_Project\G4AirBus\Smartbushome\app\src\main\AndroidManifest.xml:112:17-82
+ADDED from E:\Android_Studio_Project\G4AirBus\Smartbushome\app\src\main\AndroidManifest.xml:113:17-82
 	android:name
-		ADDED from E:\Android_Studio_Project\G4AirBus\Smartbushome\app\src\main\AndroidManifest.xml:112:25-79
+		ADDED from E:\Android_Studio_Project\G4AirBus\Smartbushome\app\src\main\AndroidManifest.xml:113:25-79
 activity#com.shima.smartbushome.RoomActivity
-ADDED from E:\Android_Studio_Project\G4AirBus\Smartbushome\app\src\main\AndroidManifest.xml:117:9-119:55
+ADDED from E:\Android_Studio_Project\G4AirBus\Smartbushome\app\src\main\AndroidManifest.xml:118:9-120:55
 	android:screenOrientation
-		ADDED from E:\Android_Studio_Project\G4AirBus\Smartbushome\app\src\main\AndroidManifest.xml:119:13-52
+		ADDED from E:\Android_Studio_Project\G4AirBus\Smartbushome\app\src\main\AndroidManifest.xml:120:13-52
 	android:name
-		ADDED from E:\Android_Studio_Project\G4AirBus\Smartbushome\app\src\main\AndroidManifest.xml:118:13-63
+		ADDED from E:\Android_Studio_Project\G4AirBus\Smartbushome\app\src\main\AndroidManifest.xml:119:13-63
 activity#com.shima.smartbushome.FounctionActivity
-ADDED from E:\Android_Studio_Project\G4AirBus\Smartbushome\app\src\main\AndroidManifest.xml:120:9-123:55
+ADDED from E:\Android_Studio_Project\G4AirBus\Smartbushome\app\src\main\AndroidManifest.xml:121:9-124:55
 	android:screenOrientation
-		ADDED from E:\Android_Studio_Project\G4AirBus\Smartbushome\app\src\main\AndroidManifest.xml:122:13-52
-	android:windowSoftInputMode
 		ADDED from E:\Android_Studio_Project\G4AirBus\Smartbushome\app\src\main\AndroidManifest.xml:123:13-52
+	android:windowSoftInputMode
+		ADDED from E:\Android_Studio_Project\G4AirBus\Smartbushome\app\src\main\AndroidManifest.xml:124:13-52
 	android:name
-		ADDED from E:\Android_Studio_Project\G4AirBus\Smartbushome\app\src\main\AndroidManifest.xml:121:13-68
+		ADDED from E:\Android_Studio_Project\G4AirBus\Smartbushome\app\src\main\AndroidManifest.xml:122:13-68
 activity#com.shima.smartbushome.NetDaviceListActivity
-ADDED from E:\Android_Studio_Project\G4AirBus\Smartbushome\app\src\main\AndroidManifest.xml:124:9-127:53
+ADDED from E:\Android_Studio_Project\G4AirBus\Smartbushome\app\src\main\AndroidManifest.xml:125:9-128:53
 	android:screenOrientation
-		ADDED from E:\Android_Studio_Project\G4AirBus\Smartbushome\app\src\main\AndroidManifest.xml:126:13-52
+		ADDED from E:\Android_Studio_Project\G4AirBus\Smartbushome\app\src\main\AndroidManifest.xml:127:13-52
 	android:theme
-		ADDED from E:\Android_Studio_Project\G4AirBus\Smartbushome\app\src\main\AndroidManifest.xml:127:13-50
+		ADDED from E:\Android_Studio_Project\G4AirBus\Smartbushome\app\src\main\AndroidManifest.xml:128:13-50
 	android:name
-		ADDED from E:\Android_Studio_Project\G4AirBus\Smartbushome\app\src\main\AndroidManifest.xml:125:13-72
+		ADDED from E:\Android_Studio_Project\G4AirBus\Smartbushome\app\src\main\AndroidManifest.xml:126:13-72
 activity#com.shima.smartbushome.about.HelpActivity
-ADDED from E:\Android_Studio_Project\G4AirBus\Smartbushome\app\src\main\AndroidManifest.xml:128:9-130:55
+ADDED from E:\Android_Studio_Project\G4AirBus\Smartbushome\app\src\main\AndroidManifest.xml:129:9-131:55
 	android:screenOrientation
-		ADDED from E:\Android_Studio_Project\G4AirBus\Smartbushome\app\src\main\AndroidManifest.xml:130:13-52
+		ADDED from E:\Android_Studio_Project\G4AirBus\Smartbushome\app\src\main\AndroidManifest.xml:131:13-52
 	android:name
-		ADDED from E:\Android_Studio_Project\G4AirBus\Smartbushome\app\src\main\AndroidManifest.xml:129:13-69
+		ADDED from E:\Android_Studio_Project\G4AirBus\Smartbushome\app\src\main\AndroidManifest.xml:130:13-69
 activity#com.shima.smartbushome.about.AboutActivity
-ADDED from E:\Android_Studio_Project\G4AirBus\Smartbushome\app\src\main\AndroidManifest.xml:131:9-133:55
+ADDED from E:\Android_Studio_Project\G4AirBus\Smartbushome\app\src\main\AndroidManifest.xml:132:9-134:55
 	android:screenOrientation
-		ADDED from E:\Android_Studio_Project\G4AirBus\Smartbushome\app\src\main\AndroidManifest.xml:133:13-52
+		ADDED from E:\Android_Studio_Project\G4AirBus\Smartbushome\app\src\main\AndroidManifest.xml:134:13-52
 	android:name
-		ADDED from E:\Android_Studio_Project\G4AirBus\Smartbushome\app\src\main\AndroidManifest.xml:132:13-70
+		ADDED from E:\Android_Studio_Project\G4AirBus\Smartbushome\app\src\main\AndroidManifest.xml:133:13-70
 activity#com.shima.smartbushome.mainsetting.MainSettingActivity
-ADDED from E:\Android_Studio_Project\G4AirBus\Smartbushome\app\src\main\AndroidManifest.xml:134:9-137:57
+ADDED from E:\Android_Studio_Project\G4AirBus\Smartbushome\app\src\main\AndroidManifest.xml:135:9-138:57
 	android:screenOrientation
-		ADDED from E:\Android_Studio_Project\G4AirBus\Smartbushome\app\src\main\AndroidManifest.xml:136:13-52
+		ADDED from E:\Android_Studio_Project\G4AirBus\Smartbushome\app\src\main\AndroidManifest.xml:137:13-52
 	android:windowSoftInputMode
-		ADDED from E:\Android_Studio_Project\G4AirBus\Smartbushome\app\src\main\AndroidManifest.xml:137:13-54
+		ADDED from E:\Android_Studio_Project\G4AirBus\Smartbushome\app\src\main\AndroidManifest.xml:138:13-54
 	android:name
-		ADDED from E:\Android_Studio_Project\G4AirBus\Smartbushome\app\src\main\AndroidManifest.xml:135:13-82
+		ADDED from E:\Android_Studio_Project\G4AirBus\Smartbushome\app\src\main\AndroidManifest.xml:136:13-82
 activity#com.shima.smartbushome.centercontrol.MarcoActivity
-ADDED from E:\Android_Studio_Project\G4AirBus\Smartbushome\app\src\main\AndroidManifest.xml:138:9-140:55
+ADDED from E:\Android_Studio_Project\G4AirBus\Smartbushome\app\src\main\AndroidManifest.xml:139:9-141:55
 	android:screenOrientation
-		ADDED from E:\Android_Studio_Project\G4AirBus\Smartbushome\app\src\main\AndroidManifest.xml:140:13-52
+		ADDED from E:\Android_Studio_Project\G4AirBus\Smartbushome\app\src\main\AndroidManifest.xml:141:13-52
 	android:name
-		ADDED from E:\Android_Studio_Project\G4AirBus\Smartbushome\app\src\main\AndroidManifest.xml:139:13-78
+		ADDED from E:\Android_Studio_Project\G4AirBus\Smartbushome\app\src\main\AndroidManifest.xml:140:13-78
 activity#com.shima.smartbushome.centercontrol.MarcoAddActivity
-ADDED from E:\Android_Studio_Project\G4AirBus\Smartbushome\app\src\main\AndroidManifest.xml:141:9-145:57
+ADDED from E:\Android_Studio_Project\G4AirBus\Smartbushome\app\src\main\AndroidManifest.xml:142:9-146:57
 	android:screenOrientation
-		ADDED from E:\Android_Studio_Project\G4AirBus\Smartbushome\app\src\main\AndroidManifest.xml:143:13-52
+		ADDED from E:\Android_Studio_Project\G4AirBus\Smartbushome\app\src\main\AndroidManifest.xml:144:13-52
 	android:windowSoftInputMode
-		ADDED from E:\Android_Studio_Project\G4AirBus\Smartbushome\app\src\main\AndroidManifest.xml:145:13-54
+		ADDED from E:\Android_Studio_Project\G4AirBus\Smartbushome\app\src\main\AndroidManifest.xml:146:13-54
 	android:theme
-		ADDED from E:\Android_Studio_Project\G4AirBus\Smartbushome\app\src\main\AndroidManifest.xml:144:13-49
+		ADDED from E:\Android_Studio_Project\G4AirBus\Smartbushome\app\src\main\AndroidManifest.xml:145:13-49
 	android:name
-		ADDED from E:\Android_Studio_Project\G4AirBus\Smartbushome\app\src\main\AndroidManifest.xml:142:13-81
+		ADDED from E:\Android_Studio_Project\G4AirBus\Smartbushome\app\src\main\AndroidManifest.xml:143:13-81
 activity#com.shima.smartbushome.centercontrol.AllLightActivity
-ADDED from E:\Android_Studio_Project\G4AirBus\Smartbushome\app\src\main\AndroidManifest.xml:146:9-148:55
+ADDED from E:\Android_Studio_Project\G4AirBus\Smartbushome\app\src\main\AndroidManifest.xml:147:9-149:55
 	android:screenOrientation
-		ADDED from E:\Android_Studio_Project\G4AirBus\Smartbushome\app\src\main\AndroidManifest.xml:148:13-52
+		ADDED from E:\Android_Studio_Project\G4AirBus\Smartbushome\app\src\main\AndroidManifest.xml:149:13-52
 	android:name
-		ADDED from E:\Android_Studio_Project\G4AirBus\Smartbushome\app\src\main\AndroidManifest.xml:147:13-81
+		ADDED from E:\Android_Studio_Project\G4AirBus\Smartbushome\app\src\main\AndroidManifest.xml:148:13-81
 activity#com.shima.smartbushome.centercontrol.AllHVACActivity
-ADDED from E:\Android_Studio_Project\G4AirBus\Smartbushome\app\src\main\AndroidManifest.xml:149:9-151:55
+ADDED from E:\Android_Studio_Project\G4AirBus\Smartbushome\app\src\main\AndroidManifest.xml:150:9-152:55
 	android:screenOrientation
-		ADDED from E:\Android_Studio_Project\G4AirBus\Smartbushome\app\src\main\AndroidManifest.xml:151:13-52
+		ADDED from E:\Android_Studio_Project\G4AirBus\Smartbushome\app\src\main\AndroidManifest.xml:152:13-52
 	android:name
-		ADDED from E:\Android_Studio_Project\G4AirBus\Smartbushome\app\src\main\AndroidManifest.xml:150:13-80
+		ADDED from E:\Android_Studio_Project\G4AirBus\Smartbushome\app\src\main\AndroidManifest.xml:151:13-80
 activity#com.shima.smartbushome.centercontrol.AllMusicActivity
-ADDED from E:\Android_Studio_Project\G4AirBus\Smartbushome\app\src\main\AndroidManifest.xml:152:9-154:55
+ADDED from E:\Android_Studio_Project\G4AirBus\Smartbushome\app\src\main\AndroidManifest.xml:153:9-155:55
 	android:screenOrientation
-		ADDED from E:\Android_Studio_Project\G4AirBus\Smartbushome\app\src\main\AndroidManifest.xml:154:13-52
+		ADDED from E:\Android_Studio_Project\G4AirBus\Smartbushome\app\src\main\AndroidManifest.xml:155:13-52
 	android:name
-		ADDED from E:\Android_Studio_Project\G4AirBus\Smartbushome\app\src\main\AndroidManifest.xml:153:13-81
+		ADDED from E:\Android_Studio_Project\G4AirBus\Smartbushome\app\src\main\AndroidManifest.xml:154:13-81
 activity#com.shima.smartbushome.centercontrol.AllCurtainActivity
-ADDED from E:\Android_Studio_Project\G4AirBus\Smartbushome\app\src\main\AndroidManifest.xml:155:9-157:55
+ADDED from E:\Android_Studio_Project\G4AirBus\Smartbushome\app\src\main\AndroidManifest.xml:156:9-158:55
 	android:screenOrientation
-		ADDED from E:\Android_Studio_Project\G4AirBus\Smartbushome\app\src\main\AndroidManifest.xml:157:13-52
+		ADDED from E:\Android_Studio_Project\G4AirBus\Smartbushome\app\src\main\AndroidManifest.xml:158:13-52
 	android:name
-		ADDED from E:\Android_Studio_Project\G4AirBus\Smartbushome\app\src\main\AndroidManifest.xml:156:13-83
+		ADDED from E:\Android_Studio_Project\G4AirBus\Smartbushome\app\src\main\AndroidManifest.xml:157:13-83
 activity#com.shima.smartbushome.centercontrol.MarcoAddDetailActivity
-ADDED from E:\Android_Studio_Project\G4AirBus\Smartbushome\app\src\main\AndroidManifest.xml:158:9-160:55
+ADDED from E:\Android_Studio_Project\G4AirBus\Smartbushome\app\src\main\AndroidManifest.xml:159:9-161:55
 	android:screenOrientation
-		ADDED from E:\Android_Studio_Project\G4AirBus\Smartbushome\app\src\main\AndroidManifest.xml:160:13-52
+		ADDED from E:\Android_Studio_Project\G4AirBus\Smartbushome\app\src\main\AndroidManifest.xml:161:13-52
 	android:name
-		ADDED from E:\Android_Studio_Project\G4AirBus\Smartbushome\app\src\main\AndroidManifest.xml:159:13-87
+		ADDED from E:\Android_Studio_Project\G4AirBus\Smartbushome\app\src\main\AndroidManifest.xml:160:13-87
 activity#com.shima.smartbushome.centercontrol.AllOtherActivity
-ADDED from E:\Android_Studio_Project\G4AirBus\Smartbushome\app\src\main\AndroidManifest.xml:161:9-163:55
+ADDED from E:\Android_Studio_Project\G4AirBus\Smartbushome\app\src\main\AndroidManifest.xml:162:9-164:55
 	android:screenOrientation
-		ADDED from E:\Android_Studio_Project\G4AirBus\Smartbushome\app\src\main\AndroidManifest.xml:163:13-52
+		ADDED from E:\Android_Studio_Project\G4AirBus\Smartbushome\app\src\main\AndroidManifest.xml:164:13-52
 	android:name
-		ADDED from E:\Android_Studio_Project\G4AirBus\Smartbushome\app\src\main\AndroidManifest.xml:162:13-81
+		ADDED from E:\Android_Studio_Project\G4AirBus\Smartbushome\app\src\main\AndroidManifest.xml:163:13-81
 activity#com.shima.smartbushome.centercontrol.AllFanActivity
-ADDED from E:\Android_Studio_Project\G4AirBus\Smartbushome\app\src\main\AndroidManifest.xml:164:9-166:55
+ADDED from E:\Android_Studio_Project\G4AirBus\Smartbushome\app\src\main\AndroidManifest.xml:165:9-167:55
 	android:screenOrientation
-		ADDED from E:\Android_Studio_Project\G4AirBus\Smartbushome\app\src\main\AndroidManifest.xml:166:13-52
+		ADDED from E:\Android_Studio_Project\G4AirBus\Smartbushome\app\src\main\AndroidManifest.xml:167:13-52
 	android:name
-		ADDED from E:\Android_Studio_Project\G4AirBus\Smartbushome\app\src\main\AndroidManifest.xml:165:13-79
+		ADDED from E:\Android_Studio_Project\G4AirBus\Smartbushome\app\src\main\AndroidManifest.xml:166:13-79
 activity#com.shima.smartbushome.centercontrol.Security
-ADDED from E:\Android_Studio_Project\G4AirBus\Smartbushome\app\src\main\AndroidManifest.xml:167:9-170:67
+ADDED from E:\Android_Studio_Project\G4AirBus\Smartbushome\app\src\main\AndroidManifest.xml:168:9-171:67
 	android:screenOrientation
-		ADDED from E:\Android_Studio_Project\G4AirBus\Smartbushome\app\src\main\AndroidManifest.xml:169:13-52
+		ADDED from E:\Android_Studio_Project\G4AirBus\Smartbushome\app\src\main\AndroidManifest.xml:170:13-52
 	android:windowSoftInputMode
-		ADDED from E:\Android_Studio_Project\G4AirBus\Smartbushome\app\src\main\AndroidManifest.xml:170:13-64
+		ADDED from E:\Android_Studio_Project\G4AirBus\Smartbushome\app\src\main\AndroidManifest.xml:171:13-64
 	android:name
-		ADDED from E:\Android_Studio_Project\G4AirBus\Smartbushome\app\src\main\AndroidManifest.xml:168:13-73
+		ADDED from E:\Android_Studio_Project\G4AirBus\Smartbushome\app\src\main\AndroidManifest.xml:169:13-73
 activity#com.shima.smartbushome.centercontrol.SecuritySettingActivity
-ADDED from E:\Android_Studio_Project\G4AirBus\Smartbushome\app\src\main\AndroidManifest.xml:171:9-173:55
+ADDED from E:\Android_Studio_Project\G4AirBus\Smartbushome\app\src\main\AndroidManifest.xml:172:9-174:55
 	android:screenOrientation
-		ADDED from E:\Android_Studio_Project\G4AirBus\Smartbushome\app\src\main\AndroidManifest.xml:173:13-52
+		ADDED from E:\Android_Studio_Project\G4AirBus\Smartbushome\app\src\main\AndroidManifest.xml:174:13-52
 	android:name
-		ADDED from E:\Android_Studio_Project\G4AirBus\Smartbushome\app\src\main\AndroidManifest.xml:172:13-88
+		ADDED from E:\Android_Studio_Project\G4AirBus\Smartbushome\app\src\main\AndroidManifest.xml:173:13-88
 activity#com.shima.smartbushome.centercontrol.EnergyActivity
-ADDED from E:\Android_Studio_Project\G4AirBus\Smartbushome\app\src\main\AndroidManifest.xml:174:9-176:55
+ADDED from E:\Android_Studio_Project\G4AirBus\Smartbushome\app\src\main\AndroidManifest.xml:175:9-177:55
 	android:screenOrientation
-		ADDED from E:\Android_Studio_Project\G4AirBus\Smartbushome\app\src\main\AndroidManifest.xml:176:13-52
+		ADDED from E:\Android_Studio_Project\G4AirBus\Smartbushome\app\src\main\AndroidManifest.xml:177:13-52
 	android:name
-		ADDED from E:\Android_Studio_Project\G4AirBus\Smartbushome\app\src\main\AndroidManifest.xml:175:13-79
+		ADDED from E:\Android_Studio_Project\G4AirBus\Smartbushome\app\src\main\AndroidManifest.xml:176:13-79
 activity#com.shima.smartbushome.centercontrol.EnergyLogActivity
-ADDED from E:\Android_Studio_Project\G4AirBus\Smartbushome\app\src\main\AndroidManifest.xml:177:9-179:55
+ADDED from E:\Android_Studio_Project\G4AirBus\Smartbushome\app\src\main\AndroidManifest.xml:178:9-180:55
 	android:screenOrientation
-		ADDED from E:\Android_Studio_Project\G4AirBus\Smartbushome\app\src\main\AndroidManifest.xml:179:13-52
+		ADDED from E:\Android_Studio_Project\G4AirBus\Smartbushome\app\src\main\AndroidManifest.xml:180:13-52
 	android:name
-		ADDED from E:\Android_Studio_Project\G4AirBus\Smartbushome\app\src\main\AndroidManifest.xml:178:13-82
+		ADDED from E:\Android_Studio_Project\G4AirBus\Smartbushome\app\src\main\AndroidManifest.xml:179:13-82
 activity#com.shima.smartbushome.centercontrol.StatusActivity
-ADDED from E:\Android_Studio_Project\G4AirBus\Smartbushome\app\src\main\AndroidManifest.xml:180:9-88
+ADDED from E:\Android_Studio_Project\G4AirBus\Smartbushome\app\src\main\AndroidManifest.xml:181:9-88
 	android:name
-		ADDED from E:\Android_Studio_Project\G4AirBus\Smartbushome\app\src\main\AndroidManifest.xml:180:19-85
+		ADDED from E:\Android_Studio_Project\G4AirBus\Smartbushome\app\src\main\AndroidManifest.xml:181:19-85
 service#com.shima.smartbushome.assist.AutoUpdate.UpdateService
-ADDED from E:\Android_Studio_Project\G4AirBus\Smartbushome\app\src\main\AndroidManifest.xml:182:9-90
+ADDED from E:\Android_Studio_Project\G4AirBus\Smartbushome\app\src\main\AndroidManifest.xml:183:9-90
 	android:name
-		ADDED from E:\Android_Studio_Project\G4AirBus\Smartbushome\app\src\main\AndroidManifest.xml:182:18-87
+		ADDED from E:\Android_Studio_Project\G4AirBus\Smartbushome\app\src\main\AndroidManifest.xml:183:18-87
 activity#com.shima.smartbushome.centercontrol.ScheduleActivity
-ADDED from E:\Android_Studio_Project\G4AirBus\Smartbushome\app\src\main\AndroidManifest.xml:184:9-131
+ADDED from E:\Android_Studio_Project\G4AirBus\Smartbushome\app\src\main\AndroidManifest.xml:185:9-131
 	android:screenOrientation
-		ADDED from E:\Android_Studio_Project\G4AirBus\Smartbushome\app\src\main\AndroidManifest.xml:184:89-128
+		ADDED from E:\Android_Studio_Project\G4AirBus\Smartbushome\app\src\main\AndroidManifest.xml:185:89-128
 	android:name
-		ADDED from E:\Android_Studio_Project\G4AirBus\Smartbushome\app\src\main\AndroidManifest.xml:184:19-87
+		ADDED from E:\Android_Studio_Project\G4AirBus\Smartbushome\app\src\main\AndroidManifest.xml:185:19-87
 activity#com.shima.smartbushome.centercontrol.ScheduleAddActivity
-ADDED from E:\Android_Studio_Project\G4AirBus\Smartbushome\app\src\main\AndroidManifest.xml:185:9-134
+ADDED from E:\Android_Studio_Project\G4AirBus\Smartbushome\app\src\main\AndroidManifest.xml:186:9-134
 	android:screenOrientation
-		ADDED from E:\Android_Studio_Project\G4AirBus\Smartbushome\app\src\main\AndroidManifest.xml:185:92-131
+		ADDED from E:\Android_Studio_Project\G4AirBus\Smartbushome\app\src\main\AndroidManifest.xml:186:92-131
 	android:name
-		ADDED from E:\Android_Studio_Project\G4AirBus\Smartbushome\app\src\main\AndroidManifest.xml:185:19-90
+		ADDED from E:\Android_Studio_Project\G4AirBus\Smartbushome\app\src\main\AndroidManifest.xml:186:19-90
 activity#com.shima.smartbushome.centercontrol.NFCActivity
-ADDED from E:\Android_Studio_Project\G4AirBus\Smartbushome\app\src\main\AndroidManifest.xml:186:9-126
+ADDED from E:\Android_Studio_Project\G4AirBus\Smartbushome\app\src\main\AndroidManifest.xml:187:9-127
 	android:screenOrientation
-		ADDED from E:\Android_Studio_Project\G4AirBus\Smartbushome\app\src\main\AndroidManifest.xml:186:84-123
+		ADDED from E:\Android_Studio_Project\G4AirBus\Smartbushome\app\src\main\AndroidManifest.xml:187:85-124
 	android:name
-		ADDED from E:\Android_Studio_Project\G4AirBus\Smartbushome\app\src\main\AndroidManifest.xml:186:19-82
+		ADDED from E:\Android_Studio_Project\G4AirBus\Smartbushome\app\src\main\AndroidManifest.xml:187:19-82
 activity#com.shima.smartbushome.centercontrol.NFCAddActivity
-ADDED from E:\Android_Studio_Project\G4AirBus\Smartbushome\app\src\main\AndroidManifest.xml:187:9-129
+ADDED from E:\Android_Studio_Project\G4AirBus\Smartbushome\app\src\main\AndroidManifest.xml:188:9-129
 	android:screenOrientation
-		ADDED from E:\Android_Studio_Project\G4AirBus\Smartbushome\app\src\main\AndroidManifest.xml:187:87-126
+		ADDED from E:\Android_Studio_Project\G4AirBus\Smartbushome\app\src\main\AndroidManifest.xml:188:87-126
 	android:name
-		ADDED from E:\Android_Studio_Project\G4AirBus\Smartbushome\app\src\main\AndroidManifest.xml:187:19-85
+		ADDED from E:\Android_Studio_Project\G4AirBus\Smartbushome\app\src\main\AndroidManifest.xml:188:19-85
 service#com.shima.smartbushome.andserver.CoreService
-ADDED from E:\Android_Studio_Project\G4AirBus\Smartbushome\app\src\main\AndroidManifest.xml:191:9-193:39
+ADDED from E:\Android_Studio_Project\G4AirBus\Smartbushome\app\src\main\AndroidManifest.xml:192:9-194:39
 	android:exported
-		ADDED from E:\Android_Studio_Project\G4AirBus\Smartbushome\app\src\main\AndroidManifest.xml:193:13-37
+		ADDED from E:\Android_Studio_Project\G4AirBus\Smartbushome\app\src\main\AndroidManifest.xml:194:13-37
 	android:name
-		ADDED from E:\Android_Studio_Project\G4AirBus\Smartbushome\app\src\main\AndroidManifest.xml:192:13-50
+		ADDED from E:\Android_Studio_Project\G4AirBus\Smartbushome\app\src\main\AndroidManifest.xml:193:13-50
 uses-sdk
 INJECTED from E:\Android_Studio_Project\G4AirBus\Smartbushome\app\src\main\AndroidManifest.xml reason: use-sdk injection requested
 INJECTED from E:\Android_Studio_Project\G4AirBus\Smartbushome\app\src\main\AndroidManifest.xml

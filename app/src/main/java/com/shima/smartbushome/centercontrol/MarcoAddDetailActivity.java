@@ -33,6 +33,7 @@ import com.shima.smartbushome.R;
 import com.shima.smartbushome.assist.WheelView;
 import com.shima.smartbushome.assist.holocolorpicker.ColorPicker;
 import com.shima.smartbushome.assist.holocolorpicker.SVBar;
+import com.shima.smartbushome.database.DBManager;
 import com.shima.smartbushome.database.Savecurtain;
 import com.shima.smartbushome.database.Savefan;
 import com.shima.smartbushome.database.Savehvac;
@@ -52,7 +53,7 @@ import java.util.List;
 public class MarcoAddDetailActivity extends AppCompatActivity {
     WheelView roomwva,devicewva,actionwva;
     TextView room,device,action,value;
-    Button bt_room,bt_device,bt_action,bt_value;
+    Button bt_room,bt_device,bt_action,bt_value,bt_cancel,bt_save;
     AlertView addroomalter,adddevicealter,addactionalter,addvaluealter,addvaluealter2,addvaluealter3
             ,addvaluealter4;
     String selectedroom="",selecttype="",selecteddevice="",selectedaction="",selecedtvalue=""
@@ -67,6 +68,8 @@ public class MarcoAddDetailActivity extends AppCompatActivity {
     List<Savemedia> medialist=new ArrayList<>();
     List<Savemediabutton> mediabuttonlist=new ArrayList<>();
     int marcoID=0,sentorder=0;
+
+    public DBManager mgr;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -76,6 +79,8 @@ public class MarcoAddDetailActivity extends AppCompatActivity {
         toolbar.setTitle("Add Mission");
         setSupportActionBar(toolbar);
         getSupportActionBar().setDisplayHomeAsUpEnabled(true);
+
+        mgr = new DBManager(this);
 
         //设置4.4及以上的状态栏上内边距
         if (Build.VERSION.SDK_INT >=Build.VERSION_CODES.KITKAT) {
@@ -96,15 +101,15 @@ public class MarcoAddDetailActivity extends AppCompatActivity {
         Intent x=getIntent();
         marcoID=x.getIntExtra("marcoID",0);
         sentorder=x.getIntExtra("marcoOrder",0);
-        roomlist=MainActivity.mgr.queryroom();
-        lightlist=MainActivity.mgr.querylight();
-        hvaclist=MainActivity.mgr.queryhvac();
-        musiclist=MainActivity.mgr.querymusic();
-        curtainlist=MainActivity.mgr.querycurtain();
-        otherlist=MainActivity.mgr.queryother();
-        fanlist=MainActivity.mgr.queryfan();
-        medialist=MainActivity.mgr.querymedia();
-        mediabuttonlist=MainActivity.mgr.querymediabutton();
+        roomlist=mgr.queryroom();
+        lightlist=mgr.querylight();
+        hvaclist=mgr.queryhvac();
+        musiclist=mgr.querymusic();
+        curtainlist=mgr.querycurtain();
+        otherlist=mgr.queryother();
+        fanlist=mgr.queryfan();
+        medialist=mgr.querymedia();
+        mediabuttonlist=mgr.querymediabutton();
         initView();
         initroomalter();
         initdevicealter();
@@ -138,6 +143,22 @@ public class MarcoAddDetailActivity extends AppCompatActivity {
         bt_device=(Button)findViewById(R.id.button34);
         bt_action=(Button)findViewById(R.id.button35);
         bt_value=(Button)findViewById(R.id.button37);
+        bt_cancel=(Button)findViewById(R.id.button31);
+        bt_save=(Button)findViewById(R.id.button32);
+
+        bt_cancel.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                cancel();
+            }
+        });
+
+        bt_save.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                save();
+            }
+        });
     }
     public void initroomalter(){
         List<String> stringroomlist=new ArrayList<>();
@@ -478,7 +499,7 @@ public class MarcoAddDetailActivity extends AppCompatActivity {
             addvaluealter.show();
         }else if(selectedaction.equals("SD Song")){
             List<Savesong> savesonglist=new ArrayList<>();
-            savesonglist=MainActivity.mgr.querysong();
+            savesonglist=mgr.querysong();
             if(songlist.size()>0){songlist.clear();}
             for(int i=0;i<savesonglist.size();i++){
                 if(savesonglist.get(i).room_id==roomid){
@@ -514,11 +535,11 @@ public class MarcoAddDetailActivity extends AppCompatActivity {
             addvaluealter.show();
         }
     }
-    public void cancel(View v){
+    public void cancel(){
         finish();
     }
 
-    public void save(View v){
+    public void save(){
         if(selecedtvalue!=""||selecedtvalue2!=""||selecedtvalue3!=""||selecedtvalue4!=""){
             int coltrol_type=getControlType();
             int subnetID=0,deviceID=0,value1=0,value2=0,value3=0;
@@ -582,7 +603,7 @@ public class MarcoAddDetailActivity extends AppCompatActivity {
             marcosave.value2=value2;
             marcosave.value3=value3;
             marcosave.sentorder=sentorder;
-            MainActivity.mgr.addmarco(marcosave);
+            mgr.addmarco(marcosave);
             this.setResult(MarcoAddActivity.SAVEMISSION);
             finish();
         }else{
@@ -934,7 +955,7 @@ public class MarcoAddDetailActivity extends AppCompatActivity {
                         List<Savesong> song=new ArrayList<>();
                         List<Savesong> thissonglist=new ArrayList<>();
                         Savesong thissong=new Savesong();
-                        song=MainActivity.mgr.querysong();
+                        song=mgr.querysong();
 
                         for(int t=0;t<song.size();t++){
                             if(song.get(t).room_id==roomid){
@@ -1005,7 +1026,7 @@ public class MarcoAddDetailActivity extends AppCompatActivity {
                     List<Savesong> song=new ArrayList<>();
                     List<Savesong> thissonglist=new ArrayList<>();
                     Savesong thissong=new Savesong();
-                    song=MainActivity.mgr.querysong();
+                    song=mgr.querysong();
 
                     for(int t=0;t<song.size();t++){
                         if(song.get(t).room_id==roomid){

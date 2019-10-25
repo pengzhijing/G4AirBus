@@ -9,6 +9,7 @@
         android:targetSdkVersion="28" />
 
     <!-- NFC 权限 -->
+    <uses-permission android:name="android.permission.NFC" />
     <!-- 忽略电池优化，安卓6.0以上的要忽略定时才准确 -->
     <!-- 文件系统，保存到本地的权限 -->
     <uses-permission android:name="android.permission.MOUNT_UNMOUNT_FILESYSTEMS" />
@@ -132,6 +133,7 @@
                 <category android:name="android.intent.category.DEFAULT" />
             </intent-filter>
             <intent-filter>
+                <action android:name="android.nfc.action.NDEF_DISCOVERED" />
                 <action android:name="android.nfc.action.TECH_DISCOVERED" />
                 <action android:name="android.nfc.action.TAG_DISCOVERED" />
 

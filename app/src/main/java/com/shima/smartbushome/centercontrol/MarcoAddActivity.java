@@ -29,6 +29,7 @@ import com.shima.smartbushome.assist.Adapter.MarcoIconAdapter;
 import com.shima.smartbushome.assist.Adapter.MarcoItemAdapter;
 import com.shima.smartbushome.assist.DragListView.DragView;
 import com.shima.smartbushome.assist.marcoCompare;
+import com.shima.smartbushome.database.DBManager;
 import com.shima.smartbushome.database.Savemarco;
 import com.shima.smartbushome.database.Savemarcobutton;
 
@@ -56,6 +57,9 @@ public class MarcoAddActivity extends AppCompatActivity {
             add("marco_icon9");
         }
     };
+
+    public DBManager mgr;
+    
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -65,6 +69,8 @@ public class MarcoAddActivity extends AppCompatActivity {
         toolbar.setTitle("");
         setSupportActionBar(toolbar);
         getSupportActionBar().setDisplayHomeAsUpEnabled(true);
+
+        mgr = new DBManager(this);
 
 
         //设置4.4及以上的状态栏上内边距
@@ -166,7 +172,7 @@ public class MarcoAddActivity extends AppCompatActivity {
         @Override
         public void run() {
             List<Savemarco> allmarco=new ArrayList<>();
-            allmarco= MainActivity.mgr.querymarco();
+            allmarco= mgr.querymarco();
             if(thismarcolist.size()>0){thismarcolist.clear();}
             for(int i=0;i<allmarco.size();i++){
                 if(marcoid==allmarco.get(i).marco_id){
@@ -177,7 +183,7 @@ public class MarcoAddActivity extends AppCompatActivity {
             listadapter=new MarcoItemAdapter(MarcoAddActivity.this,thismarcolist);
             actionlist.setAdapter(listadapter);
 
-            List<Savemarcobutton> allmarcobutton=MainActivity.mgr.querymarcobutton();
+            List<Savemarcobutton> allmarcobutton=mgr.querymarcobutton();
             for(int t=0;t<allmarcobutton.size();t++){
                 if(marcoid==allmarcobutton.get(t).marco_id){
                     name.setText(allmarcobutton.get(t).marco_remark);
@@ -217,7 +223,7 @@ public class MarcoAddActivity extends AppCompatActivity {
                         savebutton.marco_id=marcoid;
                         savebutton.marco_remark=name.getText().toString().trim();
                         savebutton.marco_icon=iconstring;
-                        MainActivity.mgr.updatemarcobutton(savebutton);
+                        mgr.updatemarcobutton(savebutton);
                         Toast.makeText(MarcoAddActivity.this, "saved", Toast.LENGTH_SHORT).show();
                         this.setResult(MarcoActivity.SAVEMARCO);
                         finish();
@@ -226,7 +232,7 @@ public class MarcoAddActivity extends AppCompatActivity {
                         savebutton.marco_id=marcoid;
                         savebutton.marco_remark=name.getText().toString().trim();
                         savebutton.marco_icon=iconstring;
-                        MainActivity.mgr.addmarcobutton(savebutton);
+                        mgr.addmarcobutton(savebutton);
                         Toast.makeText(MarcoAddActivity.this, "saved", Toast.LENGTH_SHORT).show();
                         this.setResult(MarcoActivity.SAVEMARCO);
                         finish();

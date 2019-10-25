@@ -483,7 +483,7 @@ public class NFCAddActivity extends AppCompatActivity implements View.OnClickLis
             return;
         }
         Toast.makeText(this, "tag had value", Toast.LENGTH_SHORT).show();
-        ndefMessage=new NdefMessage(new NdefRecord[]{NdefRecord.createApplicationRecord("com.dave.smartbushome")});
+        ndefMessage=new NdefMessage(new NdefRecord[]{NdefRecord.createApplicationRecord("com.shima.smartbushome")});
         //写入一个网址
         //ndefMessage=new NdefMessage(new NdefRecord[]{NdefRecord.createUri(Uri.parse("http://www.baidu.com"))});
 

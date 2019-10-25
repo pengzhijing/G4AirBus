@@ -25,6 +25,7 @@ import com.shima.smartbushome.MainActivity;
 import com.shima.smartbushome.R;
 import com.shima.smartbushome.assist.Adapter.MarcoAdapter;
 import com.shima.smartbushome.assist.marcoCompare;
+import com.shima.smartbushome.database.DBManager;
 import com.shima.smartbushome.database.Savecurtain;
 import com.shima.smartbushome.database.Savefan;
 import com.shima.smartbushome.database.Savehvac;
@@ -77,6 +78,9 @@ public class MarcoActivity extends AppCompatActivity {
     private static final byte const_mode_heat=1;
     private static final byte const_mode_fan=2;
     private static final byte const_mode_auto=3;
+
+
+    public  DBManager mgr;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -86,6 +90,8 @@ public class MarcoActivity extends AppCompatActivity {
         toolbar.setTitle("Macro");
         setSupportActionBar(toolbar);
         getSupportActionBar().setDisplayHomeAsUpEnabled(true);
+
+        mgr = new DBManager(this);
 
         //设置4.4及以上的状态栏上内边距
         if (Build.VERSION.SDK_INT >=Build.VERSION_CODES.KITKAT) {
@@ -162,7 +168,7 @@ public class MarcoActivity extends AppCompatActivity {
         @Override
         public void run() {
             if(allmarcobutton.size()>0){allmarcobutton.clear();}
-            allmarcobutton= MainActivity.mgr.querymarcobutton();
+            allmarcobutton= mgr.querymarcobutton();
             if(allmarcobutton.size()>0){
                 marcon.setVisibility(View.VISIBLE);
                 nonemarcoview.setVisibility(View.GONE);
@@ -226,8 +232,8 @@ public class MarcoActivity extends AppCompatActivity {
                             deletemode=false;
                         }else if(position==0){
                             int marcoidx=adapter.getselected(itemselect).marco_id;
-                            MainActivity.mgr.deletemarcobutton("marco",marcoidx);
-                            MainActivity.mgr.deletemarcobutton("marcobutton", marcoidx);
+                            mgr.deletemarcobutton("marco",marcoidx);
+                            mgr.deletemarcobutton("marcobutton", marcoidx);
                             deletemode=false;
                             getdata.postDelayed(run, 30);
                         }
@@ -238,7 +244,7 @@ public class MarcoActivity extends AppCompatActivity {
             }else{
                 if(clickmarco.size()>0){clickmarco.clear();}
                 int macid=adapter.getselected(position).marco_id;
-                List<Savemarco> allmarco=MainActivity.mgr.querymarco();
+                List<Savemarco> allmarco=mgr.querymarco();
                 clickmarco=listorder(macid,allmarco);
                 senthandler.postDelayed(sent,20);
 
@@ -327,7 +333,7 @@ public class MarcoActivity extends AppCompatActivity {
         switch (sentmarco.control_type){
             case 1:
                 Savelight thislight=new Savelight();
-                List<Savelight> alllight=MainActivity.mgr.querylight();
+                List<Savelight> alllight=mgr.querylight();
                 for(int i=0;i<alllight.size();i++){
                     if(alllight.get(i).room_id==sentmarco.room_id&&alllight.get(i).light_statement.equals(sentmarco.device)){
                         thislight=alllight.get(i);
@@ -351,7 +357,7 @@ public class MarcoActivity extends AppCompatActivity {
                 break;
             case 2:
                 Savehvac thisac=new Savehvac();
-                List<Savehvac> allac=MainActivity.mgr.queryhvac();
+                List<Savehvac> allac=mgr.queryhvac();
                 for(int i=0;i<allac.size();i++){
                     if(allac.get(i).room_id==sentmarco.room_id&&allac.get(i).hvac_remark.equals(sentmarco.device)){
                         thisac=allac.get(i);
@@ -377,7 +383,7 @@ public class MarcoActivity extends AppCompatActivity {
                 break;
             case 3:
                 Savecurtain thisct=new Savecurtain();
-                List<Savecurtain> allct=MainActivity.mgr.querycurtain();
+                List<Savecurtain> allct=mgr.querycurtain();
                 for(int i=0;i<allct.size();i++){
                     if(allct.get(i).room_id==sentmarco.room_id&&allct.get(i).curtain_remark.equals(sentmarco.device)){
                         thisct=allct.get(i);
@@ -413,7 +419,7 @@ public class MarcoActivity extends AppCompatActivity {
                 break;
             case 5:
                 Saveother thisot=new Saveother();
-                List<Saveother> allot=MainActivity.mgr.queryother();
+                List<Saveother> allot=mgr.queryother();
                 for(int i=0;i<allot.size();i++){
                     if(allot.get(i).room_id==sentmarco.room_id&&allot.get(i).other_statement.equals(sentmarco.device)){
                         thisot=allot.get(i);
@@ -439,7 +445,7 @@ public class MarcoActivity extends AppCompatActivity {
                 break;
             case 6:
                 Savefan thisft=new Savefan();
-                List<Savefan> allft=MainActivity.mgr.queryfan();
+                List<Savefan> allft=mgr.queryfan();
                 for(int i=0;i<allft.size();i++){
                     if(allft.get(i).room_id==sentmarco.room_id&&allft.get(i).fan_statement.equals(sentmarco.device)){
                         thisft=allft.get(i);
@@ -451,8 +457,8 @@ public class MarcoActivity extends AppCompatActivity {
             case 7:
                 Savemedia thismedia=new Savemedia();
                 Savemediabutton thismediabutton=new Savemediabutton();
-                List<Savemedia> allmedia=MainActivity.mgr.querymedia();
-                List<Savemediabutton> allmediabutton=MainActivity.mgr.querymediabutton();
+                List<Savemedia> allmedia=mgr.querymedia();
+                List<Savemediabutton> allmediabutton=mgr.querymediabutton();
                 for(int i=0;i<allmedia.size();i++){
                     if(allmedia.get(i).room_id==sentmarco.room_id&&allmedia.get(i).media_statement.equals(sentmarco.device)){
                         thismedia=allmedia.get(i);
